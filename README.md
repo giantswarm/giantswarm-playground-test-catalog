@@ -1,0 +1,1 @@
+# giantswarm-playground-test-catalog
