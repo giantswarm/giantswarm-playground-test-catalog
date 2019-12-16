@@ -332,6 +332,24 @@ entries:
     version: 0.0.0-25ecb7f4e6c03e719599e78c750047c931cafe1a
   loki-stack-app:
   - apiVersion: v1
+    appVersion: v1.0.0
+    created: "2019-12-16T08:25:24.7361179Z"
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: 5deec47a3f355a22f167f32802a8b570761b846ce7729dde4e7e517c36bd4a71
+    engine: gotpl
+    home: https://grafana.com/loki
+    icon: https://github.com/grafana/loki/raw/master/docs/logo.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    name: loki-stack-app
+    sources:
+    - https://github.com/grafana/loki
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.1.0-dd2a9ba6ba3440233c6c51a8fbbbb1c3a92c6476.tgz
+    version: 0.1.0-dd2a9ba6ba3440233c6c51a8fbbbb1c3a92c6476
+  - apiVersion: v1
     appVersion: v1.2.0
     created: "2019-12-13T12:58:08.437212013Z"
     description: 'Loki: like Prometheus, but for logs.'
@@ -367,4 +385,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef.tgz
     version: 0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef
-generated: "2019-12-13T12:58:08.436007317Z"
+generated: "2019-12-16T08:25:24.732078886Z"
