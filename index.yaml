@@ -2,6 +2,25 @@ apiVersion: v1
 entries:
   eventrouter-app:
   - apiVersion: v1
+    appVersion: v0.3
+    created: "2020-01-17T09:29:38.712094306Z"
+    description: 'Heptio Event Router: A simple introspective kubernetes service that
+      forwards events to a specified sink.'
+    digest: 1d2ecaa6c3df3c982a2353f51de8c688bcd6081a22f665a9a2688e63fb5c1916
+    home: https://github.com/heptiolabs/eventrouter
+    maintainers:
+    - name: Heptio/VMWare
+      url: https://github.com/heptiolabs/eventrouter
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/eventrouter-app
+    name: eventrouter-app
+    sources:
+    - https://github.com/heptiolabs/eventrouter
+    - https://github.com/giantswarm/eventrouter-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/eventrouter-app-0.0.1-abdcb5ee117060a61bcf16fa2f994fa9bd378616.tgz
+    version: 0.0.1-abdcb5ee117060a61bcf16fa2f994fa9bd378616
+  - apiVersion: v1
     appVersion: 0.0.1
     created: "2020-01-09T10:51:12.201976086Z"
     description: A Helm chart for Kubernetes
@@ -961,4 +980,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/opendistro-app-1.1.0.tgz
     version: 1.1.0
-generated: "2020-01-16T15:26:22.11467632Z"
+generated: "2020-01-17T09:29:38.711312578Z"
