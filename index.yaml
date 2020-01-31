@@ -76,6 +76,21 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/eventrouter-app-0.0.0-475cebddade34b4c38edbd772020e448313c2211.tgz
     version: 0.0.0-475cebddade34b4c38edbd772020e448313c2211
+  fluent-logshipping-app:
+  - apiVersion: v1
+    appVersion: v0.14.6
+    created: "2020-01-31T10:41:25.658171662Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 1e35c876e6342643864b6e63f2f76feb5256abac952f9bb698cf8b4022dfeddb
+    engine: gotpl
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/fluent-logshipping-app-0.1.3-3fe01d14f5e7c8a81cb3d26c8dcf43f83e0129dd.tgz
+    version: 0.1.3-3fe01d14f5e7c8a81cb3d26c8dcf43f83e0129dd
   gatekeeper-app:
   - apiVersion: v1
     appVersion: "1.0"
@@ -1019,4 +1034,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/opendistro-app-1.1.0.tgz
     version: 1.1.0
-generated: "2020-01-30T14:42:48.303688837Z"
+generated: "2020-01-31T10:41:25.657190713Z"
