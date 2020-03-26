@@ -1608,6 +1608,24 @@ entries:
   kibana-oss-app:
   - apiVersion: v1
     appVersion: v0.1
+    created: "2020-03-26T14:44:54.301560362Z"
+    description: Kibana OSS app from Elastic adjusted to run on Giant Swarm clusters
+    digest: ccaedf78d9edcf73a953db42e407667b4f69b39f8d32924e5738f8877a849794
+    home: https://github.com/elastic/helm-charts/tree/master/kibana
+    maintainers:
+    - name: Elastic
+      url: https://github.com/elastic/helm-charts/tree/master/kibana
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/kibana-oss-app
+    name: kibana-oss-app
+    sources:
+    - https://github.com/elastic/helm-charts/tree/master/kibana
+    - https://github.com/giantswarm/kibana-oss-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/kibana-oss-app-0.0.4-345dc56ecad8cc63d99bb77ac7219c73fdd97c63.tgz
+    version: 0.0.4-345dc56ecad8cc63d99bb77ac7219c73fdd97c63
+  - apiVersion: v1
+    appVersion: v0.1
     created: "2020-03-26T14:43:53.836859075Z"
     description: Kibana OSS app from Elastic adjusted to run on Giant Swarm clusters
     digest: 936cd762b6952c4f9476dfb828f61b8e3400724965f78ec256ef449a61ca653a
@@ -2337,4 +2355,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef.tgz
     version: 0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef
-generated: "2020-03-26T14:43:53.836356425Z"
+generated: "2020-03-26T14:44:54.300999933Z"
