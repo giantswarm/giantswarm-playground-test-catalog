@@ -24,6 +24,21 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/app-mesh-app-0.4.0.tgz
     version: 0.4.0
+  aqua-app-enforcer:
+  - apiVersion: v1
+    appVersion: 4.5.0
+    created: "2020-04-01T12:18:27.566097766Z"
+    description: A Helm chart for the Aqua Enforcer Components
+    digest: 8c78c14fb1faab2230b23ba5f1753a05d5e120e8251d812b71c9e724de38762a
+    engine: gotpl
+    home: https://www.aquasec.com/
+    icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
+    name: aqua-app-enforcer
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/aqua-app-enforcer-0.3.0-bacd6ceb3e0d1764f5874177c96cc41be2eb347f.tgz
+    version: 0.3.0-bacd6ceb3e0d1764f5874177c96cc41be2eb347f
   aqua-app-server:
   - apiVersion: v1
     appVersion: 4.5.0
@@ -2549,4 +2564,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef.tgz
     version: 0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef
-generated: "2020-04-01T12:18:14.667764657Z"
+generated: "2020-04-01T12:18:27.565415814Z"
