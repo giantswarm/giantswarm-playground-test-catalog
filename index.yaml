@@ -1724,6 +1724,22 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/inlets-operator-app-0.0.0-826b7d43a0fbcc2889409eccc4d7e627a4c359f8.tgz
     version: 0.0.0-826b7d43a0fbcc2889409eccc4d7e627a4c359f8
+  k8s-initiator-app:
+  - apiVersion: v1
+    appVersion: 1.0.0
+    created: "2020-04-01T08:51:41.461276473Z"
+    description: The k8s initiator runs in master and apply some configuration when
+      master is new.
+    digest: 39f430d740a0a57e69694bd25740ed5dc8c2f054d6465f7c045bb28821d2acb2
+    engine: gotpl
+    home: https://github.com/giantswarm/k8s-initiator-app
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    name: k8s-initiator-app
+    sources:
+    - https://github.com/giantswarm/k8s-initiator-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/k8s-initiator-app-0.1.0-ae2e0108abc2d1a23ee22120288c1d300de52be7.tgz
+    version: 0.1.0-ae2e0108abc2d1a23ee22120288c1d300de52be7
   kibana-oss-app:
   - apiVersion: v1
     appVersion: v0.1
@@ -2474,4 +2490,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef.tgz
     version: 0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef
-generated: "2020-03-31T13:57:42.850012651Z"
+generated: "2020-04-01T08:51:41.460689245Z"
