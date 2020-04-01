@@ -67,6 +67,21 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/aqua-app-enforcer-0.3.0-024ff29b5077202b20c5cf53df8b6b1ab8a460a7.tgz
     version: 0.3.0-024ff29b5077202b20c5cf53df8b6b1ab8a460a7
+  aqua-app-scanner:
+  - apiVersion: v1
+    appVersion: 4.5.0
+    created: "2020-04-01T12:27:17.086014279Z"
+    description: A Helm chart for the Aqua Scanner Components
+    digest: ea0a6435e4bfd9daa04c1d777d8b55af5bc7f60253631c769569ff6e65c4d132
+    engine: gotpl
+    home: https://www.aquasec.com/
+    icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
+    name: aqua-app-scanner
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/aqua-app-scanner-0.3.0-adeec2927c67b651bf553a1c33d425488bd07a3b.tgz
+    version: 0.3.0-adeec2927c67b651bf553a1c33d425488bd07a3b
   aqua-app-server:
   - apiVersion: v1
     appVersion: 4.5.0
@@ -2620,4 +2635,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef.tgz
     version: 0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef
-generated: "2020-04-01T12:27:02.304737775Z"
+generated: "2020-04-01T12:27:17.08509463Z"
