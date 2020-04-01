@@ -24,6 +24,21 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/app-mesh-app-0.4.0.tgz
     version: 0.4.0
+  aqua-app-server:
+  - apiVersion: v1
+    appVersion: 4.5.0
+    created: "2020-04-01T12:10:50.968419905Z"
+    description: A Helm chart for the Aqua Console, Gateway Components
+    digest: ec38096da1e8b1d64bd4d1569c782e7a63901f9cad7d4941274e876ab544d63e
+    engine: gotpl
+    home: https://www.aquasec.com/
+    icon: https://www.aquasec.com/wp-content/uploads/2016/05/aqua_logo_fullcolor.png
+    name: aqua-app-server
+    sources:
+    - https://github.com/aquasecurity/aqua-helm
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/aqua-app-server-0.3.0-d6c377ffd2eaac629cc12d09f6df90be79a58505.tgz
+    version: 0.3.0-d6c377ffd2eaac629cc12d09f6df90be79a58505
   azure-disk-mitigator-app:
   - apiVersion: v1
     created: "2020-03-16T14:41:41.289178678Z"
@@ -2520,4 +2535,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef.tgz
     version: 0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef
-generated: "2020-04-01T09:05:40.939397396Z"
+generated: "2020-04-01T12:10:50.96732073Z"
