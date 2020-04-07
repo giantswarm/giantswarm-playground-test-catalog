@@ -2839,4 +2839,29 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef.tgz
     version: 0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef
-generated: "2020-04-02T13:33:10.726689196Z"
+  opencensus-collector-app:
+  - apiVersion: v1
+    appVersion: 0.1.11
+    created: "2020-04-07T10:28:52.39006778Z"
+    description: |
+      The OpenCensus Collector is a component that runs "nearby" (e.g. in the same VPC, AZ, etc.)
+      a user’s application components and receives trace spans and metrics emitted by supported Receivers.
+      The received spans and metrics could be emitted directly by clients in instrumented tasks, or
+      potentially routed via intermediate proxy sidecar/daemon agents such as the OpenCensus Agent.
+      The collector provides a central egress point for exporting traces and metrics to one or more tracing
+      and/or metrics backends while offering buffering and retries as well as advanced aggregation, filtering,
+      annotation and intelligent sampling capabilities.
+    digest: a604c0347b9bd37daad2c1a8ccb52012106c245a190acc1e7cb1fdeedfe5a8c1
+    home: https://opencensus.io/service/components/collector/
+    icon: https://raw.githubusercontent.com/giantswarm/opencensus-collector-app/master/img/icon-oc.png
+    kubeVersion: ^1.15.0-0
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    name: opencensus-collector-app
+    sources:
+    - https://github.com/giantswarm/opencensus-collector-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/opencensus-collector-app-0.0.0-409d3f5356d517490eeafde58f44684e44b987b1.tgz
+    version: 0.0.0-409d3f5356d517490eeafde58f44684e44b987b1
+generated: "2020-04-07T10:28:52.38954012Z"
