@@ -3172,6 +3172,30 @@ entries:
   opencensus-collector-app:
   - apiVersion: v1
     appVersion: 0.1.11
+    created: "2020-04-29T10:24:37.946230484Z"
+    description: |
+      The OpenCensus Collector is a component that runs "nearby" (e.g. in the same VPC, AZ, etc.)
+      a user’s application components and receives trace spans and metrics emitted by supported Receivers.
+      The received spans and metrics could be emitted directly by clients in instrumented tasks, or
+      potentially routed via intermediate proxy sidecar/daemon agents such as the OpenCensus Agent.
+      The collector provides a central egress point for exporting traces and metrics to one or more tracing
+      and/or metrics backends while offering buffering and retries as well as advanced aggregation, filtering,
+      annotation and intelligent sampling capabilities.
+    digest: 70c8103eece22cc550539a5d88ef373e5c5b830ef5e15ad591401b2981c9dba5
+    home: https://opencensus.io/service/components/collector/
+    icon: https://raw.githubusercontent.com/giantswarm/opencensus-collector-app/master/img/icon-oc.png
+    kubeVersion: ^1.15.0-0
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    name: opencensus-collector-app
+    sources:
+    - https://github.com/giantswarm/opencensus-collector-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/opencensus-collector-app-0.1.2-89ec6fb51f649159995bae61cfc2095ee50c7f4d.tgz
+    version: 0.1.2-89ec6fb51f649159995bae61cfc2095ee50c7f4d
+  - apiVersion: v1
+    appVersion: 0.1.11
     created: "2020-04-09T10:18:59.808201949Z"
     description: |
       The OpenCensus Collector is a component that runs "nearby" (e.g. in the same VPC, AZ, etc.)
@@ -3362,4 +3386,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/opencensus-collector-app-0.0.0-409d3f5356d517490eeafde58f44684e44b987b1.tgz
     version: 0.0.0-409d3f5356d517490eeafde58f44684e44b987b1
-generated: "2020-04-29T09:48:19.168061884Z"
+generated: "2020-04-29T10:24:37.945443919Z"
