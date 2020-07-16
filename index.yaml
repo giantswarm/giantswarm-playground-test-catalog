@@ -3888,6 +3888,23 @@ entries:
     version: 0.0.0-133eb03812a1539ec2403227cfd2e08c66ffe148
   hello-world-app:
   - annotations:
+      application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.0-cdbef9bf0407ef6648fa8039c637c8d3a7a4b84b/README.md
+      application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.0-cdbef9bf0407ef6648fa8039c637c8d3a7a4b84b/helm/hello-world-app/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2020-07-16T08:22:29.465773256Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: e0819caea66257cd7dea15b9d2747b1ac339bb47f5abbd481bbd3cfd6a37595e
+    home: https://github.com/giantswarm/hello-world-app
+    icon: https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.0-cdbef9bf0407ef6648fa8039c637c8d3a7a4b84b/app-icon.png
+    name: hello-world-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.0-cdbef9bf0407ef6648fa8039c637c8d3a7a4b84b/README.md
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/hello-world-app-0.0.0-cdbef9bf0407ef6648fa8039c637c8d3a7a4b84b.tgz
+    version: 0.0.0-cdbef9bf0407ef6648fa8039c637c8d3a7a4b84b
+  - annotations:
       values_schema: https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.0-a717e7af734858ed3fff86f3a31c59b4c9897564/helm/hello-world-app/values.schema.json
     apiVersion: v1
     appVersion: 0.1.0
@@ -5958,4 +5975,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-07-15T16:34:41.711497193Z"
+generated: "2020-07-16T08:22:29.464989392Z"
