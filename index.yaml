@@ -6855,6 +6855,23 @@ entries:
     version: 0.0.0-409d3f5356d517490eeafde58f44684e44b987b1
   strimzi-kafka-operator-app:
   - apiVersion: v1
+    appVersion: 0.19.0
+    created: "2020-09-30T10:27:35.502663362Z"
+    dependencies:
+    - name: strimzi-kafka-operator
+      repository: https://strimzi.io/charts/
+      version: 0.19.0
+    description: A Helm chart for the strimzi-kafka-operator-app
+    digest: f259eda437c0f5c2cf35e63e087775f72c475c08b269a71eb58b39a4dd185685
+    home: https://github.com/giantswarm/strimzi-kafka-operator-app
+    icon: https://raw.githubusercontent.com/strimzi/strimzi-kafka-operator/master/documentation/logo/strimzi_logo.png
+    name: strimzi-kafka-operator-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/strimzi-kafka-operator-app/v0.1.0-c3d05a1bff3dd9d0c465b2d96ceb046fb4c6bfda/README.md
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/strimzi-kafka-operator-app-0.1.0-c3d05a1bff3dd9d0c465b2d96ceb046fb4c6bfda.tgz
+    version: 0.1.0-c3d05a1bff3dd9d0c465b2d96ceb046fb4c6bfda
+  - apiVersion: v1
     appVersion: 0.18.0
     created: "2020-08-14T13:40:55.860478009Z"
     dependencies:
@@ -7523,4 +7540,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-09-17T12:42:20.471750119Z"
+generated: "2020-09-30T10:27:35.495629028Z"
