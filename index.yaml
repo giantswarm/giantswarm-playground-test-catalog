@@ -6281,6 +6281,30 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/linkerd2-app-0.4.0-289791263d847f78d2701611cdf5a79afdac74b2.tgz
     version: 0.4.0-289791263d847f78d2701611cdf5a79afdac74b2
   - apiVersion: v1
+    appVersion: stable-2.8.1
+    created: "2020-10-13T07:05:27.339938324Z"
+    description: Linkerd gives you observability, reliability, and security for your
+      microservices — with no code change required.
+    digest: 650eeb4a996da862880617eb3867f99d6966509d81a55827cc71a75ddf9433d6
+    home: https://linkerd.io
+    icon: https://linkerd.io/images/logo-only-200h.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/linkerd2-app
+    name: linkerd2-app
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    - https://github.com/giantswarm/linkerd2-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/linkerd2-app-0.4.0-146642708fd70a8be42a48756e3f100d726a5dfb.tgz
+    version: 0.4.0-146642708fd70a8be42a48756e3f100d726a5dfb
+  - apiVersion: v1
     appVersion: stable-2.7.1
     created: "2020-06-05T10:41:14.473674908Z"
     description: Linkerd gives you observability, reliability, and security for your
@@ -8120,4 +8144,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-10-13T07:04:00.054153042Z"
+generated: "2020-10-13T07:05:27.336855745Z"
