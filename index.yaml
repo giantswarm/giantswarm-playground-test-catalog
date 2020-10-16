@@ -5220,6 +5220,20 @@ entries:
     version: 0.0.0-6a70e7cd83ded3348ea6ec269028d09f8eed7ab1
   k8s-initiator-app:
   - apiVersion: v1
+    appVersion: v0.9.0
+    created: "2020-10-16T11:45:37.827057903Z"
+    description: The k8s initiator runs in a master node and applies some configuration
+      when the master is new.
+    digest: e1cb693192aa00c2d3d48d87be76bb746cc6f0e7cca0b962a6b8b2a74d7ce949
+    home: https://github.com/giantswarm/k8s-initiator-app
+    icon: https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png
+    name: k8s-initiator-app
+    sources:
+    - https://github.com/giantswarm/k8s-initiator-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/k8s-initiator-app-0.9.0-91cf47a22f7e37f7038185b9ab6c59436048a089.tgz
+    version: 0.9.0-91cf47a22f7e37f7038185b9ab6c59436048a089
+  - apiVersion: v1
     appVersion: v0.3.0
     created: "2020-09-15T16:54:39.081975689Z"
     description: The k8s initiator runs in master and apply some configuration when
@@ -8512,4 +8526,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-10-16T11:11:30.284588006Z"
+generated: "2020-10-16T11:45:37.826503209Z"
