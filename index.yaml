@@ -5880,6 +5880,25 @@ entries:
   kibana-oss-app:
   - apiVersion: v1
     appVersion: v0.1
+    created: "2020-10-16T12:48:21.285373317Z"
+    description: Kibana OSS app from Elastic adjusted to run on Giant Swarm clusters
+    digest: 4287cc67e7723a6537a1daa698321d0ec80e3df99700ed05af804f705736c8f5
+    home: https://github.com/elastic/helm-charts/tree/master/kibana
+    icon: https://user-images.githubusercontent.com/273727/96255015-85e87280-0fb6-11eb-83c5-5d4060b87119.png
+    maintainers:
+    - name: Elastic
+      url: https://github.com/elastic/helm-charts/tree/master/kibana
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/kibana-oss-app
+    name: kibana-oss-app
+    sources:
+    - https://github.com/elastic/helm-charts/tree/master/kibana
+    - https://github.com/giantswarm/kibana-oss-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/kibana-oss-app-0.0.5-3d9dbd99227b064b515e5e07440957e87f8a1f66.tgz
+    version: 0.0.5-3d9dbd99227b064b515e5e07440957e87f8a1f66
+  - apiVersion: v1
+    appVersion: v0.1
     created: "2020-03-26T14:44:54.301560362Z"
     description: Kibana OSS app from Elastic adjusted to run on Giant Swarm clusters
     digest: ccaedf78d9edcf73a953db42e407667b4f69b39f8d32924e5738f8877a849794
@@ -8526,4 +8545,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-10-16T11:45:37.826503209Z"
+generated: "2020-10-16T12:48:21.283859703Z"
