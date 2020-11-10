@@ -4632,6 +4632,36 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.0.0-133eb03812a1539ec2403227cfd2e08c66ffe148.tgz
     version: 0.0.0-133eb03812a1539ec2403227cfd2e08c66ffe148
+  grafana-app:
+  - annotations:
+      application.giantswarm.io/readme: https://github.com/giantswarm/grafana-app/raw/master/README.md
+      application.giantswarm.io/values-schema: https://github.com/giantswarm/grafana-app/raw/master/helm/grafana-app/values.schema.json
+    apiVersion: v1
+    appVersion: 7.3.1
+    created: "2020-11-10T09:15:32.978896612Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 89794ea2680a966317b3fd46fbcd81732dcc6551243bc8a75041e9c4c863a818
+    home: https://github.com/giantswarm/grafana-app
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-stack-app
+    name: grafana-app
+    sources:
+    - https://github.com/giantswarm/grafana-app
+    - https://github.com/grafana/grafana
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/grafana-app-0.0.0-467b92914d3b756a2ad13d78836bdb37582651f0.tgz
+    version: 0.0.0-467b92914d3b756a2ad13d78836bdb37582651f0
   hello-world-app:
   - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.1/README.md
@@ -9717,4 +9747,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-11-06T12:41:45.895245634Z"
+generated: "2020-11-10T09:15:32.97486135Z"
