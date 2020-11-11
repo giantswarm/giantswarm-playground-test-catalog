@@ -8900,6 +8900,30 @@ entries:
     version: 0.1.4-5d3fc3f00c9c02923e6c51be3c126d9be701230b
   - apiVersion: v1
     appVersion: 0.1.11
+    created: "2020-11-11T15:32:14.719501961Z"
+    description: |
+      The OpenCensus Collector is a component that runs "nearby" (e.g. in the same VPC, AZ, etc.)
+      a user’s application components and receives trace spans and metrics emitted by supported Receivers.
+      The received spans and metrics could be emitted directly by clients in instrumented tasks, or
+      potentially routed via intermediate proxy sidecar/daemon agents such as the OpenCensus Agent.
+      The collector provides a central egress point for exporting traces and metrics to one or more tracing
+      and/or metrics backends while offering buffering and retries as well as advanced aggregation, filtering,
+      annotation and intelligent sampling capabilities.
+    digest: 5d7265913a480e97be56cdc93675253341981e2ced038b349e7a30e12e5a0d23
+    home: https://opencensus.io/service/components/collector/
+    icon: https://s.giantswarm.io/app-icons/1/png/opencensus-collector-app-light.png
+    kubeVersion: ^1.15.0-0
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    name: opencensus-collector-app
+    sources:
+    - https://github.com/giantswarm/opencensus-collector-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/opencensus-collector-app-0.1.4-3256e718500a3b0cea229703129f37a1955823f6.tgz
+    version: 0.1.4-3256e718500a3b0cea229703129f37a1955823f6
+  - apiVersion: v1
+    appVersion: 0.1.11
     created: "2020-11-06T12:14:40.76824389Z"
     description: |
       The OpenCensus Collector is a component that runs "nearby" (e.g. in the same VPC, AZ, etc.)
@@ -9951,4 +9975,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-11-11T15:32:05.320742199Z"
+generated: "2020-11-11T15:32:14.718517372Z"
