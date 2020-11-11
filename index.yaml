@@ -8529,6 +8529,35 @@ entries:
     version: 0.2.1-40667703323e4be747ec127bcc5bef26442bcef2
   - apiVersion: v1
     appVersion: v1.2.0
+    created: "2020-11-11T15:27:45.911245286Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: ""
+      version: 0.21.0
+    - condition: promtail.enabled
+      name: promtail
+      repository: ""
+      version: 0.16.0
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: d2f7f1294d4b280dcd3edd3d5f7c622fe5a20b49606a2dca78681d6d86cf8108
+    home: https://grafana.com/loki
+    icon: https://s.giantswarm.io/app-icons/1/png/loki-stack-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-stack-app
+    name: loki-stack-app
+    sources:
+    - https://github.com/grafana/loki
+    - https://github.com/giantswarm/loki-stack-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.2.1-34006c70d67f9d1f76c85c2b2f136db03bc7c733.tgz
+    version: 0.2.1-34006c70d67f9d1f76c85c2b2f136db03bc7c733
+  - apiVersion: v1
+    appVersion: v1.2.0
     created: "2020-01-03T10:27:36.745461005Z"
     description: 'Loki: like Prometheus, but for logs.'
     digest: 625f2e05b7e23b9fd012aa348c235d1c8dfc207171b1e5fd261a67802726ef33
@@ -9832,4 +9861,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-11-11T15:27:41.943678715Z"
+generated: "2020-11-11T15:27:45.90838692Z"
