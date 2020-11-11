@@ -9012,6 +9012,30 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.1.11
+    created: "2020-11-11T15:43:37.196463265Z"
+    description: |
+      The OpenCensus Collector is a component that runs "nearby" (e.g. in the same VPC, AZ, etc.)
+      a user’s application components and receives trace spans and metrics emitted by supported Receivers.
+      The received spans and metrics could be emitted directly by clients in instrumented tasks, or
+      potentially routed via intermediate proxy sidecar/daemon agents such as the OpenCensus Agent.
+      The collector provides a central egress point for exporting traces and metrics to one or more tracing
+      and/or metrics backends while offering buffering and retries as well as advanced aggregation, filtering,
+      annotation and intelligent sampling capabilities.
+    digest: 01ff26621fb7804755a490f4f25c4dd4b80c04e2516e2711d2e54262ac9d4132
+    home: https://opencensus.io/service/components/collector/
+    icon: https://s.giantswarm.io/app-icons/1/png/opencensus-collector-app-light.png
+    kubeVersion: ^1.15.0-0
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    name: opencensus-collector-app
+    sources:
+    - https://github.com/giantswarm/opencensus-collector-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/opencensus-collector-app-0.1.4-99414d14d0a3e626e98198b1413db44550423b84.tgz
+    version: 0.1.4-99414d14d0a3e626e98198b1413db44550423b84
+  - apiVersion: v1
+    appVersion: 0.1.11
     created: "2020-11-05T16:35:29.726908629Z"
     description: |
       The OpenCensus Collector is a component that runs "nearby" (e.g. in the same VPC, AZ, etc.)
@@ -10128,4 +10152,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-11-11T15:41:41.186966979Z"
+generated: "2020-11-11T15:43:37.194888318Z"
