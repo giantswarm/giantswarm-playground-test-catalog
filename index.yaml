@@ -3034,6 +3034,28 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.3.3-236e16d80ec0352f7a2124788df5a310555617c0.tgz
     version: 0.3.3-236e16d80ec0352f7a2124788df5a310555617c0
   - apiVersion: v1
+    appVersion: 0.3.3-1935b4befd5778145ed94aa923ca41bec78c4249
+    created: "2020-11-16T14:15:48.88948531Z"
+    dependencies:
+    - name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.4.0
+    description: A sample microservice TODO management application.
+    digest: e13ff43d75296482161e9879aa817ab83808aec03fcb66e3719fc73efbcf26e9
+    home: https://giantswarm.io
+    icon: https://s.giantswarm.io/app-icons/1/png/giantswarm-todo-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    name: giantswarm-todo-app
+    sources:
+    - https://github.com/giantswarm/blog-i-want-it-all
+    - https://github.com/giantswarm/giantswarm-todo-app/
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.3.3-1935b4befd5778145ed94aa923ca41bec78c4249.tgz
+    version: 0.3.3-1935b4befd5778145ed94aa923ca41bec78c4249
+  - apiVersion: v1
     appVersion: 0.3.3-0f70933dcd2e7ab00e95bb4bfd5f47b98085995c
     created: "2020-11-05T16:40:00.719310176Z"
     dependencies:
@@ -10652,4 +10674,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-11-16T13:38:42.767344453Z"
+generated: "2020-11-16T14:15:48.885724347Z"
