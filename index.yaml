@@ -2784,6 +2784,31 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-v0.5.2-b97b6bf21faabe9179869df37e7e38e8009aecbc.tgz
     version: v0.5.2-b97b6bf21faabe9179869df37e7e38e8009aecbc
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-8ac525d9a015d24d634ee62a1ad491f53bb99059.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-8ac525d9a015d24d634ee62a1ad491f53bb99059.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.5.2-8ac525d9a015d24d634ee62a1ad491f53bb99059
+    created: "2020-11-20T15:29:16.374489438Z"
+    dependencies:
+    - name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.4.0
+    description: A sample microservice TODO management application.
+    digest: 9ba4e7de611746c4341f4878081974aec695d6ce0584050ae6f5ef7665c0c8ce
+    home: https://giantswarm.io
+    icon: https://s.giantswarm.io/app-icons/1/png/giantswarm-todo-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    name: giantswarm-todo-app
+    sources:
+    - https://github.com/giantswarm/blog-i-want-it-all
+    - https://github.com/giantswarm/giantswarm-todo-app/
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-8ac525d9a015d24d634ee62a1ad491f53bb99059.tgz
+    version: 0.5.2-8ac525d9a015d24d634ee62a1ad491f53bb99059
   - apiVersion: v1
     appVersion: 0.5.2-262fc1a6e2fb0205267915d5b6e9c363b857bf74
     created: "2020-11-17T11:55:04.421669133Z"
@@ -11308,4 +11333,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-11-19T11:26:02.453793826Z"
+generated: "2020-11-20T15:29:16.370160232Z"
