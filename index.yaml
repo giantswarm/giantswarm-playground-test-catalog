@@ -262,6 +262,20 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/aqua-app-server-0.3.0-024ff29b5077202b20c5cf53df8b6b1ab8a460a7.tgz
     version: 0.3.0-024ff29b5077202b20c5cf53df8b6b1ab8a460a7
+  aws-ebs-csi-driver-app:
+  - apiVersion: v1
+    appVersion: 0.7.0
+    created: "2020-11-24T14:08:36.623457434Z"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: 44cd569267846a687ce5be93ae72f96e617b077256b758da8cf69ccfe0acd7ab
+    home: https://github.com/giantswarm/aws-ebs-csi-driver-app
+    kubeVersion: '>=1.13.0-0'
+    name: aws-ebs-csi-driver-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-ebs-csi-driver-app/v0.0.0-225cd76c4d62f720f4b0ca9588dedfe87ebedb0d/README.md
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/aws-ebs-csi-driver-app-0.0.0-225cd76c4d62f720f4b0ca9588dedfe87ebedb0d.tgz
+    version: 0.0.0-225cd76c4d62f720f4b0ca9588dedfe87ebedb0d
   azure-ad-pod-identity-app:
   - apiVersion: v1
     appVersion: 1.6.1
@@ -11560,4 +11574,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-app-0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b.tgz
     version: 0.0.0-10f95910a4d71bf59f8a004b1ca6166ddec3d11b
-generated: "2020-11-24T12:13:06.307587925Z"
+generated: "2020-11-24T14:08:36.622244559Z"
