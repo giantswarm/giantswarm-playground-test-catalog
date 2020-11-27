@@ -3085,6 +3085,31 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-8ac525d9a015d24d634ee62a1ad491f53bb99059.tgz
     version: 0.5.2-8ac525d9a015d24d634ee62a1ad491f53bb99059
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-6d9d7e9143457c8f709ce7e19949aa2c2f1658d4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-6d9d7e9143457c8f709ce7e19949aa2c2f1658d4.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.5.2-6d9d7e9143457c8f709ce7e19949aa2c2f1658d4
+    created: "2020-11-27T10:34:43.788778138Z"
+    dependencies:
+    - name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.4.0
+    description: A sample microservice TODO management application.
+    digest: a2a6c333346d47c44b9ccafda2c34100848788ae295926a12f9755f68d7d47e5
+    home: https://giantswarm.io
+    icon: https://s.giantswarm.io/app-icons/1/png/giantswarm-todo-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    name: giantswarm-todo-app
+    sources:
+    - https://github.com/giantswarm/blog-i-want-it-all
+    - https://github.com/giantswarm/giantswarm-todo-app/
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-6d9d7e9143457c8f709ce7e19949aa2c2f1658d4.tgz
+    version: 0.5.2-6d9d7e9143457c8f709ce7e19949aa2c2f1658d4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-3de65c9f1b61591a925e9c954c8319b369b01038.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-3de65c9f1b61591a925e9c954c8319b369b01038.tgz-meta/README.md
     apiVersion: v1
@@ -12043,4 +12068,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2020-11-27T10:32:15.019267557Z"
+generated: "2020-11-27T10:34:43.786020136Z"
