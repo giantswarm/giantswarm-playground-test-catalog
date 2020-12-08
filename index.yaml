@@ -3370,6 +3370,28 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-6d9d7e9143457c8f709ce7e19949aa2c2f1658d4.tgz
     version: 0.5.2-6d9d7e9143457c8f709ce7e19949aa2c2f1658d4
+  - apiVersion: v1
+    appVersion: 0.5.2-3eaa415d9d3254dff441142b0dbb71ba876ead58
+    created: "2020-12-08T15:03:06.363459746Z"
+    dependencies:
+    - name: mysql
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 1.4.0
+    description: A sample microservice TODO management application.
+    digest: 704f0063ce5de5f0a552383011e3370283e12c916ddb313c41edce4dfd6fa238
+    home: https://giantswarm.io
+    icon: https://s.giantswarm.io/app-icons/1/png/giantswarm-todo-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    name: giantswarm-todo-app
+    sources:
+    - https://github.com/giantswarm/blog-i-want-it-all
+    - https://github.com/giantswarm/giantswarm-todo-app/
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-3eaa415d9d3254dff441142b0dbb71ba876ead58.tgz
+    version: 0.5.2-3eaa415d9d3254dff441142b0dbb71ba876ead58
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-3de65c9f1b61591a925e9c954c8319b369b01038.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/giantswarm-todo-app-0.5.2-3de65c9f1b61591a925e9c954c8319b369b01038.tgz-meta/README.md
@@ -13634,4 +13656,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2020-12-08T14:20:17.817015601Z"
+generated: "2020-12-08T15:03:06.359678466Z"
