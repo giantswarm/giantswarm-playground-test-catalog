@@ -6416,6 +6416,25 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/hello-world-app-0.0.1.tgz
     version: 0.0.1
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-da90f463d34e8bfa2cdaa258b185c00cda9a9058.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-da90f463d34e8bfa2cdaa258b185c00cda9a9058.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-da90f463d34e8bfa2cdaa258b185c00cda9a9058.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2020-12-14T12:46:48.557813992Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: 14b5b4bc924334b28250e8ffb7b49f206a5f4018d0783ce6fa427016e63b4d89
+    home: https://github.com/giantswarm/hello-world-app
+    icon: https://raw.githubusercontent.com/giantswarm/hello-world-app/v[[ .Version
+      ]]/app-icon.png
+    name: hello-world-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/hello-world-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/hello-world-app-0.0.1-da90f463d34e8bfa2cdaa258b185c00cda9a9058.tgz
+    version: 0.0.1-da90f463d34e8bfa2cdaa258b185c00cda9a9058
+  - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.0-cdbef9bf0407ef6648fa8039c637c8d3a7a4b84b/README.md
       application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.0-cdbef9bf0407ef6648fa8039c637c8d3a7a4b84b/helm/hello-world-app/values.schema.json
     apiVersion: v1
@@ -14979,4 +14998,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2020-12-14T10:40:29.463951027Z"
+generated: "2020-12-14T12:46:48.5571833Z"
