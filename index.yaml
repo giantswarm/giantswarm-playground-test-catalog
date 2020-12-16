@@ -10892,6 +10892,30 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/linkerd2-app-0.4.1-898acfcaf010a36b011463b16fb708eebf73abb5.tgz
     version: 0.4.1-898acfcaf010a36b011463b16fb708eebf73abb5
   - apiVersion: v1
+    appVersion: stable-2.9.0
+    created: "2020-12-16T15:24:04.590549232Z"
+    description: Linkerd gives you observability, reliability, and security for your
+      microservices — with no code change required.
+    digest: 4e15f60fab106208a618f2fd31efb111dbb6498b4b869e280ca4fa8fc6c65c78
+    home: https://linkerd.io
+    icon: https://s.giantswarm.io/app-icons/1/png/linkerd2-app-light.png
+    keywords:
+    - service-mesh
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/linkerd2-app
+    name: linkerd2-app
+    sources:
+    - https://github.com/linkerd/linkerd2/
+    - https://github.com/giantswarm/linkerd2-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/linkerd2-app-0.4.1-84185f808e035ad1929545a71ee20a5fa5f427fa.tgz
+    version: 0.4.1-84185f808e035ad1929545a71ee20a5fa5f427fa
+  - apiVersion: v1
     appVersion: stable-2.8.1
     created: "2020-12-15T08:25:56.166133405Z"
     description: Linkerd gives you observability, reliability, and security for your
@@ -16046,4 +16070,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2020-12-16T15:23:15.313278129Z"
+generated: "2020-12-16T15:24:04.587668834Z"
