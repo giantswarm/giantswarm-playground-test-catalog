@@ -12309,6 +12309,32 @@ entries:
     version: 0.2.0-6c3a24d563db04b78ac1513f8b85e5184f92e7e8
   - apiVersion: v1
     appVersion: 0.1.0
+    created: "2020-12-16T14:51:26.950495327Z"
+    description: |
+      Linkerd is a *service mesh*, designed to give platform-wide observability,
+      reliability, and security without requiring configuration or code changes. The
+      Linkerd [CNI plugin](https://linkerd.io/2/features/cni/) takes care of setting
+      up your pod's network so  incoming and outgoing traffic is proxied through the
+      data plane.
+    digest: 691067112a86168b5feb3717187bf7f2f9e00c4a0604f470312f66b7aeec4d89
+    home: https://github.com/giantswarm/linkerd2-cni-app
+    icon: https://s.giantswarm.io/app-icons/1/png/linkerd2-app-light.png
+    kubeVersion: '>=1.13.0-0'
+    maintainers:
+    - email: cncf-linkerd-dev@lists.cncf.io
+      name: Linkerd authors
+      url: https://linkerd.io/
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/linkerd2-cni-app
+    name: linkerd2-cni-app
+    sources:
+    - https://github.com/linkerd/linkerd2
+    - https://github.com/giantswarm/linkerd2-cni-app
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/linkerd2-cni-app-0.2.0-13c34a246aac236cabf585f60fe0fad38cd6cc72.tgz
+    version: 0.2.0-13c34a246aac236cabf585f60fe0fad38cd6cc72
+  - apiVersion: v1
+    appVersion: 0.1.0
     created: "2020-12-16T14:50:08.950821939Z"
     description: |
       Linkerd is a *service mesh*, designed to give platform-wide observability,
@@ -15931,4 +15957,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2020-12-16T14:50:51.38085893Z"
+generated: "2020-12-16T14:51:26.94928417Z"
