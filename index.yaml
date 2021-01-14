@@ -10694,6 +10694,24 @@ entries:
     version: 0.0.0-2d3cec3ad186400d2522bb8cdcd69d1eff730f29
   kube-eagle:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-ee49471f1f396939509de1d44b90433a32101888.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-ee49471f1f396939509de1d44b90433a32101888.tgz-meta/README.md
+    apiVersion: v2
+    appVersion: 0.0.0-ee49471f1f396939509de1d44b90433a32101888
+    created: "2021-01-14T09:51:53.349825668Z"
+    description: Prometheus exporter for Kubernetes pod & node resource requests,
+      limits and usage.
+    digest: df2bc8e7064e03d8e4d0db8d4debb7c010876b39b797afb8c887acc3f961403d
+    home: https://github.com/giantswarm/kube-eagle-app
+    icon: https://some.domain.com/logo.png
+    name: kube-eagle
+    sources:
+    - https://github.com/cloudworkz/kube-eagle-helm-chart/
+    - https://raw.githubusercontent.com/giantswarm/kube-eagle-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/kube-eagle-0.0.0-ee49471f1f396939509de1d44b90433a32101888.tgz
+    version: 0.0.0-ee49471f1f396939509de1d44b90433a32101888
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-db6357addbba9d1a09e57fa074bcf7ccb0912919.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-db6357addbba9d1a09e57fa074bcf7ccb0912919.tgz-meta/README.md
     apiVersion: v2
@@ -17277,4 +17295,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-01-14T09:48:38.192180757Z"
+generated: "2021-01-14T09:51:53.349095937Z"
