@@ -10747,6 +10747,24 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/kube-eagle-0.0.0-48e498c81dca20ac697707518831bf3a6c5ac842.tgz
     version: 0.0.0-48e498c81dca20ac697707518831bf3a6c5ac842
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-0efb0d53438b89097989881400ca878ccaadd660.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-0efb0d53438b89097989881400ca878ccaadd660.tgz-meta/README.md
+    apiVersion: v2
+    appVersion: 0.0.0-0efb0d53438b89097989881400ca878ccaadd660
+    created: "2021-01-14T09:56:10.46577017Z"
+    description: Prometheus exporter for Kubernetes pod & node resource requests,
+      limits and usage.
+    digest: 9425f98c9b6ea77b430b628b33cdbee8e48f8eeba364d049d87497d904ce719b
+    home: https://github.com/giantswarm/kube-eagle-app
+    icon: https://some.domain.com/logo.png
+    name: kube-eagle
+    sources:
+    - https://github.com/cloudworkz/kube-eagle-helm-chart/
+    - https://raw.githubusercontent.com/giantswarm/kube-eagle-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/kube-eagle-0.0.0-0efb0d53438b89097989881400ca878ccaadd660.tgz
+    version: 0.0.0-0efb0d53438b89097989881400ca878ccaadd660
   kubernetes-gpu-app:
   - apiVersion: v1
     appVersion: "450.57"
@@ -17295,4 +17313,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-01-14T09:51:53.349095937Z"
+generated: "2021-01-14T09:56:10.464552957Z"
