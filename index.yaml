@@ -1,5 +1,20 @@
 apiVersion: v1
 entries:
+  actions-runner-controller:
+  - apiVersion: v2
+    appVersion: 0.11.2
+    created: "2021-01-19T22:14:58.779295059Z"
+    description: A Kubernetes controller that operates self-hosted runners for GitHub
+      Actions on your Kubernetes cluster.
+    digest: 1cb603df83c0be37fad321fc01e958df621101ea8fbd0c83d8bc1f3066f02772
+    home: https://github.com/giantswarm/actions-runner-controller-app
+    name: actions-runner-controller
+    sources:
+    - https://github.com/summerwind/actions-runner-controller
+    type: application
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/actions-runner-controller-0.0.0-aab76e653426b588e47f773da38e156aef413698.tgz
+    version: 0.0.0-aab76e653426b588e47f773da38e156aef413698
   alfred-app:
   - apiVersion: v1
     appVersion: 0.0.38
@@ -17844,4 +17859,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-01-19T17:20:16.807496325Z"
+generated: "2021-01-19T22:14:58.776249767Z"
