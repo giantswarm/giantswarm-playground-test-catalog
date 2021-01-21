@@ -3618,6 +3618,23 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/flux-app-0.0.0-144a1c174da0e1f4177924c149594ea4b66d3e6b.tgz
     version: 0.0.0-144a1c174da0e1f4177924c149594ea4b66d3e6b
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/flux-app-0.0.0-0f36c6b0f774f8ff2d5c67d308cf77b636d3e521.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/flux-app-0.0.0-0f36c6b0f774f8ff2d5c67d308cf77b636d3e521.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/flux-app-0.0.0-0f36c6b0f774f8ff2d5c67d308cf77b636d3e521.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.5.9
+    created: "2021-01-21T16:42:49.309326008Z"
+    description: A Helm chart for flux
+    digest: 557de835bfe8354e065e4c4c6818eb66d8eca8844f6128fdae62c3630eb53e3e
+    home: https://github.com/giantswarm/flux-app
+    icon: https://s.giantswarm.io/app-icons/1/png/flux-app-light.png
+    name: flux-app
+    sources:
+    - https://github.com/fluxcd/flux2
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/flux-app-0.0.0-0f36c6b0f774f8ff2d5c67d308cf77b636d3e521.tgz
+    version: 0.0.0-0f36c6b0f774f8ff2d5c67d308cf77b636d3e521
   gatekeeper-app:
   - apiVersion: v1
     appVersion: "1.0"
@@ -18085,4 +18102,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-01-21T16:11:59.887068315Z"
+generated: "2021-01-21T16:42:49.30813774Z"
