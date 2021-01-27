@@ -17675,6 +17675,34 @@ entries:
     version: 0.0.0-2b18ab6691366ae6eb2eee7de0b84f26d6167f02
   velero:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.0.0-eb2f9f6e667dc7d03869a40e0be3003f7d4aba4a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.0.0-eb2f9f6e667dc7d03869a40e0be3003f7d4aba4a.tgz-meta/README.md
+    apiVersion: v2
+    appVersion: v1.5.3
+    created: "2021-01-27T17:36:11.7518816Z"
+    description: A Helm chart for Kubernetes
+    digest: c9bcc729859bec9c5737065bfe67b283655abecb4b5b76ad9cb7e9bd4a780a13
+    home: https://github.com/giantswarm/velero-app
+    icon: https://github.com/giantswarm/velero-apps /raw/master/images/velero.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/velero-0.0.0-eb2f9f6e667dc7d03869a40e0be3003f7d4aba4a.tgz
+    version: 0.0.0-eb2f9f6e667dc7d03869a40e0be3003f7d4aba4a
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.0.0-c257c65d3bd124dae1764d97ceb7087643b54778.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.0.0-c257c65d3bd124dae1764d97ceb7087643b54778.tgz-meta/README.md
     apiVersion: v2
@@ -18881,4 +18909,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-01-27T17:31:36.483257587Z"
+generated: "2021-01-27T17:36:11.750064323Z"
