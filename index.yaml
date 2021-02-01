@@ -2774,6 +2774,22 @@ entries:
     version: 0.0.0-475cebddade34b4c38edbd772020e448313c2211
   external-dns-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-f8266cdf9caf33a13ff35e47186b94ef87353a19.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-f8266cdf9caf33a13ff35e47186b94ef87353a19.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-f8266cdf9caf33a13ff35e47186b94ef87353a19.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.7.6
+    created: "2021-02-01T09:14:22.571692916Z"
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    digest: 0fb1d28622b1a6ff4699d411b6fc742cc6e0f37506ef719f5fc1a8a448f1a89f
+    home: https://github.com/giantswarm/external-dns-app
+    name: external-dns-app
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/external-dns-app-1.6.0-f8266cdf9caf33a13ff35e47186b94ef87353a19.tgz
+    version: 1.6.0-f8266cdf9caf33a13ff35e47186b94ef87353a19
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8.tgz-meta/values.schema.json
@@ -19800,4 +19816,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-02-01T09:13:50.090053775Z"
+generated: "2021-02-01T09:14:22.570378932Z"
