@@ -2772,6 +2772,23 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/eventrouter-app-0.0.0-475cebddade34b4c38edbd772020e448313c2211.tgz
     version: 0.0.0-475cebddade34b4c38edbd772020e448313c2211
+  external-dns-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.7.6
+    created: "2021-02-01T09:13:50.091178762Z"
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    digest: 5b1d885f677f5eed0a79f2081930b27fa0627ebd0114ba00f3f6eb5e54171d24
+    home: https://github.com/giantswarm/external-dns-app
+    name: external-dns-app
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/external-dns-app-1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8.tgz
+    version: 1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8
   fluent-logshipping-app:
   - apiVersion: v1
     appVersion: 0.5.2-fd2217bdb30b243a176bb4feccc7b53e1c69b8f3
@@ -19783,4 +19800,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-02-01T09:09:43.430702268Z"
+generated: "2021-02-01T09:13:50.090053775Z"
