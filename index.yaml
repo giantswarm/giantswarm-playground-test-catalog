@@ -2838,6 +2838,22 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/external-dns-app-1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8.tgz
     version: 1.6.0-7c92fd4e18d09be46a87282dc70471ca16e883d8
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-5c880a8fce019ecf75a1a76cfdc1770596e3b65b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-5c880a8fce019ecf75a1a76cfdc1770596e3b65b.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-5c880a8fce019ecf75a1a76cfdc1770596e3b65b.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v0.7.6
+    created: "2021-02-01T12:04:50.270828837Z"
+    description: Configure external DNS servers for Kubernetes Ingresses and Services
+    digest: 75a92b4cd9e0ef659f7fd432c8dfd9fa9f3e75d615b501109521fe82aedeff22
+    home: https://github.com/giantswarm/external-dns-app
+    name: external-dns-app
+    sources:
+    - https://github.com/kubernetes-sigs/external-dns
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/external-dns-app-1.6.0-5c880a8fce019ecf75a1a76cfdc1770596e3b65b.tgz
+    version: 1.6.0-5c880a8fce019ecf75a1a76cfdc1770596e3b65b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-1542e172f1abdde3eea327e26552ddf75053d57c.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-1542e172f1abdde3eea327e26552ddf75053d57c.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-dns-app-1.6.0-1542e172f1abdde3eea327e26552ddf75053d57c.tgz-meta/values.schema.json
@@ -19900,4 +19916,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-02-01T11:19:52.723986167Z"
+generated: "2021-02-01T12:04:50.270111839Z"
