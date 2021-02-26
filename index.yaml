@@ -11258,6 +11258,33 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.2-695b09e6834fd368761b141aa2bd449b27b39e9d.tgz
     version: 0.2.2-695b09e6834fd368761b141aa2bd449b27b39e9d
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.2-42778227e1b7020c463c3b95882a4aaf22f75c67.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.2-42778227e1b7020c463c3b95882a4aaf22f75c67.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.2-42778227e1b7020c463c3b95882a4aaf22f75c67.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 1.21.2
+    created: "2021-02-26T15:39:49.789528527Z"
+    description: jaeger-operator Helm chart for Kubernetes
+    digest: 4dd84f42a021b6152f15f1f2db53bb3fd2bd8dc7cb64d227f32eb15ed75a5b67
+    home: https://github.com/jaegertracing/jaeger-operator
+    icon: https://s.giantswarm.io/app-icons/1/png/jaeger-operator-app-light.png
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    - email: ctadeu@gmail.com
+      name: cpanato
+    - email: batazor111@gmail.com
+      name: batazor
+    name: jaeger-operator-app
+    sources:
+    - https://github.com/jaegertracing/jaeger-operator
+    - https://github.com/giantswarm/jaeger-operator-app
+    - https://raw.githubusercontent.com/giantswarm/jaeger-operator-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.2-42778227e1b7020c463c3b95882a4aaf22f75c67.tgz
+    version: 0.2.2-42778227e1b7020c463c3b95882a4aaf22f75c67
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.2-2225e58561841d681d91520a6ba4aba10b8dc703.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.2-2225e58561841d681d91520a6ba4aba10b8dc703.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.2-2225e58561841d681d91520a6ba4aba10b8dc703.tgz-meta/values.schema.json
@@ -24035,4 +24062,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-02-26T15:36:59.916086278Z"
+generated: "2021-02-26T15:39:49.788014978Z"
