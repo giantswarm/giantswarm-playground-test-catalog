@@ -10098,6 +10098,25 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/hello-world-app-0.0.1.tgz
     version: 0.0.1
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-f1c7bdc9849bbb944bfc50f6d6c9a50005b0bfed.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-f1c7bdc9849bbb944bfc50f6d6c9a50005b0bfed.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-f1c7bdc9849bbb944bfc50f6d6c9a50005b0bfed.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-03-01T13:38:27.928342743Z"
+    description: A chart that deploys a basic hello world site and lets you test values
+      merging of user values configmap and secrets.
+    digest: 6d7069f209edaa16a2d92adfe02c489e5ed8381f320368dfa5997de3ad4eb2d7
+    home: https://github.com/giantswarm/hello-world-app
+    icon: https://raw.githubusercontent.com/giantswarm/hello-world-app/v[[ .Version
+      ]]/app-icon.png
+    name: hello-world-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/hello-world-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-f1c7bdc9849bbb944bfc50f6d6c9a50005b0bfed.tgz
+    version: 0.0.1-f1c7bdc9849bbb944bfc50f6d6c9a50005b0bfed
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-da90f463d34e8bfa2cdaa258b185c00cda9a9058.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-da90f463d34e8bfa2cdaa258b185c00cda9a9058.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/hello-world-app-0.0.1-da90f463d34e8bfa2cdaa258b185c00cda9a9058.tgz-meta/values.schema.json
@@ -24327,4 +24346,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-01T13:38:20.35455214Z"
+generated: "2021-03-01T13:38:27.927604214Z"
