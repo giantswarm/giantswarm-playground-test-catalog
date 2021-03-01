@@ -15737,6 +15737,24 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/kube-eagle-0.0.0-370241ddb35eb8c5dc982f9c866faecf8ad3c4de.tgz
     version: 0.0.0-370241ddb35eb8c5dc982f9c866faecf8ad3c4de
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-35ce55f79e20711fd3c531d131d0efb35f5db267.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-35ce55f79e20711fd3c531d131d0efb35f5db267.tgz-meta/README.md
+    apiVersion: v2
+    appVersion: 0.0.0-35ce55f79e20711fd3c531d131d0efb35f5db267
+    created: "2021-03-01T13:38:37.712129952Z"
+    description: Prometheus exporter for Kubernetes pod & node resource requests,
+      limits and usage.
+    digest: f22c5d1d45c6f0b3e6807d294db9bff7a4170e3b6d974b3b1910de6db2db9e94
+    home: https://github.com/giantswarm/kube-eagle-app
+    icon: https://some.domain.com/logo.png
+    name: kube-eagle
+    sources:
+    - https://github.com/cloudworkz/kube-eagle-helm-chart/
+    - https://raw.githubusercontent.com/giantswarm/kube-eagle-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-35ce55f79e20711fd3c531d131d0efb35f5db267.tgz
+    version: 0.0.0-35ce55f79e20711fd3c531d131d0efb35f5db267
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-330f9eefea75dbe9585228b66d1362999e8a7aca.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-330f9eefea75dbe9585228b66d1362999e8a7aca.tgz-meta/README.md
     apiVersion: v2
@@ -24346,4 +24364,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-01T13:38:27.927604214Z"
+generated: "2021-03-01T13:38:37.711408632Z"
