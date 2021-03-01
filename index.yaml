@@ -4800,6 +4800,33 @@ entries:
   fluentd-elasticsearch-app:
   - apiVersion: v1
     appVersion: 3.0.1
+    created: "2021-03-01T13:36:50.413431892Z"
+    description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
+    digest: c4b61d9dc0f9330c15271eb0ec31dad271df65147ea9db5c0fae81048f8e395b
+    home: https://www.fluentd.org/
+    icon: https://raw.githubusercontent.com/fluent/fluentd-docs/master/public/logo/Fluentd_square.png
+    keywords:
+    - fluentd
+    - elasticsearch
+    - multiline
+    - detect-exceptions
+    - logging
+    maintainers:
+    - email: andre.bauer@kiwigrid.com
+      name: monotek
+    - email: axel.koehler@kiwigrid.com
+      name: axdotl
+    name: fluentd-elasticsearch-app
+    sources:
+    - https://github.com/kiwigrid/helm-charts/tree/master/charts/fluentd-elasticsearch
+    - https://github.com/fluent/fluentd-kubernetes-daemonset
+    - https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
+    - https://github.com/kubernetes/kubernetes/tree/master/cluster/addons/fluentd-elasticsearch/fluentd-es-image
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/fluentd-elasticsearch-app-0.2.2-8972abfe3cabb568ca71b4925d24e8715ab5faae.tgz
+    version: 0.2.2-8972abfe3cabb568ca71b4925d24e8715ab5faae
+  - apiVersion: v1
+    appVersion: 3.0.1
     created: "2020-05-20T22:02:28.297699758Z"
     description: A Fluentd Helm chart for Kubernetes with Elasticsearch output
     digest: c2beba4e466466539119ebbf04663430708457843bc7c0a4bd60776c82e02abb
@@ -24245,4 +24272,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-01T13:36:42.250181579Z"
+generated: "2021-03-01T13:36:50.41123613Z"
