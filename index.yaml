@@ -23827,6 +23827,28 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.0.3-4466b4a179c8a21f54b256c17dbbf272fca0a59e.tgz
     version: 1.0.3-4466b4a179c8a21f54b256c17dbbf272fca0a59e
+  - annotations:
+      application.giantswarm.io/owners: |
+        - catalog: control-plane-catalog
+          team: atlas
+        - catalog: control-plane-test-catalog
+          team: atlas
+        - catalog: giantswarm-playground
+          team: halo
+        - catalog: giantswarm-playground-test
+          team: halo
+    apiVersion: v1
+    appVersion: 0.8.0
+    created: "2021-03-02T10:41:55.227566233Z"
+    description: A Helm chart for vertical-pod-autoscaler
+    digest: 00d5b6f9d5d038595781d0a7fe9f324e31fae0162d22cfbd68b11329ede2273d
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-app
+    name: vertical-pod-autoscaler-app
+    sources:
+    - https://github.com/kubernetes/autoscaler
+    urls:
+    - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.0.3-34f640ce5923400be18ef9b5d22b85435c2f5f85.tgz
+    version: 1.0.3-34f640ce5923400be18ef9b5d22b85435c2f5f85
   - apiVersion: v1
     appVersion: 0.8.0
     created: "2021-01-04T11:02:16.492933896Z"
@@ -24584,4 +24606,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-02T08:06:34.907072063Z"
+generated: "2021-03-02T10:41:55.225616921Z"
