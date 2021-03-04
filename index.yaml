@@ -22624,6 +22624,23 @@ entries:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/strimzi-kafka-operator-app-0.1.0-c3d05a1bff3dd9d0c465b2d96ceb046fb4c6bfda.tgz
     version: 0.1.0-c3d05a1bff3dd9d0c465b2d96ceb046fb4c6bfda
   - apiVersion: v1
+    appVersion: 0.21.1
+    created: "2021-03-04T11:21:48.763590425Z"
+    dependencies:
+    - name: strimzi-kafka-operator
+      repository: https://strimzi.io/charts/
+      version: 0.21.1
+    description: A Helm chart for the strimzi-kafka-operator-app
+    digest: 594913438b5bf28cb9ffc0aec842e9300e1b5f07b588ab3c1d0938db83f56aa9
+    home: https://github.com/giantswarm/strimzi-kafka-operator-app
+    icon: https://s.giantswarm.io/app-icons/1/png/strimzi-kafka-operator-app-light.png
+    name: strimzi-kafka-operator-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/strimzi-kafka-operator-app/v0.1.0-c297a4c71f58bf6590f59c18d67d1c84f0296b89/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/strimzi-kafka-operator-app-0.1.0-c297a4c71f58bf6590f59c18d67d1c84f0296b89.tgz
+    version: 0.1.0-c297a4c71f58bf6590f59c18d67d1c84f0296b89
+  - apiVersion: v1
     appVersion: 0.19.0
     created: "2020-12-04T10:04:36.409629541Z"
     dependencies:
@@ -25119,4 +25136,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-04T11:19:14.550911851Z"
+generated: "2021-03-04T11:21:48.755311572Z"
