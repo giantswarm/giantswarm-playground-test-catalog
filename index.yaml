@@ -10400,6 +10400,24 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/giantswarm-todo-app-0.0.0-133eb03812a1539ec2403227cfd2e08c66ffe148.tgz
     version: 0.0.0-133eb03812a1539ec2403227cfd2e08c66ffe148
+  goldilocks-app:
+  - apiVersion: v1
+    appVersion: 2.2.0
+    created: "2021-03-04T11:48:51.375322538Z"
+    dependencies:
+    - name: goldilocks
+      repository: https://charts.fairwinds.com/stable
+      version: 2.3.5
+    description: A Helm chart for the goldilocks-app
+    digest: 7f3258e7f37487ce9daef3b61d4d9fa8b1ce02f20e26488db3f0561a32243521
+    home: https://github.com/giantswarm/goldilocks-app
+    icon: https://raw.githubusercontent.com/FairwindsOps/goldilocks/master/pkg/dashboard/assets/images/goldilocks.svg
+    name: goldilocks-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/goldilocks-app/v0.0.0-8f57ec799dc9d583cd7b7889206e635af2ec89d5/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/goldilocks-app-0.0.0-8f57ec799dc9d583cd7b7889206e635af2ec89d5.tgz
+    version: 0.0.0-8f57ec799dc9d583cd7b7889206e635af2ec89d5
   grafana-app:
   - annotations:
       application.giantswarm.io/readme: https://github.com/giantswarm/grafana-app/raw/master/README.md
@@ -25170,4 +25188,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-04T11:24:43.35252997Z"
+generated: "2021-03-04T11:48:51.374020155Z"
