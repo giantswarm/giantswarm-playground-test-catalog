@@ -2026,6 +2026,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-08c25dd8382ee2ac3294e3471b35cb8b14fc83af.tgz
     version: 0.2.1-08c25dd8382ee2ac3294e3471b35cb8b14fc83af
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-08b1590ad691fde18120d4d1f2fe1134602c65b5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-08b1590ad691fde18120d4d1f2fe1134602c65b5.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 1.6.1
+    created: "2021-03-08T14:35:11.366123684Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 87b7c8c5f67bf5204d59009cb24d821746b77ba6957f7099cd67c6714eb5d9ef
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/cloudworkz/kube-eagle-helm-chart/master/README.md
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-08b1590ad691fde18120d4d1f2fe1134602c65b5.tgz
+    version: 0.2.1-08b1590ad691fde18120d4d1f2fe1134602c65b5
   - apiVersion: v1
     appVersion: 1.6.1
     created: "2020-10-16T14:06:20.40066251Z"
@@ -24863,4 +24880,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-08T14:34:56.444339196Z"
+generated: "2021-03-08T14:35:11.365002717Z"
