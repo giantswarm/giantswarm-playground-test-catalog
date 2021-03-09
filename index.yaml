@@ -1925,6 +1925,22 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.4.1.tgz
     version: 0.4.1
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.4.1-b2c68e264f00bfdd83b8cd77be5b6cf3cc2f12b1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.4.1-b2c68e264f00bfdd83b8cd77be5b6cf3cc2f12b1.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2021-03-09T15:58:22.468849006Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 3e47b6cd4c931dba20b016911a68e84af1344400cf46fde6ed8267d92bb05495
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.4.1-b2c68e264f00bfdd83b8cd77be5b6cf3cc2f12b1.tgz
+    version: 0.4.1-b2c68e264f00bfdd83b8cd77be5b6cf3cc2f12b1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.4.0-d00a8c10f0addc266cc1c9b067bdb55947b61f54.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.4.0-d00a8c10f0addc266cc1c9b067bdb55947b61f54.tgz-meta/README.md
     apiVersion: v1
@@ -25428,4 +25444,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-09T15:52:57.300398571Z"
+generated: "2021-03-09T15:58:22.467535429Z"
