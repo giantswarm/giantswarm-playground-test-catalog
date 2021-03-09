@@ -1875,6 +1875,22 @@ entries:
     version: 0.0.0-ba958886f1b0e3d09fe12e6e438cd384b010c36b
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-f79e989195813a0bfb3d57f8d4724d244428e5f3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-f79e989195813a0bfb3d57f8d4724d244428e5f3.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2021-03-09T09:57:28.368649497Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 7f6e7e1702458624511ca46e27021e957d35718a44c7a4cf55e318dae56cd152
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-f79e989195813a0bfb3d57f8d4724d244428e5f3.tgz
+    version: 0.2.1-f79e989195813a0bfb3d57f8d4724d244428e5f3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-f4770c9df54521663cef82c680d6b5f0c4a3d029.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.2.1-f4770c9df54521663cef82c680d6b5f0c4a3d029.tgz-meta/README.md
     apiVersion: v1
@@ -24958,4 +24974,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-09T09:51:23.299452112Z"
+generated: "2021-03-09T09:57:28.366825122Z"
