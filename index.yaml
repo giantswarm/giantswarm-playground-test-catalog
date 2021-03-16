@@ -11165,6 +11165,24 @@ entries:
   goldilocks-app:
   - apiVersion: v2
     appVersion: v3.1.4
+    created: "2021-03-16T13:06:55.627445342Z"
+    dependencies:
+    - condition: vpa.enabled
+      name: vertical-pod-autoscaler-app
+      repository: https://giantswarm.github.io/giantswarm-playground-catalog
+      version: 1.0.3
+    description: A Helm chart for the goldilocks-app
+    digest: 54253537e167542d574f9bce61c8433f351392bd63eb2ac794a589f4f31c9e7c
+    home: https://github.com/giantswarm/goldilocks-app
+    icon: https://raw.githubusercontent.com/FairwindsOps/goldilocks/master/pkg/dashboard/assets/images/goldilocks.svg
+    name: goldilocks-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/goldilocks-app/v0.1.0-e65502c8edef78ad83e6eb5d0dc32a3cbe46eb32/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/goldilocks-app-0.1.0-e65502c8edef78ad83e6eb5d0dc32a3cbe46eb32.tgz
+    version: 0.1.0-e65502c8edef78ad83e6eb5d0dc32a3cbe46eb32
+  - apiVersion: v2
+    appVersion: v3.1.4
     created: "2021-03-16T12:55:34.521951942Z"
     dependencies:
     - condition: vpa.enabled
@@ -26793,4 +26811,4 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-0.0.0-06ecee492891790be11c539ed047cb773431ff04.tgz
     version: 0.0.0-06ecee492891790be11c539ed047cb773431ff04
-generated: "2021-03-16T13:06:51.248951305Z"
+generated: "2021-03-16T13:06:55.625040612Z"
