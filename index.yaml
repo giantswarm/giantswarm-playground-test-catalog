@@ -15092,6 +15092,21 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/grafana-app-0.0.0-467b92914d3b756a2ad13d78836bdb37582651f0.tgz
     version: 0.0.0-467b92914d3b756a2ad13d78836bdb37582651f0
+  harbor-operator-app:
+  - apiVersion: v1
+    appVersion: 0.5.1
+    created: "2021-05-27T13:51:00.196918488Z"
+    description: A Helm chart to deploy harbor-operator
+    digest: 88e8e3d300ef3ede45065e7f8bcfb2b4f83f5964eb3ef6796ea27003ea06aa3c
+    home: https://github.com/goharbor/harbor-operator
+    icon: https://raw.githubusercontent.com/goharbor/website/master/docs/img/readme/harbor_logo.png
+    name: harbor-operator-app
+    sources:
+    - https://github.com/giantswarm/harbor-operator-app
+    - https://raw.githubusercontent.com/giantswarm/harbor-operator-app/v0.0.0-2db919554b06931fbfbc8089d9813f4e2928360b/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/harbor-operator-app-0.0.0-2db919554b06931fbfbc8089d9813f4e2928360b.tgz
+    version: 0.0.0-2db919554b06931fbfbc8089d9813f4e2928360b
   hello-world-app:
   - annotations:
       application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/hello-world-app/v0.0.1/README.md
@@ -32716,4 +32731,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-05-25T06:37:21.349091488Z"
+generated: "2021-05-27T13:51:00.196423647Z"
