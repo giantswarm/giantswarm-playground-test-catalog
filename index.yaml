@@ -7692,6 +7692,29 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/falco-0.0.0-3f71246e979970594c2d69017a7e9cd0b5b946cf.tgz
     version: 0.0.0-3f71246e979970594c2d69017a7e9cd0b5b946cf
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-06-04T15:47:03.227547982Z"
+    dependencies:
+    - name: falco
+      repository: file://.
+      version: 1.12.0
+    - name: falco-exporter
+      repository: file://.
+      version: 0.5.1
+    - name: falcosidekick
+      repository: file://.
+      version: 0.3.7
+    description: A Helm chart for falco
+    digest: 11acc7a9c9ed826353a4441ad6299db3caaf44fc3df101f54fb96b4f6c11a8d7
+    home: https://github.com/giantswarm/falco-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: falco
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/falco-0.0.0-2cbc04c843afd158263754ed1bf2ede8a006c7c1.tgz
+    version: 0.0.0-2cbc04c843afd158263754ed1bf2ede8a006c7c1
   flamethrower:
   - apiVersion: v1
     appVersion: 0.11.0
@@ -33001,4 +33024,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-06-04T15:45:01.100588659Z"
+generated: "2021-06-04T15:47:03.199814183Z"
