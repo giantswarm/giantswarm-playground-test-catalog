@@ -15629,6 +15629,30 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/grafana-app-0.0.0-467b92914d3b756a2ad13d78836bdb37582651f0.tgz
     version: 0.0.0-467b92914d3b756a2ad13d78836bdb37582651f0
+  harbor:
+  - apiVersion: v1
+    appVersion: 1.10.7
+    created: "2021-06-16T06:02:35.741660095Z"
+    description: An open source trusted cloud native registry that stores, signs, and scans content
+    digest: 2528ef4efa5ec83ee3c2d56b41e81dc1cd1c63b1361af23ee05cc8bead821761
+    home: https://goharbor.io
+    icon: https://raw.githubusercontent.com/goharbor/harbor/master/docs/img/harbor_logo.png
+    keywords:
+    - docker
+    - registry
+    - harbor
+    maintainers:
+    - email: yinw@vmware.com
+      name: Wenkai Yin
+    - email: hweiwei@vmware.com
+      name: Weiwei He
+    name: harbor
+    sources:
+    - https://github.com/goharbor/harbor
+    - https://github.com/goharbor/harbor-helm
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/harbor-0.0.0-c9c14cb27b3a899b19d761ea49f7124353b91081.tgz
+    version: 0.0.0-c9c14cb27b3a899b19d761ea49f7124353b91081
   harbor-operator-app:
   - apiVersion: v1
     appVersion: 0.5.1
@@ -33566,4 +33590,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-06-15T22:58:53.078631831Z"
+generated: "2021-06-16T06:02:35.737589207Z"
