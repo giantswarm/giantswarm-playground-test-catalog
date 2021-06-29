@@ -30503,6 +30503,24 @@ entries:
     urls:
     - https://giantswarm.github.com/giantswarm-playground-test-catalog/loki-stack-app-0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef.tgz
     version: 0.0.0-bff91bf578858bea5cfb8b57e26ca932677897ef
+  oms-agent:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.0.0-08948a5306e948641d8573c9d2088c30e5eec254.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.0.0-08948a5306e948641d8573c9d2088c30e5eec254.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.0.1
+    created: "2021-06-29T13:21:13.341752142Z"
+    description: A Helm chart for oms-agent
+    digest: 889a5d94aba6bbd675939c8a5e1580438ddd51fd94edf1ba35a255e34e7dac7c
+    home: https://github.com/giantswarm/oms-agent-app
+    icon: https://raw.githubusercontent.com/microsoft/Docker-Provider/ci_prod/img/azuremonitor-containers.svg
+    name: oms-agent
+    sources:
+    - https://github.com/microsoft/Docker-Provider/tree/ci_prod
+    - https://docs.microsoft.com/en-us/azure/monitoring/monitoring-container-health
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.0.0-08948a5306e948641d8573c9d2088c30e5eec254.tgz
+    version: 0.0.0-08948a5306e948641d8573c9d2088c30e5eec254
   opencensus-collector-app:
   - apiVersion: v1
     appVersion: 0.1.11
@@ -35677,4 +35695,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-06-28T12:15:39.39511538Z"
+generated: "2021-06-29T13:21:13.340691687Z"
