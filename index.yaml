@@ -32647,6 +32647,34 @@ entries:
     version: 0.0.0-2b18ab6691366ae6eb2eee7de0b84f26d6167f02
   velero:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-2b77d96c6f9c3d424df73c82e690d20cc3b58042.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-2b77d96c6f9c3d424df73c82e690d20cc3b58042.tgz-meta/README.md
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2021-07-08T16:09:47.091336105Z"
+    description: A Helm chart for Kubernetes
+    digest: ff8c4d9dd07fcc4274cfa7533d5ccff6f189ff8b87d7d990648146f0563a0829
+    home: https://github.com/giantswarm/velero-app
+    icon: https://github.com/giantswarm/velero-apps /raw/master/images/velero.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-2b77d96c6f9c3d424df73c82e690d20cc3b58042.tgz
+    version: 0.1.0-2b77d96c6f9c3d424df73c82e690d20cc3b58042
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-23d6f7af96d476204fa03f935f58da269e0f16fd.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-23d6f7af96d476204fa03f935f58da269e0f16fd.tgz-meta/README.md
     apiVersion: v2
@@ -36372,4 +36400,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-07-08T16:09:41.547134068Z"
+generated: "2021-07-08T16:09:47.088847327Z"
