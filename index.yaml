@@ -32689,6 +32689,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-72e5bba2058fdea6c74a795a5be9b14317b651d6.tgz
     version: 0.3.3-72e5bba2058fdea6c74a795a5be9b14317b651d6
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-291aa66530dec7b3098e74fe424b5d5dc7029d5e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-291aa66530dec7b3098e74fe424b5d5dc7029d5e.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-291aa66530dec7b3098e74fe424b5d5dc7029d5e.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.6.8
+    created: "2021-07-29T15:53:13.49722258Z"
+    dependencies:
+    - name: monitoring
+      repository: ""
+      version: 0.1.0
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: dd776151666495155ca1b1b5519da95ebd024d2bdc86470d015a37c0d347d810
+    icon: https://s.giantswarm.io/app-icons/1/png/rook-operator-app-light.png
+    name: rook-operator
+    sources:
+    - https://github.com/rook/rook
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-291aa66530dec7b3098e74fe424b5d5dc7029d5e.tgz
+    version: 0.3.3-291aa66530dec7b3098e74fe424b5d5dc7029d5e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.2-d75c45a7f5d3d3e3a222a9c89e575e2d3a20d591.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.2-d75c45a7f5d3d3e3a222a9c89e575e2d3a20d591.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -38249,4 +38271,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-07-29T14:44:34.482021589Z"
+generated: "2021-07-29T15:53:13.492943332Z"
