@@ -32778,6 +32778,28 @@ entries:
     version: 0.0.0-409d3f5356d517490eeafde58f44684e44b987b1
   rook-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-dce4e9debc0eb885ed435b949ff5e62406e56826.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-dce4e9debc0eb885ed435b949ff5e62406e56826.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-dce4e9debc0eb885ed435b949ff5e62406e56826.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.6.8
+    created: "2021-07-30T13:19:59.486660038Z"
+    dependencies:
+    - name: monitoring
+      repository: ""
+      version: 0.2.0
+    description: File, Block, and Object Storage Services for your Cloud-Native Environment
+    digest: 7fcb45cee788715fd218e52b0e1b784ad8fc553764328bcac87c809f5b5ac937
+    icon: https://s.giantswarm.io/app-icons/1/png/rook-operator-app-light.png
+    name: rook-operator
+    sources:
+    - https://github.com/rook/rook
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-dce4e9debc0eb885ed435b949ff5e62406e56826.tgz
+    version: 0.3.3-dce4e9debc0eb885ed435b949ff5e62406e56826
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-db59fa4f979d3b28e4b51060c4b584a01b5858de.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/rook-operator-0.3.3-db59fa4f979d3b28e4b51060c4b584a01b5858de.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -38426,4 +38448,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-07-30T13:18:42.72015732Z"
+generated: "2021-07-30T13:19:59.48145524Z"
