@@ -1,6 +1,10 @@
-[![CircleCI](https://circleci.com/gh/giantswarm/alfred-app.svg?style=shield)](https://circleci.com/gh/giantswarm/alfred-app)
+# Alfred - Your slack companion
 
-# alfred-app chart
+Alfred is an app that enhances support workflows in Slack.
 
-Giant Swarm offers Alfred, the slack support manager as a Managed App which can be installed in tenant clusters.
-Here we define the alfred chart with its templates and default configuration.
+## Features
+
+- Create internal support threads automatically when oncaller marks customer thread as `ACK`.
+- Keep in memory the list of support threads.
+- Mark support threads as complete when customer support message is masked as `DONE`.
+- Report daily about open/closed threads.
