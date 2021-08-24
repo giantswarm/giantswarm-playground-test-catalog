@@ -5858,6 +5858,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/cluster-api-0.0.0-c38f3816ca8e991b8a5411b67038c390a554b4a9.tgz
     version: 0.0.0-c38f3816ca8e991b8a5411b67038c390a554b4a9
+  - annotations:
+      application.giantswarm.io/owners: |
+        - catalog: default
+          provider: aws
+          team: firecracker
+        - catalog: default
+          provider: azure
+          team: celestial
+      config.giantswarm.io/version: cluster-api-app
+    apiVersion: v1
+    appVersion: 0.0.0-5161795dbcc5cc4f9a581871e9e236152ff0fa7c
+    created: "2021-08-24T03:57:24.617952201Z"
+    description: Helm chart for cluster api.
+    digest: 103ab693b143db13d996bf9d33c214b721b790f2198975de652912bbd4abbbb0
+    home: https://github.com/giantswarm/cluster-api-app
+    name: cluster-api
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/cluster-api-0.0.0-5161795dbcc5cc4f9a581871e9e236152ff0fa7c.tgz
+    version: 0.0.0-5161795dbcc5cc4f9a581871e9e236152ff0fa7c
   dark-app:
   - apiVersion: v1
     appVersion: 0.1.4
@@ -46263,4 +46282,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-08-23T12:59:36.713526352Z"
+generated: "2021-08-24T03:57:24.616789379Z"
