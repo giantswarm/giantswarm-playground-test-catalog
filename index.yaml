@@ -7685,6 +7685,41 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.0.0-85c9b48ce8d77a9bce07ff1e808474d50f3bea66.tgz
     version: 2.0.0-85c9b48ce8d77a9bce07ff1e808474d50f3bea66
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.0.0-81b249667257b348049c1190a6c6cdda87b583b2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.0.0-81b249667257b348049c1190a6c6cdda87b583b2.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: "7"
+    created: "2021-08-26T11:08:03.645206953Z"
+    dependencies:
+    - condition: clusterAgent.metricsProvider.useDatadogMetrics
+      name: datadog-crds
+      repository: https://helm.datadoghq.com
+      tags:
+      - install-crds
+      version: =0.3.2
+    - condition: datadog.kubeStateMetricsEnabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: =2.13.2
+    description: Datadog Agent
+    digest: accba3cc5926bfd11d2da82274eed5e8e5d7961c0ed9e8f2f40b3798a996d709
+    home: https://www.datadoghq.com
+    icon: https://datadog-live.imgix.net/img/dd_logo_70x75.png
+    keywords:
+    - monitoring
+    - alerting
+    - metric
+    maintainers:
+    - email: support@datadoghq.com
+      name: Datadog
+    name: datadog
+    sources:
+    - https://app.datadoghq.com/account/settings#agent/kubernetes
+    - https://github.com/DataDog/datadog-agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.0.0-81b249667257b348049c1190a6c6cdda87b583b2.tgz
+    version: 2.0.0-81b249667257b348049c1190a6c6cdda87b583b2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.0.0-811ed402c73bdf47dd8e8dea4bf3a5dfb8e04d5f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.0.0-811ed402c73bdf47dd8e8dea4bf3a5dfb8e04d5f.tgz-meta/README.md
     apiVersion: v1
@@ -46496,4 +46531,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-08-26T11:07:27.43270088Z"
+generated: "2021-08-26T11:08:03.63479116Z"
