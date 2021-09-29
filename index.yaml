@@ -36929,6 +36929,35 @@ entries:
     version: 0.2.1-cb2da9deba08d0e56269f5109f1b5ccbcf986756
   - apiVersion: v1
     appVersion: v1.2.0
+    created: "2021-09-29T08:43:45.806245471Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: ""
+      version: 0.21.0
+    - condition: promtail.enabled
+      name: promtail
+      repository: ""
+      version: 0.16.0
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: 8723ad1278775527389cc2b17611b3aacb567ebf21ee8b766d90071c574fad38
+    home: https://grafana.com/loki
+    icon: https://s.giantswarm.io/app-icons/1/png/loki-stack-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-stack-app
+    name: loki-stack-app
+    sources:
+    - https://github.com/grafana/loki
+    - https://github.com/giantswarm/loki-stack-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-stack-app-0.2.1-ca4cca49750c579ede5edbe5733894228f1f8199.tgz
+    version: 0.2.1-ca4cca49750c579ede5edbe5733894228f1f8199
+  - apiVersion: v1
+    appVersion: v1.2.0
     created: "2021-05-18T13:16:35.537850521Z"
     dependencies:
     - condition: loki.enabled
@@ -49957,4 +49986,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-09-29T08:42:56.908638588Z"
+generated: "2021-09-29T08:43:45.803729369Z"
