@@ -10998,6 +10998,39 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.13.0-9718def543aa8c9511c56149b0327261ce4fad24.tgz
     version: 1.13.0-9718def543aa8c9511c56149b0327261ce4fad24
+  - annotations:
+      application.giantswarm.io/team: biscuit
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v2.28.1
+    created: "2021-10-01T07:58:12.707105071Z"
+    description: CoreOS Dex
+    digest: d7e32820245cd2d3f1db5513044566fd3e54499fa60fc9c5c3257da80db3badd
+    home: https://github.com/dexidp/dex/
+    icon: https://github.com/dexidp/dex/raw/master/Documentation/logos/dex-glyph-color.png
+    keywords:
+    - dex
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.13.0-48df478a767e8df755ce7d47688510af5e93d900.tgz
+    version: 1.13.0-48df478a767e8df755ce7d47688510af5e93d900
   efk-stack-app:
   - apiVersion: v1
     appVersion: 1.3.0
@@ -51084,4 +51117,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-09-30T18:24:52.174294932Z"
+generated: "2021-10-01T07:58:12.705401254Z"
