@@ -4736,6 +4736,25 @@ entries:
     version: 0.0.0-ba958886f1b0e3d09fe12e6e438cd384b010c36b
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-8d9a0d359d5e24b63c1769c98f6c7b3ced6b4a29.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-8d9a0d359d5e24b63c1769c98f6c7b3ced6b4a29.tgz-meta/README.md
+      application.giantswarm.io/team: celestial
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2021-10-07T16:47:36.681393335Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 5df3bd75e5d2951dc5206222cc35d586432d7694ea29e3fec5005d9a52194f7e
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-8d9a0d359d5e24b63c1769c98f6c7b3ced6b4a29.tgz
+    version: 0.7.0-8d9a0d359d5e24b63c1769c98f6c7b3ced6b4a29
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.6.0-f001571e8fbd70728a3f067459e25d48107a1ef0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.6.0-f001571e8fbd70728a3f067459e25d48107a1ef0.tgz-meta/README.md
       application.giantswarm.io/team: celestial
@@ -52940,4 +52959,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/workadventure-0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4.tgz
     version: 0.0.0-097d46e5d7ecae275eef560ea76e8e301f8f2fe4
-generated: "2021-10-07T16:47:12.563286073Z"
+generated: "2021-10-07T16:47:36.680092031Z"
