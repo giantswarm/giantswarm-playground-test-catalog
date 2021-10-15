@@ -569,6 +569,41 @@ entries:
     version: 0.6.0-120e2245b50d30cbf7775512a4942e5f178f32cc
   datadog:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.1.0-906cc005fdfaf25dd6abc2009273e72130741f8b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.1.0-906cc005fdfaf25dd6abc2009273e72130741f8b.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: "7"
+    created: "2021-10-15T13:42:41.661582013Z"
+    dependencies:
+    - condition: clusterAgent.metricsProvider.useDatadogMetrics
+      name: datadog-crds
+      repository: https://helm.datadoghq.com
+      tags:
+      - install-crds
+      version: =0.3.2
+    - condition: datadog.kubeStateMetricsEnabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: =2.13.2
+    description: Datadog Agent
+    digest: fe917473203d4fb7922b63fca6b3209232ea2503b2aa5b53c263ed7a0723d310
+    home: https://www.datadoghq.com
+    icon: https://s.giantswarm.io/app-icons/datadog/1/light.svg
+    keywords:
+    - monitoring
+    - alerting
+    - metric
+    maintainers:
+    - email: support@datadoghq.com
+      name: Datadog
+    name: datadog
+    sources:
+    - https://app.datadoghq.com/account/settings#agent/kubernetes
+    - https://github.com/DataDog/datadog-agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.1.0-906cc005fdfaf25dd6abc2009273e72130741f8b.tgz
+    version: 2.1.0-906cc005fdfaf25dd6abc2009273e72130741f8b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.1.0-802c975e98d2f0c93c25ff8075f168b6c1a3cf84.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.1.0-802c975e98d2f0c93c25ff8075f168b6c1a3cf84.tgz-meta/README.md
     apiVersion: v1
@@ -3484,4 +3519,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-446dac2ac6e9e00d3c46c6f11b7506cee133ed95.tgz
     version: 1.2.0-446dac2ac6e9e00d3c46c6f11b7506cee133ed95
-generated: "2021-10-15T10:48:17.706235622Z"
+generated: "2021-10-15T13:42:41.650980722Z"
