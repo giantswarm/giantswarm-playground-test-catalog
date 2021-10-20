@@ -536,6 +536,25 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-edf7db886ebb7b367d1d102878e90179e26d88f3.tgz
     version: 0.7.0-edf7db886ebb7b367d1d102878e90179e26d88f3
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-e4f11ecf374a77b3044f41039d026840c4fafc2b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-e4f11ecf374a77b3044f41039d026840c4fafc2b.tgz-meta/README.md
+      application.giantswarm.io/team: celestial
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2021-10-20T09:00:46.852119697Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 5015753accd18489a8f4792b7039f80a6a52a2eda9bc2130114206c53dc071b2
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-e4f11ecf374a77b3044f41039d026840c4fafc2b.tgz
+    version: 0.7.0-e4f11ecf374a77b3044f41039d026840c4fafc2b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-8d9a0d359d5e24b63c1769c98f6c7b3ced6b4a29.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-8d9a0d359d5e24b63c1769c98f6c7b3ced6b4a29.tgz-meta/README.md
       application.giantswarm.io/team: celestial
@@ -4653,4 +4672,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-446dac2ac6e9e00d3c46c6f11b7506cee133ed95.tgz
     version: 1.2.0-446dac2ac6e9e00d3c46c6f11b7506cee133ed95
-generated: "2021-10-20T09:00:24.280199501Z"
+generated: "2021-10-20T09:00:46.850277422Z"
