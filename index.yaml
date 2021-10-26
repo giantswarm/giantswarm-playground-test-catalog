@@ -4850,6 +4850,35 @@ entries:
     version: 0.2.1-2e62ef96ea9da767a066fc5a4a8d369820a04edf
   - apiVersion: v1
     appVersion: v1.2.0
+    created: "2021-10-26T13:27:07.962106595Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: ""
+      version: 0.21.0
+    - condition: promtail.enabled
+      name: promtail
+      repository: ""
+      version: 0.16.0
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: d4f54cc4e739cd9029272455d5a76c2ee0f708bde3bdd6d99a6b528c2c281929
+    home: https://grafana.com/loki
+    icon: https://s.giantswarm.io/app-icons/1/png/loki-stack-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-stack-app
+    name: loki-stack-app
+    sources:
+    - https://github.com/grafana/loki
+    - https://github.com/giantswarm/loki-stack-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-stack-app-0.2.1-296a9eb73d8f383f7e1ad14a721f7fb44e7c47ea.tgz
+    version: 0.2.1-296a9eb73d8f383f7e1ad14a721f7fb44e7c47ea
+  - apiVersion: v1
+    appVersion: v1.2.0
     created: "2021-10-25T09:09:20.88515614Z"
     dependencies:
     - condition: loki.enabled
@@ -6412,4 +6441,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-116c717686859435c8488303c4e747d64cc7ccad.tgz
     version: 1.2.0-116c717686859435c8488303c4e747d64cc7ccad
-generated: "2021-10-26T13:24:12.168944797Z"
+generated: "2021-10-26T13:27:07.959993453Z"
