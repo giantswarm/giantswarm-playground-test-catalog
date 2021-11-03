@@ -6647,6 +6647,23 @@ entries:
     version: 0.4.1-03f7e9960daed9f85bdc41c9d44a2bd76577c8f4
   oms-agent:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.2.0-e556f1497939b337899b2b197bafbd16753696bc.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.2.0-e556f1497939b337899b2b197bafbd16753696bc.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: ciprod06112021
+    created: "2021-11-03T14:45:57.274196967Z"
+    description: A Helm chart for oms-agent
+    digest: ff18cdcb4f03579ec9661905a57dbc30d3637aab09ccf88352ea16aec3d3ae38
+    home: https://github.com/giantswarm/oms-agent-app
+    icon: https://raw.githubusercontent.com/microsoft/Docker-Provider/ci_prod/img/azuremonitor-containers.svg
+    name: oms-agent
+    sources:
+    - https://github.com/microsoft/Docker-Provider/tree/ci_prod
+    - https://docs.microsoft.com/en-us/azure/monitoring/monitoring-container-health
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.2.0-e556f1497939b337899b2b197bafbd16753696bc.tgz
+    version: 0.2.0-e556f1497939b337899b2b197bafbd16753696bc
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.2.0-e50dc88d46d3e70e4d58852a903495b130f64aac.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.2.0-e50dc88d46d3e70e4d58852a903495b130f64aac.tgz-meta/README.md
     apiVersion: v1
@@ -8324,4 +8341,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-031a68f5270a53c05337417e53db2a8a9159f132.tgz
     version: 1.2.0-031a68f5270a53c05337417e53db2a8a9159f132
-generated: "2021-11-03T14:42:10.645230429Z"
+generated: "2021-11-03T14:45:57.273197514Z"
