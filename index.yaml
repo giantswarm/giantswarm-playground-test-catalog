@@ -4745,6 +4745,33 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.3-5a01feacc56d170299fa7a26fb49dab8b025648e.tgz
     version: 0.2.3-5a01feacc56d170299fa7a26fb49dab8b025648e
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.3-245338c5c0c874c9e4165182ea1ead5a94cf85a4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.3-245338c5c0c874c9e4165182ea1ead5a94cf85a4.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.3-245338c5c0c874c9e4165182ea1ead5a94cf85a4.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 1.21.2
+    created: "2021-11-03T14:29:37.5944123Z"
+    description: jaeger-operator Helm chart for Kubernetes
+    digest: 7434eb8d0f4626badac93185e3455a48db2407c401a01f97571b5731e0f52554
+    home: https://github.com/jaegertracing/jaeger-operator
+    icon: https://s.giantswarm.io/app-icons/1/png/jaeger-operator-app-light.png
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    - email: ctadeu@gmail.com
+      name: cpanato
+    - email: batazor111@gmail.com
+      name: batazor
+    name: jaeger-operator-app
+    sources:
+    - https://github.com/jaegertracing/jaeger-operator
+    - https://github.com/giantswarm/jaeger-operator-app
+    - https://raw.githubusercontent.com/giantswarm/jaeger-operator-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.3-245338c5c0c874c9e4165182ea1ead5a94cf85a4.tgz
+    version: 0.2.3-245338c5c0c874c9e4165182ea1ead5a94cf85a4
   k8s-audit-metrics:
   - apiVersion: v1
     appVersion: 0.0.7-ffbc228df0bd338e023202e2061c8c6ee0c29f8b
@@ -8268,4 +8295,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-031a68f5270a53c05337417e53db2a8a9159f132.tgz
     version: 1.2.0-031a68f5270a53c05337417e53db2a8a9159f132
-generated: "2021-11-03T14:29:06.652783304Z"
+generated: "2021-11-03T14:29:37.593519877Z"
