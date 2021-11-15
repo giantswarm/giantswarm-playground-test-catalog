@@ -5100,6 +5100,21 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.0.7-001f622ac19d6a27d60c6d971da362112c3c60c5.tgz
     version: 0.0.7-001f622ac19d6a27d60c6d971da362112c3c60c5
+  k8s-initiator-app:
+  - apiVersion: v1
+    appVersion: v0.9.0
+    created: "2021-11-15T04:01:59.85610876Z"
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
+    digest: 6fa280b786c73445f2aa362bc15fc70a482aa6146ade964006994c98d62c3992
+    home: https://github.com/giantswarm/k8s-initiator-app
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: k8s-initiator-app
+    sources:
+    - https://github.com/giantswarm/k8s-initiator-app
+    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.9.2-64d4c9b5d283d3a2e748d66593d91e82d54d70e5/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.9.2-64d4c9b5d283d3a2e748d66593d91e82d54d70e5.tgz
+    version: 0.9.2-64d4c9b5d283d3a2e748d66593d91e82d54d70e5
   keda:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-f6f997bc99978c0c4b06fc88521462afe36a81da.tgz-meta/main.yaml
@@ -7821,4 +7836,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-031a68f5270a53c05337417e53db2a8a9159f132.tgz
     version: 1.2.0-031a68f5270a53c05337417e53db2a8a9159f132
-generated: "2021-11-13T17:59:24.324781715Z"
+generated: "2021-11-15T04:01:59.855489671Z"
