@@ -2283,6 +2283,40 @@ entries:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: v2.28.1
+    created: "2021-12-01T10:01:40.387442885Z"
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
+    digest: f9bc1c8f22c38920f7f006bbe851545f1032ae21c6bfae07fbe6a705d069f644
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
+    keywords:
+    - authentication
+    - oidc
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.18.0-266e90882d1693b6522aeba4419e448307f23c0c.tgz
+    version: 1.18.0-266e90882d1693b6522aeba4419e448307f23c0c
+  - annotations:
+      application.giantswarm.io/team: team-rainbow
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: v2.28.1
     created: "2021-11-30T12:11:02.365953027Z"
     description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 8ff0334c17ee455c65bdcb9bf2b323b7ddbc81db8965ea4a4aad394e1dee9768
@@ -12362,4 +12396,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-031a68f5270a53c05337417e53db2a8a9159f132.tgz
     version: 1.2.0-031a68f5270a53c05337417e53db2a8a9159f132
-generated: "2021-11-30T13:11:46.878068071Z"
+generated: "2021-12-01T10:01:40.386395714Z"
