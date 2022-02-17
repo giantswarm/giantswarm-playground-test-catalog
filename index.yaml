@@ -2424,6 +2424,25 @@ entries:
     version: 0.2.0-06089bcc7bfc519edaca38154866dd15d37b9918
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.8.0-f022dcda78b1fe775cab7c04fd801ab6442be2b9.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.8.0-f022dcda78b1fe775cab7c04fd801ab6442be2b9.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2022-02-17T11:22:22.995163021Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 379cc45b9e040fcd3f0a978cf065de6b5b57f1a2eb8252eb17d1e85ee884ca81
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.8.0-f022dcda78b1fe775cab7c04fd801ab6442be2b9.tgz
+    version: 0.8.0-f022dcda78b1fe775cab7c04fd801ab6442be2b9
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-f5ed1e59fd6368d5d10108f95e50ad9ecb19cb7f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.7.0-f5ed1e59fd6368d5d10108f95e50ad9ecb19cb7f.tgz-meta/README.md
       application.giantswarm.io/team: celestial
@@ -33618,4 +33637,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-0.0.0-004ce3c9378ce148a07e85e9941e8c47b0b10903.tgz
     version: 0.0.0-004ce3c9378ce148a07e85e9941e8c47b0b10903
-generated: "2022-02-17T11:21:44.385512607Z"
+generated: "2022-02-17T11:22:22.992763753Z"
