@@ -32566,6 +32566,34 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-08e1ffe341d094e8f5ee037be3db1dd06672cb88.tgz
     version: 0.1.0-08e1ffe341d094e8f5ee037be3db1dd06672cb88
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-04b00b812026dc225cdbe99060aba58b29595ba3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-04b00b812026dc225cdbe99060aba58b29595ba3.tgz-meta/README.md
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2022-02-19T01:29:21.030361446Z"
+    description: A Helm chart for Kubernetes
+    digest: 8972e81c1ab7bc0d67e314793b3a8f8d8b3ad66fd5809b1261c8bf4ab42c85c6
+    home: https://github.com/giantswarm/velero-app
+    icon: https://s.giantswarm.io/app-icons/velero/1/light.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-04b00b812026dc225cdbe99060aba58b29595ba3.tgz
+    version: 0.1.0-04b00b812026dc225cdbe99060aba58b29595ba3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-00db2fb0859d9c4592ce31bdb04446a4a87a0eab.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-00db2fb0859d9c4592ce31bdb04446a4a87a0eab.tgz-meta/README.md
     apiVersion: v2
@@ -36241,4 +36269,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-0.0.0-004ce3c9378ce148a07e85e9941e8c47b0b10903.tgz
     version: 0.0.0-004ce3c9378ce148a07e85e9941e8c47b0b10903
-generated: "2022-02-19T01:23:45.977645279Z"
+generated: "2022-02-19T01:29:21.027904802Z"
