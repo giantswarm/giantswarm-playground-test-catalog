@@ -30701,6 +30701,32 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/rbac-bootstrap-0.1.0-6d45c64166c8dd657d96acf7f0c3ed585a0bb698.tgz
     version: 0.1.0-6d45c64166c8dd657d96acf7f0c3ed585a0bb698
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/rbac-bootstrap-0.1.0-6b2acf5781f6bcbdd5edebb33ceb075faa486f52.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/rbac-bootstrap-0.1.0-6b2acf5781f6bcbdd5edebb33ceb075faa486f52.tgz-meta/README.md
+      application.giantswarm.io/team: rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/rbac-bootstrap-0.1.0-6b2acf5781f6bcbdd5edebb33ceb075faa486f52.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-02-21T09:01:40.601723762Z"
+    description: Helps to set up initial role bindings in a new cluster
+    digest: aa56ea9ada2cc63657e6bf7ee5373623c490d27b3d39eccf30a9e111e8876263
+    home: https://github.com/giantswarm/rbac-bootstrap-app
+    icon: https://s.giantswarm.io/app-icons/rbac-bootstrap/1/light.svg
+    keywords:
+    - authorization
+    - rbac
+    - bootstrapping
+    kubeVersion: '>= 1.15.0'
+    maintainers:
+    - name: Giant Swarm Team Rainbow
+    name: rbac-bootstrap
+    sources:
+    - https://github.com/giantswarm/rbac-bootstrap-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/rbac-bootstrap-0.1.0-6b2acf5781f6bcbdd5edebb33ceb075faa486f52.tgz
+    version: 0.1.0-6b2acf5781f6bcbdd5edebb33ceb075faa486f52
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/rbac-bootstrap-0.1.0-5ac5b55d6d7dfcdef65131ec2fb195267c76e692.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/rbac-bootstrap-0.1.0-5ac5b55d6d7dfcdef65131ec2fb195267c76e692.tgz-meta/README.md
       application.giantswarm.io/team: rainbow
@@ -37612,4 +37638,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-0.0.0-004ce3c9378ce148a07e85e9941e8c47b0b10903.tgz
     version: 0.0.0-004ce3c9378ce148a07e85e9941e8c47b0b10903
-generated: "2022-02-21T09:01:31.028293291Z"
+generated: "2022-02-21T09:01:40.600874406Z"
