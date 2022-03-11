@@ -7,7 +7,7 @@ on:
 
 jobs:
   cleanup:
-    uses: giantswarm/app-catalog-cleanup-tool/.github/workflows/cleanup.yaml@v0.2.4
+    uses: giantswarm/app-catalog-cleanup-tool/.github/workflows/cleanup.yaml@4264598816e0cbd972292cd7b4b2a6914ee631fa
     with:
-      delete-before: "1 month"
+      delete-before: "2 months"
       dry-run: false
