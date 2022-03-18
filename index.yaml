@@ -14205,6 +14205,23 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-849028308a6c5a7eb42c12afe14ced6be845e222.tgz
     version: 0.0.0-849028308a6c5a7eb42c12afe14ced6be845e222
   - annotations:
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-6baa25a71d895f8724e901ebd44071c47d69cc6a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-6baa25a71d895f8724e901ebd44071c47d69cc6a.tgz-meta/README.md
+      application.giantswarm.io/team: security
+    apiVersion: v2
+    created: "2022-03-18T16:15:21.376159003Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 47e62233c95dbaad158098b6954f241850ecb6087ae0457dcdb0e6a45eba6d69
+    home: https://github.com/giantswarm/security-pack
+    name: security-pack
+    sources:
+    - https://github.com/giantswarm/security-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-6baa25a71d895f8724e901ebd44071c47d69cc6a.tgz
+    version: 0.0.0-6baa25a71d895f8724e901ebd44071c47d69cc6a
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-5a230ef86584441cdd46a0426227fc0de17daaf4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-5a230ef86584441cdd46a0426227fc0de17daaf4.tgz-meta/README.md
       application.giantswarm.io/team: security
@@ -16933,4 +16950,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-03-18T14:58:15.452577926Z"
+generated: "2022-03-18T16:15:21.375177697Z"
