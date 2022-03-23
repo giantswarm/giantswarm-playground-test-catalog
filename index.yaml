@@ -14561,6 +14561,23 @@ entries:
     version: 0.1.0-080205fcd149682a838030746ef141f4da3613c1
   security-pack:
   - annotations:
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-e6b576d56166b75805c13e342b277ad992489cc1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-e6b576d56166b75805c13e342b277ad992489cc1.tgz-meta/README.md
+      application.giantswarm.io/team: security
+    apiVersion: v2
+    created: "2022-03-23T15:17:27.908208168Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 5c03a21cc0cffd830907f3a2b74cacbd17e06c94e4c5938bf0689318011b7bd3
+    home: https://github.com/giantswarm/security-pack
+    name: security-pack
+    sources:
+    - https://github.com/giantswarm/security-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-e6b576d56166b75805c13e342b277ad992489cc1.tgz
+    version: 0.0.0-e6b576d56166b75805c13e342b277ad992489cc1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-d712722de4d0b91facb65c33f4bb86dbc5dcad2e.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-d712722de4d0b91facb65c33f4bb86dbc5dcad2e.tgz-meta/README.md
       application.giantswarm.io/team: security
@@ -17694,4 +17711,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-03-23T15:10:27.807381924Z"
+generated: "2022-03-23T15:17:27.907641772Z"
