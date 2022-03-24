@@ -15280,6 +15280,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-03e9ea0991a216c9cce4f761beffedd610b64097.tgz
     version: 0.0.0-03e9ea0991a216c9cce4f761beffedd610b64097
+  - annotations:
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-033d6f100a6bf70d32d27eef6946c98bf7323faa.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-033d6f100a6bf70d32d27eef6946c98bf7323faa.tgz-meta/README.md
+      application.giantswarm.io/team: security
+    apiVersion: v2
+    created: "2022-03-24T14:01:32.025069988Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 051d77992ed7f59149ab166dc597a2b9e19b46b76da8e4be8cd76ce0817197d1
+    home: https://github.com/giantswarm/security-pack
+    name: security-pack
+    sources:
+    - https://github.com/giantswarm/security-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.0.0-033d6f100a6bf70d32d27eef6946c98bf7323faa.tgz
+    version: 0.0.0-033d6f100a6bf70d32d27eef6946c98bf7323faa
   spark-operator:
   - apiVersion: v2
     appVersion: 2.4.0
@@ -17904,4 +17921,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-03-24T14:00:54.471077022Z"
+generated: "2022-03-24T14:01:32.024440486Z"
