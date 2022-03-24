@@ -1350,6 +1350,25 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.9.0-59096de3897310fdf65f72e2deffa7113d5b8647.tgz
     version: 0.9.0-59096de3897310fdf65f72e2deffa7113d5b8647
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.9.0-340b5be1aa05984f5ae9a0c7ffe1f57545e124fa.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.9.0-340b5be1aa05984f5ae9a0c7ffe1f57545e124fa.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2022-03-24T14:38:27.930461668Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 7e959264dcda6b52bf52d587e7f2bb66e1be074be7cddf9f98ed22c12b106b84
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.9.0-340b5be1aa05984f5ae9a0c7ffe1f57545e124fa.tgz
+    version: 0.9.0-340b5be1aa05984f5ae9a0c7ffe1f57545e124fa
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.8.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.8.1.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -17921,4 +17940,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-03-24T14:01:32.024440486Z"
+generated: "2022-03-24T14:38:27.928253532Z"
