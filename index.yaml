@@ -6741,6 +6741,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/macropower-analytics-panel-server-0.4.1-13a3304c5d8c7f50dd152d7b66ae742aab6b49b2.tgz
     version: 0.4.1-13a3304c5d8c7f50dd152d7b66ae742aab6b49b2
+  netdata:
+  - annotations:
+      application.giantswarm.io/team: sa
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.0-58fac4867425b80d2850f48109c8c111e47e63e0
+    created: "2022-04-11T14:38:52.922356109Z"
+    dependencies:
+    - name: netdata
+      repository: https://netdata.github.io/helmchart/
+      version: 3.7.14
+    description: Tool to install monitoring agents in nodes.
+    digest: d3dd597996508f58b2fcf1a64bfd4c200e5a4f363dd25fcb7e0c67f9213e1025
+    home: https://github.com/giantswarm/netdata
+    name: netdata
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/netdata-0.0.0-58fac4867425b80d2850f48109c8c111e47e63e0.tgz
+    version: 0.0.0-58fac4867425b80d2850f48109c8c111e47e63e0
   oms-agent:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/oms-agent-0.2.0-fb60368360cb5e1a8b3b28545faef107cd54b62d.tgz-meta/main.yaml
@@ -8524,4 +8542,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-04-11T14:38:26.653313799Z"
+generated: "2022-04-11T14:38:52.918026093Z"
