@@ -3553,6 +3553,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/flamethrower-0.0.1-09f806f49ee0c565e500304cf904bc9141d40a1a.tgz
     version: 0.0.1-09f806f49ee0c565e500304cf904bc9141d40a1a
+  fluent-logshipping-app:
+  - annotations:
+      application.giantswarm.io/team: team-atlas
+    apiVersion: v1
+    appVersion: 0.6.6-66b150234ba607aba9be2b48670a02d71a10c8cd
+    created: "2022-04-11T09:56:57.494565896Z"
+    description: The Log Shipping App forwards cluster logs to storage backends
+    digest: 7ed637e460345d7b0a5cfe8a230cf0badfd34f24f160b6ae9a0ee1965470b6bb
+    home: https://github.com/giantswarm/fluent-logshipping-app
+    icon: https://s.giantswarm.io/app-icons/1/png/fluent-logshipping-app-light.png
+    name: fluent-logshipping-app
+    sources:
+    - https://github.com/giantswarm/fluent-logshipping-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/fluent-logshipping-app-0.6.6-66b150234ba607aba9be2b48670a02d71a10c8cd.tgz
+    version: 0.6.6-66b150234ba607aba9be2b48670a02d71a10c8cd
   gatling-app:
   - apiVersion: v1
     appVersion: 3.2.1
@@ -8125,4 +8141,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-04-11T04:02:24.001635728Z"
+generated: "2022-04-11T09:56:57.493429268Z"
