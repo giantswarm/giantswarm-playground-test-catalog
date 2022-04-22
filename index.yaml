@@ -4122,6 +4122,22 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/fluent-logshipping-app-0.6.6-00a745d0e8ca18a008a46776c29f9fc3a4faff20.tgz
     version: 0.6.6-00a745d0e8ca18a008a46776c29f9fc3a4faff20
   gatling-app:
+  - annotations:
+      application.giantswarm.io/team: team-cabbage
+    apiVersion: v1
+    appVersion: 3.2.1
+    created: "2022-04-22T09:16:46.14584607Z"
+    description: 'Async Scala-Akka-Netty based Load Test Tool '
+    digest: a7f4371f5ae71c2c8cac99eb02eb04ca34e76ba4960c0421d11b57f7817236d7
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/1/png/gatling-app-light.png
+    name: gatling-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/gatling-app/v1.0.2-ff6de0d8b4f787bfa441d1b47d904bdaa1336f3d/README.md
+    - https://github.com/gatling/gatling
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-ff6de0d8b4f787bfa441d1b47d904bdaa1336f3d.tgz
+    version: 1.0.2-ff6de0d8b4f787bfa441d1b47d904bdaa1336f3d
   - apiVersion: v1
     appVersion: 3.2.1
     created: "2022-03-02T14:45:35.607979538Z"
@@ -9447,4 +9463,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-04-22T09:12:34.594223407Z"
+generated: "2022-04-22T09:16:46.14498759Z"
