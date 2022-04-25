@@ -8400,6 +8400,24 @@ entries:
   security-pack:
   - annotations:
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.2.0-a8fae3180b64ada47284b056b0fc77a39c24937a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.2.0-a8fae3180b64ada47284b056b0fc77a39c24937a.tgz-meta/README.md
+      application.giantswarm.io/team: security
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.2.0-a8fae3180b64ada47284b056b0fc77a39c24937a.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-04-25T11:30:29.142621318Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 6107e1787942e22eedca534ed3bbde5153f876c8b9223d01b965641371951c07
+    home: https://github.com/giantswarm/security-pack
+    name: security-pack
+    sources:
+    - https://github.com/giantswarm/security-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.2.0-a8fae3180b64ada47284b056b0fc77a39c24937a.tgz
+    version: 0.2.0-a8fae3180b64ada47284b056b0fc77a39c24937a
+  - annotations:
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.1.0-be5604db125b6f8a3829c963aa58cfac5f0a2f76.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.1.0-be5604db125b6f8a3829c963aa58cfac5f0a2f76.tgz-meta/README.md
       application.giantswarm.io/team: security
@@ -10323,4 +10341,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-04-25T11:29:57.107749419Z"
+generated: "2022-04-25T11:30:29.141992976Z"
