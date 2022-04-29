@@ -2049,6 +2049,43 @@ entries:
     version: 2.1.0-3b81032eedd38b86343b43bcf0e7109193d600a8
   dex-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.24.2-cc1a5730594cbfe8d20cdfa412001e5b5405b5b1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.24.2-cc1a5730594cbfe8d20cdfa412001e5b5405b5b1.tgz-meta/README.md
+      application.giantswarm.io/team: team-rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.24.2-cc1a5730594cbfe8d20cdfa412001e5b5405b5b1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v2.31.1
+    created: "2022-04-29T07:20:55.70890461Z"
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    digest: d154904925571d88fc61f3da29dbdeb3434517b6de51cea025b03feab6d9a4c4
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
+    keywords:
+    - authentication
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.24.2-cc1a5730594cbfe8d20cdfa412001e5b5405b5b1.tgz
+    version: 1.24.2-cc1a5730594cbfe8d20cdfa412001e5b5405b5b1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.24.2-82cfb1bfcf5c42960a70134df565758e9971e640.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.24.2-82cfb1bfcf5c42960a70134df565758e9971e640.tgz-meta/README.md
       application.giantswarm.io/team: team-rainbow
@@ -11064,4 +11101,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a.tgz
     version: 1.0.0-05b409fed433e0b57e5222fece74cb4e39379e0a
-generated: "2022-04-29T07:19:16.74675504Z"
+generated: "2022-04-29T07:20:55.707742197Z"
