@@ -2220,6 +2220,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-307f164de883014d1ea2fad08dc5580ce8e96449.tgz
     version: 1.0.2-307f164de883014d1ea2fad08dc5580ce8e96449
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-0f3ceab363394dabbe1125966e7724b58bcef534.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-0f3ceab363394dabbe1125966e7724b58bcef534.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-0f3ceab363394dabbe1125966e7724b58bcef534.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 3.2.1
+    created: "2022-05-05T13:22:25.789754651Z"
+    description: 'Async Scala-Akka-Netty based Load Test Tool '
+    digest: bf7c313431db95e48037b483267264d86335c4d92eaea459fbe4862d00d5e0ca
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/1/png/gatling-app-light.png
+    name: gatling-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/gatling-app/v[[ .Version ]]/README.md
+    - https://github.com/gatling/gatling
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-0f3ceab363394dabbe1125966e7724b58bcef534.tgz
+    version: 1.0.2-0f3ceab363394dabbe1125966e7724b58bcef534
   goldpinger:
   - annotations:
       application.giantswarm.io/team: sa
@@ -4262,4 +4281,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/webhook-exporter-0.0.0-740e8c1b514020e66acffe51176fe87c75526577.tgz
     version: 0.0.0-740e8c1b514020e66acffe51176fe87c75526577
-generated: "2022-05-05T13:19:01.752713908Z"
+generated: "2022-05-05T13:22:25.7887467Z"
