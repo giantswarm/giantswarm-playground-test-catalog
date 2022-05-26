@@ -857,6 +857,41 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1.tgz
     version: 2.2.1
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-57dc11dff76e0b8f1e79f3eab691259d1a58d0a5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-57dc11dff76e0b8f1e79f3eab691259d1a58d0a5.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: "7"
+    created: "2022-05-26T14:50:39.479558753Z"
+    dependencies:
+    - condition: clusterAgent.metricsProvider.useDatadogMetrics
+      name: datadog-crds
+      repository: https://helm.datadoghq.com
+      tags:
+      - install-crds
+      version: 0.4.7
+    - condition: datadog.kubeStateMetricsEnabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.13.2
+    description: Datadog Agent
+    digest: 946b226c5c7bb393d1d38f1c34fda2f4ea96d5d4c59e7b827ea4b5c63ec0658b
+    home: https://www.datadoghq.com
+    icon: https://s.giantswarm.io/app-icons/datadog/1/light.svg
+    keywords:
+    - monitoring
+    - alerting
+    - metric
+    maintainers:
+    - email: support@datadoghq.com
+      name: Datadog
+    name: datadog
+    sources:
+    - https://app.datadoghq.com/account/settings#agent/kubernetes
+    - https://github.com/DataDog/datadog-agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-57dc11dff76e0b8f1e79f3eab691259d1a58d0a5.tgz
+    version: 2.2.1-57dc11dff76e0b8f1e79f3eab691259d1a58d0a5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.0-f8d51b96e7ace17e78c5822fb7211ca75cce45c9.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.0-f8d51b96e7ace17e78c5822fb7211ca75cce45c9.tgz-meta/README.md
     apiVersion: v1
@@ -6443,4 +6478,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/webhook-exporter-0.0.0-740e8c1b514020e66acffe51176fe87c75526577.tgz
     version: 0.0.0-740e8c1b514020e66acffe51176fe87c75526577
-generated: "2022-05-26T14:49:44.460717769Z"
+generated: "2022-05-26T14:50:39.471163191Z"
