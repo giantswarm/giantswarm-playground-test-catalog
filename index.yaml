@@ -6066,6 +6066,36 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3aae28308dddac608ff0ada5be5724f801a73e83.tgz
     version: 0.1.0-3aae28308dddac608ff0ada5be5724f801a73e83
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1a5704cde757d15b5c0412924fe26685e9ce687e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1a5704cde757d15b5c0412924fe26685e9ce687e.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1a5704cde757d15b5c0412924fe26685e9ce687e.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2022-05-26T14:54:53.432474356Z"
+    description: A Helm chart for Kubernetes
+    digest: be7703b2537a10f1fbb82af035c8078542665fe1f684a1a462e82f0dae9f41fd
+    home: https://github.com/giantswarm/velero-app
+    icon: https://s.giantswarm.io/app-icons/velero/1/light.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1a5704cde757d15b5c0412924fe26685e9ce687e.tgz
+    version: 0.1.0-1a5704cde757d15b5c0412924fe26685e9ce687e
   vertical-pod-autoscaler-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -6678,4 +6708,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/webhook-exporter-0.0.0-740e8c1b514020e66acffe51176fe87c75526577.tgz
     version: 0.0.0-740e8c1b514020e66acffe51176fe87c75526577
-generated: "2022-05-26T14:54:47.793729029Z"
+generated: "2022-05-26T14:54:53.431034827Z"
