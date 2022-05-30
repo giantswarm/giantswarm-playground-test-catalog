@@ -53,6 +53,27 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/actions-runner-controller-0.1.0-0722744dda197f1aa4b8dad151ee93db7c79a994.tgz
     version: 0.1.0-0722744dda197f1aa4b8dad151ee93db7c79a994
+  alfred-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.2.1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.2.1.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.3.0
+    created: "2022-05-30T10:25:01.322585831Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 44a4e46a0077e2f18cfe448b0c20d9c0a44fc9f27000583554216de0a07f0e2d
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.2.1.tgz
+    version: 0.2.1
   app-updater-app:
   - apiVersion: v1
     appVersion: 0.1.0
@@ -6780,4 +6801,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/webhook-exporter-0.0.0-740e8c1b514020e66acffe51176fe87c75526577.tgz
     version: 0.0.0-740e8c1b514020e66acffe51176fe87c75526577
-generated: "2022-05-30T04:02:46.642429327Z"
+generated: "2022-05-30T10:25:01.321782952Z"
