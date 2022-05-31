@@ -5079,6 +5079,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-2f82c99143cafdfbf7057411d58eb0f5e6ca28b9.tgz
     version: 0.1.0-2f82c99143cafdfbf7057411d58eb0f5e6ca28b9
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-134684638981f4bf49b53c521fb921e48f4a0167.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-134684638981f4bf49b53c521fb921e48f4a0167.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-134684638981f4bf49b53c521fb921e48f4a0167.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2022-05-31T08:05:58.782669323Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: e52a06536af7d38bb27c84d3c56c2bd116488428ca241cb5f9fde2e9a7fe5b56
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/master/images/keda-logo-500x500-white.png
+    maintainers:
+    - email: ahmels@microsoft.com
+      name: Ahmed ElSayed
+    - email: kerkhove.tom@gmail.com
+      name: Tom Kerkhove
+    - email: zroubali@redhat.com
+      name: Zbynek Roubalik
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-134684638981f4bf49b53c521fb921e48f4a0167.tgz
+    version: 0.1.0-134684638981f4bf49b53c521fb921e48f4a0167
   loki-stack-app:
   - apiVersion: v1
     appVersion: v1.2.0
@@ -7138,4 +7163,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/webhook-exporter-0.0.0-740e8c1b514020e66acffe51176fe87c75526577.tgz
     version: 0.0.0-740e8c1b514020e66acffe51176fe87c75526577
-generated: "2022-05-31T08:05:50.875652794Z"
+generated: "2022-05-31T08:05:58.779638964Z"
