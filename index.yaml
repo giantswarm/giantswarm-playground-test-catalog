@@ -5005,6 +5005,35 @@ entries:
   loki-stack-app:
   - apiVersion: v1
     appVersion: v1.2.0
+    created: "2022-05-31T08:03:51.51750774Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: ""
+      version: 0.21.0
+    - condition: promtail.enabled
+      name: promtail
+      repository: ""
+      version: 0.16.0
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: 2bd71b4fa0a9f5287dcb8f270c858afe9407b856c971933398b9bad00444601e
+    home: https://grafana.com/loki
+    icon: https://s.giantswarm.io/app-icons/1/png/loki-stack-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-stack-app
+    name: loki-stack-app
+    sources:
+    - https://github.com/grafana/loki
+    - https://github.com/giantswarm/loki-stack-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-stack-app-0.2.1-fbd04690a66d69127ecba883c0e6b396e6918f9d.tgz
+    version: 0.2.1-fbd04690a66d69127ecba883c0e6b396e6918f9d
+  - apiVersion: v1
+    appVersion: v1.2.0
     created: "2022-05-26T14:52:53.314479086Z"
     dependencies:
     - condition: loki.enabled
@@ -6996,4 +7025,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/webhook-exporter-0.0.0-740e8c1b514020e66acffe51176fe87c75526577.tgz
     version: 0.0.0-740e8c1b514020e66acffe51176fe87c75526577
-generated: "2022-05-31T08:03:01.908560687Z"
+generated: "2022-05-31T08:03:51.515586239Z"
