@@ -266,6 +266,22 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/athena-1.5.4-3ee6913ae90e75afcbcd435e63e100028235467e.tgz
     version: 1.5.4-3ee6913ae90e75afcbcd435e63e100028235467e
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/athena-1.5.4-3d552bd9310f6776bebbc9c0075b967de0213541.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/athena-1.5.4-3d552bd9310f6776bebbc9c0075b967de0213541.tgz-meta/README.md
+      application.giantswarm.io/team: team-rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/athena-1.5.4-3d552bd9310f6776bebbc9c0075b967de0213541.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: '[[ .Version ]]'
+    created: "2022-06-02T13:39:06.664603071Z"
+    description: A service that knows everything about your installation
+    digest: 6a0d2f96538a44b2f2c92804875dd2f34b106cc17f87cc4b37d531d3fef8d0ff
+    home: https://github.com/giantswarm/athena
+    name: athena
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/athena-1.5.4-3d552bd9310f6776bebbc9c0075b967de0213541.tgz
+    version: 1.5.4-3d552bd9310f6776bebbc9c0075b967de0213541
+  - annotations:
       config.giantswarm.io/version: 1.x.x
     apiVersion: v1
     appVersion: 1.5.5-dev
@@ -4027,4 +4043,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee.tgz
     version: 1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee
-generated: "2022-06-02T12:31:06.547691894Z"
+generated: "2022-06-02T13:39:06.663794333Z"
