@@ -3646,6 +3646,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-6c5f5ff57e035fc8bec1f8ed89c91c727c4f1203.tgz
     version: 0.0.0-6c5f5ff57e035fc8bec1f8ed89c91c727c4f1203
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-6377506048a381a10d06f32ed80c7fcf583543ad.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-6377506048a381a10d06f32ed80c7fcf583543ad.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.5
+    created: "2022-06-09T20:45:01.48515217Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.0.5
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: d8359c2ec8f32b2bd2bbe04e9e175e9dd77aa016b1276f349757e613b0fca951
+    home: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-6377506048a381a10d06f32ed80c7fcf583543ad.tgz
+    version: 0.0.0-6377506048a381a10d06f32ed80c7fcf583543ad
   velero:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-e08286e04aaa227b09c43023fff91f579df459ac.tgz-meta/main.yaml
@@ -4428,4 +4450,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee.tgz
     version: 1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee
-generated: "2022-06-09T19:35:46.302243715Z"
+generated: "2022-06-09T20:45:01.483173064Z"
