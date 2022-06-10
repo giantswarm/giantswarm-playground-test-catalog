@@ -3737,6 +3737,29 @@ entries:
     version: 1.0.0-1909cb8e5760d54e79d1e3677b3a4c35b01774b3
   trivy-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-ea57886d4f563b8d1e1938592f7428cc389aa46b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-ea57886d4f563b8d1e1938592f7428cc389aa46b.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-ea57886d4f563b8d1e1938592f7428cc389aa46b.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.5
+    created: "2022-06-10T20:21:55.608245299Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.0.5
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: 547c288545b13c2912ef5b8c2d1735be2fb00ad0f9bf4adbafd49f55e206987d
+    home: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-ea57886d4f563b8d1e1938592f7428cc389aa46b.tgz
+    version: 0.0.0-ea57886d4f563b8d1e1938592f7428cc389aa46b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-be71b82d93c817bb10aba0e4fba70cbb94c03ac7.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-be71b82d93c817bb10aba0e4fba70cbb94c03ac7.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -4602,4 +4625,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee.tgz
     version: 1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee
-generated: "2022-06-10T19:57:10.458042343Z"
+generated: "2022-06-10T20:21:55.605977447Z"
