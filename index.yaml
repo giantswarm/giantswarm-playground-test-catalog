@@ -3737,6 +3737,28 @@ entries:
     version: 1.0.0-1909cb8e5760d54e79d1e3677b3a4c35b01774b3
   trivy-operator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-be71b82d93c817bb10aba0e4fba70cbb94c03ac7.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-be71b82d93c817bb10aba0e4fba70cbb94c03ac7.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.5
+    created: "2022-06-10T19:57:10.460353436Z"
+    dependencies:
+    - name: trivy-operator
+      repository: ""
+      version: 0.0.5
+    description: A Giant Swarm App for trivy-operator, the cluster security tool from
+      Aqua Security.
+    digest: 0477cc874dbedd8ca384499724be0aee1317a6fec65489ee7c59dd33f403bbc5
+    home: https://github.com/giantswarm/trivy-operator-app
+    name: trivy-operator
+    sources:
+    - https://github.com/aquasecurity/trivy-operator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-be71b82d93c817bb10aba0e4fba70cbb94c03ac7.tgz
+    version: 0.0.0-be71b82d93c817bb10aba0e4fba70cbb94c03ac7
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-6e0ca5741c31ce5bd8ff63fca1b5d3d8634af057.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/trivy-operator-0.0.0-6e0ca5741c31ce5bd8ff63fca1b5d3d8634af057.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -4580,4 +4602,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee.tgz
     version: 1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee
-generated: "2022-06-10T19:44:08.662259284Z"
+generated: "2022-06-10T19:57:10.458042343Z"
