@@ -1989,6 +1989,25 @@ entries:
     version: 0.0.1-1adfb46455431cb73cf3e9047e230964eb81ffac
   gatling-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-eeed8414965669aaf502e932f067661c4f18ef02.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-eeed8414965669aaf502e932f067661c4f18ef02.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-eeed8414965669aaf502e932f067661c4f18ef02.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 3.2.1
+    created: "2022-06-13T20:23:24.604133174Z"
+    description: 'Async Scala-Akka-Netty based Load Test Tool '
+    digest: 30a6ae99fa749dde1d597a40524c3d6821dcdbb334acdbfa2156cc0421c03421
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/1/png/gatling-app-light.png
+    name: gatling-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/gatling-app/v[[ .Version ]]/README.md
+    - https://github.com/gatling/gatling
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-eeed8414965669aaf502e932f067661c4f18ef02.tgz
+    version: 1.0.2-eeed8414965669aaf502e932f067661c4f18ef02
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-d88bfccea61e0258715ea0daebe596a844d3c6c3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-1.0.2-d88bfccea61e0258715ea0daebe596a844d3c6c3.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -4782,4 +4801,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee.tgz
     version: 1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee
-generated: "2022-06-13T20:22:53.994511886Z"
+generated: "2022-06-13T20:23:24.60349903Z"
