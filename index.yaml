@@ -3492,6 +3492,35 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-stack-app-0.2.1-2f29d5c63a015bbf83996e7333401262db6f93a1.tgz
     version: 0.2.1-2f29d5c63a015bbf83996e7333401262db6f93a1
+  - apiVersion: v1
+    appVersion: v1.2.0
+    created: "2022-06-14T07:55:55.377927756Z"
+    dependencies:
+    - condition: loki.enabled
+      name: loki
+      repository: ""
+      version: 0.21.0
+    - condition: promtail.enabled
+      name: promtail
+      repository: ""
+      version: 0.16.0
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: 67f7d4ddaeb7c510bf7b2d95ce52960bdac0b0050a8a6b922bf4296712a26251
+    home: https://grafana.com/loki
+    icon: https://s.giantswarm.io/app-icons/1/png/loki-stack-app-light.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-stack-app
+    name: loki-stack-app
+    sources:
+    - https://github.com/grafana/loki
+    - https://github.com/giantswarm/loki-stack-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-stack-app-0.2.1-18f2bd6592368b19da438e142ca292d7010a4440.tgz
+    version: 0.2.1-18f2bd6592368b19da438e142ca292d7010a4440
   macropower-analytics-panel-server:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -5295,4 +5324,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee.tgz
     version: 1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee
-generated: "2022-06-14T07:51:36.605122825Z"
+generated: "2022-06-14T07:55:55.376029243Z"
