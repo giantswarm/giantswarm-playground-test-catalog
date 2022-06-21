@@ -903,6 +903,25 @@ entries:
     version: 0.2.0-1618c40b0ce9b5c26da27abc736090890365cfc8
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.2-66fe945ad7d99ed0fc395341f115a350b6a8576a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.2-66fe945ad7d99ed0fc395341f115a350b6a8576a.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2022-06-21T13:16:01.879289657Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: c4ddd09b532599ddfcd3334dd1a7eafb6644c94c149ab5e701b972af7a562298
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.2-66fe945ad7d99ed0fc395341f115a350b6a8576a.tgz
+    version: 0.10.2-66fe945ad7d99ed0fc395341f115a350b6a8576a
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.1-f0431cf30c21f8f151062e5327ab12957bcdd21f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.1-f0431cf30c21f8f151062e5327ab12957bcdd21f.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -5745,4 +5764,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee.tgz
     version: 1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee
-generated: "2022-06-20T13:29:47.511919966Z"
+generated: "2022-06-21T13:16:01.877368602Z"
