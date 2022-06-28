@@ -1471,6 +1471,41 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-bdcd6649c24e8e3a74dc101c5b3825e854fecff4.tgz
     version: 2.2.1-bdcd6649c24e8e3a74dc101c5b3825e854fecff4
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-ac4397025cfb15e5763ccd1f306fdcb882e1b80a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-ac4397025cfb15e5763ccd1f306fdcb882e1b80a.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: "7"
+    created: "2022-06-28T12:32:52.771879384Z"
+    dependencies:
+    - condition: clusterAgent.metricsProvider.useDatadogMetrics
+      name: datadog-crds
+      repository: https://helm.datadoghq.com
+      tags:
+      - install-crds
+      version: 0.4.7
+    - condition: datadog.kubeStateMetricsEnabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.13.2
+    description: Datadog Agent
+    digest: fcceba7901059d0e5ec68e4b6efe6e7fa034370e62200d734336c8f4101bb67d
+    home: https://www.datadoghq.com
+    icon: https://s.giantswarm.io/app-icons/datadog/1/light.svg
+    keywords:
+    - monitoring
+    - alerting
+    - metric
+    maintainers:
+    - email: support@datadoghq.com
+      name: Datadog
+    name: datadog
+    sources:
+    - https://app.datadoghq.com/account/settings#agent/kubernetes
+    - https://github.com/DataDog/datadog-agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-ac4397025cfb15e5763ccd1f306fdcb882e1b80a.tgz
+    version: 2.2.1-ac4397025cfb15e5763ccd1f306fdcb882e1b80a
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-95366706f0db7943845db76d2dcec58ee1061fae.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.2.1-95366706f0db7943845db76d2dcec58ee1061fae.tgz-meta/README.md
     apiVersion: v1
@@ -6218,4 +6253,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee.tgz
     version: 1.2.0-298a1265e1bf0fbadf82b217bed51e5f8df137ee
-generated: "2022-06-28T12:32:33.883231942Z"
+generated: "2022-06-28T12:32:52.763492917Z"
