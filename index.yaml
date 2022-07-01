@@ -36,6 +36,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7.tgz
     version: 0.3.7
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-6dc4d3b40001c2d23c39ac21a9499673998bb409.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-6dc4d3b40001c2d23c39ac21a9499673998bb409.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.3.7-6dc4d3b40001c2d23c39ac21a9499673998bb409
+    created: "2022-07-01T07:52:36.619435159Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 2869f883a291dbbe44656080e6c247f5c1628f38bde69dc3b10a92449c3a24b3
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-6dc4d3b40001c2d23c39ac21a9499673998bb409.tgz
+    version: 0.3.7-6dc4d3b40001c2d23c39ac21a9499673998bb409
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-31ddb16b8e2d4ac32bd6a45246d6d3255dadc07b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-31ddb16b8e2d4ac32bd6a45246d6d3255dadc07b.tgz-meta/README.md
     apiVersion: v1
@@ -2781,4 +2801,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173.tgz
     version: 2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173
-generated: "2022-07-01T07:52:24.947667713Z"
+generated: "2022-07-01T07:52:36.618582066Z"
