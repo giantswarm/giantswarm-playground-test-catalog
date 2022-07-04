@@ -76,6 +76,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-6dc4d3b40001c2d23c39ac21a9499673998bb409.tgz
     version: 0.3.7-6dc4d3b40001c2d23c39ac21a9499673998bb409
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-591ce71af7c287e9709d9d265ec77b6175f664be.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-591ce71af7c287e9709d9d265ec77b6175f664be.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.3.7-591ce71af7c287e9709d9d265ec77b6175f664be
+    created: "2022-07-04T07:31:56.822813274Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: eeb579793d2ed3eb80623f689267f0465418d577e03545a9bd567b183be731e8
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-591ce71af7c287e9709d9d265ec77b6175f664be.tgz
+    version: 0.3.7-591ce71af7c287e9709d9d265ec77b6175f664be
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-31ddb16b8e2d4ac32bd6a45246d6d3255dadc07b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.3.7-31ddb16b8e2d4ac32bd6a45246d6d3255dadc07b.tgz-meta/README.md
     apiVersion: v1
@@ -2879,4 +2899,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173.tgz
     version: 2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173
-generated: "2022-07-01T15:33:01.032061106Z"
+generated: "2022-07-04T07:31:56.82187403Z"
