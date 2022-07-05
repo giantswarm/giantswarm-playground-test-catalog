@@ -884,6 +884,25 @@ entries:
     version: 0.2.0-1618c40b0ce9b5c26da27abc736090890365cfc8
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.2-fcc9c75812539dfa7ad4d7f688d12293d9b2e57e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.2-fcc9c75812539dfa7ad4d7f688d12293d9b2e57e.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.8.9
+    created: "2022-07-05T16:58:37.238422896Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 59bfe628ad46fe8cb12de433d4c54a886b11fac62c6e87657b4efdc7e1f8afbc
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.2-fcc9c75812539dfa7ad4d7f688d12293d9b2e57e.tgz
+    version: 0.10.2-fcc9c75812539dfa7ad4d7f688d12293d9b2e57e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.2-eb18ca241a0c91f17774db427f26a02e4e906674.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.10.2-eb18ca241a0c91f17774db427f26a02e4e906674.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -3164,4 +3183,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173.tgz
     version: 2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173
-generated: "2022-07-05T16:22:28.965781004Z"
+generated: "2022-07-05T16:58:37.236812717Z"
