@@ -2096,6 +2096,43 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.25.1-ca8c68d0f6c67365be20f18bc96ce448f1e0b8eb.tgz
     version: 1.25.1-ca8c68d0f6c67365be20f18bc96ce448f1e0b8eb
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.25.1-73b84e3ee47b1fcb04ad60fcedef18357da629f4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.25.1-73b84e3ee47b1fcb04ad60fcedef18357da629f4.tgz-meta/README.md
+      application.giantswarm.io/team: team-rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.25.1-73b84e3ee47b1fcb04ad60fcedef18357da629f4.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v2.31.1
+    created: "2022-07-06T07:08:20.214119537Z"
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    digest: a64f3e3e5def19c2fd47e0d03b8d0a135ffafb90faea87fe7f899239c3dfab40
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
+    keywords:
+    - authentication
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.25.1-73b84e3ee47b1fcb04ad60fcedef18357da629f4.tgz
+    version: 1.25.1-73b84e3ee47b1fcb04ad60fcedef18357da629f4
   dns-tester:
   - apiVersion: v1
     appVersion: 0.2.0-ea40915937c3e92d39129ae22dc5f30d00d28cc3
@@ -3896,4 +3933,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173.tgz
     version: 2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173
-generated: "2022-07-06T07:07:47.675629766Z"
+generated: "2022-07-06T07:08:20.212987828Z"
