@@ -3305,6 +3305,36 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-409417ae349c1ecbc08742f2f6995dc2c235e5b9.tgz
     version: 0.1.0-409417ae349c1ecbc08742f2f6995dc2c235e5b9
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-055ad7350efa79816f732398cc0677f9f71cd074.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-055ad7350efa79816f732398cc0677f9f71cd074.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-055ad7350efa79816f732398cc0677f9f71cd074.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2022-07-06T06:34:03.160301801Z"
+    description: A Helm chart for Kubernetes
+    digest: ae23dff3971a95c23ca0e044719cbb2151d26cf67464ba923f567937745d2798
+    home: https://github.com/giantswarm/velero-app
+    icon: https://s.giantswarm.io/app-icons/velero/1/light.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-055ad7350efa79816f732398cc0677f9f71cd074.tgz
+    version: 0.1.0-055ad7350efa79816f732398cc0677f9f71cd074
   vertical-pod-autoscaler-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -3506,4 +3536,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173.tgz
     version: 2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173
-generated: "2022-07-06T06:33:51.089263831Z"
+generated: "2022-07-06T06:34:03.158813419Z"
