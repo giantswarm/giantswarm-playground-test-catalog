@@ -3626,6 +3626,25 @@ entries:
     version: 1.0.2-134feafbe6fab8dd837394cac447a5ba432e059b
   gcp-compute-persistent-disk-csi-driver:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gcp-compute-persistent-disk-csi-driver-0.0.0-c2bcab80dc922ade45e7e066680199a75b2a9d50.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gcp-compute-persistent-disk-csi-driver-0.0.0-c2bcab80dc922ade45e7e066680199a75b2a9d50.tgz-meta/README.md
+      application.giantswarm.io/team: Hydra
+      branch: my-branch
+      commit: f00bar
+    apiVersion: v2
+    appVersion: 0.0.0-c2bcab80dc922ade45e7e066680199a75b2a9d50
+    created: "2022-07-13T11:17:50.208742326Z"
+    description: The Google Compute Engine Persistent Disk (GCE PD) Container Storage
+      Interface (CSI) Storage Plugin.
+    digest: d7b3f8f950d9eb6823cdf72f55cf568f4f3dc62203b959f7d95a2d05cfb8a6f8
+    home: https://github.com/giantswarm/gcp-compute-persistent-disk-csi-driver-app
+    name: gcp-compute-persistent-disk-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/gcp-compute-persistent-disk-csi-driver
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gcp-compute-persistent-disk-csi-driver-0.0.0-c2bcab80dc922ade45e7e066680199a75b2a9d50.tgz
+    version: 0.0.0-c2bcab80dc922ade45e7e066680199a75b2a9d50
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gcp-compute-persistent-disk-csi-driver-0.0.0-0c20a19d08eb8ee905b5e5fc6f43608045966025.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gcp-compute-persistent-disk-csi-driver-0.0.0-0c20a19d08eb8ee905b5e5fc6f43608045966025.tgz-meta/README.md
       application.giantswarm.io/team: Hydra
@@ -5715,4 +5734,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173.tgz
     version: 2.4.0-22c0e9c1b932babd80416fe9477920bccf6a4173
-generated: "2022-07-13T11:01:24.977390355Z"
+generated: "2022-07-13T11:17:50.207870559Z"
