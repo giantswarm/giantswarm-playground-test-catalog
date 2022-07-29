@@ -88,6 +88,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.4.2-e9630ad1caf797cb5996fbb6f348ef4e04ff9c4d.tgz
     version: 0.4.2-e9630ad1caf797cb5996fbb6f348ef4e04ff9c4d
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.4.2-24785df7df9511fbacf2dedab1943a0861af7fee.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.4.2-24785df7df9511fbacf2dedab1943a0861af7fee.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.4.2-24785df7df9511fbacf2dedab1943a0861af7fee
+    created: "2022-07-29T08:15:33.743658516Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 7767e04ff981bd8281a978559cc5082437b4f5cd6f8f42673dc5fa813151f29d
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.4.2-24785df7df9511fbacf2dedab1943a0861af7fee.tgz
+    version: 0.4.2-24785df7df9511fbacf2dedab1943a0861af7fee
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.4.1-b3e3028f59eca77aebbad4fa64ebed71f5e6f8af.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.4.1-b3e3028f59eca77aebbad4fa64ebed71f5e6f8af.tgz-meta/README.md
     apiVersion: v1
@@ -7932,4 +7952,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-a557b4f5c3cf0192bc4a80a074c4429d2f759c82.tgz
     version: 1.0.1-a557b4f5c3cf0192bc4a80a074c4429d2f759c82
-generated: "2022-07-29T08:12:51.335982968Z"
+generated: "2022-07-29T08:15:33.742821084Z"
