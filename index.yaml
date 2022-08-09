@@ -4342,6 +4342,20 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/gcp-compute-persistent-disk-csi-driver-0.0.0-0c20a19d08eb8ee905b5e5fc6f43608045966025.tgz
     version: 0.0.0-0c20a19d08eb8ee905b5e5fc6f43608045966025
+  goldpinger:
+  - annotations:
+      application.giantswarm.io/team: sa
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.0.0-b876c57fe1f7f6dfc34f3c4948f6beddbdb3e49d
+    created: "2022-08-09T08:57:22.621035574Z"
+    description: Tool to install network monitoring tool goldpinger.
+    digest: 59902cdc0bc6a465734d3b75424502f992174a8189cae003c0fb389e9ca9f7e5
+    home: https://github.com/giantswarm/goldpinger
+    name: goldpinger
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/goldpinger-0.0.0-b876c57fe1f7f6dfc34f3c4948f6beddbdb3e49d.tgz
+    version: 0.0.0-b876c57fe1f7f6dfc34f3c4948f6beddbdb3e49d
   harbor:
   - apiVersion: v1
     appVersion: 1.10.7
@@ -6400,4 +6414,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-08-08T15:54:11.404195463Z"
+generated: "2022-08-09T08:57:22.620622748Z"
