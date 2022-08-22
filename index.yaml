@@ -6274,6 +6274,36 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-ed7e5b9b6d0e93faef1fd36fe12a0638abffad12.tgz
     version: 0.1.0-ed7e5b9b6d0e93faef1fd36fe12a0638abffad12
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-bb62069c0af3c464b5eae3f1a5aa34516c37748e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-bb62069c0af3c464b5eae3f1a5aa34516c37748e.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-bb62069c0af3c464b5eae3f1a5aa34516c37748e.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2022-08-22T15:58:06.842300438Z"
+    description: A Helm chart for Kubernetes
+    digest: 4c19d3b578a6f001d62d35ea605cc7a78899221b133b2e5ef0ae4111fcbf5753
+    home: https://github.com/giantswarm/velero-app
+    icon: https://s.giantswarm.io/app-icons/velero/1/light.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-bb62069c0af3c464b5eae3f1a5aa34516c37748e.tgz
+    version: 0.1.0-bb62069c0af3c464b5eae3f1a5aa34516c37748e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3824caf7c5eca68eb0041cd42ace8418182fb7ad.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3824caf7c5eca68eb0041cd42ace8418182fb7ad.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -7130,4 +7160,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-08-22T15:57:58.664891247Z"
+generated: "2022-08-22T15:58:06.840845511Z"
