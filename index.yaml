@@ -174,6 +174,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.5.0-6acc3062df4f60b9c2ab1f75473469960e1d4273.tgz
     version: 0.5.0-6acc3062df4f60b9c2ab1f75473469960e1d4273
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.5.0-2f45c0b74b92b628a22ecf02d8a88388b296cb3b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.5.0-2f45c0b74b92b628a22ecf02d8a88388b296cb3b.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.5.0-2f45c0b74b92b628a22ecf02d8a88388b296cb3b
+    created: "2022-08-24T09:07:55.427461179Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 695892d2978ffc6fed46404434d938d0777852beebb238dda1931db904a2ccfb
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.5.0-2f45c0b74b92b628a22ecf02d8a88388b296cb3b.tgz
+    version: 0.5.0-2f45c0b74b92b628a22ecf02d8a88388b296cb3b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.5.0-0692c4f4d1b593c2e5d33c70e67daecf4f64588e.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.5.0-0692c4f4d1b593c2e5d33c70e67daecf4f64588e.tgz-meta/README.md
     apiVersion: v1
@@ -8261,4 +8281,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-08-24T08:37:43.815723304Z"
+generated: "2022-08-24T09:07:55.42605571Z"
