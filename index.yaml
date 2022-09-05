@@ -3054,6 +3054,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/macropower-analytics-panel-server-0.4.2-12fdacc91757d1c6c342c30c9dc68f21969bea0a.tgz
     version: 0.4.2-12fdacc91757d1c6c342c30c9dc68f21969bea0a
+  observability-pack:
+  - annotations:
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/team: atlas
+      branch: main
+    apiVersion: v2
+    created: "2022-09-05T16:29:55.965307366Z"
+    description: A Helm chart for Giant Swarm's collection of observability tools.
+    digest: cd11c1adbcca895b16e3fe5b094864e19ec66a599fae2ac1b6c979bf8d41e3f4
+    home: https://github.com/giantswarm/observability-pack
+    name: observability-pack
+    sources:
+    - https://github.com/giantswarm/observability-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/observability-pack-0.0.0-34552bbdae1958c4e33558456f382ddfc6ed35f2.tgz
+    version: 0.0.0-34552bbdae1958c4e33558456f382ddfc6ed35f2
   security-pack:
   - annotations:
       application.giantswarm.io/in-cluster-app: "true"
@@ -3789,4 +3805,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-09-05T15:43:02.350271891Z"
+generated: "2022-09-05T16:29:55.964764645Z"
