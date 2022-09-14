@@ -2432,6 +2432,26 @@ entries:
     version: 0.0.1-2a164a342a7ccdd251b318d4e81dddf1ad2ec80b
   gatling-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.1-5e6a8af83ae1334fff47ad29263ed85ab846f30b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.1-5e6a8af83ae1334fff47ad29263ed85ab846f30b.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.1-5e6a8af83ae1334fff47ad29263ed85ab846f30b.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.8.4
+    created: "2022-09-14T18:26:34.292480799Z"
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
+      Server-Sent-Events and JMS.
+    digest: f3c2a2a55ac48aefe780ebabc7e6cb403aed84f0008fbc062ef6983c74aa749f
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
+    name: gatling-app
+    sources:
+    - https://github.com/gatling/gatling
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.1-5e6a8af83ae1334fff47ad29263ed85ab846f30b.tgz
+    version: 2.0.1-5e6a8af83ae1334fff47ad29263ed85ab846f30b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.0-c731e5ddc316c31db96fd2c4b7be1d50a30b5f02.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.0-c731e5ddc316c31db96fd2c4b7be1d50a30b5f02.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -6723,4 +6743,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-09-14T18:15:22.974080965Z"
+generated: "2022-09-14T18:26:34.291738069Z"
