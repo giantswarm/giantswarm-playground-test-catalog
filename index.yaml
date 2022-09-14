@@ -5125,6 +5125,22 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/observability-pack-0.0.0-ae45ab37e0f78d79cb8c0db99ae6872a35a8b80b.tgz
     version: 0.0.0-ae45ab37e0f78d79cb8c0db99ae6872a35a8b80b
   - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/team: atlas
+      branch: main
+    apiVersion: v2
+    created: "2022-09-14T13:15:14.981263609Z"
+    description: A Helm chart for Giant Swarm's collection of observability tools.
+    digest: e874a52a926d72b3da94ecade66918e4a62b1a0dcb9ae3f0ae2eed1381e971b5
+    home: https://github.com/giantswarm/observability-pack
+    name: observability-pack
+    sources:
+    - https://github.com/giantswarm/observability-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/observability-pack-0.0.0-9f1496aa466dc81a8d1145c7faf1d6dcf4597e9e.tgz
+    version: 0.0.0-9f1496aa466dc81a8d1145c7faf1d6dcf4597e9e
+  - annotations:
       application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/team: atlas
       branch: main
@@ -6367,4 +6383,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-09-14T13:13:47.337068751Z"
+generated: "2022-09-14T13:15:14.980641357Z"
