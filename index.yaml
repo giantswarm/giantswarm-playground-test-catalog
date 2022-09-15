@@ -6684,6 +6684,36 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-53596dc0cfd8252c896a2671c646e5826429ee7d.tgz
     version: 0.1.0-53596dc0cfd8252c896a2671c646e5826429ee7d
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1af4b72fb8300d8e79edf1c2abdee7e8f5f6244f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1af4b72fb8300d8e79edf1c2abdee7e8f5f6244f.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1af4b72fb8300d8e79edf1c2abdee7e8f5f6244f.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2022-09-15T11:12:06.400339427Z"
+    description: A Helm chart for Kubernetes
+    digest: be6dec980680eff4687d500aade0f97628fbdec5a71834410398a380d58d0ed8
+    home: https://github.com/giantswarm/velero-app
+    icon: https://s.giantswarm.io/app-icons/velero/1/light.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1af4b72fb8300d8e79edf1c2abdee7e8f5f6244f.tgz
+    version: 0.1.0-1af4b72fb8300d8e79edf1c2abdee7e8f5f6244f
   vertical-pod-autoscaler-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -7061,4 +7091,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-09-15T11:12:00.622902797Z"
+generated: "2022-09-15T11:12:06.39771253Z"
