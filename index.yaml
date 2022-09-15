@@ -487,6 +487,25 @@ entries:
     version: 0.2.0-67c06da164e0a902ec145bf89586cb2c429cb6f1
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-c22679964ffa386215f66d3582bcb214e03eeb2f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-c22679964ffa386215f66d3582bcb214e03eeb2f.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2022-09-15T11:17:13.047356851Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 7c55a46dba7dd1088f7fcff88318fc5d2f3f0533e61ecf8da919c45a6d12e038
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-c22679964ffa386215f66d3582bcb214e03eeb2f.tgz
+    version: 0.12.0-c22679964ffa386215f66d3582bcb214e03eeb2f
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-b83cf99e7cf40fec7556999d85ef0a2c34a5415d.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-b83cf99e7cf40fec7556999d85ef0a2c34a5415d.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -7197,4 +7216,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-09-15T11:16:44.340534172Z"
+generated: "2022-09-15T11:17:13.045373291Z"
