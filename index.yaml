@@ -6183,6 +6183,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-7733254871ad7cd32b8394c6aa34b958e13b6f14.tgz
     version: 0.1.0-7733254871ad7cd32b8394c6aa34b958e13b6f14
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-06718d4ae15797a1f53ddf87798bf916b301405f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-06718d4ae15797a1f53ddf87798bf916b301405f.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-06718d4ae15797a1f53ddf87798bf916b301405f.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2022-09-23T09:50:03.549447899Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: 64db126376e6b81621349d686adc77fb83f977cdc3afab68e5a7f06f7c883d99
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/master/images/keda-logo-500x500-white.png
+    maintainers:
+    - email: ahmels@microsoft.com
+      name: Ahmed ElSayed
+    - email: kerkhove.tom@gmail.com
+      name: Tom Kerkhove
+    - email: zroubali@redhat.com
+      name: Zbynek Roubalik
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-06718d4ae15797a1f53ddf87798bf916b301405f.tgz
+    version: 0.1.0-06718d4ae15797a1f53ddf87798bf916b301405f
   loki-stack-app:
   - apiVersion: v1
     appVersion: v1.2.0
@@ -8883,4 +8908,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-09-23T09:49:36.889721163Z"
+generated: "2022-09-23T09:50:03.546584919Z"
