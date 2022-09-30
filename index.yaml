@@ -8144,6 +8144,24 @@ entries:
     version: 0.1.0-0bc96249a65496c22e42303ef9aab97d58c373b0
   security-pack:
   - annotations:
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-fe9be5d6b07827954b0bcb1ae34734eff4868eef.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-fe9be5d6b07827954b0bcb1ae34734eff4868eef.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-fe9be5d6b07827954b0bcb1ae34734eff4868eef.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-09-30T14:01:25.13531051Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 8cd5566f08ea2260cb86528886730a874d4aebb27419102d6b4fbf973226c1c4
+    home: https://github.com/giantswarm/security-pack
+    name: security-pack
+    sources:
+    - https://github.com/giantswarm/security-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-fe9be5d6b07827954b0bcb1ae34734eff4868eef.tgz
+    version: 0.8.0-fe9be5d6b07827954b0bcb1ae34734eff4868eef
+  - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-f51aba75a525e0ea5bdfc4c0b64d111d97f3190e.tgz-meta/main.yaml
@@ -11145,4 +11163,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004.tgz
     version: 1.0.1-3fe2eb6ee8e43593672e95659244ea15068b6004
-generated: "2022-09-30T13:19:13.886459935Z"
+generated: "2022-09-30T14:01:25.134642365Z"
