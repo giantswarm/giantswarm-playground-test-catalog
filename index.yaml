@@ -296,6 +296,26 @@ entries:
     version: 0.0.0-106212607fedf1d6cc3f2b5ada05ae8b3d9afeae
   alfred-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.1-eaba325a5ccdd48de8ba4b90659ce9801b586502.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.1-eaba325a5ccdd48de8ba4b90659ce9801b586502.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.6.1-eaba325a5ccdd48de8ba4b90659ce9801b586502
+    created: "2022-10-03T12:34:52.653674461Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 2f5b7837d59ad2b6593d4cf47ceb4061f653c6ff4a9d10006ebb33c1f594d1cd
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.1-eaba325a5ccdd48de8ba4b90659ce9801b586502.tgz
+    version: 0.6.1-eaba325a5ccdd48de8ba4b90659ce9801b586502
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.0-e2eaad7ec5a92999099b2d953207337fbbe7933a.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.0-e2eaad7ec5a92999099b2d953207337fbbe7933a.tgz-meta/README.md
     apiVersion: v1
@@ -7988,4 +8008,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-03T08:23:11.655000977Z"
+generated: "2022-10-03T12:34:52.652865482Z"
