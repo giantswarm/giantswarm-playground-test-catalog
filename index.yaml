@@ -1184,6 +1184,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/calico-0.2.1-23308192446fe44436f4a682cdfa4d6644b1ba98.tgz
     version: 0.2.1-23308192446fe44436f4a682cdfa4d6644b1ba98
+  crossplane:
+  - annotations:
+      application.giantswarm.io/team: sa
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.0-ad5ea8e9083e6dc115158b837d2aa6f2b14fdc29
+    created: "2022-10-05T12:01:17.424292632Z"
+    dependencies:
+    - name: crossplane
+      repository: https://charts.crossplane.io/stable/
+      version: 1.7.0
+    description: Tool to install crossplane in clusters.
+    digest: e00c86186376de9f3da6ceeb9cbed7d559241542b8e8444a13e0afbf75b32980
+    home: https://github.com/giantswarm/crossplane
+    name: crossplane
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-ad5ea8e9083e6dc115158b837d2aa6f2b14fdc29.tgz
+    version: 0.0.0-ad5ea8e9083e6dc115158b837d2aa6f2b14fdc29
   datadog:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.4.0-e2703afcd587f2d80529cf50013943dc116c20ad.tgz-meta/main.yaml
@@ -8275,4 +8293,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-05T08:32:47.250392238Z"
+generated: "2022-10-05T12:01:17.42227087Z"
