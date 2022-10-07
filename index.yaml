@@ -5827,6 +5827,30 @@ entries:
       application.giantswarm.io/team: atlas
     apiVersion: v2
     appVersion: 2.6.1
+    created: "2022-10-07T20:12:00.250428738Z"
+    dependencies:
+    - alias: loki-upstream
+      name: loki
+      repository: https://grafana.github.io/helm-charts
+      version: 3.0.7
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: 8f8330414a4ab26a401040e77158d0fdd8ba7deaaffc2ad541363f5fea7da862
+    home: https://github.com/giantswarm/loki-app
+    icon: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/loki-app
+    name: loki
+    sources:
+    - https://github.com/giantswarm/loki-app
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.4.3-dbf93152d38f6b4cf8df610392736e5bfb5fe04e.tgz
+    version: 0.4.3-dbf93152d38f6b4cf8df610392736e5bfb5fe04e
+  - annotations:
+      application.giantswarm.io/team: atlas
+    apiVersion: v2
+    appVersion: 2.6.1
     created: "2022-10-07T20:10:59.863072571Z"
     dependencies:
     - alias: loki-upstream
@@ -8965,4 +8989,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-07T20:10:59.851880587Z"
+generated: "2022-10-07T20:12:00.234425142Z"
