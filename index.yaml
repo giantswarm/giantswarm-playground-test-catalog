@@ -1532,6 +1532,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-ad5ea8e9083e6dc115158b837d2aa6f2b14fdc29.tgz
     version: 0.0.0-ad5ea8e9083e6dc115158b837d2aa6f2b14fdc29
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-ad4e5ce3e1e394743c675d8704b6dddc4822a59d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-ad4e5ce3e1e394743c675d8704b6dddc4822a59d.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-ad4e5ce3e1e394743c675d8704b6dddc4822a59d.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.9.1
+    created: "2022-10-10T13:28:11.095590683Z"
+    dependencies:
+    - name: crossplane
+      repository: ""
+      version: 1.9.1
+    description: Tool to install crossplane in clusters.
+    digest: 631e63bffe283807dc64154df6b5e2e1f6ee8272d0e2b26f53c3edfede5f3945
+    home: https://github.com/giantswarm/crossplane
+    name: crossplane
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-ad4e5ce3e1e394743c675d8704b6dddc4822a59d.tgz
+    version: 0.0.0-ad4e5ce3e1e394743c675d8704b6dddc4822a59d
+  - annotations:
       application.giantswarm.io/team: 'honeybadger '
       config.giantswarm.io/version: 1.x.x
     apiVersion: v2
@@ -10231,4 +10251,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-10T13:27:31.187087716Z"
+generated: "2022-10-10T13:28:11.092958656Z"
