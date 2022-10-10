@@ -1110,6 +1110,25 @@ entries:
     version: 0.2.0-12dd48f4a1be05be2de784cc76bb4a9a8203a09b
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-f862f850f3abbf855ee17cd2a998994d37ee758e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-f862f850f3abbf855ee17cd2a998994d37ee758e.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2022-10-10T10:08:37.148702854Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: abdac0737e14c416a2840f828e8e47e79748783b92baf0a0b1b3fe6d10aa8dc9
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-f862f850f3abbf855ee17cd2a998994d37ee758e.tgz
+    version: 0.12.0-f862f850f3abbf855ee17cd2a998994d37ee758e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-c22679964ffa386215f66d3582bcb214e03eeb2f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-c22679964ffa386215f66d3582bcb214e03eeb2f.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -9590,4 +9609,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-10T10:08:20.544760242Z"
+generated: "2022-10-10T10:08:37.147425891Z"
