@@ -1663,6 +1663,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-6f40d4ce3454b8f5d7ba6a4396f2d1d91d63489a.tgz
     version: 0.0.0-6f40d4ce3454b8f5d7ba6a4396f2d1d91d63489a
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-5d3da676a8a335ddf04655dc3a5b9ab33e7a36bf.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-5d3da676a8a335ddf04655dc3a5b9ab33e7a36bf.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-5d3da676a8a335ddf04655dc3a5b9ab33e7a36bf.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.9.1
+    created: "2022-10-10T13:34:21.092221002Z"
+    dependencies:
+    - name: crossplane
+      repository: ""
+      version: 1.9.1
+    description: Tool to install crossplane in clusters.
+    digest: 0095604b0558a7bfcfb97462483a62b49a3c105f5e6957edb6624430ab54e2f4
+    home: https://github.com/giantswarm/crossplane
+    name: crossplane
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-5d3da676a8a335ddf04655dc3a5b9ab33e7a36bf.tgz
+    version: 0.0.0-5d3da676a8a335ddf04655dc3a5b9ab33e7a36bf
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-53a1da24ec079b8160d9cb126bc660516e92bdf9.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/crossplane-0.0.0-53a1da24ec079b8160d9cb126bc660516e92bdf9.tgz-meta/README.md
       application.giantswarm.io/team: honeybadger
@@ -10271,4 +10291,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-10T13:30:44.964094272Z"
+generated: "2022-10-10T13:34:21.089292083Z"
