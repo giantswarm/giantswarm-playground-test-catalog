@@ -4,8 +4,7 @@ entries:
   - apiVersion: v2
     appVersion: 0.11.2
     created: "2022-09-23T09:57:17.365886093Z"
-    description: A Kubernetes controller that operates self-hosted runners for GitHub
-      Actions on your Kubernetes cluster.
+    description: A Kubernetes controller that operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
     digest: 379d3042a8653562f8c100e6c5ba926d673254dc603df1e098ec8e68918e07da
     home: https://github.com/giantswarm/actions-runner-controller-app
     name: actions-runner-controller
@@ -18,8 +17,7 @@ entries:
   - apiVersion: v2
     appVersion: 0.11.2
     created: "2022-09-05T08:19:54.340083445Z"
-    description: A Kubernetes controller that operates self-hosted runners for GitHub
-      Actions on your Kubernetes cluster.
+    description: A Kubernetes controller that operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
     digest: e052550769c6b2769732a4c87719555f9a8e66416a5cdfed9cc5252bb564d280
     home: https://github.com/giantswarm/actions-runner-controller-app
     name: actions-runner-controller
@@ -32,8 +30,7 @@ entries:
   - apiVersion: v2
     appVersion: 0.11.2
     created: "2022-10-10T13:24:50.271446688Z"
-    description: A Kubernetes controller that operates self-hosted runners for GitHub
-      Actions on your Kubernetes cluster.
+    description: A Kubernetes controller that operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
     digest: df2737b033f2e4f9188af6e9c349d86e6470b1e8752e63bd713859e5bde7eaa3
     home: https://github.com/giantswarm/actions-runner-controller-app
     name: actions-runner-controller
@@ -46,8 +43,7 @@ entries:
   - apiVersion: v2
     appVersion: 0.11.2
     created: "2022-09-15T11:19:46.666735282Z"
-    description: A Kubernetes controller that operates self-hosted runners for GitHub
-      Actions on your Kubernetes cluster.
+    description: A Kubernetes controller that operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
     digest: d46358704c8a51982c1e5322917a7355782d5dee7b69b5c129cd85434631ba63
     home: https://github.com/giantswarm/actions-runner-controller-app
     name: actions-runner-controller
@@ -60,8 +56,7 @@ entries:
   - apiVersion: v2
     appVersion: 0.11.2
     created: "2022-09-30T07:22:13.830119604Z"
-    description: A Kubernetes controller that operates self-hosted runners for GitHub
-      Actions on your Kubernetes cluster.
+    description: A Kubernetes controller that operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
     digest: 291b590285ca0ae4d6f43fe96601f85b6f99c0d23bf71f137501a4131f64579b
     home: https://github.com/giantswarm/actions-runner-controller-app
     name: actions-runner-controller
@@ -74,8 +69,7 @@ entries:
   - apiVersion: v2
     appVersion: 0.11.2
     created: "2022-10-10T10:12:04.548010088Z"
-    description: A Kubernetes controller that operates self-hosted runners for GitHub
-      Actions on your Kubernetes cluster.
+    description: A Kubernetes controller that operates self-hosted runners for GitHub Actions on your Kubernetes cluster.
     digest: cdfaeafab47e35b45bed8f6783cd3fbeffee05377c98841f5657439f93022d40
     home: https://github.com/giantswarm/actions-runner-controller-app
     name: actions-runner-controller
@@ -427,6 +421,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.3-cfb9d58dec4dd6a5a71003718065f7fccd6f0b23.tgz
     version: 0.6.3-cfb9d58dec4dd6a5a71003718065f7fccd6f0b23
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.3-c835594b21691be79cf4c5a207db6f26f39075ad.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.3-c835594b21691be79cf4c5a207db6f26f39075ad.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.6.3-c835594b21691be79cf4c5a207db6f26f39075ad
+    created: "2022-10-11T07:45:14.477899676Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: f19a71a1d026b6af21f1e34f88d198d95cb383594d9e25e335e2c534a2496270
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.3-c835594b21691be79cf4c5a207db6f26f39075ad.tgz
+    version: 0.6.3-c835594b21691be79cf4c5a207db6f26f39075ad
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.3-a94fd36e3480b01c65bbad8db01057d577159019.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.3-a94fd36e3480b01c65bbad8db01057d577159019.tgz-meta/README.md
@@ -1214,8 +1228,7 @@ entries:
     apiVersion: v1
     appVersion: 0.2.0-c9aa289c5831341179350877f7223138e1fd4cad
     created: "2022-10-10T10:09:19.051969117Z"
-    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems
-      when upgrading from 16.x to 17.x releases.
+    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems when upgrading from 16.x to 17.x releases.
     digest: e12d143f0fb205f1675622fd545eee31171580c64221592de78a1c99def1689d
     home: https://github.com/giantswarm/aws-iptables-legacy-cleaner
     name: aws-iptables-legacy-cleaner
@@ -1228,8 +1241,7 @@ entries:
     apiVersion: v1
     appVersion: 0.2.0-be54cccbd60f1e7115a7e26b2498b4dc4864c896
     created: "2022-09-30T07:18:27.378011573Z"
-    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems
-      when upgrading from 16.x to 17.x releases.
+    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems when upgrading from 16.x to 17.x releases.
     digest: 79c8dd28b66a16d526409732a9569d88a52c778cc0e2de595100a0d0770663ab
     home: https://github.com/giantswarm/aws-iptables-legacy-cleaner
     name: aws-iptables-legacy-cleaner
@@ -1242,8 +1254,7 @@ entries:
     apiVersion: v1
     appVersion: 0.2.0-6caa416169b608908af5e1a5a587d3a18845a200
     created: "2022-09-05T08:18:05.759983252Z"
-    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems
-      when upgrading from 16.x to 17.x releases.
+    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems when upgrading from 16.x to 17.x releases.
     digest: b0c27b84e320a953d98af15de2de72ffe1ac13ab652bb1334f2e7aed95589477
     home: https://github.com/giantswarm/aws-iptables-legacy-cleaner
     name: aws-iptables-legacy-cleaner
@@ -1256,8 +1267,7 @@ entries:
     apiVersion: v1
     appVersion: 0.2.0-2dae923cd314b7ae941b28a8fa1fd822e7437c98
     created: "2022-09-15T11:17:33.230693211Z"
-    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems
-      when upgrading from 16.x to 17.x releases.
+    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems when upgrading from 16.x to 17.x releases.
     digest: 4e310a47848643e68660a380682e18c10ad375f49b4c3afc5ddb7b100f41a5ae
     home: https://github.com/giantswarm/aws-iptables-legacy-cleaner
     name: aws-iptables-legacy-cleaner
@@ -1270,8 +1280,7 @@ entries:
     apiVersion: v1
     appVersion: 0.2.0-2116e778b100caf864af66c8259e99ad29480056
     created: "2022-10-10T13:20:46.313400653Z"
-    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems
-      when upgrading from 16.x to 17.x releases.
+    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems when upgrading from 16.x to 17.x releases.
     digest: ec73612cdbe57d25e2c5775e272fa6c7cc5287ca3fcd7b9b810cd3e7ef1f1262
     home: https://github.com/giantswarm/aws-iptables-legacy-cleaner
     name: aws-iptables-legacy-cleaner
@@ -1284,8 +1293,7 @@ entries:
     apiVersion: v1
     appVersion: 0.2.0-12dd48f4a1be05be2de784cc76bb4a9a8203a09b
     created: "2022-09-23T09:54:01.008989215Z"
-    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems
-      when upgrading from 16.x to 17.x releases.
+    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems when upgrading from 16.x to 17.x releases.
     digest: e40395e6171abe8a25fc6ce58911833238e854d208675202b83919ceb6e7af81
     home: https://github.com/giantswarm/aws-iptables-legacy-cleaner
     name: aws-iptables-legacy-cleaner
@@ -1307,8 +1315,7 @@ entries:
     icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
     name: azure-ad-pod-identity-app
     sources:
-    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
-      ]]/README.md
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-f862f850f3abbf855ee17cd2a998994d37ee758e.tgz
     version: 0.12.0-f862f850f3abbf855ee17cd2a998994d37ee758e
@@ -1326,8 +1333,7 @@ entries:
     icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
     name: azure-ad-pod-identity-app
     sources:
-    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
-      ]]/README.md
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-f1803e3ef41359840c191453c3c005ebc69a0431.tgz
     version: 0.12.0-f1803e3ef41359840c191453c3c005ebc69a0431
@@ -1345,8 +1351,7 @@ entries:
     icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
     name: azure-ad-pod-identity-app
     sources:
-    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
-      ]]/README.md
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-c22679964ffa386215f66d3582bcb214e03eeb2f.tgz
     version: 0.12.0-c22679964ffa386215f66d3582bcb214e03eeb2f
@@ -1364,8 +1369,7 @@ entries:
     icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
     name: azure-ad-pod-identity-app
     sources:
-    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
-      ]]/README.md
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-8db32ab6c9a8e701fe2fa2b5e8ee5e7deb45899b.tgz
     version: 0.12.0-8db32ab6c9a8e701fe2fa2b5e8ee5e7deb45899b
@@ -1383,8 +1387,7 @@ entries:
     icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
     name: azure-ad-pod-identity-app
     sources:
-    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
-      ]]/README.md
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-6b4bf0c024e21740d1cbe0616b3b53c50d624cda.tgz
     version: 0.12.0-6b4bf0c024e21740d1cbe0616b3b53c50d624cda
@@ -1402,8 +1405,7 @@ entries:
     icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
     name: azure-ad-pod-identity-app
     sources:
-    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
-      ]]/README.md
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version ]]/README.md
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.12.0-12e6392382bb2aae96283b70fa570680391f8d13.tgz
     version: 0.12.0-12e6392382bb2aae96283b70fa570680391f8d13
@@ -2153,8 +2155,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-28T16:07:16.056876661Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 6921b478a6839844a8f3540f55df1dfca31f219e5c76adc6d8327bb9a1e501e2
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2190,8 +2191,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-26T12:11:28.106398701Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 92152681f111be56a9c49a13412b3368e2adcb6dee46bca35659aace6cc32fe7
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2227,8 +2227,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-28T16:09:15.059030735Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 6f698fa641b1acd2faba53b46e700a002cf76f691a024e58912fdf71f9354deb
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2264,8 +2263,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-10-10T10:11:19.074297906Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 3bb71b071f003f2ad831e4d717e4ad8983d54294f6f180f672d944b7d59bb6a9
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2301,8 +2299,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-30T07:21:23.446691552Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 5f036234047841ef162b550f86a5701c1d37f5c621c7c9795d6f4e8ccb7344be
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2338,8 +2335,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-29T06:43:58.292138295Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: c4e46e73cdf81947af0b609373fcaef97c6ccae2929ec3b162ed226747365ca7
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2375,8 +2371,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-10-10T13:23:42.12363429Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 5c5a54c4672531c69700f35ec7919b1a1351be63345911e9181ee5b80449a0f6
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2412,8 +2407,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-26T12:01:15.027285762Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 8ac6ff8ae38f8ec58b5992d495b6582e357f23864b90383ef972c88443739db2
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2449,8 +2443,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-26T12:01:58.161030939Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 17431f08554038d51ff9b9c5c2efb4afee3b8b1519f73c7cd7f0ab85b0bf01c4
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2486,8 +2479,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-26T11:24:43.846205416Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: db810dfe9e1e0b719383d2a40b436e1f67c061f616e76c75352d283cfcfa544d
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2523,8 +2515,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-23T09:56:41.799761027Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: df84ce5d5f3abb2349c1490fbd3129e5f3563ed788e4e6878c4626149949db68
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2560,8 +2551,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-22T13:27:42.811716278Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: b18eccc9a8fefd8d01787c08283064b44538881161485d20477e84df5910a2ec
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2597,8 +2587,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-22T13:27:10.940874018Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: ee8525e96b2e323abb8113061801f3c8823d91c632e65403c8e623656dda97bd
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2634,8 +2623,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-22T12:53:30.157041878Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 8de2ab9129d4f9853d91cff42b99efdfc7d6a33c7c8d8fb5ada65a2321ef6661
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2671,8 +2659,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-22T12:54:15.674418301Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: ae01ee58771f73445cf9f6f5eb950da1dfa7c075d71516e1cdd01ca54acc9a42
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2708,8 +2695,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-15T11:19:23.312539812Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 5dd6b287c3c9522d725e7e5ac7bdb20baa3623c428ce332f20b30b1d0ba31c66
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2745,8 +2731,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-07T12:39:02.789396465Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 2ba989e5f79c253accb161858a01c19859c97b018a2b00c47c46b3f3c761dd57
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2782,8 +2767,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-22T12:41:33.442899397Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 8fbd2a78eb3c0efa1d2bad1443f8b45edb46214132f17dd722c59456836f9a24
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2819,8 +2803,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-06T12:19:03.701837127Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 5e0208f0b18a4c7e188a43547553785b032f975179f16d2cc251dba6efffb5c3
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2856,8 +2839,7 @@ entries:
     apiVersion: v2
     appVersion: v2.34.0
     created: "2022-09-22T11:16:34.423712347Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: f84cd6fe45aec06b792117a97d75638dfd8a00d4ecdc688defbf8fa2ab10efee
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2893,8 +2875,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-06T09:39:44.335668169Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: a9b946d1532ddc9eef02701ca7d6cc3c7303f46b4e174f4b2062641cb645195b
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2930,8 +2911,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-05T13:21:04.635914969Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 6af1afbb6c7867e158e47724501a844ce6becf36805ac780a8a97d2a0e845022
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -2967,8 +2947,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-06T12:18:35.828960208Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: e8b12746f6a4d9fe0f6df6b7e766d635323528f44d691a0166619502d50a50e7
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -3004,8 +2983,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-05T08:19:26.928779167Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: a82bada272df18e4a1785dc8af3c39ea727bbd4c82fafaf66878ea0e9da0e06c
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -3041,8 +3019,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-06T09:46:48.665459118Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 419da08f8295f8247f8c932d8583a711ecaf27b17e6689650259739a9920c304
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -3078,8 +3055,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-06T12:17:37.804400147Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: d569c928e3d3765665f128919e596929bcd0f40816a21b0f3ee82e152aeab2b3
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -3115,8 +3091,7 @@ entries:
     apiVersion: v2
     appVersion: v2.33.0
     created: "2022-09-06T12:16:47.344033494Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable connectors
     digest: 6d4ee183f9cdda9c9761cea24da6be87eb2ae51888d8e00c92d16a7ad6f008f2
     home: https://github.com/giantswarm/dex-app
     icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
@@ -3584,8 +3559,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-10-10T10:02:45.824714393Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 31cf4589020a7601dc8265384249a72062a52059469c79f468f46952b6148b44
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3604,8 +3578,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-10-10T10:02:17.391539817Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 4ae28436ea85b0c500cdc525dfdf299c8340af3029f0b060d6b870072d5b4487
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3624,8 +3597,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-15T06:33:41.657784272Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 2dd90485015f7870b6766a3a74b8f4d508f874d52513ef09ea97fe1e01cdc0a9
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3644,8 +3616,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-15T06:49:18.376596724Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 021d889e77f1f20665a3bb13602c86c22722d4eed552b07741a4955d36f22bcd
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3664,8 +3635,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-30T16:00:41.306828882Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 0e529fe5aadb07c9c1a50cea8b5439e6b2bca23c95017fecb5ae28ba2bc217d4
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3684,8 +3654,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-15T06:18:58.965944888Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 849e2f3ca457a38e448d112051147db4518ed3602c29e3055208cbf6beca52ae
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3704,8 +3673,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-15T06:51:06.109160817Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: c05439000783f98f0e4b3c12d8ad8814ec687f453116c8b31e76480c1fd3eb38
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3724,8 +3692,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-30T07:11:55.178215688Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 2a3ce46c3033f1a2e24b1a310144b0c874211d759f1888351e1aa90cfe04dc9a
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3744,8 +3711,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-30T15:56:24.131169025Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 2f2b12450b2f57f3554fb95d01ab3189eadd8bf8cbe71f2986f7ae5c5853a351
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3764,8 +3730,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-14T18:26:34.292480799Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: f3c2a2a55ac48aefe780ebabc7e6cb403aed84f0008fbc062ef6983c74aa749f
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3784,8 +3749,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-15T06:19:22.315628803Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 8120a92baa78e48ca0a46f84bc2ade7214113bd8da6907174ab6556d061e6a11
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3804,8 +3768,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-30T07:12:25.914899594Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: ec52bdaf179d77921737d6a887186463429e0b1ec4d90b21eb166bf6248592ed
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3824,8 +3787,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-30T15:56:40.890881796Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 8352a750c920db6bb5dbedee06ae537530a92c3a7bd44b30170837f0559642f7
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3844,8 +3806,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-30T07:11:30.021462461Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 07a527441aa0bfbf5c2f39ef8f1bf0c699e67ccf529adf2f7e5661a81e9d430e
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3864,8 +3825,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-14T18:11:45.786879617Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 047d43b46f0f502476e0aa0d05b546a87981e1211f71b80ed555838457b2626b
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3884,8 +3844,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:25:10.693959831Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: d353ba3eaf831fc723caa76c43e942af8a5c5155e124b73623325d7c37d87046
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3904,8 +3863,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-14T18:14:26.526255901Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: d79eeeb9353ab29a0a31470f773797e0dceb5504a19af63efcf5d8835c606ff8
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3924,8 +3882,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-14T18:10:03.350740755Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 0a9d01c9e74dccee6b94f237663e16509b427c04979719232b819ec0e9b02721
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3944,8 +3901,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-14T18:15:22.975226598Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: c2f3d21ce4f9a873b7c4f4c621af1d2601461d0c1294db38ff55d088a3b6ec81
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3964,8 +3920,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.4
     created: "2022-09-14T18:11:10.654881955Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 28a5a0337ea06a3c1e91a08bfd005842649ed29ed8261bc1461602e01aa5cb1a
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -3984,8 +3939,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:45:00.482723903Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: e073c285992ede5b0f18b8d0f2285ac39eca76608ab6376f427298becdf05f88
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4004,8 +3958,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T15:44:52.400123554Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 33324102d82d644aa9c18b6f23b682562a10efbd0391f1406ddaea5e5a1796d9
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4024,8 +3977,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T16:12:00.99249846Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 31263badf596f50cabbce239fb34c9c2e5684fb1a10b32b1e06d4049145d5f90
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4044,8 +3996,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T15:54:15.223847886Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 89bb0e5d54ea322ea21cf63bf49af2bfc325c25e7e65bacf8bc4dcd646fb718e
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4064,8 +4015,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:16:24.999953714Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 8aeb8a6d32b4e07b640a2977b671780f7ff3570f400896b6071b7ed99ba73896
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4084,8 +4034,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T15:43:37.017468731Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 37f42aab8ed1508ed5668d4f2854ac7c690069dd16126ca3f5523629faf3b743
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4104,8 +4053,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:08:25.046785022Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: e6d271adee52dfe216c7cfd1f49260118ebac117971f70380b057512ad08f3bd
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4124,8 +4072,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T16:20:08.590399545Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 4c768dec315acab1d0eeb9433232cd064f1cdbfa37e61655df7106c5756486bf
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4144,8 +4091,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:57:26.268885638Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: cedb1ef0f1533003dfd9dcabea73d33ce576339a339a247974f4e11510707a9e
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4164,8 +4110,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:22:02.389383386Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 4738e8f154af69d267c1556ddd6b593a4f89723dad86d0d059bf82b15986b1a0
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4184,8 +4129,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T13:09:52.811566945Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: de9623e68789c6f05bda98c04341312d7cd5d1dc9e15977d008f5d9a46cdb194
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4204,8 +4148,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T13:58:36.216290357Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 87da310b32bb4d7c74d60e71f4047da4fdef3bd18d4eba27552d05b1eb91a649
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4224,8 +4167,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:40:53.752855627Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: be1c4537fbc21249472fcbfae65f3ad2fde328d18d8e12be4dfd1ffb6eae3836
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4244,8 +4186,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T15:48:13.831929796Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: f8f677689b4d8473a90b2a2439de05e3ba765370590f4295c4956d40f992692b
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4264,8 +4205,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:24:39.20243334Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 02a294835bd907914df766554f4a68a43585ee39c98c4066bbdd8770cb3972fb
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4284,8 +4224,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T16:22:19.750880434Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: f3162a118763b030442c0b741aee9480b05813bc3392b3b63ce70f3fb346d812
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4304,8 +4243,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:23:49.843256239Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 752f7b5fd4225aa1bfc0ee9f03cdf28cbf8da9334f814266f4b56d4a476bc774
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4324,8 +4262,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T16:09:45.925144115Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: bbf4316358d0ebee3db29f289e2927bd427453b4c589003025fbbfc3b3d8184f
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4344,8 +4281,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T15:59:40.300408519Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 318fbd3fa7331c0267201dde0b88275fb12439fafc0d68369ccaf7944aea7987
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4364,8 +4300,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T13:07:41.760554783Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 087accaf84e2a0176f22c621483822744fe115498b554b1924c4770d3b59e46a
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4384,8 +4319,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:06:29.350049107Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: ea199c5d7f2fead0b132168fb83c154ca64bb227d703290fc1d7ddcefdf84e02
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4404,8 +4338,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:01:04.642083161Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 7e1122e2e05558b18e83317b8ea29663d4df9b038e3ff3981b66eca5ad23cd9f
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4424,8 +4357,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:13:27.052333101Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: d3399d39f0b5ef73662a09392265671559e7d38d3620616fe65194d7ec30d8a2
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4444,8 +4376,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T16:13:57.290221141Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: e5d00d0511a9156e103acd82b4b64e381e6709492b97cd58fc112dcf7244269c
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4464,8 +4395,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:31:49.977925561Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 43e68204882d9d010b4f1493aa2d2b8e0f95a07562e6c41e89993e306aac8176
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4484,8 +4414,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:47:32.855116612Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: b88f0d8063ee4f946c47216043255b62b9b07d4517f78b9109a572fa16ba3070
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4504,8 +4433,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:02:00.8735599Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 44258c5bf7a2b3458243f34cd38af7041f75524b609cbd127652eb3c19f55bec
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4524,8 +4452,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T15:44:27.948748314Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 45fd99854948fe065dd458ac3d901673c2179707ead3840e75edfb82c53137ae
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4544,8 +4471,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T14:22:28.47246756Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: cbdd526a48f1c1f8770f396d2be2a6557353b25750f965893586a0974fc0b4af
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4564,8 +4490,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T13:06:15.914421386Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 3b5097867d3d75914fa562e0b82ce618b1e2a99737ebe5938468adc93ebacb33
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4584,8 +4509,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:08:47.783127235Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: f95d3ceb8bac00a16fba8735d9db65f9abbecb64266f3e3b298122ea18b61566
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4604,8 +4528,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T12:57:20.469039155Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 46b4c23093ca1ea13ac3d3a32701124451bfadaca1317cafbcfce86b15365926
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4624,8 +4547,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T13:13:47.33789304Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 9d27deb8f5adfd81f1d5e497de43ac7c0bf8238e0ce29a7061737b9927244a7d
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4644,8 +4566,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-14T11:22:26.273555625Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: cfd95312df430b9bded15cdd79ba57bfbb9becc690c066ac570cba186e233c9e
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4664,8 +4585,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T14:37:13.975723046Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 4d45e13105481e9e6642ecb4ed25bc0ca5a4c6aa6b57e66f326d41d0c16bebc6
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4703,8 +4623,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T16:37:08.122999366Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 14f74da24c21ce2e502df6a12249497105bc08df66f6966ad83bc32dc82eafee
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -4723,8 +4642,7 @@ entries:
     apiVersion: v2
     appVersion: 3.8.3
     created: "2022-09-13T16:15:11.119884122Z"
-    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
-      Server-Sent-Events and JMS.
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket, Server-Sent-Events and JMS.
     digest: 20864afcbc68d9234839b55266b5f7d14b410d58088c49493ccc85db551269b5
     home: https://github.com/giantswarm/gatling-app
     icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
@@ -5195,8 +5113,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-09-09T07:35:13.180121711Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: b666e038a1de4ded19de78a481722e696e8476b9d39b7af37f364eb3f390022f
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5221,8 +5138,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-10-10T12:55:19.939786581Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: f98001de524c30b96b35d3e72580a5015f75b1d3e010092b5c51b8af0617a5e8
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5247,8 +5163,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.10.7
     created: "2022-09-05T08:12:52.277527683Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: 1b7f2c79b4a3dc3faa037d9b2c7c5c9bb62068d66b0d3942c44c615dcb4a5165
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/harbor/master/docs/img/harbor_logo.png
@@ -5271,8 +5186,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-10-10T10:05:17.250572046Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: 52a774624a1fa345b74e64df8ef16bbc2e725ef991d4b2e721432880edc2282c
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5297,8 +5211,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-09-21T13:09:32.350338763Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: 5be41dad03ec34446c739708ac4aaa81c39d981376af891eb70462646cd50961
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5323,8 +5236,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-09-30T07:14:56.864768544Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: 2ce7c7e78b01a6b21beb2da936cdf38047a8d665010779ad622e0624f61cb96a
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5349,8 +5261,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-10-05T07:49:36.6847374Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: 9c885010d45fe8c19d1b755e989545e5c0cd19b7ac6549787a03d21a48acaa28
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5375,8 +5286,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-10-10T13:16:53.62696684Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: 0c5a0b74d213fa845df94e5c3e1dae9b4f45aba71ace7995b5d8774791e3544c
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5401,8 +5311,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-09-15T11:13:48.382189149Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: 85c4c1262d53f573ca8044f2d31b8e9a969a87ed0e61d59a6499d6e971d4d291
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5427,8 +5336,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-10-11T07:29:58.418048108Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: a11c40616a2295f800a1449c510837535b44fed25da58947295fb70dea02cd55
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -5453,8 +5361,7 @@ entries:
   - apiVersion: v1
     appVersion: 1.10.7
     created: "2022-09-06T08:29:56.436149443Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: e4750a3ff9ca88e734039a91d692665c34a9876e0fd182b04328f1621b985793
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/harbor/master/docs/img/harbor_logo.png
@@ -5477,8 +5384,7 @@ entries:
   - apiVersion: v1
     appVersion: dev
     created: "2022-09-08T15:59:32.941665376Z"
-    description: An open source trusted cloud native registry that stores, signs,
-      and scans content
+    description: An open source trusted cloud native registry that stores, signs, and scans content
     digest: 68540fd6c982bfcb8a3a13fc70c2b01faaeec3da8a9d768a69168873a0d8d102
     home: https://goharbor.io
     icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
@@ -6443,8 +6349,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T11:13:06.382391283Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: e940f9af025bd065684ef4d276a87016c7fd8a05a87ccbdd3c59493eb07fb5d3
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6458,8 +6363,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T11:11:48.640713487Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: dd9952afdaee515688d86c111a29e6e8781f072f03363dbf2e9a6710560d4bff
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6473,8 +6377,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T08:45:32.350465305Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: b4bc00d5fc4ad320159f419356a28a0cd4f6e0d28c34ab6b4bf7596c3dcf9077
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6488,8 +6391,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T11:12:41.571276808Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: 56f9bbd1aa3b3ad580ec2428c8defd5fc0c8ab5e9e72e97481c5a6249ea9668d
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6503,8 +6405,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T11:10:48.904403266Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: 12bd7a653d35fc383b56a6870d407d0fb7ca0803c1383b176c512e241cab40e9
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6518,8 +6419,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T07:36:29.268892881Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: 1e4b5211c9bdf5946675a6234e6ad8645e044f31ca3a26aa1d6f1ec71f14be99
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6533,8 +6433,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T07:35:19.489598438Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: 9e2374bea9014963d2c41e403849d4709a0cdaa1241cedc74b4fe5a06233b2cc
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6548,8 +6447,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T07:36:07.378945151Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: dddce9b56a30d57887a79fa208981786d516a6d1a369629c29768a054d85ae93
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6563,8 +6461,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-06T15:15:27.355436324Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: b194d1888be7fcadbc33c54235e9dbd228476d74723ccb51347e7fe9e96139e9
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6578,8 +6475,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-06T13:08:59.959834139Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: 0add70677a103dc411e46103c571a3251a82104bb1034af0ea88401a7716b89e
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6593,8 +6489,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-06T13:08:58.670613444Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: f2927536deb6788ef1b9660dea3f958b7b0ef88a75411909492be94390542c26
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6608,8 +6503,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T08:43:45.114784434Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: f617f11a1b29d485aee329926c18fa2b6eac842eb4d85e43947da19ba0a2b26e
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6623,8 +6517,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-06T15:16:42.517219648Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: b3337c80349779dbc482d2b3fcd00032c6d8f9de43b10be67c5aebe8f57201ca
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -6638,8 +6531,7 @@ entries:
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2022-09-07T07:34:45.645128501Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
+    description: The k8s initiator runs in a master node and applies some configuration when the master is new.
     digest: 1eb71f520452af66f8be673fe134d84526c565b2d9d866248a2a5ab04b17e46c
     home: https://github.com/giantswarm/k8s-initiator-app
     icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
@@ -7878,8 +7770,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-fe9be5d6b07827954b0bcb1ae34734eff4868eef.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-30T14:01:25.13531051Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 8cd5566f08ea2260cb86528886730a874d4aebb27419102d6b4fbf973226c1c4
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -7897,8 +7788,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-f51aba75a525e0ea5bdfc4c0b64d111d97f3190e.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-29T11:47:15.214415946Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: e4fb0b6ebdb06a09f797584391eb39ddd660dbc81413c66d3bbe5285c4fc763e
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -7915,8 +7805,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-e830eb01fe1a9a24eac3c57cb65ced0b2b32e294.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-10-04T14:38:51.59193455Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 5c53281be96711bdd1bafede2cd30cb09ca1de2ae1e6cdd75d1eb52af2a39dfe
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -7934,8 +7823,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-bfe9390c241ebd607d1ae67213c2b43e745d0110.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-30T13:19:03.43562213Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 825173378c333f20ff436bf612208ee4dd36ef841206fe0ad0bf07b4c6688947
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -7952,8 +7840,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-b8f202b2543a1f1cef42a07000c971244e1bbb04.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-30T13:19:13.887091527Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: f4e47880a75f2770d2d91e122d248f3bc781485eadaa11b81eb80678fd2388b4
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -7970,8 +7857,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-add2dcfe074d69f5f9321de9f7e2bcdb0dfe7d38.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T19:01:35.35293114Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 816e694ffcd35e9c12c4cca7484e32eab0a04e0577d1b2f633d949ce19624ae6
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -7988,8 +7874,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-8c600989d89287cc428fdf998ccb5366a0627b46.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T19:21:02.623913322Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 6642857e69a6e64639c5c6a6fe7755649b8d18cdfb45c10fb9243620e026d3a2
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8006,8 +7891,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-638de60c783431ef1b522e1615dffe4a7110bf10.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T20:51:20.263412498Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 2febb6ae42fc669f067e53f84df0971489ffaf67ae4ebf802ecb15e74408850e
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8025,8 +7909,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-5053fe5d4705fc0041fe78226c660dfae114687c.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-10-10T13:26:48.734733219Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 481ab8e626390047389937c30d9f98af30d85fc57cb1459469a905bc0b57875e
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8043,8 +7926,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-2ec4f534670f397bb1b12018e05f668511ae9d6e.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-30T07:24:46.05946287Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 64b8f1b3a4ddb3bf06986ac87fd507913180408b8e0d3cf4256ba558be71a26b
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8061,8 +7943,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-2a2d2d54d8501aa63bbaf52c2a5f25eda2211bda.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T19:19:05.196400097Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: bac61e03fbbde75164c5809a47c96cc88f004f69ace4f5f1c86e98914973b02a
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8080,8 +7961,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-0fdad20699456491ad013ada19240ea163b59c17.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-10-10T10:13:59.013876514Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 4621110f923fef1449de1d5292028192d0d7ffe4766d1d7baa9c3648b8b89523
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8098,8 +7978,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-f9802ffdb19c684b99e2e246ee789b11dfd745c9.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T17:03:30.745514064Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: f0727f3eb4a37631fca8eb6f2e732983cf02cbef9c8ab26e45fb7b3b8eeccdef
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8116,8 +7995,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-dfda753dee3f60a697b3762dff9eccf366313ae0.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T14:32:16.365747759Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 782d186427525eda59ff9e7ee5c484123d719ac834439c89f942a5b6b1427bf0
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8134,8 +8012,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-dddfd9c9b234c5bbabf382ea3b78c7b7ef93aa87.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T12:02:57.308774738Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 91c68b14e2e5a3b88902328e2045184bea8060e1b6efac3087f4ecc907147f2c
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8152,8 +8029,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-c89e7b4ad123b48c2383514a0725cecf64b18ca2.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T12:53:11.548560545Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: cd8af1155dd09d0c69e531177d4f225c682a7dcce892b98cbc628c4d94392658
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8170,8 +8046,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-c87eeda635d1e031c0df897a9918425b2473912a.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-06T18:22:47.208881744Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 9bd2846b72e0fde73f100559f71cec98b6c770675e01e0ae0f969ebf728b59ec
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8188,8 +8063,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-add2dcfe074d69f5f9321de9f7e2bcdb0dfe7d38.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T17:22:59.368741704Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: bea68dcc1704bf4993efdc084badf6ca032c70429613b041e7e08cf31818293c
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8206,8 +8080,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-a780a1a45e2c12cd9b143906f48d98e5e3d2b5de.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T12:01:41.38538222Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: ded1c8fa7aad098106f7045922334ec473ce46bfd0b334a5fae0239ca18e2166
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8224,8 +8097,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-a145747cc85a347f75dcfc59f04983a42dca3ba3.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-15T11:21:46.766535288Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 750e14d637a4c9c245b47d786bf88caa411611859eae6ea10fc2ec785d137d65
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8242,8 +8114,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-a0854fdfa17c2d49014a43dfcebf3824571be31b.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T16:54:47.146405607Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 0fb2404f0110b95785f68a157d3756aa252779db8f33baf7d9f7f7927becd358
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8260,8 +8131,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-94e950f1e2454c7bd882c6802d490a8e911c9d3c.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-23T10:00:04.865212632Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: abdfbc9868553e7663292e6fd387b65a5e49501e125abcb2e7f76813b53c6148
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8278,8 +8148,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-90731470d64ab938d7ce84d3ad435d1515d9dedb.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T13:07:24.173652404Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: b38fdc993b6993aa2f0f74977ac72284fbe6f3a07e99d64aabcf183d40b82403
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8296,8 +8165,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-6fa9fabb7deea4ee05aed9c8e5a46328a71a61ed.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-20T01:09:17.371600563Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: b792285e1464d872a2de31d41972d0d5012eb8f1430adccd7ce360759db8b28a
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8314,8 +8182,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-6c0526651df4c12110ea85e070c5eb52e47b2178.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T17:03:51.716122498Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 0c35b16d1085126c6e607fe0b448a22e0a574118dee4db9689545a463a527427
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8332,8 +8199,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-6992259d410bfc0fc02f10f2238d679497cf625c.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-20T11:42:40.685306762Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 3defff46aa06ddb046397b68844886411dde78575a2ca6f5d1a2e6d12b4f76ee
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8350,8 +8216,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-61d25cb6b892111b6d24f9398f59e6ae6839eac8.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T14:37:22.455254091Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: ae95a742e06742ffa861614a262ad958e81330619ff2068807a8999ee2ac4aa8
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8368,8 +8233,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-585cd556f5a0c7d90f6f7ea1bb53ed8e72b70738.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T13:19:18.956441157Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: ef65144df0a5404c193a43c15bffed04d3d105fa3d8a84b0daffd3a49960b4b8
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8386,8 +8250,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-47a06fc71d2fff99eec987ae1d5419cea68b7d1f.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T15:43:44.824745869Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: f35f4118d3030224f23577beffce11dd14868dd262ddcddd6bd4172fa308ca38
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8404,8 +8267,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-33d801ef83e381ef555a492d79fe2bf9914e1bc9.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T12:21:33.624747044Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: e6447fe4937687162e253ed19b1eab180a103aeece652f4d67e7771afe06ccaf
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8422,8 +8284,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-2f0112f04b3e5ffa5de7559f6f48c6cdc4a30ab5.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T13:08:40.348965841Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 1d8a90d7c2252ea32428d8da470dbb784faf4f02e16a187538272eeb2991a5d0
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8440,8 +8301,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-2acf1abdb07f1c9d372374088cfcc2aaf7d94d18.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T17:23:49.162221032Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 3d9e489c7d3cd2b389a5b1690db0316cba86b2e09035c6a0299b6c2bfb767c43
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8458,8 +8318,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-22639a46466a329b203bdb344ab8b8cf32300a71.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-20T14:32:08.97526309Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 615e12bfea266e9df9f09adec451dad9cc18056df49f7dd63079a228c983e3f8
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8476,8 +8335,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-202defa11e9cda9ed1001a7af9900f35cbdcddf1.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-20T01:01:40.410786185Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 00cf63558cee361960a5b4309a3b427669ce454e5d600250e1932e3f58ca0ae8
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8494,8 +8352,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-0f032e39a3dc378c17fb089d6c9f91f730017306.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-27T19:01:07.254294801Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: a76c1a11c6abf66c1faa12cc30e3e2c0420fad9763a6731f18a4cbd5f138f375
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8512,8 +8369,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-060602f2414375ea46035bf35b2de3f039b29d71.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-20T11:45:30.195540789Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 1d40d54818f7965a28e5310e9c480694d4082f9d95c233b7aff5eb2146ffb98e
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8530,8 +8386,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-01831387885edc0f234933d7270e216200113058.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-20T11:42:01.205108151Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: cfcfc8591b16b8a5200e952facf36c475dca9f8385a5c4fed4e193e8a1b1ff16
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8548,8 +8403,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.6.0-c87eeda635d1e031c0df897a9918425b2473912a.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-06T17:49:23.347074138Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 88eef5a5a35959c44cd986a7a58bf142d857611f6ca7dc6309a9f0025862dcb9
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8566,8 +8420,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.6.0-acab46e062ffc2d1dec5c2ee8dacd5f67d525169.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-06T12:48:38.767136515Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 2b4dee2a0ae4bfc4bf70719f09b5567bfeef1a52c937f112ddbab178b3768dfb
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8584,8 +8437,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.6.0-92a65d91c5bc1a59e8430aa36d949898d5af4ff1.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-06T13:47:23.598171459Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: cbacaa8c0a0cf71c205212fe6b6db864973a97f60d989f65badbc896ef5cee87
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8602,8 +8454,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.6.0-8910d77595bba42de0cab2a427b564bc1c5010e2.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-05T08:21:49.293023174Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 95094b17c7691ddd1a1b5e5636a35aeca4f882dbf312701dc80a5d3dd647fb38
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8620,8 +8471,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.6.0-880c414c2498eb19b3263f09e28cbd2cf9d72619.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-06T17:29:44.773030684Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 6b83346e2c63e60a1eb885a8b8bb2e40934eb5f6f907335cd9328119fce3df7b
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8638,8 +8488,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.6.0-8597d6e418457fc3c3d050bb6482ab4553d8bda1.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-06T18:22:17.332118951Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 6d205de4603b6eee21ec7f00211c0865974401dd72a7188377587447af39e620
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8656,8 +8505,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.6.0-598ec4f8638b0806793dfe0529ead79bcbf37814.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-06T17:50:26.214102065Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: c0e38222c1b1a7ad1011f1bd0142eab3dc6c4ed3a36341d71178acd60dd12a05
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -8674,8 +8522,7 @@ entries:
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.6.0-4ff51793eb8032521ce1a2f64e54673a656305dc.tgz-meta/values.schema.json
     apiVersion: v2
     created: "2022-09-06T17:29:26.776582545Z"
-    description: A Helm chart for Giant Swarm's collection of open-source security
-      tools.
+    description: A Helm chart for Giant Swarm's collection of open-source security tools.
     digest: 0a4ae6a2914fc6dddd2a81a97785cb9a47ef2e95a852268a5bfda6f06dd28806
     home: https://github.com/giantswarm/security-pack
     name: security-pack
@@ -10465,4 +10312,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-11T07:44:24.412069183Z"
+generated: "2022-10-11T07:45:14.476537753Z"
