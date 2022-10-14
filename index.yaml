@@ -9200,6 +9200,24 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-2a2d2d54d8501aa63bbaf52c2a5f25eda2211bda.tgz
     version: 0.8.0-2a2d2d54d8501aa63bbaf52c2a5f25eda2211bda
   - annotations:
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-29fb6e31ee499c17a100242c117dd8f1d595caac.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-29fb6e31ee499c17a100242c117dd8f1d595caac.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-29fb6e31ee499c17a100242c117dd8f1d595caac.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-10-14T12:46:52.274929675Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 9070ebcba5ecec377615ac3b00fa037241bab5d04966637d824cd963f7b008b3
+    home: https://github.com/giantswarm/security-pack
+    name: security-pack
+    sources:
+    - https://github.com/giantswarm/security-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-29fb6e31ee499c17a100242c117dd8f1d595caac.tgz
+    version: 0.8.0-29fb6e31ee499c17a100242c117dd8f1d595caac
+  - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-0fdad20699456491ad013ada19240ea163b59c17.tgz-meta/main.yaml
@@ -11593,4 +11611,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-14T09:28:20.879804892Z"
+generated: "2022-10-14T12:46:52.274282672Z"
