@@ -10349,6 +10349,25 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-09782689771e5f4f308c459742260031eb81a543.tgz
     version: 0.8.0-09782689771e5f4f308c459742260031eb81a543
   - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-026e56da00a6d86fc85fab7541b2fc9a3047da07.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-026e56da00a6d86fc85fab7541b2fc9a3047da07.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-026e56da00a6d86fc85fab7541b2fc9a3047da07.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2022-10-25T19:15:27.394234669Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 38a097446b9eeacbf37cd47da5c7ee530998a06d5691a650321270a9844cc55e
+    home: https://github.com/giantswarm/security-pack
+    name: security-pack
+    sources:
+    - https://github.com/giantswarm/security-pack
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.8.0-026e56da00a6d86fc85fab7541b2fc9a3047da07.tgz
+    version: 0.8.0-026e56da00a6d86fc85fab7541b2fc9a3047da07
+  - annotations:
       application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-f9802ffdb19c684b99e2e246ee789b11dfd745c9.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-pack-0.7.0-f9802ffdb19c684b99e2e246ee789b11dfd745c9.tgz-meta/README.md
@@ -12723,4 +12742,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0.tgz
     version: 1.0.1-415687680d971c81d148137cb7a6e24ad464ffe0
-generated: "2022-10-25T19:14:54.372191191Z"
+generated: "2022-10-25T19:15:27.393567556Z"
