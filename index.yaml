@@ -342,6 +342,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.4-bf0d178d1e7a8ac5c9b7a6ab201d1bd538f9c63e.tgz
     version: 0.6.4-bf0d178d1e7a8ac5c9b7a6ab201d1bd538f9c63e
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.4-8eca018b97fc8fe72fc5b9c27877ec449e641118.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.4-8eca018b97fc8fe72fc5b9c27877ec449e641118.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.6.4-8eca018b97fc8fe72fc5b9c27877ec449e641118
+    created: "2022-10-31T13:11:21.967274888Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 283a9444823c8acc72c347c75a42ca32abcd5c4de716b97d06c87e6cf520a958
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.4-8eca018b97fc8fe72fc5b9c27877ec449e641118.tgz
+    version: 0.6.4-8eca018b97fc8fe72fc5b9c27877ec449e641118
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.4-7dbc9162ab80f081ccce99db67e3374f3bc7b1ea.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.6.4-7dbc9162ab80f081ccce99db67e3374f3bc7b1ea.tgz-meta/README.md
     apiVersion: v1
@@ -12911,4 +12931,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-06241088c9b09729b9297ca17612115d5758e0bd.tgz
     version: 1.0.1-06241088c9b09729b9297ca17612115d5758e0bd
-generated: "2022-10-31T13:10:37.279174153Z"
+generated: "2022-10-31T13:11:21.966243944Z"
