@@ -29,6 +29,26 @@ entries:
     version: 0.1.0-29f4ef091f2c4e4ca8e89d2012a46926b1704e01
   alfred-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.0-f8c19365699f7e200029813ba4d7604ade1233ab.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.0-f8c19365699f7e200029813ba4d7604ade1233ab.tgz-meta/README.md
+    apiVersion: v1
+    appVersion: 0.7.0-f8c19365699f7e200029813ba4d7604ade1233ab
+    created: "2022-11-07T09:42:59.849516103Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: c2143fbece40922ebe8f682faeca46ce5d2676d6de52e5f5c7fa2f7d00adce1c
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.0-f8c19365699f7e200029813ba4d7604ade1233ab.tgz
+    version: 0.7.0-f8c19365699f7e200029813ba4d7604ade1233ab
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.0-e25e6f6e1e67a4450a9674ff486846387f48c177.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.0-e25e6f6e1e67a4450a9674ff486846387f48c177.tgz-meta/README.md
     apiVersion: v1
@@ -6232,4 +6252,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-06241088c9b09729b9297ca17612115d5758e0bd.tgz
     version: 1.0.1-06241088c9b09729b9297ca17612115d5758e0bd
-generated: "2022-11-07T09:42:23.314412099Z"
+generated: "2022-11-07T09:42:59.848570974Z"
