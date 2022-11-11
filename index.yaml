@@ -4432,6 +4432,38 @@ entries:
     version: 0.0.0-a90e4d5b29c6071733af3f73d757ae424df6bef1
   - apiVersion: v2
     appVersion: 0.0.0-dev
+    created: "2022-11-11T15:47:42.662876324Z"
+    dependencies:
+    - condition: minio-operator.enabled
+      name: operator
+      repository: file://charts/operator
+      tags:
+      - storage
+      version: 4.4.28
+    - condition: redis-operator.enabled
+      name: redis-operator
+      repository: file://charts/redis-operator
+      tags:
+      - cache
+      version: 3.1.4
+    - condition: postgres-operator.enabled
+      name: postgres-operator
+      repository: file://charts/postgres-operator
+      tags:
+      - database
+      version: 1.6.3
+    description: Deploy Harbor Operator
+    digest: 91d89b37b21725e7a344ed070de16769808b34c0497a644c2e6f89e2c5cb034d
+    home: https://github.com/goharbor/harbor-operator
+    icon: https://branding.cncf.io/img/projects/harbor/icon/color/harbor-icon-color.svg
+    kubeVersion: '>= 1.16.0-0'
+    name: harbor-operator-test
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/harbor-operator-test-0.0.0-66bd687a9713a0ef9f3383554979e294d835039b.tgz
+    version: 0.0.0-66bd687a9713a0ef9f3383554979e294d835039b
+  - apiVersion: v2
+    appVersion: 0.0.0-dev
     created: "2022-10-28T12:15:24.368063639Z"
     dependencies:
     - condition: minio-operator.enabled
@@ -7685,4 +7717,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-06241088c9b09729b9297ca17612115d5758e0bd.tgz
     version: 1.0.1-06241088c9b09729b9297ca17612115d5758e0bd
-generated: "2022-11-11T10:35:42.650930799Z"
+generated: "2022-11-11T15:47:42.642462991Z"
