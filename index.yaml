@@ -4960,6 +4960,29 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/inlets-operator-app-0.2.1-01ec2b114a2c0ac75762fdeb422cb5f01759345b.tgz
     version: 0.2.1-01ec2b114a2c0ac75762fdeb422cb5f01759345b
+  jaeger-operator-app:
+  - apiVersion: v1
+    appVersion: 1.21.2
+    created: "2022-11-15T18:01:19.779014489Z"
+    description: jaeger-operator Helm chart for Kubernetes
+    digest: 1b8fb23220735c12af168c2d3b8e7d8cf1832c11d84403d7e8df31e19f3be376
+    home: https://github.com/jaegertracing/jaeger-operator
+    icon: https://s.giantswarm.io/app-icons/1/png/jaeger-operator-app-light.png
+    maintainers:
+    - email: hello@giantswarm.io
+      name: Giantswarm Team
+    - email: ctadeu@gmail.com
+      name: cpanato
+    - email: batazor111@gmail.com
+      name: batazor
+    name: jaeger-operator-app
+    sources:
+    - https://github.com/jaegertracing/jaeger-operator
+    - https://github.com/giantswarm/jaeger-operator-app
+    - https://raw.githubusercontent.com/giantswarm/jaeger-operator-app/v0.2.3-6f794e447342e29298000c1fd3abb717214b7061/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/jaeger-operator-app-0.2.3-6f794e447342e29298000c1fd3abb717214b7061.tgz
+    version: 0.2.3-6f794e447342e29298000c1fd3abb717214b7061
   jiralert:
   - annotations:
       application.giantswarm.io/team: shield
@@ -8336,4 +8359,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-06241088c9b09729b9297ca17612115d5758e0bd.tgz
     version: 1.0.1-06241088c9b09729b9297ca17612115d5758e0bd
-generated: "2022-11-15T15:08:48.388058601Z"
+generated: "2022-11-15T18:01:19.778119969Z"
