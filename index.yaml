@@ -4059,6 +4059,26 @@ entries:
     version: 0.0.1-04ebc74cee251d73785443d6cae4a752bbe865d9
   gatling-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-c78e02dc15d40a13462101381d8efd2f1865cc93.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-c78e02dc15d40a13462101381d8efd2f1865cc93.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-c78e02dc15d40a13462101381d8efd2f1865cc93.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.8.4
+    created: "2022-11-22T10:59:49.296475859Z"
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
+      Server-Sent-Events and JMS.
+    digest: 97ce2d689f217868cb34b248cf78bed7f368179e22e6c08155aa5afc6a272053
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
+    name: gatling-app
+    sources:
+    - https://github.com/gatling/gatling
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-c78e02dc15d40a13462101381d8efd2f1865cc93.tgz
+    version: 2.0.2-c78e02dc15d40a13462101381d8efd2f1865cc93
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-9dabcf7288fc8f3d88e2f3bdcf574f2856bf8dde.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-9dabcf7288fc8f3d88e2f3bdcf574f2856bf8dde.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -9071,4 +9091,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-06241088c9b09729b9297ca17612115d5758e0bd.tgz
     version: 1.0.1-06241088c9b09729b9297ca17612115d5758e0bd
-generated: "2022-11-22T10:59:42.386433197Z"
+generated: "2022-11-22T10:59:49.295773715Z"
