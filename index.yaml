@@ -6768,6 +6768,33 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-4ab3b1ce976effa6a31438e1fd4559bc4055b2d9.tgz
     version: 0.5.1-4ab3b1ce976effa6a31438e1fd4559bc4055b2d9
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-3a5acf6d1e620ff9ced956cc4b9f6fa435bfc3da.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-3a5acf6d1e620ff9ced956cc4b9f6fa435bfc3da.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-3a5acf6d1e620ff9ced956cc4b9f6fa435bfc3da.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+    apiVersion: v2
+    appVersion: 2.6.1
+    created: "2022-11-25T15:19:50.73367584Z"
+    dependencies:
+    - name: loki
+      repository: https://grafana.github.io/helm-charts
+      version: 3.2.1
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: dda6fec4df78ac6f3e52864261d91ab89f40a3c41465f2f4fdbdd5bdf06c6442
+    home: https://github.com/giantswarm/loki-app
+    icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: loki
+    sources:
+    - https://github.com/giantswarm/loki-app
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-3a5acf6d1e620ff9ced956cc4b9f6fa435bfc3da.tgz
+    version: 0.5.1-3a5acf6d1e620ff9ced956cc4b9f6fa435bfc3da
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-2a6112e29fd35d46884eafe1b2b67c2e13d1d84e.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-2a6112e29fd35d46884eafe1b2b67c2e13d1d84e.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -10271,4 +10298,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-06241088c9b09729b9297ca17612115d5758e0bd.tgz
     version: 1.0.1-06241088c9b09729b9297ca17612115d5758e0bd
-generated: "2022-11-25T15:08:43.968634304Z"
+generated: "2022-11-25T15:19:50.711987277Z"
