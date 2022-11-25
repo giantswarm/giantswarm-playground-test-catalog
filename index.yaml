@@ -6582,6 +6582,33 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-6cf0061d9f953fa7c3cb44263ef99bc8d7142f9f.tgz
     version: 0.5.1-6cf0061d9f953fa7c3cb44263ef99bc8d7142f9f
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-6a2327327c32370855173109b20987f8a1fcd149.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-6a2327327c32370855173109b20987f8a1fcd149.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-6a2327327c32370855173109b20987f8a1fcd149.tgz-meta/values.schema.json
+      ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
+    apiVersion: v2
+    appVersion: 2.6.1
+    created: "2022-11-25T14:06:27.171014519Z"
+    dependencies:
+    - name: loki
+      repository: https://grafana.github.io/helm-charts
+      version: 3.2.1
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: 3bb3aae497c68ee60c6c064cf3d4186dcf71440c415598a501a909c042f869b1
+    home: https://github.com/giantswarm/loki-app
+    icon: https://s.giantswarm.io/app-icons/loki-stack/1/dark.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: loki
+    sources:
+    - https://github.com/giantswarm/loki-app
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/loki-0.5.1-6a2327327c32370855173109b20987f8a1fcd149.tgz
+    version: 0.5.1-6a2327327c32370855173109b20987f8a1fcd149
+  - annotations:
       application.giantswarm.io/team: atlas
       ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/grafana-loki/2/dark.svg
     apiVersion: v2
@@ -10190,4 +10217,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-06241088c9b09729b9297ca17612115d5758e0bd.tgz
     version: 1.0.1-06241088c9b09729b9297ca17612115d5758e0bd
-generated: "2022-11-25T13:43:33.407923545Z"
+generated: "2022-11-25T14:06:27.155736492Z"
