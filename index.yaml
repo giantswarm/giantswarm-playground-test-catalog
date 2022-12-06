@@ -6083,6 +6083,27 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.5-097591762c20716760dd0fa69684bdf3c79099c2.tgz
     version: 0.1.5-097591762c20716760dd0fa69684bdf3c79099c2
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.5-027594b25b3988176e44eb8d7e17b64330fc8fb4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.5-027594b25b3988176e44eb8d7e17b64330fc8fb4.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.5-027594b25b3988176e44eb8d7e17b64330fc8fb4.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.40.5
+    created: "2022-12-06T10:29:17.365671695Z"
+    dependencies:
+    - name: prometheus-agent
+      repository: ""
+      version: v0.1.0
+    description: A Helm chart for Prometheus agent.
+    digest: 2769831e8c88761540a96f310f8f387de36584abeaa7153258bed46eefc87bcf
+    home: https://github.com/giantswarm/prometheus-agent-app
+    name: prometheus-agent
+    sources:
+    - https://github.com/giantswarm/prometheus-agent-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.5-027594b25b3988176e44eb8d7e17b64330fc8fb4.tgz
+    version: 0.1.5-027594b25b3988176e44eb8d7e17b64330fc8fb4
+  - annotations:
       application.giantswarm.io/team: atlas
     apiVersion: v2
     appVersion: v2.39.1
@@ -7625,4 +7646,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-a9c5ce4898d8cd34101d707ed08a5a91f3aa6d59.tgz
     version: 1.0.1-a9c5ce4898d8cd34101d707ed08a5a91f3aa6d59
-generated: "2022-12-05T21:31:23.099866809Z"
+generated: "2022-12-06T10:29:17.364147746Z"
