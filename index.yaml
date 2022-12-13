@@ -4607,6 +4607,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/esrally-app-0.0.0-04e6be739a54a8ee7a3930c2b50e71e5ba70f828.tgz
     version: 0.0.0-04e6be739a54a8ee7a3930c2b50e71e5ba70f828
+  external-secrets:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-secrets-0.0.0-c6e7c39dfe78770e824ae5d822f739d9187ad83e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-secrets-0.0.0-c6e7c39dfe78770e824ae5d822f739d9187ad83e.tgz-meta/README.md
+      application.giantswarm.io/team: honeybadger
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/external-secrets-0.0.0-c6e7c39dfe78770e824ae5d822f739d9187ad83e.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v0.7.0
+    created: "2022-12-13T14:17:58.998737349Z"
+    description: Tool to install external-secrets in clusters.
+    digest: bcc8092dc2970706aaec6e21ad2e09c8c6b256f7ecade015bc6de2bd3727b10e
+    home: https://github.com/giantswarm/external-secrets
+    name: external-secrets
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/external-secrets-0.0.0-c6e7c39dfe78770e824ae5d822f739d9187ad83e.tgz
+    version: 0.0.0-c6e7c39dfe78770e824ae5d822f739d9187ad83e
   flamethrower:
   - apiVersion: v1
     appVersion: 0.11.0
@@ -9450,4 +9467,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-a9c5ce4898d8cd34101d707ed08a5a91f3aa6d59.tgz
     version: 1.0.1-a9c5ce4898d8cd34101d707ed08a5a91f3aa6d59
-generated: "2022-12-13T08:53:51.542746307Z"
+generated: "2022-12-13T14:17:58.99549997Z"
