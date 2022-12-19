@@ -10020,6 +10020,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.1.2-005bcebfbc3eb3fd5e597d7edddb0e29e6e8e210.tgz
     version: 0.1.2-005bcebfbc3eb3fd5e597d7edddb0e29e6e8e210
+  teleport-agent:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/teleport-agent-0.0.0-9a80dd3abc8ec64e86391a919b1c05142039b36f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/teleport-agent-0.0.0-9a80dd3abc8ec64e86391a919b1c05142039b36f.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/teleport-agent-0.0.0-9a80dd3abc8ec64e86391a919b1c05142039b36f.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-12-19T09:42:11.372871506Z"
+    description: Please add description
+    digest: 274fa13edb6dec00203c69a251469a4370c4423a78708338e8695e82cdc39aca
+    home: https://github.com/giantswarm/teleport-agent
+    name: teleport-agent
+    sources:
+    - https://github.com/some-org/some-repo
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/teleport-agent-0.0.0-9a80dd3abc8ec64e86391a919b1c05142039b36f.tgz
+    version: 0.0.0-9a80dd3abc8ec64e86391a919b1c05142039b36f
   vault-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -11219,4 +11237,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-693b2a70bd9c352090c5f0f01572c71445711ea5.tgz
     version: 1.0.1-693b2a70bd9c352090c5f0f01572c71445711ea5
-generated: "2022-12-19T09:36:11.600349575Z"
+generated: "2022-12-19T09:42:11.371653666Z"
