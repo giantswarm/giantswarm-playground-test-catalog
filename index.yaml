@@ -362,6 +362,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-a58fed3b3df8b645e1d1327db670cb737dd37df4.tgz
     version: 0.7.2-a58fed3b3df8b645e1d1327db670cb737dd37df4
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-9ffe39901b49eac881cbca738f8ad0233788952c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-9ffe39901b49eac881cbca738f8ad0233788952c.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.com/giantswarm-playground-test-catalog/alfred-app-0.7.2.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.7.2-9ffe39901b49eac881cbca738f8ad0233788952c
+    created: "2023-01-05T20:24:07.963305564Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: f280280bffe53062e4fed61679958a06a2151343055d98674ffd704020f55b6b
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-9ffe39901b49eac881cbca738f8ad0233788952c.tgz
+    version: 0.7.2-9ffe39901b49eac881cbca738f8ad0233788952c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-97d14c08d069c646951ffb195bd074cba08996d0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-97d14c08d069c646951ffb195bd074cba08996d0.tgz-meta/README.md
     apiVersion: v1
@@ -6019,4 +6041,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-693b2a70bd9c352090c5f0f01572c71445711ea5.tgz
     version: 1.0.1-693b2a70bd9c352090c5f0f01572c71445711ea5
-generated: "2023-01-05T13:56:48.201130139Z"
+generated: "2023-01-05T20:24:07.96221196Z"
