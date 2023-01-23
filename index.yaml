@@ -535,6 +535,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-245570cc61cbe72823ee55eb3384dc5bb6489882.tgz
     version: 0.7.2-245570cc61cbe72823ee55eb3384dc5bb6489882
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-094b4d1169c7104124e71a0f3fb60d73e9fb3186.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-094b4d1169c7104124e71a0f3fb60d73e9fb3186.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.com/giantswarm-playground-test-catalog/alfred-app-0.7.2.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.7.2-094b4d1169c7104124e71a0f3fb60d73e9fb3186
+    created: "2023-01-23T13:13:31.409813418Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: ebb4701287e7c813c874d050b370af66a951be32f377b08b00e09045183ab204
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.7.2-094b4d1169c7104124e71a0f3fb60d73e9fb3186.tgz
+    version: 0.7.2-094b4d1169c7104124e71a0f3fb60d73e9fb3186
   aws-efs-csi-driver:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -8419,4 +8441,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-2df7d9d470dd7d68024175e6c93cc71f2b3626f4.tgz
     version: 1.0.1-2df7d9d470dd7d68024175e6c93cc71f2b3626f4
-generated: "2023-01-23T13:11:37.335337848Z"
+generated: "2023-01-23T13:13:31.408174711Z"
