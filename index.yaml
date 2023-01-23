@@ -6237,6 +6237,27 @@ entries:
     version: 0.4.3-67b20a3d2cbb70eb5662c528e36ce122a79f4092
   prometheus-agent:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-ec5677f62a5edb3e601989dd0804cc3a76866eb0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-ec5677f62a5edb3e601989dd0804cc3a76866eb0.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-ec5677f62a5edb3e601989dd0804cc3a76866eb0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.40.5
+    created: "2023-01-23T13:04:34.364929584Z"
+    dependencies:
+    - name: prometheus-agent
+      repository: ""
+      version: v0.1.0
+    description: A Helm chart for Prometheus agent.
+    digest: f2e8ebdb57892e3b00e776cbcc5e27f42126452d5716531c6531849faaa2f689
+    home: https://github.com/giantswarm/prometheus-agent-app
+    name: prometheus-agent
+    sources:
+    - https://github.com/giantswarm/prometheus-agent-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-ec5677f62a5edb3e601989dd0804cc3a76866eb0.tgz
+    version: 0.1.7-ec5677f62a5edb3e601989dd0804cc3a76866eb0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-ab87409c60cd81e8cff319b7ae0349ca39858c67.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-ab87409c60cd81e8cff319b7ae0349ca39858c67.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -8163,4 +8184,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-2df7d9d470dd7d68024175e6c93cc71f2b3626f4.tgz
     version: 1.0.1-2df7d9d470dd7d68024175e6c93cc71f2b3626f4
-generated: "2023-01-23T13:03:48.933539583Z"
+generated: "2023-01-23T13:04:34.363954638Z"
