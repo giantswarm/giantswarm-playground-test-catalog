@@ -6936,6 +6936,27 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-06afb72090beb7bff3773702de3f8975b33a0b37.tgz
     version: 0.1.7-06afb72090beb7bff3773702de3f8975b33a0b37
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-06390e1ea11fc430da1656e9f5f7350b69dd072f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-06390e1ea11fc430da1656e9f5f7350b69dd072f.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-06390e1ea11fc430da1656e9f5f7350b69dd072f.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.40.5
+    created: "2023-01-24T13:28:04.622591544Z"
+    dependencies:
+    - name: prometheus-agent
+      repository: ""
+      version: v0.1.0
+    description: A Helm chart for Prometheus agent.
+    digest: f8770338d20a86ddea6d56af453f64c8c74b3fdaa7c8ff3e886a169c2601ed9a
+    home: https://github.com/giantswarm/prometheus-agent-app
+    name: prometheus-agent
+    sources:
+    - https://github.com/giantswarm/prometheus-agent-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-06390e1ea11fc430da1656e9f5f7350b69dd072f.tgz
+    version: 0.1.7-06390e1ea11fc430da1656e9f5f7350b69dd072f
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.6.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.6.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -8995,4 +9016,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-2df7d9d470dd7d68024175e6c93cc71f2b3626f4.tgz
     version: 1.0.1-2df7d9d470dd7d68024175e6c93cc71f2b3626f4
-generated: "2023-01-24T13:26:28.374350636Z"
+generated: "2023-01-24T13:28:04.621091173Z"
