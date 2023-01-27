@@ -7461,6 +7461,27 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-d493b33e2485389d3866152a7878b01ca9a4c632.tgz
     version: 0.1.7-d493b33e2485389d3866152a7878b01ca9a4c632
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-cf8b1813fb0bb28c306afb4f95241d4333dea313.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-cf8b1813fb0bb28c306afb4f95241d4333dea313.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-cf8b1813fb0bb28c306afb4f95241d4333dea313.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.40.5
+    created: "2023-01-27T18:07:05.212312259Z"
+    dependencies:
+    - name: prometheus-agent
+      repository: ""
+      version: v0.1.0
+    description: A Helm chart for Prometheus agent.
+    digest: 79781c56254fb7f073cd02d9f3932171b7f80933a44cc621f0ae96223ab3d9ed
+    home: https://github.com/giantswarm/prometheus-agent-app
+    name: prometheus-agent
+    sources:
+    - https://github.com/giantswarm/prometheus-agent-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-cf8b1813fb0bb28c306afb4f95241d4333dea313.tgz
+    version: 0.1.7-cf8b1813fb0bb28c306afb4f95241d4333dea313
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-ab87409c60cd81e8cff319b7ae0349ca39858c67.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-ab87409c60cd81e8cff319b7ae0349ca39858c67.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -10082,4 +10103,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-2648be8c2f5027b87a8911eb03920e8e338cf489.tgz
     version: 1.0.1-2648be8c2f5027b87a8911eb03920e8e338cf489
-generated: "2023-01-27T18:01:55.516455835Z"
+generated: "2023-01-27T18:07:05.210892016Z"
