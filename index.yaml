@@ -4599,6 +4599,20 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-15bdee4cc114ed5d20ad62485cd020aba43cc7c5.tgz
     version: 2.0.2-15bdee4cc114ed5d20ad62485cd020aba43cc7c5
+  goldpinger:
+  - annotations:
+      application.giantswarm.io/team: sa
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 3.5.1-dead25473e1f79fd3ce4048be57e3606a848a188
+    created: "2023-01-27T10:15:19.192592039Z"
+    description: Tool to install network monitoring tool goldpinger.
+    digest: 74cf237dd3f83885a05244afb7a25d0342cb9bdcaf81ad36d3a9e39235ac10dd
+    home: https://github.com/giantswarm/goldpinger
+    name: goldpinger
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/goldpinger-3.5.1-dead25473e1f79fd3ce4048be57e3606a848a188.tgz
+    version: 3.5.1-dead25473e1f79fd3ce4048be57e3606a848a188
   harbor:
   - apiVersion: v1
     appVersion: dev
@@ -9874,4 +9888,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-2648be8c2f5027b87a8911eb03920e8e338cf489.tgz
     version: 1.0.1-2648be8c2f5027b87a8911eb03920e8e338cf489
-generated: "2023-01-26T19:53:33.482159306Z"
+generated: "2023-01-27T10:15:19.192089786Z"
