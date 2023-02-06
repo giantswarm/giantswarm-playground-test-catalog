@@ -3438,6 +3438,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubernetes-gpu-app-440.82.03-01b5ca8c3237a799bc6970b26caff5c1758a7b93.tgz
     version: 440.82.03-01b5ca8c3237a799bc6970b26caff5c1758a7b93
+  linkerd-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-ad332b2ec5cb4263e8099d827fa560d02659c8eb.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-ad332b2ec5cb4263e8099d827fa560d02659c8eb.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-ad332b2ec5cb4263e8099d827fa560d02659c8eb.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: stable-2.12.2
+    created: "2023-02-06T09:22:04.831078831Z"
+    description: 'Linkerd gives you observability, reliability, and security for your
+      microservices — with no code change required. '
+    digest: c8449c4afc720751b164427f435e0c26d631de578b06626650372439cf53fb1b
+    home: https://github.com/giantswarm/linkerd-bundle
+    icon: https://s.giantswarm.io/app-icons/linkerd2/1/light.svg
+    name: linkerd-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-ad332b2ec5cb4263e8099d827fa560d02659c8eb.tgz
+    version: 0.0.0-ad332b2ec5cb4263e8099d827fa560d02659c8eb
   macropower-analytics-panel-server:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -5482,4 +5501,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-2648be8c2f5027b87a8911eb03920e8e338cf489.tgz
     version: 1.0.1-2648be8c2f5027b87a8911eb03920e8e338cf489
-generated: "2023-02-06T08:39:16.172012947Z"
+generated: "2023-02-06T09:22:04.830534158Z"
