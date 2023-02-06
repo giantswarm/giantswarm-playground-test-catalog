@@ -3460,6 +3460,24 @@ entries:
   linkerd-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-b8f5e8a2c10175d095867fbedc95277c9ef7c5bf.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-b8f5e8a2c10175d095867fbedc95277c9ef7c5bf.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-b8f5e8a2c10175d095867fbedc95277c9ef7c5bf.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: stable-2.12.2
+    created: "2023-02-06T14:37:44.384144791Z"
+    description: 'Linkerd gives you observability, reliability, and security for your
+      microservices — with no code change required. '
+    digest: 95dd186a800e3eaa798ce611f5572546499065032f29ec37649c3b2402ef2f7c
+    home: https://github.com/giantswarm/linkerd-bundle
+    icon: https://s.giantswarm.io/app-icons/linkerd2/1/light.svg
+    name: linkerd-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-b8f5e8a2c10175d095867fbedc95277c9ef7c5bf.tgz
+    version: 0.0.0-b8f5e8a2c10175d095867fbedc95277c9ef7c5bf
+  - annotations:
+      application.giantswarm.io/app-type: bundle
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-ad332b2ec5cb4263e8099d827fa560d02659c8eb.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.0.0-ad332b2ec5cb4263e8099d827fa560d02659c8eb.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -5520,4 +5538,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-2648be8c2f5027b87a8911eb03920e8e338cf489.tgz
     version: 1.0.1-2648be8c2f5027b87a8911eb03920e8e338cf489
-generated: "2023-02-06T12:15:41.520609306Z"
+generated: "2023-02-06T14:37:44.383622834Z"
