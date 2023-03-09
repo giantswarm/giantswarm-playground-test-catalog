@@ -3587,6 +3587,24 @@ entries:
   linkerd-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: stable-2.12.2
+    created: "2023-03-09T09:26:37.898917769Z"
+    description: 'Linkerd gives you observability, reliability, and security for your
+      microservices — with no code change required. '
+    digest: fc96caff9deeb0c83f063fbea4650b324dfedfa78d10545261bf763fe5c1a507
+    home: https://github.com/giantswarm/linkerd-bundle
+    icon: https://s.giantswarm.io/app-icons/linkerd2/1/light.svg
+    name: linkerd-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      application.giantswarm.io/app-type: bundle
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.2.0-f5eba3c85f1dda02b0e0394373a84ef4ca210b5a.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/linkerd-bundle-0.2.0-f5eba3c85f1dda02b0e0394373a84ef4ca210b5a.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -8536,4 +8554,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-03-09T09:21:44.368542492Z"
+generated: "2023-03-09T09:26:37.898202961Z"
