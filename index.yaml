@@ -5673,6 +5673,27 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.1.7-5366c19cbd0bec757c30b1ef8c8eb967469d097f.tgz
     version: 0.1.7-5366c19cbd0bec757c30b1ef8c8eb967469d097f
+  security-bundle:
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-bundle-0.12.0-80323fefea6f3bf81a52cd121b79b4f455b4f45d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-bundle-0.12.0-80323fefea6f3bf81a52cd121b79b4f455b4f45d.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/security-bundle-0.12.0-80323fefea6f3bf81a52cd121b79b4f455b4f45d.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-03-13T19:57:29.007867437Z"
+    description: A Helm chart for Giant Swarm's collection of open-source security
+      tools.
+    digest: 8c350304859f8db9960753973f451fb24b4156c5a92748530519466c65103250
+    home: https://github.com/giantswarm/security-bundle
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: security-bundle
+    sources:
+    - https://github.com/giantswarm/security-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/security-bundle-0.12.0-80323fefea6f3bf81a52cd121b79b4f455b4f45d.tgz
+    version: 0.12.0-80323fefea6f3bf81a52cd121b79b4f455b4f45d
   security-pack:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -9148,4 +9169,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-03-13T19:28:53.713357583Z"
+generated: "2023-03-13T19:57:29.006773765Z"
