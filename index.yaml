@@ -2810,6 +2810,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-8518f6c95d147571611f8e6402f1962fd9c7aa7f.tgz
     version: 2.0.2-8518f6c95d147571611f8e6402f1962fd9c7aa7f
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-46528a107bb97fd6257d3b24e01755eb50480bb9.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-46528a107bb97fd6257d3b24e01755eb50480bb9.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-46528a107bb97fd6257d3b24e01755eb50480bb9.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.8.4
+    created: "2023-03-15T12:38:09.712065545Z"
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
+      Server-Sent-Events and JMS.
+    digest: c1c271bf2cec84c390e41dd0b04431c19bc656e57f982c9163ceb237c74be522
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
+    name: gatling-app
+    sources:
+    - https://github.com/gatling/gatling
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-46528a107bb97fd6257d3b24e01755eb50480bb9.tgz
+    version: 2.0.2-46528a107bb97fd6257d3b24e01755eb50480bb9
   gitops-server:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gitops-server-0.0.0-fa3f46ddb08362c5c83bfb156356a1326fb5d1f8.tgz-meta/main.yaml
@@ -9770,4 +9790,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-03-15T12:38:08.514940184Z"
+generated: "2023-03-15T12:38:09.710867619Z"
