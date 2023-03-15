@@ -3285,6 +3285,25 @@ entries:
     version: 0.0.0-4559a1e2ecb5526f6876203c7f2273a73615ca28
   - apiVersion: v2
     appVersion: 0.0.0-dev
+    created: "2023-03-15T13:15:20.062082164Z"
+    dependencies:
+    - name: harbor-operator
+      repository: ""
+      version: 0.1.0
+    description: A helm chart for Harbor Operator
+    digest: 8e9d4a0aceff17151706d1d9017fb164de1984cc11102ed234b9020f4f146438
+    home: https://github.com/giantswarm/harbor-operator-app
+    icon: https://branding.cncf.io/img/projects/harbor/icon/color/harbor-icon-color.svg
+    kubeVersion: '>= 1.16.0-0'
+    name: harbor-operator-app
+    sources:
+    - https://github.com/giantswarm/harbor-operator-app
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/harbor-operator-app-0.0.0-37ec6886ce3855089aa6499d802176770a6e3b1c.tgz
+    version: 0.0.0-37ec6886ce3855089aa6499d802176770a6e3b1c
+  - apiVersion: v2
+    appVersion: 0.0.0-dev
     created: "2023-02-22T08:09:12.521082725Z"
     dependencies:
     - name: harbor-operator
@@ -9836,4 +9855,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-03-15T13:15:04.429223341Z"
+generated: "2023-03-15T13:15:20.039465088Z"
