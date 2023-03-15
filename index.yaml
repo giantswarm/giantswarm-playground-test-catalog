@@ -2750,6 +2750,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.2-8518f6c95d147571611f8e6402f1962fd9c7aa7f.tgz
     version: 2.0.2-8518f6c95d147571611f8e6402f1962fd9c7aa7f
+  gitops-server:
+  - annotations:
+      application.giantswarm.io/team: honeybadger
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: v0.18.0
+    created: "2023-03-15T10:12:34.186715385Z"
+    description: Weave Gitops is a set of tools and services to aid your interactions
+      with Flux
+    digest: aced532a994395f13fcc9610d32cf76d59b68e1c0c0892122b77b45a0211c7e8
+    home: https://github.com/giantswarm/gitops-server-app
+    name: gitops-server
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gitops-server-0.0.0-9df29bef230229930db98caa0f018c4adbf739cb.tgz
+    version: 0.0.0-9df29bef230229930db98caa0f018c4adbf739cb
   goldpinger:
   - annotations:
       application.giantswarm.io/team: sa
@@ -9454,4 +9470,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-03-15T08:16:18.001247821Z"
+generated: "2023-03-15T10:12:34.185652234Z"
