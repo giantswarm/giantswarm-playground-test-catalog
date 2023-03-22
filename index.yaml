@@ -6898,6 +6898,27 @@ entries:
     version: 0.4.4-010907e8453436be8580372b7af68e8cc436d861
   prometheus-agent:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.2.0-d0d2f3e7449b9845b965acb81e61baf8ec8a0f82.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.2.0-d0d2f3e7449b9845b965acb81e61baf8ec8a0f82.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.2.0-d0d2f3e7449b9845b965acb81e61baf8ec8a0f82.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v2.41.0
+    created: "2023-03-22T09:09:37.807637339Z"
+    dependencies:
+    - name: prometheus-agent
+      repository: ""
+      version: v0.1.0
+    description: A Helm chart for Prometheus agent.
+    digest: 24722feea6519893365461d529b5a3478bfa8cb3108ef4ec7e002bbe87b95a62
+    home: https://github.com/giantswarm/prometheus-agent-app
+    name: prometheus-agent
+    sources:
+    - https://github.com/giantswarm/prometheus-agent-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.2.0-d0d2f3e7449b9845b965acb81e61baf8ec8a0f82.tgz
+    version: 0.2.0-d0d2f3e7449b9845b965acb81e61baf8ec8a0f82
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.2.0-a6f6c2ad7783519ada88835c5cab2ca4bc88aa92.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/prometheus-agent-0.2.0-a6f6c2ad7783519ada88835c5cab2ca4bc88aa92.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -11737,4 +11758,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-03-22T09:01:40.968298072Z"
+generated: "2023-03-22T09:09:37.80662708Z"
