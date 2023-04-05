@@ -2244,6 +2244,43 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.34.0-c71610bb5bfb1cf2a14cd427c7a0e3cd17077a04.tgz
     version: 1.34.0-c71610bb5bfb1cf2a14cd427c7a0e3cd17077a04
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.34.0-bca1c48aece91fedb9b0057babf34dbc1b1e178f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.34.0-bca1c48aece91fedb9b0057babf34dbc1b1e178f.tgz-meta/README.md
+      application.giantswarm.io/team: team-rainbow
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.34.0-bca1c48aece91fedb9b0057babf34dbc1b1e178f.tgz-meta/values.schema.json
+      config.giantswarm.io/version: remove-github-connector
+    apiVersion: v2
+    appVersion: 1.34.0-bca1c48aece91fedb9b0057babf34dbc1b1e178f
+    created: "2023-04-05T12:31:10.837790664Z"
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    digest: 78ab6e49127c211738e58c00fc19cff1d138148f7dddeceb8bfede90c416b7a1
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/1/light.svg
+    keywords:
+    - authentication
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.34.0-bca1c48aece91fedb9b0057babf34dbc1b1e178f.tgz
+    version: 1.34.0-bca1c48aece91fedb9b0057babf34dbc1b1e178f
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.34.0-a688789395d29740f1dc2da69eba789703df979b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.34.0-a688789395d29740f1dc2da69eba789703df979b.tgz-meta/README.md
       application.giantswarm.io/team: team-rainbow
@@ -9306,4 +9343,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-04-04T10:09:11.857018653Z"
+generated: "2023-04-05T12:31:10.836610298Z"
