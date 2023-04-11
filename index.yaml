@@ -1992,6 +1992,31 @@ entries:
     version: 0.2.1-3354ff255808903ac52b092c729dddeaa41bb000
   datadog:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-f744f6c6336c04139ff10c954c90a4ced5de1f4d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-f744f6c6336c04139ff10c954c90a4ced5de1f4d.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-f744f6c6336c04139ff10c954c90a4ced5de1f4d.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: "7"
+    created: "2023-04-11T18:13:18.467507566Z"
+    description: Datadog Agent
+    digest: 1866e2d8c58d1a85fa772b1420d16b107d2a68a56c00363f7531843b20be02e8
+    home: https://www.datadoghq.com
+    icon: https://s.giantswarm.io/app-icons/datadog/1/light.svg
+    keywords:
+    - monitoring
+    - alerting
+    - metric
+    maintainers:
+    - email: support@datadoghq.com
+      name: Datadog
+    name: datadog
+    sources:
+    - https://app.datadoghq.com/account/settings#agent/kubernetes
+    - https://github.com/DataDog/datadog-agent
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-f744f6c6336c04139ff10c954c90a4ced5de1f4d.tgz
+    version: 2.5.0-f744f6c6336c04139ff10c954c90a4ced5de1f4d
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-f6dfa6f1d42608019c5cd5a7fed70cb4b5506b6a.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-f6dfa6f1d42608019c5cd5a7fed70cb4b5506b6a.tgz-meta/README.md
     apiVersion: v1
@@ -9548,4 +9573,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-04-11T17:57:00.698283419Z"
+generated: "2023-04-11T18:13:18.459305265Z"
