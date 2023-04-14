@@ -2311,6 +2311,38 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-a8e7f1f7f7ef92d60850d39a75c1fce0c46bc5a7.tgz
     version: 2.5.0-a8e7f1f7f7ef92d60850d39a75c1fce0c46bc5a7
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-877cb7a7104fba56b0ac363b9b25cb70a5c1257d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-877cb7a7104fba56b0ac363b9b25cb70a5c1257d.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-877cb7a7104fba56b0ac363b9b25cb70a5c1257d.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.25.3
+    created: "2023-04-14T11:57:23.670808953Z"
+    dependencies:
+    - name: datadog
+      repository: https://helm.datadoghq.com
+      version: 3.25.3
+    description: Datadog Agent
+    digest: f8a340c7ffde3db442d69d86f0eedad4ba656dd827946ed2c2608a0c2de66a02
+    home: https://github.com/giantswarm/loki-app
+    icon: https://s.giantswarm.io/app-icons/datadog/1/light.svg
+    keywords:
+    - monitoring
+    - alerting
+    - metric
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: datadog
+    sources:
+    - https://github.com/giantswarm/datadog-app
+    - https://app.datadoghq.com/account/settings#agent/kubernetes
+    - https://github.com/DataDog/datadog-agent
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-877cb7a7104fba56b0ac363b9b25cb70a5c1257d.tgz
+    version: 2.5.0-877cb7a7104fba56b0ac363b9b25cb70a5c1257d
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-6d7f5ac8b04289251b56e6d18e40cbb184817f9e.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-6d7f5ac8b04289251b56e6d18e40cbb184817f9e.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/datadog-2.5.0-6d7f5ac8b04289251b56e6d18e40cbb184817f9e.tgz-meta/values.schema.json
@@ -10757,4 +10789,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-04-14T10:43:44.013720957Z"
+generated: "2023-04-14T11:57:23.660773012Z"
