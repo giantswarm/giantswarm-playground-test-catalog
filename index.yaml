@@ -5600,6 +5600,21 @@ entries:
     version: 0.1.0-558fefd0519bc4cbee4e4e1745d1ce618d81539e
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.3.0-ded6049628fda63b6c786203e3428d9e4071640b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.3.0-ded6049628fda63b6c786203e3428d9e4071640b.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.3.0-ded6049628fda63b6c786203e3428d9e4071640b.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-04-19T14:09:29.722769809Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: e88f863044a973cded59b7b861a02c8f1386e16c7c95ac0edf50e2c1fb733a85
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.3.0-ded6049628fda63b6c786203e3428d9e4071640b.tgz
+    version: 0.3.0-ded6049628fda63b6c786203e3428d9e4071640b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.3.0-b9c23d6d07e2bafb845cf8d98af0ae43d7541662.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.3.0-b9c23d6d07e2bafb845cf8d98af0ae43d7541662.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.3.0-b9c23d6d07e2bafb845cf8d98af0ae43d7541662.tgz-meta/values.schema.json
@@ -11277,4 +11292,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b.tgz
     version: 1.0.1-3862f35c0471277053cedef5f9d8fcc9c50b355b
-generated: "2023-04-19T14:05:33.959102025Z"
+generated: "2023-04-19T14:09:29.722186624Z"
