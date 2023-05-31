@@ -3147,6 +3147,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3.tgz
     version: 2.0.3
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-f6f536bcbc6e5c996536a9891165e36bfd3631ca.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-f6f536bcbc6e5c996536a9891165e36bfd3631ca.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-f6f536bcbc6e5c996536a9891165e36bfd3631ca.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.8.4
+    created: "2023-05-31T10:36:09.895954426Z"
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
+      Server-Sent-Events and JMS.
+    digest: 67a4be970596dc9eb8677b4bd94655a4cc59b441ea71cae2c4e0cbd9dd590403
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
+    name: gatling-app
+    sources:
+    - https://github.com/gatling/gatling
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-f6f536bcbc6e5c996536a9891165e36bfd3631ca.tgz
+    version: 2.0.3-f6f536bcbc6e5c996536a9891165e36bfd3631ca
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-dece056dcafe24251766e84dcaf67af0d71d6e2b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-dece056dcafe24251766e84dcaf67af0d71d6e2b.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -7125,4 +7145,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-0e067e6bd5dc6ab8a541d189fac3e3502dfc215f.tgz
     version: 2.0.1-0e067e6bd5dc6ab8a541d189fac3e3502dfc215f
-generated: "2023-05-31T10:35:02.783989243Z"
+generated: "2023-05-31T10:36:09.895182586Z"
