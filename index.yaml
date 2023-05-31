@@ -4296,6 +4296,31 @@ entries:
     version: 0.5.3-1219f0912c1534cd9cefc2bd915d043276f4a509
   keda:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-f98a62261ae9f73d5ef91ee40993485021b0dd2b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-f98a62261ae9f73d5ef91ee40993485021b0dd2b.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-f98a62261ae9f73d5ef91ee40993485021b0dd2b.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2023-05-31T08:55:16.804987677Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: 41bfbf134a7e40f029a904bdfbd0b0d12811eb145471483a17f3ac1a58e6f2fc
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/master/images/keda-logo-500x500-white.png
+    maintainers:
+    - email: ahmels@microsoft.com
+      name: Ahmed ElSayed
+    - email: kerkhove.tom@gmail.com
+      name: Tom Kerkhove
+    - email: zroubali@redhat.com
+      name: Zbynek Roubalik
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-f98a62261ae9f73d5ef91ee40993485021b0dd2b.tgz
+    version: 0.1.0-f98a62261ae9f73d5ef91ee40993485021b0dd2b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-f91883cd02eaa6f8a6fe5e7986531179d87def07.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-f91883cd02eaa6f8a6fe5e7986531179d87def07.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -6932,4 +6957,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-0e067e6bd5dc6ab8a541d189fac3e3502dfc215f.tgz
     version: 2.0.1-0e067e6bd5dc6ab8a541d189fac3e3502dfc215f
-generated: "2023-05-31T08:55:08.496104031Z"
+generated: "2023-05-31T08:55:16.80020706Z"
