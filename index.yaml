@@ -693,6 +693,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/aws-efs-csi-driver-0.7.1-67cadd44226b255fee72444fefd451a6127e943a.tgz
     version: 0.7.1-67cadd44226b255fee72444fefd451a6127e943a
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 1.4.5
+    created: "2023-06-01T10:57:52.404526318Z"
+    description: A Helm chart for AWS EFS CSI Driver
+    digest: 999e433c79518d58e8593735e3a5d6564f8c2b2ea1fb63ef0acb3c688c5f523a
+    home: https://github.com/giantswarm/aws-efs-csi-driver
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    kubeVersion: '>=1.17.0-0'
+    name: aws-efs-csi-driver
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/aws-efs-csi-driver/v0.7.1-58913030d928bde76bb50579c17caa9f93279044/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/aws-efs-csi-driver-0.7.1-58913030d928bde76bb50579c17caa9f93279044.tgz
+    version: 0.7.1-58913030d928bde76bb50579c17caa9f93279044
   aws-iptables-legacy-cleaner:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -4238,4 +4254,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-1707b8254b180134b96da3cb109b6508e947988c.tgz
     version: 2.0.1-1707b8254b180134b96da3cb109b6508e947988c
-generated: "2023-06-01T10:54:53.302106075Z"
+generated: "2023-06-01T10:57:52.403644728Z"
