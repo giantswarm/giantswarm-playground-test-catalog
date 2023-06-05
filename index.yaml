@@ -845,6 +845,25 @@ entries:
     version: 0.2.0-690d7a9f27bac1a33d90e5323e1d45636f77da59
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.14.0-f09a19805ea411b5f58c2d34234abad5aab3768e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.14.0-f09a19805ea411b5f58c2d34234abad5aab3768e.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2023-06-05T13:57:47.146305136Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: f3c0c6ca55984ee97f72db32d7747d63e85b10675078ce1be684bb9dcbf93d86
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.14.0-f09a19805ea411b5f58c2d34234abad5aab3768e.tgz
+    version: 0.14.0-f09a19805ea411b5f58c2d34234abad5aab3768e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.14.0-d625d0f9979125cc2c171eb440b087d3f3bb82f8.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.14.0-d625d0f9979125cc2c171eb440b087d3f3bb82f8.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -4786,4 +4805,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-1707b8254b180134b96da3cb109b6508e947988c.tgz
     version: 2.0.1-1707b8254b180134b96da3cb109b6508e947988c
-generated: "2023-06-05T11:45:07.764443588Z"
+generated: "2023-06-05T13:57:47.144244133Z"
