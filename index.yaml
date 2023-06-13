@@ -157,6 +157,28 @@ entries:
     version: 0.1.0-0f8c554acfa83055d7f4220754d1caa669dd622d
   ailefroide-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.2.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.2.0.tgz-meta/README.md
+      application.giantswarm.io/team: chapter-se
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.2.0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.2.0
+    created: "2023-06-13T07:59:41.781212912Z"
+    description: A Helm chart for Ailefroide, the Slack support handle manager
+    digest: 93a6041e2db462a6847740f49ddc5ac35fa614ca32d6962f795c91b20d83719f
+    home: https://github.com/giantswarm/ailefroide-app
+    icon: https://s.giantswarm.io/app-icons/1/png/ailefroide-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/ailefroide-app
+    name: ailefroide-app
+    sources:
+    - https://github.com/giantswarm/ailefroide-app
+    - https://raw.githubusercontent.com/giantswarm/ailefroide-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.2.0-a8a868d74811e99661a0b5ec7510b788209780ae.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.2.0-a8a868d74811e99661a0b5ec7510b788209780ae.tgz-meta/README.md
       application.giantswarm.io/team: chapter-se
@@ -6353,4 +6375,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-1707b8254b180134b96da3cb109b6508e947988c.tgz
     version: 2.0.1-1707b8254b180134b96da3cb109b6508e947988c
-generated: "2023-06-13T07:59:32.333842786Z"
+generated: "2023-06-13T07:59:41.780546651Z"
