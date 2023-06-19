@@ -1129,6 +1129,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-99782777659668dbfca3c9f8a1fc0410175038e5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-99782777659668dbfca3c9f8a1fc0410175038e5.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-99782777659668dbfca3c9f8a1fc0410175038e5.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2023-06-19T12:30:56.63860092Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: c5cdf0414d861aa80ac199ada6ef25a8e8049ce80197a2c37183f2bd9afcd3cf
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-99782777659668dbfca3c9f8a1fc0410175038e5.tgz
+    version: 0.0.0-99782777659668dbfca3c9f8a1fc0410175038e5
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-22d7572217f87cebbc84b9de52d2c3809f7cf122.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-22d7572217f87cebbc84b9de52d2c3809f7cf122.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -7552,4 +7571,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-1707b8254b180134b96da3cb109b6508e947988c.tgz
     version: 2.0.1-1707b8254b180134b96da3cb109b6508e947988c
-generated: "2023-06-19T10:59:58.072392819Z"
+generated: "2023-06-19T12:30:56.638001255Z"
