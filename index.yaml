@@ -1129,6 +1129,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-f94d7dbae33cb2bbae3fcbfad71a27401ba8dedb.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-f94d7dbae33cb2bbae3fcbfad71a27401ba8dedb.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-f94d7dbae33cb2bbae3fcbfad71a27401ba8dedb.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2023-06-21T13:03:32.385411019Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: db26fef353230c8340d7e826ff28e33a926368ddeebc6986f6a3ad20cef40a97
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-f94d7dbae33cb2bbae3fcbfad71a27401ba8dedb.tgz
+    version: 0.0.0-f94d7dbae33cb2bbae3fcbfad71a27401ba8dedb
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-f57d9d8cf1ebe17f6bac067555c7b34619db8ed7.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-f57d9d8cf1ebe17f6bac067555c7b34619db8ed7.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -7733,4 +7752,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-1707b8254b180134b96da3cb109b6508e947988c.tgz
     version: 2.0.1-1707b8254b180134b96da3cb109b6508e947988c
-generated: "2023-06-20T09:58:40.07890428Z"
+generated: "2023-06-21T13:03:32.384605369Z"
