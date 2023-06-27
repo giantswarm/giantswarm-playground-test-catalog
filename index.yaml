@@ -6211,6 +6211,25 @@ entries:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-06-27T14:03:51.982514868Z"
+    dependencies:
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 22.6.*
+    - name: opencost
+      repository: https://opencost.github.io/opencost-helm-chart
+      version: 1.16.*
+    description: OpenCost is a vendor-neutral open source project for measuring and allocating infrastructure and container costs in Kubernetes environments.
+    digest: 34e426a187bba6e27deb362e7ed523b7d3d2589d9ab993b8396cb136e9fa033a
+    home: https://github.com/giantswarm/opencost
+    name: opencost
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/opencost-0.0.0-f25609a143f12f908a839d62946eb6bf12da7abd.tgz
+    version: 0.0.0-f25609a143f12f908a839d62946eb6bf12da7abd
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-06-27T13:23:43.511641452Z"
     dependencies:
     - name: prometheus
@@ -8737,4 +8756,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-1707b8254b180134b96da3cb109b6508e947988c.tgz
     version: 2.0.1-1707b8254b180134b96da3cb109b6508e947988c
-generated: "2023-06-27T13:23:43.500278799Z"
+generated: "2023-06-27T14:03:51.968437093Z"
