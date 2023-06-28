@@ -6645,6 +6645,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.2.1-0b9976188f0fb4c74ce607d9050545b05dd31807.tgz
     version: 0.2.1-0b9976188f0fb4c74ce607d9050545b05dd31807
+  teleport-kube-agent:
+  - annotations:
+      application.giantswarm.io/team: bigmac
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-06-28T07:18:30.416167604Z"
+    description: A Helm chart for Teleport Kubernetes access.
+    digest: 22e113d4c68208a0e34ce19c8c54464556da148557ad28c011337b23b054670e
+    home: https://github.com/giantswarm/teleport-kube-agent-app
+    icon: https://goteleport.com/images/logos/logo-teleport-square.svg
+    keywords:
+    - Teleport
+    maintainers:
+    - email: team-bigmac@giantswarm.io
+      name: giantswarm/team-bigmac
+    name: teleport-kube-agent
+    sources:
+    - https://github.com/gravitational/teleport
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/teleport-kube-agent-0.1.0-c2764c1aac900017487decb88d59b2e0de126356.tgz
+    version: 0.1.0-c2764c1aac900017487decb88d59b2e0de126356
   vault-exporter:
   - annotations:
       config.giantswarm.io/version: 1.x.x
@@ -9059,4 +9081,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-1707b8254b180134b96da3cb109b6508e947988c.tgz
     version: 2.0.1-1707b8254b180134b96da3cb109b6508e947988c
-generated: "2023-06-27T15:15:59.458154223Z"
+generated: "2023-06-28T07:18:30.41570669Z"
