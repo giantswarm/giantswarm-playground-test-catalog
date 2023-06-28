@@ -6340,6 +6340,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/opencost-0.0.0-09c5b3eeb53fccc80cfe3e81f69c294ab7ee2be5.tgz
     version: 0.0.0-09c5b3eeb53fccc80cfe3e81f69c294ab7ee2be5
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.0.3
+    created: "2023-06-28T13:12:36.461899735Z"
+    dependencies:
+    - name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 22.6.*
+    - name: opencost
+      repository: https://opencost.github.io/opencost-helm-chart
+      version: 1.16.*
+    description: OpenCost is a vendor-neutral open source project for measuring and allocating infrastructure and container costs in Kubernetes environments.
+    digest: bfc301dd7c6929a84ba0793b7ef3f2b8f466664aef35567718c6b84f28791e76
+    home: https://github.com/giantswarm/opencost
+    name: opencost
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/opencost-0.0.0-095fcc99e26db891b0df854544ba96b32cdde5e4.tgz
+    version: 0.0.0-095fcc99e26db891b0df854544ba96b32cdde5e4
   squid-proxy:
   - annotations:
       application.giantswarm.io/team: team-hydra
@@ -9053,4 +9072,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-1707b8254b180134b96da3cb109b6508e947988c.tgz
     version: 2.0.1-1707b8254b180134b96da3cb109b6508e947988c
-generated: "2023-06-28T12:38:58.494697701Z"
+generated: "2023-06-28T13:12:36.451456834Z"
