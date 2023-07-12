@@ -881,6 +881,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-4efbb85d532c89cc8f20289aa6610d4277969c4c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-4efbb85d532c89cc8f20289aa6610d4277969c4c.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-4efbb85d532c89cc8f20289aa6610d4277969c4c.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2023-07-12T10:31:58.906226831Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 2ee1c4ec3e9d886c9b8ff05c8d5ca89dc5ab44f6e34f89f410fc7b0c97332327
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-4efbb85d532c89cc8f20289aa6610d4277969c4c.tgz
+    version: 0.0.0-4efbb85d532c89cc8f20289aa6610d4277969c4c
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-3a27899ab3cf00711134700ec7365c400c085320.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-3a27899ab3cf00711134700ec7365c400c085320.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -7879,4 +7898,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-429027a2afab5255f7dd04bd6a802a0367377fac.tgz
     version: 2.0.1-429027a2afab5255f7dd04bd6a802a0367377fac
-generated: "2023-07-12T10:31:23.088074526Z"
+generated: "2023-07-12T10:31:58.905596124Z"
