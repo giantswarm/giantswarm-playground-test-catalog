@@ -1393,6 +1393,25 @@ entries:
     version: 0.2.0-43eebe6c58208267bfa364e97bd116c6a2d8e91d
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-870b55ac33072bbfc5dacd4b11f31548af95aa9b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-870b55ac33072bbfc5dacd4b11f31548af95aa9b.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2023-07-17T11:42:06.394719766Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 169025780069394f8b957539c987653fe390e7429eb6ce1b9c123a0874403811
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-870b55ac33072bbfc5dacd4b11f31548af95aa9b.tgz
+    version: 0.15.0-870b55ac33072bbfc5dacd4b11f31548af95aa9b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.14.0-f938d8449b1a8fb9c6cf161ed180842cb9aa7a15.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.14.0-f938d8449b1a8fb9c6cf161ed180842cb9aa7a15.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -8939,4 +8958,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-429027a2afab5255f7dd04bd6a802a0367377fac.tgz
     version: 2.0.1-429027a2afab5255f7dd04bd6a802a0367377fac
-generated: "2023-07-17T11:41:32.863559433Z"
+generated: "2023-07-17T11:42:06.392608678Z"
