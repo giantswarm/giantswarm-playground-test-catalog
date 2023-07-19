@@ -3761,6 +3761,26 @@ entries:
     version: 0.0.1-016593b990493fe7a7cef9d7e27b4797af0a4023
   gatling-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-ec31e1379d19444fca0f4aebf1124c1deda0e15a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-ec31e1379d19444fca0f4aebf1124c1deda0e15a.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-ec31e1379d19444fca0f4aebf1124c1deda0e15a.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.8.4
+    created: "2023-07-19T11:21:38.274273373Z"
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
+      Server-Sent-Events and JMS.
+    digest: 7f5ce894a2a43ddb541f8be6bea4b48cd92c0e40379a0fcc4c2cdb7e320050c0
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
+    name: gatling-app
+    sources:
+    - https://github.com/gatling/gatling
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-ec31e1379d19444fca0f4aebf1124c1deda0e15a.tgz
+    version: 2.0.3-ec31e1379d19444fca0f4aebf1124c1deda0e15a
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-db25ba67970ca5b2d3df78e5cf087c56cca298aa.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-app-2.0.3-db25ba67970ca5b2d3df78e5cf087c56cca298aa.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -9441,4 +9461,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-429027a2afab5255f7dd04bd6a802a0367377fac.tgz
     version: 2.0.1-429027a2afab5255f7dd04bd6a802a0367377fac
-generated: "2023-07-19T11:21:21.600599384Z"
+generated: "2023-07-19T11:21:38.273377372Z"
