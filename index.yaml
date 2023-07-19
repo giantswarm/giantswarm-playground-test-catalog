@@ -4973,6 +4973,21 @@ entries:
     version: 0.1.0-0004185a4ae6fa1caa2cbc2a71982a71243cd135
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-c7f7e32d81b5f9ae289b455123ac15c72a6f0b62.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-c7f7e32d81b5f9ae289b455123ac15c72a6f0b62.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-c7f7e32d81b5f9ae289b455123ac15c72a6f0b62.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-07-19T12:55:45.647529523Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 67ff0587fe6ac3df6b9471411819a7a97f034b059d24f4a20f0a952dfac789bb
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-c7f7e32d81b5f9ae289b455123ac15c72a6f0b62.tgz
+    version: 0.5.0-c7f7e32d81b5f9ae289b455123ac15c72a6f0b62
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-92b4ca7a0e4041c9008d9e4699f92fc50f073199.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-92b4ca7a0e4041c9008d9e4699f92fc50f073199.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-92b4ca7a0e4041c9008d9e4699f92fc50f073199.tgz-meta/values.schema.json
@@ -9702,4 +9717,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-429027a2afab5255f7dd04bd6a802a0367377fac.tgz
     version: 2.0.1-429027a2afab5255f7dd04bd6a802a0367377fac
-generated: "2023-07-19T12:55:02.564866451Z"
+generated: "2023-07-19T12:55:45.645959319Z"
