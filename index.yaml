@@ -3628,6 +3628,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/esrally-app-0.0.0-0a4771fe95089f6287e65ddd07d9a6356f7b0672.tgz
     version: 0.0.0-0a4771fe95089f6287e65ddd07d9a6356f7b0672
+  exception-recommender:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/exception-recommender-0.0.0-5405fe53c051904e3904577e6d539b5481b88298.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/exception-recommender-0.0.0-5405fe53c051904e3904577e6d539b5481b88298.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/exception-recommender-0.0.0-5405fe53c051904e3904577e6d539b5481b88298.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-08-21T19:08:13.292503939Z"
+    description: A Helm chart for exception-recommender, which creates PolicyExceptionDrafts
+      from Kyverno's PolicyReport results.
+    digest: edc75ae00e5a48e66194297eecf4ad88e96a71f2596cacba6411c10c341339c7
+    home: https://github.com/giantswarm/exception-recommender
+    name: exception-recommender
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/exception-recommender-0.0.0-5405fe53c051904e3904577e6d539b5481b88298.tgz
+    version: 0.0.0-5405fe53c051904e3904577e6d539b5481b88298
   flamethrower:
   - apiVersion: v1
     appVersion: 0.11.0
@@ -8274,4 +8291,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-02395a915195fbd1e6db7e11291754036552b393.tgz
     version: 2.0.1-02395a915195fbd1e6db7e11291754036552b393
-generated: "2023-08-21T07:56:01.217239074Z"
+generated: "2023-08-21T19:08:13.291668805Z"
