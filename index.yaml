@@ -2618,6 +2618,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-3d62d828174cb423d1bdb34492c24991e1f3c826.tgz
     version: 0.1.0-3d62d828174cb423d1bdb34492c24991e1f3c826
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-1cbab28a0ea9bfdd0d890ca55809cca29ba92a8d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-1cbab28a0ea9bfdd0d890ca55809cca29ba92a8d.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-1cbab28a0ea9bfdd0d890ca55809cca29ba92a8d.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 2.1.0
+    created: "2023-09-01T10:51:20.647897447Z"
+    description: Event-based autoscaler for workloads on Kubernetes
+    digest: f10ae271d6df7f8c2d406a8c69b11cb28267c71db6006d4ac85bd1ca193455a6
+    home: https://github.com/kedacore/keda
+    icon: https://raw.githubusercontent.com/kedacore/keda/master/images/keda-logo-500x500-white.png
+    maintainers:
+    - email: ahmels@microsoft.com
+      name: Ahmed ElSayed
+    - email: kerkhove.tom@gmail.com
+      name: Tom Kerkhove
+    - email: zroubali@redhat.com
+      name: Zbynek Roubalik
+    name: keda
+    sources:
+    - https://github.com/kedacore/keda
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-1cbab28a0ea9bfdd0d890ca55809cca29ba92a8d.tgz
+    version: 0.1.0-1cbab28a0ea9bfdd0d890ca55809cca29ba92a8d
   kubectl-apply-job:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-ebe8c9453dbf08ee371263c6ae7bcb8bec7e38a7.tgz-meta/main.yaml
@@ -5277,4 +5302,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-26fb2ef9f02e57e4dad5c48b1c37708aad60819f.tgz
     version: 2.0.1-26fb2ef9f02e57e4dad5c48b1c37708aad60819f
-generated: "2023-09-01T10:50:53.434122143Z"
+generated: "2023-09-01T10:51:20.644458466Z"
