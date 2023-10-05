@@ -2891,6 +2891,21 @@ entries:
     version: 0.1.0-1cbab28a0ea9bfdd0d890ca55809cca29ba92a8d
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-c2a5073a7ed1f53573713136158d2c1c70a9593c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-c2a5073a7ed1f53573713136158d2c1c70a9593c.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-c2a5073a7ed1f53573713136158d2c1c70a9593c.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-10-05T14:23:31.279082197Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 26c3386b5b3d6ae36df3d6995e0f64a969b7d47de5195d03891aa5fcb03d878c
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-c2a5073a7ed1f53573713136158d2c1c70a9593c.tgz
+    version: 0.6.0-c2a5073a7ed1f53573713136158d2c1c70a9593c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-ebbeb9bcbedfba623222f941234f2f5deb5da0e3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-ebbeb9bcbedfba623222f941234f2f5deb5da0e3.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-ebbeb9bcbedfba623222f941234f2f5deb5da0e3.tgz-meta/values.schema.json
@@ -5003,4 +5018,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-8a4b22ce6c9ac0e5a552b543f769730f2ef57a5b.tgz
     version: 2.0.1-8a4b22ce6c9ac0e5a552b543f769730f2ef57a5b
-generated: "2023-10-05T14:23:03.681259897Z"
+generated: "2023-10-05T14:23:31.277815169Z"
