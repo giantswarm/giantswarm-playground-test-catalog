@@ -3010,6 +3010,21 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-243e33678b4ee47aff106c5a39ffa7fd39a4d9ba.tgz
     version: 0.5.0-243e33678b4ee47aff106c5a39ffa7fd39a4d9ba
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-21287b283691efc348c3664b4ac01d5fa959957c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-21287b283691efc348c3664b4ac01d5fa959957c.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-21287b283691efc348c3664b4ac01d5fa959957c.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-10-05T13:45:35.264497138Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: d9dae6febba480703052d51c782a62e11a8eada8335cb231e4b608e4d0e27cef
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.5.0-21287b283691efc348c3664b4ac01d5fa959957c.tgz
+    version: 0.5.0-21287b283691efc348c3664b4ac01d5fa959957c
   kyverno-policy-operator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kyverno-policy-operator-0.0.0-ecfb604fca9be6a893d6c52a0843d42a90e4b3c1.tgz-meta/main.yaml
@@ -4898,4 +4913,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-8a4b22ce6c9ac0e5a552b543f769730f2ef57a5b.tgz
     version: 2.0.1-8a4b22ce6c9ac0e5a552b543f769730f2ef57a5b
-generated: "2023-10-05T13:38:09.049796508Z"
+generated: "2023-10-05T13:45:35.263482836Z"
