@@ -4475,6 +4475,20 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.3.4-17c820d3643dcd2ee89c94cf6607c52a653836ef.tgz
     version: 0.3.4-17c820d3643dcd2ee89c94cf6607c52a653836ef
+  vault-exporter:
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 2.4.0-cf8af16363c4ed93232777fe72fa9fdb61781ce1
+    created: "2023-10-09T16:55:00.360628041Z"
+    description: Chart holding vault-exporter.
+    digest: 74cef70fec0796a4faac30bf3b877855a8bd9f8e5119607eb9d22853596abb7d
+    home: https://github.com/giantswarm/vault-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: vault-exporter
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/vault-exporter-2.4.0-cf8af16363c4ed93232777fe72fa9fdb61781ce1.tgz
+    version: 2.4.0-cf8af16363c4ed93232777fe72fa9fdb61781ce1
   velero:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-a64dd52dc14a28dc3bf38bef8b9b11484e4f30dd.tgz-meta/main.yaml
@@ -5602,4 +5616,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-303d428a6c04ef9a78b48b00bc163e0f5d420f00.tgz
     version: 2.0.1-303d428a6c04ef9a78b48b00bc163e0f5d420f00
-generated: "2023-10-09T15:56:29.040594085Z"
+generated: "2023-10-09T16:55:00.35976268Z"
