@@ -4964,6 +4964,31 @@ entries:
     version: 0.6.1-1e70e280f61582b69587ea086463afafca7f811e
   memcached:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d7308467806e8114f14eccaab72fdb321259ca33.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d7308467806e8114f14eccaab72fdb321259ca33.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d7308467806e8114f14eccaab72fdb321259ca33.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2023-10-12T09:51:24.470933664Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.6.2
+    description: Caching solution
+    digest: fdf080f3e1802f3bd942678c0e9bbcc8011b95dcb17916412edfd1d9346af156
+    home: https://github.com/giantswarm/memcached
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d7308467806e8114f14eccaab72fdb321259ca33.tgz
+    version: 0.0.0-d7308467806e8114f14eccaab72fdb321259ca33
+  - annotations:
       application.giantswarm.io/team: atlas
     apiVersion: v2
     appVersion: 1.6.21
@@ -7074,4 +7099,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-303d428a6c04ef9a78b48b00bc163e0f5d420f00.tgz
     version: 2.0.1-303d428a6c04ef9a78b48b00bc163e0f5d420f00
-generated: "2023-10-12T09:40:07.834117483Z"
+generated: "2023-10-12T09:51:24.467842633Z"
