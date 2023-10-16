@@ -5549,6 +5549,31 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d7308467806e8114f14eccaab72fdb321259ca33.tgz
     version: 0.0.0-d7308467806e8114f14eccaab72fdb321259ca33
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d57c256f2f68274546bec500dc14e9264f85c8ff.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d57c256f2f68274546bec500dc14e9264f85c8ff.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d57c256f2f68274546bec500dc14e9264f85c8ff.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2023-10-16T12:27:50.46892422Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.6.2
+    description: Caching solution
+    digest: e69cf4a1b94ffb57a205ee8e744b92cfde22974284b9ee8bf97ba88bf71f011f
+    home: https://github.com/giantswarm/memcached
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-d57c256f2f68274546bec500dc14e9264f85c8ff.tgz
+    version: 0.0.0-d57c256f2f68274546bec500dc14e9264f85c8ff
+  - annotations:
       application.giantswarm.io/team: atlas
     apiVersion: v2
     appVersion: 1.6.21
@@ -7709,4 +7734,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-303d428a6c04ef9a78b48b00bc163e0f5d420f00.tgz
     version: 2.0.1-303d428a6c04ef9a78b48b00bc163e0f5d420f00
-generated: "2023-10-16T12:11:53.957513644Z"
+generated: "2023-10-16T12:27:50.464576487Z"
