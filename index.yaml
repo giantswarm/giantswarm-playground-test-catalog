@@ -2840,6 +2840,26 @@ entries:
     version: 0.0.1-05cb6ffaa1bfa64d105bc32f5a52899b1a318b98
   gatling:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-2.0.3-9e9bc68fcb7af06f1ff06ab8bd186520410cfe62.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-2.0.3-9e9bc68fcb7af06f1ff06ab8bd186520410cfe62.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-2.0.3-9e9bc68fcb7af06f1ff06ab8bd186520410cfe62.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.9.5
+    created: "2023-10-16T15:54:12.322401687Z"
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
+      Server-Sent-Events and JMS.
+    digest: b29722fcb75e5c3e98f6fab754df98ae0bcf11f1ed4fc9b33297b659e6021c56
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
+    name: gatling
+    sources:
+    - https://github.com/gatling/gatling
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-2.0.3-9e9bc68fcb7af06f1ff06ab8bd186520410cfe62.tgz
+    version: 2.0.3-9e9bc68fcb7af06f1ff06ab8bd186520410cfe62
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-2.0.3-6159f50cf314bde5c3dc59a5cadbfc8502eff085.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-2.0.3-6159f50cf314bde5c3dc59a5cadbfc8502eff085.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -7920,4 +7940,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-303d428a6c04ef9a78b48b00bc163e0f5d420f00.tgz
     version: 2.0.1-303d428a6c04ef9a78b48b00bc163e0f5d420f00
-generated: "2023-10-16T15:53:41.075725273Z"
+generated: "2023-10-16T15:54:12.321330563Z"
