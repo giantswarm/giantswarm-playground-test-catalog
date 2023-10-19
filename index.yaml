@@ -1047,6 +1047,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.0-9bda9165149a56c191564f87607b7fabdd454379.tgz
     version: 0.1.0-9bda9165149a56c191564f87607b7fabdd454379
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.0-050db1803069ed2d755ec4d39967693ca0999088.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.0-050db1803069ed2d755ec4d39967693ca0999088.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.0-050db1803069ed2d755ec4d39967693ca0999088.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2023-10-19T16:26:53.521665938Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 24a9209d0905c1ab360156e1064c03baca7b4cb6b1339f56a36ba979d40cb04d
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.0-050db1803069ed2d755ec4d39967693ca0999088.tgz
+    version: 0.1.0-050db1803069ed2d755ec4d39967693ca0999088
   aws-efs-csi-driver:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -9493,4 +9512,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-10-19T16:25:32.786264444Z"
+generated: "2023-10-19T16:26:53.520525439Z"
