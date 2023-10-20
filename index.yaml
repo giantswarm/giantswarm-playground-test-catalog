@@ -8230,6 +8230,36 @@ entries:
     version: 2.4.0-05ee04aff4caaa579280644a58f62c7f2622e938
   velero:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-d5be90beb9a5abfdab9fca8c793ce0a38bfb4e39.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-d5be90beb9a5abfdab9fca8c793ce0a38bfb4e39.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-d5be90beb9a5abfdab9fca8c793ce0a38bfb4e39.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2023-10-20T16:03:00.0811844Z"
+    description: A Helm chart for Kubernetes
+    digest: eb0e37f910b2410d79632722dbc58fb62ddb168dff221bcc5085b29bf1677445
+    home: https://github.com/giantswarm/velero-app
+    icon: https://s.giantswarm.io/app-icons/velero/1/light.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-d5be90beb9a5abfdab9fca8c793ce0a38bfb4e39.tgz
+    version: 0.1.0-d5be90beb9a5abfdab9fca8c793ce0a38bfb4e39
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-ac2b198330cbd6f293b2b17fb34cb79ebba1623c.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-ac2b198330cbd6f293b2b17fb34cb79ebba1623c.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -10177,4 +10207,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-10-20T16:02:17.589629292Z"
+generated: "2023-10-20T16:03:00.078729277Z"
