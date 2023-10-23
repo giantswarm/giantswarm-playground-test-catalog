@@ -1691,6 +1691,21 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/aws-iptables-legacy-cleaner-0.2.0-339dcadd033e6ebe4c9140e5b530b3b938d145fe.tgz
     version: 0.2.0-339dcadd033e6ebe4c9140e5b530b3b938d145fe
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 0.2.0-23456365a43bdc5a53a73b1b950454766189f78a
+    created: "2023-10-23T13:07:47.328654119Z"
+    description: The aws-iptables-legacy-cleaner is an aid tool to prevent problems
+      when upgrading from 16.x to 17.x releases.
+    digest: 15d31150f222cb586552cc0b412ab03175654ca868ee4884d62b39faba764e3e
+    home: https://github.com/giantswarm/aws-iptables-legacy-cleaner
+    icon: https://s.giantswarm.io/app-icons/aws/1/dark.svg
+    name: aws-iptables-legacy-cleaner
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/aws-iptables-legacy-cleaner-0.2.0-23456365a43bdc5a53a73b1b950454766189f78a.tgz
+    version: 0.2.0-23456365a43bdc5a53a73b1b950454766189f78a
   azure-ad-pod-identity-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-c9b628696b64d13607076f01a54e650a376d744a.tgz-meta/main.yaml
@@ -10636,4 +10651,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-10-23T11:13:28.392726609Z"
+generated: "2023-10-23T13:07:47.328073446Z"
