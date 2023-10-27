@@ -6385,6 +6385,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-774b275391be1ae633d28248a2e7037f03ca8ad0.tgz
     version: 0.0.0-774b275391be1ae633d28248a2e7037f03ca8ad0
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-554ecb1851ba31232d5612745e856a92599f2f53.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-554ecb1851ba31232d5612745e856a92599f2f53.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-554ecb1851ba31232d5612745e856a92599f2f53.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.0-554ecb1851ba31232d5612745e856a92599f2f53
+    created: "2023-10-27T08:18:26.189497435Z"
+    description: Prometheus exporter for Kubernetes pod & node resource requests,
+      limits and usage.
+    digest: d16dc48b51ec911b701d9ad3539535952ec770dc1cc85bebe5c6c710ab12c51d
+    home: https://github.com/giantswarm/kube-eagle-app
+    name: kube-eagle
+    sources:
+    - https://github.com/cloudworkz/kube-eagle-helm-chart/
+    - https://raw.githubusercontent.com/giantswarm/kube-eagle-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-554ecb1851ba31232d5612745e856a92599f2f53.tgz
+    version: 0.0.0-554ecb1851ba31232d5612745e856a92599f2f53
   kubectl-apply-job:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-d6793e1bc499c56e12428d2d84fa3ddf1e11d470.tgz-meta/main.yaml
@@ -11148,4 +11167,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-10-27T08:13:09.026141479Z"
+generated: "2023-10-27T08:18:26.188743797Z"
