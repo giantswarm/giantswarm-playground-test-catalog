@@ -2906,6 +2906,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0.tgz
     version: 3.0.0
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-ea25ff78b9ef7c0cc3a3eefdd2458acfdac1f651.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-ea25ff78b9ef7c0cc3a3eefdd2458acfdac1f651.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-ea25ff78b9ef7c0cc3a3eefdd2458acfdac1f651.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.9.5
+    created: "2023-11-01T23:37:31.663716143Z"
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
+      Server-Sent-Events and JMS.
+    digest: fa9395f00cfa29d9b6e9fb0cbe6818d996e0283290c7579e7182384c769876af
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
+    name: gatling
+    sources:
+    - https://github.com/gatling/gatling
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-ea25ff78b9ef7c0cc3a3eefdd2458acfdac1f651.tgz
+    version: 3.0.0-ea25ff78b9ef7c0cc3a3eefdd2458acfdac1f651
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-df69e9bc88f67974ff657746baaf88852ab5b523.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-df69e9bc88f67974ff657746baaf88852ab5b523.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -8973,4 +8993,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-11-01T23:35:41.17863709Z"
+generated: "2023-11-01T23:37:31.662548274Z"
