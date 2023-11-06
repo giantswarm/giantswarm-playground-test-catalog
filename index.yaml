@@ -4546,6 +4546,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.9.5-90a1e78b2d627165be8cbd4a0da61900e3884126.tgz
     version: 0.9.5-90a1e78b2d627165be8cbd4a0da61900e3884126
+  - annotations:
+      application.giantswarm.io/team: team-horizon
+    apiVersion: v1
+    appVersion: v0.9.6
+    created: "2023-11-06T13:14:04.929180867Z"
+    description: The k8s initiator runs in a master node and applies some configuration
+      when the master is new.
+    digest: 283214a97fbdb1dcc6883719e53851cddfd811e366808139e02ed961e99749d0
+    home: https://github.com/giantswarm/k8s-initiator-app
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: k8s-initiator-app
+    sources:
+    - https://github.com/giantswarm/k8s-initiator-app
+    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.9.5-6ba697e22a313902664ab2b5c94451a41fc59a6f/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.9.5-6ba697e22a313902664ab2b5c94451a41fc59a6f.tgz
+    version: 0.9.5-6ba697e22a313902664ab2b5c94451a41fc59a6f
   - apiVersion: v1
     appVersion: v0.9.0
     created: "2023-10-11T08:21:22.419996941Z"
@@ -9189,4 +9206,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-11-06T13:04:15.313255369Z"
+generated: "2023-11-06T13:14:04.928091369Z"
