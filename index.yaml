@@ -6960,6 +6960,30 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.0.0-ae89ec958df2c2d1f870f30f36c79fd6bb9eb160.tgz
     version: 0.0.0-ae89ec958df2c2d1f870f30f36c79fd6bb9eb160
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.0.0-a2af720ea2e7199482f53245fd57138be1b91122.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.0.0-a2af720ea2e7199482f53245fd57138be1b91122.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: v0.8.14
+    created: "2023-11-08T12:23:45.698697893Z"
+    dependencies:
+    - name: node-problem-detector
+      repository: https://charts.deliveryhero.io/
+      version: 2.3.11
+    description: A helm chart for running node-problem-detector on a cluster.
+    digest: 9a7d37ca1c1af7cdb32864a4c97a4e9b7529ab7117cb0d810c9b760231b6a630
+    home: https://github.com/giantswarm/node-problem-detector-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: node-problem-detector
+    sources:
+    - https://github.com/giantswarm/node-problem-detector-app
+    - https://github.com/kubernetes/node-problem-detector
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#condition
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.0.0-a2af720ea2e7199482f53245fd57138be1b91122.tgz
+    version: 0.0.0-a2af720ea2e7199482f53245fd57138be1b91122
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.0.0-9cd3ec1582aa894e17e2cb7218c3c8abcfc8afa9.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.0.0-9cd3ec1582aa894e17e2cb7218c3c8abcfc8afa9.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -9512,4 +9536,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-11-08T12:06:12.779675156Z"
+generated: "2023-11-08T12:23:45.696512567Z"
