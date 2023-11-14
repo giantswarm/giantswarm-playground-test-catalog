@@ -5498,6 +5498,21 @@ entries:
     version: 0.0.0-554ecb1851ba31232d5612745e856a92599f2f53
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-fd4baacfef381a1a05deec9da4b3ec4922a5b28b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-fd4baacfef381a1a05deec9da4b3ec4922a5b28b.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-fd4baacfef381a1a05deec9da4b3ec4922a5b28b.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2023-11-14T13:04:36.3109432Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 014d9aeb673f6e4b98a00b55757c101486fbcff4d4159cc931b05ddd17d180da
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-fd4baacfef381a1a05deec9da4b3ec4922a5b28b.tgz
+    version: 0.6.0-fd4baacfef381a1a05deec9da4b3ec4922a5b28b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-d6793e1bc499c56e12428d2d84fa3ddf1e11d470.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-d6793e1bc499c56e12428d2d84fa3ddf1e11d470.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-d6793e1bc499c56e12428d2d84fa3ddf1e11d470.tgz-meta/values.schema.json
@@ -10916,4 +10931,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-11-14T13:04:32.377815911Z"
+generated: "2023-11-14T13:04:36.308847712Z"
