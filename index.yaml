@@ -5213,6 +5213,25 @@ entries:
     version: 0.1.0-478b4db798bc69a9c665390f81e57dd6cf3a2cee
   kube-eagle:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-ffa2d034d45506b66ddb462c55d0185e93a8540b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-ffa2d034d45506b66ddb462c55d0185e93a8540b.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-ffa2d034d45506b66ddb462c55d0185e93a8540b.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.0-ffa2d034d45506b66ddb462c55d0185e93a8540b
+    created: "2023-11-14T11:16:32.333898448Z"
+    description: Prometheus exporter for Kubernetes pod & node resource requests,
+      limits and usage.
+    digest: d3d9199ce64b2e61d01df354cbfa12b101d6290fa90ee51ed4db62b2ec2e354b
+    home: https://github.com/giantswarm/kube-eagle-app
+    name: kube-eagle
+    sources:
+    - https://github.com/cloudworkz/kube-eagle-helm-chart/
+    - https://raw.githubusercontent.com/giantswarm/kube-eagle-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-ffa2d034d45506b66ddb462c55d0185e93a8540b.tgz
+    version: 0.0.0-ffa2d034d45506b66ddb462c55d0185e93a8540b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-774b275391be1ae633d28248a2e7037f03ca8ad0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-774b275391be1ae633d28248a2e7037f03ca8ad0.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -10549,4 +10568,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-11-14T11:15:23.924263146Z"
+generated: "2023-11-14T11:16:32.333080938Z"
