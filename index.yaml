@@ -3301,6 +3301,27 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.0.tgz
     version: 0.1.0
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.0.0
+    created: "2023-11-17T14:56:45.400355076Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: a0e0efe69ad679ee804cb7e015a671e5d463db4942775b28d9de981f5bc97cac
+    home: https://github.com/giantswarm/faiq
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.2.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -11445,4 +11466,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-11-17T14:56:13.299609029Z"
+generated: "2023-11-17T14:56:45.39891748Z"
