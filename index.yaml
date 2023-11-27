@@ -6535,6 +6535,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/keda-0.1.0-478b4db798bc69a9c665390f81e57dd6cf3a2cee.tgz
     version: 0.1.0-478b4db798bc69a9c665390f81e57dd6cf3a2cee
+  kube-downscaler:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-ce405bca88e6bf2d74d6c4de88cb00ec8835048b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-ce405bca88e6bf2d74d6c4de88cb00ec8835048b.tgz-meta/README.md
+      application.giantswarm.io/team: horizon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-ce405bca88e6bf2d74d6c4de88cb00ec8835048b.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-11-27T11:39:44.160808906Z"
+    description: Downscaling tool to save on resources with dev clusters when they
+      are not used
+    digest: 13d4075084e09d0e2fa147964ad1a86637409ed51e37aa672c91acc28d4e1330
+    home: https://github.com/giantswarm/kube-downscaler
+    name: kube-downscaler
+    sources:
+    - https://codeberg.org/hjacobs/kube-downscaler
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-ce405bca88e6bf2d74d6c4de88cb00ec8835048b.tgz
+    version: 0.0.0-ce405bca88e6bf2d74d6c4de88cb00ec8835048b
   kube-eagle:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-ffa2d034d45506b66ddb462c55d0185e93a8540b.tgz-meta/main.yaml
@@ -12315,4 +12334,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-11-27T11:12:40.339410146Z"
+generated: "2023-11-27T11:39:44.160134469Z"
