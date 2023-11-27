@@ -6673,6 +6673,24 @@ entries:
     version: 0.1.0-478b4db798bc69a9c665390f81e57dd6cf3a2cee
   kube-downscaler:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-d0313b3faba2a0f67065a10bc216b521178d10d3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-d0313b3faba2a0f67065a10bc216b521178d10d3.tgz-meta/README.md
+      application.giantswarm.io/team: horizon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-d0313b3faba2a0f67065a10bc216b521178d10d3.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-11-27T13:33:45.344194553Z"
+    description: Downscaling tool to save on resources with dev clusters when they
+      are not used
+    digest: d417f08d6fd0f70bff05947fd1f4318f3efffc944f1d4a19dd70ca0630bbd8b0
+    home: https://github.com/giantswarm/kube-downscaler
+    name: kube-downscaler
+    sources:
+    - https://codeberg.org/hjacobs/kube-downscaler
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-d0313b3faba2a0f67065a10bc216b521178d10d3.tgz
+    version: 0.0.0-d0313b3faba2a0f67065a10bc216b521178d10d3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-ce405bca88e6bf2d74d6c4de88cb00ec8835048b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-ce405bca88e6bf2d74d6c4de88cb00ec8835048b.tgz-meta/README.md
       application.giantswarm.io/team: horizon
@@ -12488,4 +12506,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e.tgz
     version: 2.0.1-066c2f418783cdee6ed2671981b4e6885cbb164e
-generated: "2023-11-27T12:38:50.956106153Z"
+generated: "2023-11-27T13:33:45.34358515Z"
