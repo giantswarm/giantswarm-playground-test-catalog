@@ -1,0 +1,166 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "affinity": {
+            "type": "object"
+        },
+        "backoffLimit": {
+            "type": "integer"
+        },
+        "completions": {
+            "type": "integer"
+        },
+        "fullnameOverride": {
+            "type": "string"
+        },
+        "global": {
+            "type": "object",
+            "properties": {
+                "podSecurityStandards": {
+                    "type": "object",
+                    "properties": {
+                        "enforced": {
+                            "type": "boolean"
+                        }
+                    }
+                }
+            }
+        },
+        "image": {
+            "type": "object",
+            "properties": {
+                "pullPolicy": {
+                    "type": "string"
+                },
+                "registry": {
+                    "type": "string"
+                },
+                "repository": {
+                    "type": "string"
+                },
+                "tag": {
+                    "type": "string"
+                }
+            }
+        },
+        "imagePullSecrets": {
+            "type": "array"
+        },
+        "nameOverride": {
+            "type": "string"
+        },
+        "nodeSelector": {
+            "type": "object"
+        },
+        "parallelism": {
+            "type": "integer"
+        },
+        "podAnnotations": {
+            "type": "object"
+        },
+        "podSecurityContext": {
+            "type": "object"
+        },
+        "resources": {
+            "type": "object",
+            "properties": {
+                "limits": {
+                    "type": "object",
+                    "properties": {
+                        "cpu": {
+                            "type": "string"
+                        },
+                        "memory": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "requests": {
+                    "type": "object",
+                    "properties": {
+                        "cpu": {
+                            "type": "string"
+                        },
+                        "memory": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "restartPolicy": {
+            "type": "string"
+        },
+        "securityContext": {
+            "type": "object",
+            "properties": {
+                "allowPrivilegeEscalation": {
+                    "type": "boolean"
+                },
+                "capabilities": {
+                    "type": "object",
+                    "properties": {
+                        "drop": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "readOnlyRootFilesystem": {
+                    "type": "boolean"
+                },
+                "runAsNonRoot": {
+                    "type": "boolean"
+                },
+                "runAsUser": {
+                    "type": "integer"
+                },
+                "seccompProfile": {
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "serviceAccount": {
+            "type": "object",
+            "properties": {
+                "annotations": {
+                    "type": "object"
+                },
+                "create": {
+                    "type": "boolean"
+                },
+                "name": {
+                    "type": "string"
+                }
+            }
+        },
+        "simulation": {
+            "type": "object",
+            "properties": {
+                "class": {
+                    "type": "string"
+                },
+                "configmap": {
+                    "type": "string"
+                },
+                "file": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                }
+            }
+        },
+        "tolerations": {
+            "type": "array"
+        }
+    }
+}
