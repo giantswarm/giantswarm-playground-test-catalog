@@ -3192,6 +3192,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-c02e874eb2a1dcf038d41c9c6f34ea3b4688d96e.tgz
     version: 0.0.0-c02e874eb2a1dcf038d41c9c6f34ea3b4688d96e
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-1d99f70426cf64243df3ccf9421a6635f61d0e2d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-1d99f70426cf64243df3ccf9421a6635f61d0e2d.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-1d99f70426cf64243df3ccf9421a6635f61d0e2d.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.0-1d99f70426cf64243df3ccf9421a6635f61d0e2d
+    created: "2023-12-01T08:19:09.404499534Z"
+    description: Prometheus exporter for Kubernetes pod & node resource requests,
+      limits and usage.
+    digest: 2924f63cbf74fba9fe99f78b56a2c5fc8715859c42b3e38537174a0e3ef12068
+    home: https://github.com/giantswarm/kube-eagle-app
+    name: kube-eagle
+    sources:
+    - https://github.com/cloudworkz/kube-eagle-helm-chart/
+    - https://raw.githubusercontent.com/giantswarm/kube-eagle-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-1d99f70426cf64243df3ccf9421a6635f61d0e2d.tgz
+    version: 0.0.0-1d99f70426cf64243df3ccf9421a6635f61d0e2d
   kubectl-apply-job:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.6.0-fd4baacfef381a1a05deec9da4b3ec4922a5b28b.tgz-meta/main.yaml
@@ -5391,4 +5410,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-542db3dccdca0810df30e184351150a5d2db9103.tgz
     version: 2.0.1-542db3dccdca0810df30e184351150a5d2db9103
-generated: "2023-12-01T08:18:40.830912152Z"
+generated: "2023-12-01T08:19:09.403513867Z"
