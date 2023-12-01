@@ -3522,6 +3522,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.3-86b6cdd751a13b486c245d74dfec814739c865fe.tgz
     version: 0.1.3-86b6cdd751a13b486c245d74dfec814739c865fe
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.3-07a423f0e1275337e039540cf15947942c6550ec.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.3-07a423f0e1275337e039540cf15947942c6550ec.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.3-07a423f0e1275337e039540cf15947942c6550ec.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2023-12-01T08:18:40.834625449Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.7.1
+    description: Caching solution
+    digest: c29185022e22bc4b228a9659e857e8e9c80bbe13dd0216c4be2ab4ceeb18c50a
+    home: https://github.com/giantswarm/memcached
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.3-07a423f0e1275337e039540cf15947942c6550ec.tgz
+    version: 0.1.3-07a423f0e1275337e039540cf15947942c6550ec
   node-problem-detector:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.2.0-e0d2d3b510d227f4541e47d1d7ab3421c87c5488.tgz-meta/main.yaml
@@ -5366,4 +5391,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-542db3dccdca0810df30e184351150a5d2db9103.tgz
     version: 2.0.1-542db3dccdca0810df30e184351150a5d2db9103
-generated: "2023-12-01T08:18:20.675536583Z"
+generated: "2023-12-01T08:18:40.830912152Z"
