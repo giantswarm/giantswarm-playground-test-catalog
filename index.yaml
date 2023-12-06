@@ -4829,6 +4829,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/macropower-analytics-panel-server-0.6.3-44fe0cef953c9281fde3d0bb20fed9bfa4c60d72.tgz
     version: 0.6.3-44fe0cef953c9281fde3d0bb20fed9bfa4c60d72
+  - annotations:
+      application.giantswarm.io/team: atlas
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-12-06T08:59:32.33969357Z"
+    description: A Helm chart for macropower-analytics-panel-server
+    digest: 349aa31ed45f43bc5f7475d2454b6a577b9eb024e8a4012d6b7943f9d4818dc1
+    home: https://github.com/giantswarm/macropower-analytics-panel-server-app
+    icon: https://s.giantswarm.io/app-icons/1/png/default-app-light.png
+    name: macropower-analytics-panel-server
+    sources:
+    - https://github.com/MacroPower/macropower-analytics-panel/tree/master/server
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/macropower-analytics-panel-server-0.6.3-1da8f43046cda1f639cfa7cdfa625ae824abfc46.tgz
+    version: 0.6.3-1da8f43046cda1f639cfa7cdfa625ae824abfc46
   memcached:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.3-ee5ff4a6676fc011828eee7a5a22946c6d7af80a.tgz-meta/main.yaml
@@ -8044,4 +8060,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-06T08:53:17.364741835Z"
+generated: "2023-12-06T08:59:32.338540075Z"
