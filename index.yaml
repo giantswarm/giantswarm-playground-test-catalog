@@ -4495,6 +4495,25 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-44a41d1ab63ff9e2a201fa620707c2b7b12d388c.tgz
     version: 0.0.0-44a41d1ab63ff9e2a201fa620707c2b7b12d388c
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-433aaaa0f60c7997dd7ead0914510dc39eb49925.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-433aaaa0f60c7997dd7ead0914510dc39eb49925.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-433aaaa0f60c7997dd7ead0914510dc39eb49925.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.0-433aaaa0f60c7997dd7ead0914510dc39eb49925
+    created: "2023-12-06T08:43:42.55771102Z"
+    description: Prometheus exporter for Kubernetes pod & node resource requests,
+      limits and usage.
+    digest: 6698cf0149e071111fb401c2a9e5393b0ec10dea2a124eed43bf092193e98643
+    home: https://github.com/giantswarm/kube-eagle-app
+    name: kube-eagle
+    sources:
+    - https://github.com/cloudworkz/kube-eagle-helm-chart/
+    - https://raw.githubusercontent.com/giantswarm/kube-eagle-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-433aaaa0f60c7997dd7ead0914510dc39eb49925.tgz
+    version: 0.0.0-433aaaa0f60c7997dd7ead0914510dc39eb49925
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-1d99f70426cf64243df3ccf9421a6635f61d0e2d.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-1d99f70426cf64243df3ccf9421a6635f61d0e2d.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -8012,4 +8031,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-06T05:54:27.677351091Z"
+generated: "2023-12-06T08:43:42.55692061Z"
