@@ -8242,6 +8242,27 @@ entries:
     version: 4.5.0-05c2bc225b42f1254269d99a5f0222606c198a66
   vertical-pod-autoscaler-crd:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-e40d88d73c664d3c384e71e144e32bbfd412e1ae.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-e40d88d73c664d3c384e71e144e32bbfd412e1ae.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-e40d88d73c664d3c384e71e144e32bbfd412e1ae.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+      repository: https://github.com/FairwindsOps/charts/tree/master/stable/vpa
+      version: fb2ccec4228c26e366bd1ac96aade056f3db0151
+    apiVersion: v2
+    appVersion: 0.9.2
+    created: "2023-12-07T12:03:42.137491047Z"
+    description: Vertical Pod Autoscaler CustomResourceDefinitions.
+    digest: 6da89cf0a5b3b5cab7b6a12bf8000a742fdb9be1ac82ab98f164bc9ef8927653
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-crd
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: vertical-pod-autoscaler-crd
+    sources:
+    - https://github.com/kubernetes/autoscaler
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-e40d88d73c664d3c384e71e144e32bbfd412e1ae.tgz
+    version: 2.0.1-e40d88d73c664d3c384e71e144e32bbfd412e1ae
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-ca7ae2b562dd58a39dbb2a1f4b455d7a1bf6ddb5.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-ca7ae2b562dd58a39dbb2a1f4b455d7a1bf6ddb5.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -8388,4 +8409,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-07T06:20:41.227645869Z"
+generated: "2023-12-07T12:03:42.136493659Z"
