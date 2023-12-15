@@ -3488,6 +3488,27 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3.tgz
     version: 0.0.3
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3-fd932d436ad51c77b068673bb248102e2148fe57.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3-fd932d436ad51c77b068673bb248102e2148fe57.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3-fd932d436ad51c77b068673bb248102e2148fe57.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.0.3-fd932d436ad51c77b068673bb248102e2148fe57
+    created: "2023-12-15T15:49:32.443620793Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: a7372d66b7dee396c098cff0b686dbabf9a1c74a29da9440061b0d4066e96259
+    home: https://github.com/giantswarm/faiq
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3-fd932d436ad51c77b068673bb248102e2148fe57.tgz
+    version: 0.0.3-fd932d436ad51c77b068673bb248102e2148fe57
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3-a77202934637aa71886b446bb88fbb293fa59c1d.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.3-a77202934637aa71886b446bb88fbb293fa59c1d.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -9169,4 +9190,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-15T15:49:30.886840024Z"
+generated: "2023-12-15T15:49:32.442308402Z"
