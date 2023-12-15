@@ -1151,6 +1151,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-1b617b7822b0a35269dc5171d6bd59b02b7dcb52.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-1b617b7822b0a35269dc5171d6bd59b02b7dcb52.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-1b617b7822b0a35269dc5171d6bd59b02b7dcb52.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2023-12-15T17:22:08.293189755Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: edea1c5d38785139099af8d1f8d3a8fdadb96c71621795039ef771c67773c62f
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-1b617b7822b0a35269dc5171d6bd59b02b7dcb52.tgz
+    version: 0.1.2-1b617b7822b0a35269dc5171d6bd59b02b7dcb52
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.1.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -9190,4 +9209,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-15T15:49:32.442308402Z"
+generated: "2023-12-15T17:22:08.292086092Z"
