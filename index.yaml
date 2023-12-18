@@ -3728,6 +3728,27 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.0.tgz
     version: 0.1.0
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.8-02cc4651bf6aa7efe076fbdcb057dfd48eb1b622.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.8-02cc4651bf6aa7efe076fbdcb057dfd48eb1b622.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.8-02cc4651bf6aa7efe076fbdcb057dfd48eb1b622.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.0.8-02cc4651bf6aa7efe076fbdcb057dfd48eb1b622
+    created: "2023-12-18T17:04:52.126166258Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: 8d17ff2bdc38ccdc663273d34b85aa1f0909b8fd5f521d8e4e72941f5574167a
+    home: https://github.com/giantswarm/faiq
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.8-02cc4651bf6aa7efe076fbdcb057dfd48eb1b622.tgz
+    version: 0.0.8-02cc4651bf6aa7efe076fbdcb057dfd48eb1b622
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.7-d7923f105c29687bb8610889aa23b2614ed186dc.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.7-d7923f105c29687bb8610889aa23b2614ed186dc.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -11278,4 +11299,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-18T16:59:40.213470597Z"
+generated: "2023-12-18T17:04:52.124714491Z"
