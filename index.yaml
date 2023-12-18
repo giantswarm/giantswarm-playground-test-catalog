@@ -4241,6 +4241,26 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-d12a6318d352cc9d08b93180c7edf65cf6f8b5a4.tgz
     version: 3.0.0-d12a6318d352cc9d08b93180c7edf65cf6f8b5a4
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-a80c9144ee947709d84bbcdc35861595e3d1f26e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-a80c9144ee947709d84bbcdc35861595e3d1f26e.tgz-meta/README.md
+      application.giantswarm.io/team: team-cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-a80c9144ee947709d84bbcdc35861595e3d1f26e.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 3.9.5
+    created: "2023-12-18T10:11:15.305073158Z"
+    description: Gatling is a load test tool. It officially supports HTTP, WebSocket,
+      Server-Sent-Events and JMS.
+    digest: 42d23ccf43b275f9d3b747a49281f527f6c32c0c5b13e7fd5cd19faf830516a0
+    home: https://github.com/giantswarm/gatling-app
+    icon: https://s.giantswarm.io/app-icons/gatling/1/light.svg
+    name: gatling
+    sources:
+    - https://github.com/gatling/gatling
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-a80c9144ee947709d84bbcdc35861595e3d1f26e.tgz
+    version: 3.0.0-a80c9144ee947709d84bbcdc35861595e3d1f26e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-a2b99b0ecf014c9ea506a5fb949ebe3c6892a1a8.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gatling-3.0.0-a2b99b0ecf014c9ea506a5fb949ebe3c6892a1a8.tgz-meta/README.md
       application.giantswarm.io/team: team-cabbage
@@ -9767,4 +9787,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-18T10:09:14.570454546Z"
+generated: "2023-12-18T10:11:15.304354583Z"
