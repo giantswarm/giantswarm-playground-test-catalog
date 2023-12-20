@@ -9535,6 +9535,30 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-3caaa1a62c8e69742efda8db06f3c24bf8c81544.tgz
     version: 0.0.0-3caaa1a62c8e69742efda8db06f3c24bf8c81544
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-228ea44262f16c0899d691d2ad05a0dd8d3db47a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-228ea44262f16c0899d691d2ad05a0dd8d3db47a.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-228ea44262f16c0899d691d2ad05a0dd8d3db47a.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2023-12-20T10:37:22.774204672Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.3.1
+    description: Helm chart for Pyroscope
+    digest: 43d96d436ebf879d010605bd9637a36292521ba5aa1a1a5038960a57dad69bb3
+    home: https://github.com/giantswarm/pyroscope
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-228ea44262f16c0899d691d2ad05a0dd8d3db47a.tgz
+    version: 0.0.0-228ea44262f16c0899d691d2ad05a0dd8d3db47a
   squid-proxy:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -12194,4 +12218,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-20T09:19:24.765120952Z"
+generated: "2023-12-20T10:37:22.769297532Z"
