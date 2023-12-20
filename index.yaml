@@ -1280,6 +1280,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-5fc78b9fecb498cd819203cb2f3420c3d9b3ee3e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-5fc78b9fecb498cd819203cb2f3420c3d9b3ee3e.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-5fc78b9fecb498cd819203cb2f3420c3d9b3ee3e.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2023-12-20T19:53:17.091070844Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: bbb04f523993d1f6538060278d1e6a3f500a30d108116556e89d68898a1e607c
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-5fc78b9fecb498cd819203cb2f3420c3d9b3ee3e.tgz
+    version: 0.1.2-5fc78b9fecb498cd819203cb2f3420c3d9b3ee3e
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-50aaf93a6ffc532887cd4eb7aa382928b2934977.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-50aaf93a6ffc532887cd4eb7aa382928b2934977.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -12906,4 +12925,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-20T19:53:05.827752447Z"
+generated: "2023-12-20T19:53:17.089064427Z"
