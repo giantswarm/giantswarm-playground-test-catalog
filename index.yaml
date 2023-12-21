@@ -3484,6 +3484,20 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.41.0-0292c9b54fbeaa9775a21bd0e914d41d1de156c8.tgz
     version: 1.41.0-0292c9b54fbeaa9775a21bd0e914d41d1de156c8
   dns-tester:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.2.0-fde7ab0d4f5b43bf002728bbc1f904c4a13ed5c7
+    created: "2023-12-21T05:35:52.540385264Z"
+    description: A Helm chart used to test DNS status
+    digest: 04fb1aa42538ef0a313e1d49f92b6ed9727b4ea008cad48c5432439deabfea5c
+    home: https://github.com/giantswarm/dns-tester
+    name: dns-tester
+    sources:
+    - https://github.com/giantswarm/dns-tester
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dns-tester-0.2.0-fde7ab0d4f5b43bf002728bbc1f904c4a13ed5c7.tgz
+    version: 0.2.0-fde7ab0d4f5b43bf002728bbc1f904c4a13ed5c7
   - apiVersion: v1
     appVersion: 0.2.0-fdb60165b75375bceb7ab80828d9ff878eaa8daa
     created: "2023-12-06T05:08:45.744158243Z"
@@ -12985,4 +12999,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-21T00:33:49.845695303Z"
+generated: "2023-12-21T05:35:52.539851892Z"
