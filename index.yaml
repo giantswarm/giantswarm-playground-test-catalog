@@ -7816,6 +7816,24 @@ entries:
     version: 0.9.5-4a7457d4247afb8028a18823de4efd5427cd7209
   kube-downscaler:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-f86dcd62a7857eba7f9b5e8a70927eb93cdfcc4c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-f86dcd62a7857eba7f9b5e8a70927eb93cdfcc4c.tgz-meta/README.md
+      application.giantswarm.io/team: horizon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-f86dcd62a7857eba7f9b5e8a70927eb93cdfcc4c.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-12-21T11:02:08.192225145Z"
+    description: Downscaling tool to save on resources with dev clusters when they
+      are not used
+    digest: bee1146efe841e6ea5d0f0adac2130b2990c33f8becc507a0eda055dd5f1ee68
+    home: https://github.com/giantswarm/kube-downscaler
+    name: kube-downscaler
+    sources:
+    - https://codeberg.org/hjacobs/kube-downscaler
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-f86dcd62a7857eba7f9b5e8a70927eb93cdfcc4c.tgz
+    version: 0.0.0-f86dcd62a7857eba7f9b5e8a70927eb93cdfcc4c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-d0313b3faba2a0f67065a10bc216b521178d10d3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-d0313b3faba2a0f67065a10bc216b521178d10d3.tgz-meta/README.md
       application.giantswarm.io/team: horizon
@@ -13247,4 +13265,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-21T09:01:51.252306004Z"
+generated: "2023-12-21T11:02:08.19121595Z"
