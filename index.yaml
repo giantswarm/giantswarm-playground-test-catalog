@@ -12030,6 +12030,36 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-4.6.0-9c0e3debfe57b16b734a91ed8a15dad2705e0e27.tgz
     version: 4.6.0-9c0e3debfe57b16b734a91ed8a15dad2705e0e27
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-4.6.0-92530bea85631ffd8804f20fdfbe162a00154689.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-4.6.0-92530bea85631ffd8804f20fdfbe162a00154689.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-4.6.0-92530bea85631ffd8804f20fdfbe162a00154689.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+      repository: https://github.com/giantswarm/vertical-pod-autoscaler-app
+      version: fb2ccec4228c26e366bd1ac96aade056f3db0151
+    apiVersion: v2
+    appVersion: 0.14.0
+    created: "2023-12-22T23:30:43.270108359Z"
+    dependencies:
+    - name: vertical-pod-autoscaler
+      repository: https://cowboysysop.github.io/charts/
+      version: 9.5.0
+    description: A Helm chart for Kubernetes Vertical Pod Autoscaler
+    digest: 899d50d7cc093283c789dc86bd95f1d687e860cf4ecbad6fa13c375c2069e4b2
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-app
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    maintainers:
+    - email: team-turtles@giantswarm.io
+      name: giantswarm/team-turtles
+    name: vertical-pod-autoscaler-app
+    sources:
+    - https://github.com/kubernetes/autoscaler/tree/master/vertical-pod-autoscaler
+    - https://github.com/cowboysysop/charts/blob/master/charts/vertical-pod-autoscaler/
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-4.6.0-92530bea85631ffd8804f20fdfbe162a00154689.tgz
+    version: 4.6.0-92530bea85631ffd8804f20fdfbe162a00154689
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-4.6.0-8bbb4ea124d96722bfe9c65b9e56519233cb8bfe.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-app-4.6.0-8bbb4ea124d96722bfe9c65b9e56519233cb8bfe.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -13473,4 +13503,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-22T23:30:41.328893526Z"
+generated: "2023-12-22T23:30:43.265658642Z"
