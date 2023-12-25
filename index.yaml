@@ -10430,6 +10430,30 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-228ea44262f16c0899d691d2ad05a0dd8d3db47a.tgz
     version: 0.0.0-228ea44262f16c0899d691d2ad05a0dd8d3db47a
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-0ed2c3dedabc7f8341f67c0b679cd425060e18e5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-0ed2c3dedabc7f8341f67c0b679cd425060e18e5.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-0ed2c3dedabc7f8341f67c0b679cd425060e18e5.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2023-12-25T10:41:50.884046776Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.3.1
+    description: Helm chart for Pyroscope
+    digest: af998b8913e9064ff49be2b399e3b12d6849962c40e4db4e5340457c44cd9eb7
+    home: https://github.com/giantswarm/pyroscope
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-0ed2c3dedabc7f8341f67c0b679cd425060e18e5.tgz
+    version: 0.0.0-0ed2c3dedabc7f8341f67c0b679cd425060e18e5
   squid-proxy:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -13581,4 +13605,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-25T10:31:54.155590379Z"
+generated: "2023-12-25T10:41:50.879015358Z"
