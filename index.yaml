@@ -10167,6 +10167,30 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-b37af9e9f9b150e1e6ad3c98275865c218fdc3fd.tgz
     version: 0.0.0-b37af9e9f9b150e1e6ad3c98275865c218fdc3fd
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-a7c372f460fb010cc703c2955e48a0af0036ea1c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-a7c372f460fb010cc703c2955e48a0af0036ea1c.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-a7c372f460fb010cc703c2955e48a0af0036ea1c.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2023-12-25T11:21:39.058938854Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.3.1
+    description: Helm chart for Pyroscope
+    digest: c00d997e91279fc4dc19be51f18a75741b14d5c1cdc119e19a0cb19d2a9d629b
+    home: https://github.com/giantswarm/pyroscope
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-a7c372f460fb010cc703c2955e48a0af0036ea1c.tgz
+    version: 0.0.0-a7c372f460fb010cc703c2955e48a0af0036ea1c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-84a991f8bda86b5954102eb09a9f7b0c724b1cef.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-84a991f8bda86b5954102eb09a9f7b0c724b1cef.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -13605,4 +13629,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-25T10:41:50.879015358Z"
+generated: "2023-12-25T11:21:39.053533648Z"
