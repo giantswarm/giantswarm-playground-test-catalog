@@ -1,0 +1,469 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "pyroscope": {
+            "type": "object",
+            "properties": {
+                "agent": {
+                    "type": "object",
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean"
+                        }
+                    }
+                },
+                "ingress": {
+                    "type": "object",
+                    "properties": {
+                        "className": {
+                            "type": "string"
+                        },
+                        "enabled": {
+                            "type": "boolean"
+                        }
+                    }
+                },
+                "minio": {
+                    "type": "object",
+                    "properties": {
+                        "buckets": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "policy": {
+                                        "type": "string"
+                                    },
+                                    "purge": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        },
+                        "drivesPerNode": {
+                            "type": "integer"
+                        },
+                        "enabled": {
+                            "type": "boolean"
+                        },
+                        "persistence": {
+                            "type": "object",
+                            "properties": {
+                                "size": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "replicas": {
+                            "type": "integer"
+                        },
+                        "rootPassword": {
+                            "type": "string"
+                        },
+                        "rootUser": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "pyroscope": {
+                    "type": "object",
+                    "properties": {
+                        "components": {
+                            "type": "object",
+                            "properties": {
+                                "compactor": {
+                                    "type": "object",
+                                    "properties": {
+                                        "kind": {
+                                            "type": "string"
+                                        },
+                                        "persistence": {
+                                            "type": "object",
+                                            "properties": {
+                                                "enabled": {
+                                                    "type": "boolean"
+                                                }
+                                            }
+                                        },
+                                        "replicaCount": {
+                                            "type": "integer"
+                                        },
+                                        "resources": {
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "distributor": {
+                                    "type": "object",
+                                    "properties": {
+                                        "kind": {
+                                            "type": "string"
+                                        },
+                                        "replicaCount": {
+                                            "type": "integer"
+                                        },
+                                        "resources": {
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "ingester": {
+                                    "type": "object",
+                                    "properties": {
+                                        "kind": {
+                                            "type": "string"
+                                        },
+                                        "replicaCount": {
+                                            "type": "integer"
+                                        },
+                                        "resources": {
+                                            "type": "object"
+                                        },
+                                        "terminationGracePeriodSeconds": {
+                                            "type": "integer"
+                                        }
+                                    }
+                                },
+                                "querier": {
+                                    "type": "object",
+                                    "properties": {
+                                        "kind": {
+                                            "type": "string"
+                                        },
+                                        "replicaCount": {
+                                            "type": "integer"
+                                        },
+                                        "resources": {
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "query-frontend": {
+                                    "type": "object",
+                                    "properties": {
+                                        "kind": {
+                                            "type": "string"
+                                        },
+                                        "replicaCount": {
+                                            "type": "integer"
+                                        },
+                                        "resources": {
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "query-scheduler": {
+                                    "type": "object",
+                                    "properties": {
+                                        "kind": {
+                                            "type": "string"
+                                        },
+                                        "replicaCount": {
+                                            "type": "integer"
+                                        },
+                                        "resources": {
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "store-gateway": {
+                                    "type": "object",
+                                    "properties": {
+                                        "kind": {
+                                            "type": "string"
+                                        },
+                                        "persistence": {
+                                            "type": "object",
+                                            "properties": {
+                                                "enabled": {
+                                                    "type": "boolean"
+                                                }
+                                            }
+                                        },
+                                        "replicaCount": {
+                                            "type": "integer"
+                                        },
+                                        "resources": {
+                                            "type": "object"
+                                        }
+                                    }
+                                },
+                                "tenant-settings": {
+                                    "type": "object",
+                                    "properties": {
+                                        "kind": {
+                                            "type": "string"
+                                        },
+                                        "replicaCount": {
+                                            "type": "integer"
+                                        },
+                                        "resources": {
+                                            "type": "object"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "config": {
+                            "type": "string"
+                        },
+                        "extraArgs": {
+                            "type": "object",
+                            "properties": {
+                                "log.level": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "image": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "pullPolicy": {
+                                    "type": "string"
+                                },
+                                "registry": {
+                                    "type": "string"
+                                },
+                                "tag": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "memberlist": {
+                            "type": "object",
+                            "properties": {
+                                "port": {
+                                    "type": "integer"
+                                },
+                                "port_name": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "podDisruptionBudget": {
+                            "type": "object",
+                            "properties": {
+                                "enabled": {
+                                    "type": "boolean"
+                                },
+                                "maxUnavailable": {
+                                    "type": "integer"
+                                }
+                            }
+                        },
+                        "podSecurityContext": {
+                            "type": "object",
+                            "properties": {
+                                "fsGroup": {
+                                    "type": "integer"
+                                },
+                                "runAsGroup": {
+                                    "type": "integer"
+                                },
+                                "runAsNonRoot": {
+                                    "type": "boolean"
+                                },
+                                "runAsUser": {
+                                    "type": "integer"
+                                },
+                                "seccompProfile": {
+                                    "type": "object",
+                                    "properties": {
+                                        "type": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "replicaCount": {
+                            "type": "integer"
+                        },
+                        "resources": {
+                            "type": "object"
+                        },
+                        "securityContext": {
+                            "type": "object",
+                            "properties": {
+                                "allowPrivilegeEscalation": {
+                                    "type": "boolean"
+                                },
+                                "capabilities": {
+                                    "type": "object",
+                                    "properties": {
+                                        "drop": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "readOnlyRootFilesystem": {
+                                    "type": "boolean"
+                                },
+                                "runAsGroup": {
+                                    "type": "integer"
+                                },
+                                "runAsNonRoot": {
+                                    "type": "boolean"
+                                },
+                                "runAsUser": {
+                                    "type": "integer"
+                                },
+                                "seccompProfile": {
+                                    "type": "object",
+                                    "properties": {
+                                        "type": {
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "service": {
+                            "type": "object",
+                            "properties": {
+                                "port": {
+                                    "type": "integer"
+                                },
+                                "port_name": {
+                                    "type": "string"
+                                },
+                                "scheme": {
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "serviceAccount": {
+                            "type": "object",
+                            "properties": {
+                                "annotations": {
+                                    "type": "object"
+                                },
+                                "create": {
+                                    "type": "boolean"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "pyroscopeAgent": {
+            "type": "object",
+            "properties": {
+                "agent": {
+                    "type": "object",
+                    "properties": {
+                        "clustering": {
+                            "type": "object",
+                            "properties": {
+                                "enabled": {
+                                    "type": "boolean"
+                                }
+                            }
+                        },
+                        "configMap": {
+                            "type": "object",
+                            "properties": {
+                                "create": {
+                                    "type": "boolean"
+                                },
+                                "name": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "securityContext": {
+                            "type": "object",
+                            "properties": {
+                                "privileged": {
+                                    "type": "boolean"
+                                },
+                                "runAsGroup": {
+                                    "type": "integer"
+                                },
+                                "runAsUser": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    }
+                },
+                "controller": {
+                    "type": "object",
+                    "properties": {
+                        "replicas": {
+                            "type": "integer"
+                        },
+                        "type": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "enabled": {
+                    "type": "boolean"
+                },
+                "patchJob": {
+                    "type": "object",
+                    "properties": {
+                        "image": {
+                            "type": "object",
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "pullPolicy": {
+                                    "type": "string"
+                                },
+                                "registry": {
+                                    "type": "string"
+                                },
+                                "tag": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "podAnnotations": {
+                    "type": "object",
+                    "properties": {
+                        "profiles.grafana.com/cpu.port_name": {
+                            "type": "string"
+                        },
+                        "profiles.grafana.com/cpu.scrape": {
+                            "type": "string"
+                        },
+                        "profiles.grafana.com/goroutine.port_name": {
+                            "type": "string"
+                        },
+                        "profiles.grafana.com/goroutine.scrape": {
+                            "type": "string"
+                        },
+                        "profiles.grafana.com/memory.port_name": {
+                            "type": "string"
+                        },
+                        "profiles.grafana.com/memory.scrape": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
