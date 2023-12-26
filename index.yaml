@@ -10278,6 +10278,35 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-a7c372f460fb010cc703c2955e48a0af0036ea1c.tgz
     version: 0.0.0-a7c372f460fb010cc703c2955e48a0af0036ea1c
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-92b59ace3ae9e1f513c39d2031ff49801ff2635b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-92b59ace3ae9e1f513c39d2031ff49801ff2635b.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-92b59ace3ae9e1f513c39d2031ff49801ff2635b.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2023-12-26T08:12:00.023286315Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.3.1
+    - alias: pyroscopeagent
+      condition: pyroscopeagent.enabled
+      name: grafana-agent
+      repository: https://grafana.github.io/helm-charts
+      version: 0.27.0
+    description: Helm chart for Pyroscope
+    digest: 3d1123078aaa55638be498aff9a828f2330d35009b6d037cf32de9e7b31f7d60
+    home: https://github.com/giantswarm/pyroscope
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-92b59ace3ae9e1f513c39d2031ff49801ff2635b.tgz
+    version: 0.0.0-92b59ace3ae9e1f513c39d2031ff49801ff2635b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-8ab13a73849bf4d2aa5887d83ebda28c104a04e7.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.0.0-8ab13a73849bf4d2aa5887d83ebda28c104a04e7.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -13774,4 +13803,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-2b00fb7b08918594731133fec2839992324b57c4.tgz
     version: 2.0.1-2b00fb7b08918594731133fec2839992324b57c4
-generated: "2023-12-26T08:01:36.304470339Z"
+generated: "2023-12-26T08:12:00.012001077Z"
