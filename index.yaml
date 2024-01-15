@@ -547,6 +547,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-b249e591ea5c6e4f7860d87398efac3857b5c7b9.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-b249e591ea5c6e4f7860d87398efac3857b5c7b9.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-b249e591ea5c6e4f7860d87398efac3857b5c7b9.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2024-01-15T17:40:42.441352373Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 85c23aa73d1cf4a1cbe89fc86ee89dabf69ed5c34b5958baf647d18310b404e7
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-b249e591ea5c6e4f7860d87398efac3857b5c7b9.tgz
+    version: 0.1.2-b249e591ea5c6e4f7860d87398efac3857b5c7b9
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-b153cafaf8bb95382d1934ef48ed1428bc65f062.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.2-b153cafaf8bb95382d1934ef48ed1428bc65f062.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -10477,4 +10496,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-607242a17e77d4bc62ff74017356a099e952b2a1.tgz
     version: 2.0.1-607242a17e77d4bc62ff74017356a099e952b2a1
-generated: "2024-01-15T14:21:59.715397489Z"
+generated: "2024-01-15T17:40:42.440674589Z"
