@@ -1129,6 +1129,25 @@ entries:
     version: 0.1.2-f099f5ac585b3efc9303262507850a8ec7216836
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-dadb7f95806c4ed24076bb007131c841d31fb773.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-dadb7f95806c4ed24076bb007131c841d31fb773.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2024-01-22T10:15:11.166166972Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 1fe7a8ce65ecfe32f12965f3b73f3e55f2117ab2b0db0961ad6c5c8958288e2f
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-dadb7f95806c4ed24076bb007131c841d31fb773.tgz
+    version: 0.15.0-dadb7f95806c4ed24076bb007131c841d31fb773
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-74823dce6b60a2472e5e4eb771f9fd9c0a6552c4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-74823dce6b60a2472e5e4eb771f9fd9c0a6552c4.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -12344,4 +12363,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-03aaf184a9547454049fd3c00a435102c894192f.tgz
     version: 2.0.1-03aaf184a9547454049fd3c00a435102c894192f
-generated: "2024-01-22T10:04:51.077840629Z"
+generated: "2024-01-22T10:15:11.164642202Z"
