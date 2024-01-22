@@ -1166,6 +1166,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-74823dce6b60a2472e5e4eb771f9fd9c0a6552c4.tgz
     version: 0.15.0-74823dce6b60a2472e5e4eb771f9fd9c0a6552c4
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-35af82e037e0fb83bdb491d2c3fcdc8b0e96f234.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-35af82e037e0fb83bdb491d2c3fcdc8b0e96f234.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2024-01-22T10:16:19.556793385Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: f2ea479da67306688b57064987f5974ac7805011324efff7a6f7f665e0acef3a
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.0-35af82e037e0fb83bdb491d2c3fcdc8b0e96f234.tgz
+    version: 0.15.0-35af82e037e0fb83bdb491d2c3fcdc8b0e96f234
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.7.tgz-meta/main.yaml
@@ -12363,4 +12382,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-03aaf184a9547454049fd3c00a435102c894192f.tgz
     version: 2.0.1-03aaf184a9547454049fd3c00a435102c894192f
-generated: "2024-01-22T10:15:42.152271258Z"
+generated: "2024-01-22T10:16:19.554537671Z"
