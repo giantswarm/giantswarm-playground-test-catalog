@@ -2658,6 +2658,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-4a7e44cb24871dd6a1dd229c4c6bc92dd10917d5.tgz
     version: 0.0.0-4a7e44cb24871dd6a1dd229c4c6bc92dd10917d5
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-3f1cf9cfc301f726d749c867529e272c72611b58.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-3f1cf9cfc301f726d749c867529e272c72611b58.tgz-meta/README.md
+      application.giantswarm.io/team: horizon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-3f1cf9cfc301f726d749c867529e272c72611b58.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-02-08T13:05:02.372639156Z"
+    description: Downscaling tool to save on resources with dev clusters when they
+      are not used
+    digest: 081004e129c9afc68d0b555e49496ac95448327aa314b481ce980edd39e40830
+    home: https://github.com/giantswarm/kube-downscaler
+    name: kube-downscaler
+    sources:
+    - https://codeberg.org/hjacobs/kube-downscaler
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-3f1cf9cfc301f726d749c867529e272c72611b58.tgz
+    version: 0.0.0-3f1cf9cfc301f726d749c867529e272c72611b58
   kubectl-apply-job:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-ffe109fcfba1bd232b74a0a7b7ec4b4e4d36576e.tgz-meta/main.yaml
@@ -6672,4 +6690,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-03aaf184a9547454049fd3c00a435102c894192f.tgz
     version: 2.0.1-03aaf184a9547454049fd3c00a435102c894192f
-generated: "2024-02-08T13:03:59.005838228Z"
+generated: "2024-02-08T13:05:02.371938784Z"
