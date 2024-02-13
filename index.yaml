@@ -1,5 +1,28 @@
 apiVersion: v1
 entries:
+  ailefroide-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-4180ceb04f9801f0c2ff2adc30d86cf896677e71.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-4180ceb04f9801f0c2ff2adc30d86cf896677e71.tgz-meta/README.md
+      application.giantswarm.io/team: chapter-se
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-4180ceb04f9801f0c2ff2adc30d86cf896677e71.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.3.5-4180ceb04f9801f0c2ff2adc30d86cf896677e71
+    created: "2024-02-13T08:56:12.758490486Z"
+    description: A Helm chart for Ailefroide, the Slack support handle manager
+    digest: f38d44979e31edf8b9570f8b313d1b53275139198b6e9a9036160491083ee018
+    home: https://github.com/giantswarm/ailefroide-app
+    icon: https://s.giantswarm.io/app-icons/1/png/ailefroide-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/ailefroide-app
+    name: ailefroide-app
+    sources:
+    - https://github.com/giantswarm/ailefroide-app
+    - https://raw.githubusercontent.com/giantswarm/ailefroide-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-4180ceb04f9801f0c2ff2adc30d86cf896677e71.tgz
+    version: 0.3.5-4180ceb04f9801f0c2ff2adc30d86cf896677e71
   auth-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -7132,4 +7155,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-03aaf184a9547454049fd3c00a435102c894192f.tgz
     version: 2.0.1-03aaf184a9547454049fd3c00a435102c894192f
-generated: "2024-02-13T07:15:14.079961045Z"
+generated: "2024-02-13T08:56:12.757783677Z"
