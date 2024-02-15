@@ -45,6 +45,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-4180ceb04f9801f0c2ff2adc30d86cf896677e71.tgz
     version: 0.3.5-4180ceb04f9801f0c2ff2adc30d86cf896677e71
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-0b64864cb457f020bc68bef0ac4de039edfb99ba.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-0b64864cb457f020bc68bef0ac4de039edfb99ba.tgz-meta/README.md
+      application.giantswarm.io/team: chapter-se
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-0b64864cb457f020bc68bef0ac4de039edfb99ba.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.3.5-0b64864cb457f020bc68bef0ac4de039edfb99ba
+    created: "2024-02-15T11:54:54.337385374Z"
+    description: A Helm chart for Ailefroide, the Slack support handle manager
+    digest: 45b14d44992285a40f6196ba6c08dd93cc7b70b4cb4fac936ee4239957b8238d
+    home: https://github.com/giantswarm/ailefroide-app
+    icon: https://s.giantswarm.io/app-icons/1/png/ailefroide-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/ailefroide-app
+    name: ailefroide-app
+    sources:
+    - https://github.com/giantswarm/ailefroide-app
+    - https://raw.githubusercontent.com/giantswarm/ailefroide-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-0b64864cb457f020bc68bef0ac4de039edfb99ba.tgz
+    version: 0.3.5-0b64864cb457f020bc68bef0ac4de039edfb99ba
   auth-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -7537,4 +7559,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-03aaf184a9547454049fd3c00a435102c894192f.tgz
     version: 2.0.1-03aaf184a9547454049fd3c00a435102c894192f
-generated: "2024-02-15T11:50:24.487140126Z"
+generated: "2024-02-15T11:54:54.336064776Z"
