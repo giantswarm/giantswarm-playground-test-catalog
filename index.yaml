@@ -3028,6 +3028,24 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-3f1cf9cfc301f726d749c867529e272c72611b58.tgz
     version: 0.0.0-3f1cf9cfc301f726d749c867529e272c72611b58
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-1d21a7067964f7a699a4aca5044e62706a864c11.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-1d21a7067964f7a699a4aca5044e62706a864c11.tgz-meta/README.md
+      application.giantswarm.io/team: horizon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-1d21a7067964f7a699a4aca5044e62706a864c11.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-02-22T14:40:20.603840395Z"
+    description: Downscaling tool to save on resources with dev clusters when they
+      are not used
+    digest: 8f0bbfdc5eb27b63d61fd6b389d312dc797407c92b74351c792585cd727bcc8b
+    home: https://github.com/giantswarm/kube-downscaler
+    name: kube-downscaler
+    sources:
+    - https://codeberg.org/hjacobs/kube-downscaler
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-1d21a7067964f7a699a4aca5044e62706a864c11.tgz
+    version: 0.0.0-1d21a7067964f7a699a4aca5044e62706a864c11
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-0669c68afa0a74d97d86833d4b81b2ed8893aafb.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.0.0-0669c68afa0a74d97d86833d4b81b2ed8893aafb.tgz-meta/README.md
       application.giantswarm.io/team: horizon
@@ -8060,4 +8078,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-03aaf184a9547454049fd3c00a435102c894192f.tgz
     version: 2.0.1-03aaf184a9547454049fd3c00a435102c894192f
-generated: "2024-02-22T14:37:32.693523446Z"
+generated: "2024-02-22T14:40:20.603110139Z"
