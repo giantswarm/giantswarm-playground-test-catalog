@@ -4846,6 +4846,30 @@ entries:
     version: 0.1.4-16258ecbc6b28f982882822d9714fe58bf2194e6
   node-problem-detector:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.3.0-7e5f0b7450e4ffa4477d31eea14d640b13a78274.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.3.0-7e5f0b7450e4ffa4477d31eea14d640b13a78274.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: v0.8.14
+    created: "2024-02-27T13:40:02.80850619Z"
+    dependencies:
+    - name: node-problem-detector
+      repository: https://charts.deliveryhero.io/
+      version: 2.3.11
+    description: A helm chart for running node-problem-detector on a cluster.
+    digest: edbaf6eaa3479e53e8d84c279a9b1949dd0e289f0265ede0b4fc3979b919b4cf
+    home: https://github.com/giantswarm/node-problem-detector-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: node-problem-detector
+    sources:
+    - https://github.com/giantswarm/node-problem-detector-app
+    - https://github.com/kubernetes/node-problem-detector
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#condition
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.3.0-7e5f0b7450e4ffa4477d31eea14d640b13a78274.tgz
+    version: 0.3.0-7e5f0b7450e4ffa4477d31eea14d640b13a78274
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.2.0-f5b12c2f63f43d93bc9b5be3d8c1c3090e5a1208.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.2.0-f5b12c2f63f43d93bc9b5be3d8c1c3090e5a1208.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -9634,4 +9658,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-03aaf184a9547454049fd3c00a435102c894192f.tgz
     version: 2.0.1-03aaf184a9547454049fd3c00a435102c894192f
-generated: "2024-02-27T13:39:34.105441902Z"
+generated: "2024-02-27T13:40:02.806439519Z"
