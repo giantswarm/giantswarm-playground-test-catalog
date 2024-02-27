@@ -4869,6 +4869,30 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.2.0-e586098333f3dc8f2ca2aa7201acea791242cef3.tgz
     version: 0.2.0-e586098333f3dc8f2ca2aa7201acea791242cef3
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.2.0-7e5f0b7450e4ffa4477d31eea14d640b13a78274.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.2.0-7e5f0b7450e4ffa4477d31eea14d640b13a78274.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: v0.8.14
+    created: "2024-02-27T13:35:42.91386032Z"
+    dependencies:
+    - name: node-problem-detector
+      repository: https://charts.deliveryhero.io/
+      version: 2.3.11
+    description: A helm chart for running node-problem-detector on a cluster.
+    digest: e4cf7f1b23a01ea05d98c2e70333d6d173dd6d4236a6396de3f9d7161d54eef5
+    home: https://github.com/giantswarm/node-problem-detector-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: node-problem-detector
+    sources:
+    - https://github.com/giantswarm/node-problem-detector-app
+    - https://github.com/kubernetes/node-problem-detector
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#condition
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.2.0-7e5f0b7450e4ffa4477d31eea14d640b13a78274.tgz
+    version: 0.2.0-7e5f0b7450e4ffa4477d31eea14d640b13a78274
   pr-generator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.1.tgz-meta/main.yaml
@@ -9562,4 +9586,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-2.0.1-03aaf184a9547454049fd3c00a435102c894192f.tgz
     version: 2.0.1-03aaf184a9547454049fd3c00a435102c894192f
-generated: "2024-02-27T13:35:02.371804515Z"
+generated: "2024-02-27T13:35:42.912519653Z"
