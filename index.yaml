@@ -2624,6 +2624,25 @@ entries:
     version: 0.0.0-0669c68afa0a74d97d86833d4b81b2ed8893aafb
   kube-eagle:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-f0a61170d08940a0baa627fce9ad501aabaee7c4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-f0a61170d08940a0baa627fce9ad501aabaee7c4.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-f0a61170d08940a0baa627fce9ad501aabaee7c4.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.0-f0a61170d08940a0baa627fce9ad501aabaee7c4
+    created: "2024-03-12T16:36:40.075531492Z"
+    description: Prometheus exporter for Kubernetes pod & node resource requests,
+      limits and usage.
+    digest: df426fa0ba6eb4253261e1e621897c4707d130c6d6e253282febc93acd93f529
+    home: https://github.com/giantswarm/kube-eagle-app
+    name: kube-eagle
+    sources:
+    - https://github.com/cloudworkz/kube-eagle-helm-chart/
+    - https://raw.githubusercontent.com/giantswarm/kube-eagle-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-f0a61170d08940a0baa627fce9ad501aabaee7c4.tgz
+    version: 0.0.0-f0a61170d08940a0baa627fce9ad501aabaee7c4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-88700349ef89efa928a88f909acf1e048403ad54.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-eagle-0.0.0-88700349ef89efa928a88f909acf1e048403ad54.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -5635,4 +5654,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1.tgz
     version: 3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1
-generated: "2024-03-12T16:29:49.841442557Z"
+generated: "2024-03-12T16:36:40.07395436Z"
