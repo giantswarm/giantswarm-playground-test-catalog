@@ -1085,6 +1085,27 @@ entries:
     version: 0.2.0-0f9a94eb1071a1bd623b4b7744098b2ce71bab89
   edgedb:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-d6beb0b776e8c9d05f01ed89e57bf782b63e9ea5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-d6beb0b776e8c9d05f01ed89e57bf782b63e9ea5.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-d6beb0b776e8c9d05f01ed89e57bf782b63e9ea5.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: "4.5"
+    created: "2024-03-12T12:16:36.254723971Z"
+    description: A Helm chart for deploying the EdgeDB graph database.
+    digest: 18f7562d531571659aedef5330988dea3cbf02abb6685e70e09e3fb426175585
+    home: https://github.com/giantswarm/edgedb
+    icon: https://s.giantswarm.io/app-icons/edgedb/light.svg
+    name: edgedb
+    sources:
+    - https://github.com/edgedb/edgedb
+    - https://github.com/Japan7/nanak8s/tree/main/charts/edgedb
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-d6beb0b776e8c9d05f01ed89e57bf782b63e9ea5.tgz
+    version: 0.0.0-d6beb0b776e8c9d05f01ed89e57bf782b63e9ea5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-75af74062268a80974a3860c3e32ee518b56e245.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-75af74062268a80974a3860c3e32ee518b56e245.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -5403,4 +5424,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1.tgz
     version: 3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1
-generated: "2024-03-12T01:24:37.867411369Z"
+generated: "2024-03-12T12:16:36.253967Z"
