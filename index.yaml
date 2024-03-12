@@ -1245,6 +1245,27 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-75af74062268a80974a3860c3e32ee518b56e245.tgz
     version: 0.0.0-75af74062268a80974a3860c3e32ee518b56e245
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-0d6ef85d72f2b8e63aa14f137dabaf188d560ef1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-0d6ef85d72f2b8e63aa14f137dabaf188d560ef1.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-0d6ef85d72f2b8e63aa14f137dabaf188d560ef1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: "4.5"
+    created: "2024-03-12T23:36:49.642729699Z"
+    description: A Helm chart for deploying the EdgeDB graph database.
+    digest: f4adb5237cca27c10b2785bc7763cdc9e19d4a0fc0e5993aaff49f1043575112
+    home: https://github.com/giantswarm/edgedb
+    icon: https://s.giantswarm.io/app-icons/edgedb/light.svg
+    name: edgedb
+    sources:
+    - https://github.com/edgedb/edgedb
+    - https://github.com/Japan7/nanak8s/tree/main/charts/edgedb
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/edgedb-0.0.0-0d6ef85d72f2b8e63aa14f137dabaf188d560ef1.tgz
+    version: 0.0.0-0d6ef85d72f2b8e63aa14f137dabaf188d560ef1
   esrally-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -5791,4 +5812,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1.tgz
     version: 3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1
-generated: "2024-03-12T23:14:40.926642174Z"
+generated: "2024-03-12T23:36:49.641893396Z"
