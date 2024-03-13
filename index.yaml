@@ -674,6 +674,19 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.1-37342f3de2dcd9116ba799e908e6f49131ad9913.tgz
     version: 0.15.1-37342f3de2dcd9116ba799e908e6f49131ad9913
+  capa-karpenter-taint-remover:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.0.1
+    created: "2024-03-13T14:36:06.747503266Z"
+    description: CAPA karpenter taint remover
+    digest: 3380e9b9d766ec23e81362550ed1bd818dbcb0115e01a2edb7d666567300db78
+    home: https://github.com/giantswarm/capa-karpenter-taint-remover
+    name: capa-karpenter-taint-remover
+    urls:
+    - https://giantswarm.github.io/playground-test-catalog/capa-karpenter-taint-remover-0.0.0-c36db7feb109f7fcf50334a074d03e48d9e793f1.tgz
+    version: 0.0.0-c36db7feb109f7fcf50334a074d03e48d9e793f1
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.9.tgz-meta/main.yaml
@@ -6158,4 +6171,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1.tgz
     version: 3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1
-generated: "2024-03-13T12:30:51.411626484Z"
+generated: "2024-03-13T14:36:06.746759361Z"
