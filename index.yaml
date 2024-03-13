@@ -155,6 +155,29 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.5-0b64864cb457f020bc68bef0ac4de039edfb99ba.tgz
     version: 0.3.5-0b64864cb457f020bc68bef0ac4de039edfb99ba
+  alfred-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-4ea80f8cf04e4af85e624f4663adf06c067cb662.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-4ea80f8cf04e4af85e624f4663adf06c067cb662.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-4ea80f8cf04e4af85e624f4663adf06c067cb662.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.12.2-4ea80f8cf04e4af85e624f4663adf06c067cb662
+    created: "2024-03-13T09:55:20.123500082Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 39e7ab54560a4ff76ea9e90409ca83e1d0ec5e8dcf6036cd02215f726f11fc47
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-4ea80f8cf04e4af85e624f4663adf06c067cb662.tgz
+    version: 0.12.2-4ea80f8cf04e4af85e624f4663adf06c067cb662
   auth-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -6022,4 +6045,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1.tgz
     version: 3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1
-generated: "2024-03-13T09:55:02.360881002Z"
+generated: "2024-03-13T09:55:20.122004497Z"
