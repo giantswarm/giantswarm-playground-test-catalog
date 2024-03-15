@@ -376,6 +376,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-4ea80f8cf04e4af85e624f4663adf06c067cb662.tgz
     version: 0.12.2-4ea80f8cf04e4af85e624f4663adf06c067cb662
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-1633cad4d06bdb4f447f1b281d2aafa3e87a714f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-1633cad4d06bdb4f447f1b281d2aafa3e87a714f.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-1633cad4d06bdb4f447f1b281d2aafa3e87a714f.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.12.2-1633cad4d06bdb4f447f1b281d2aafa3e87a714f
+    created: "2024-03-15T13:30:39.817913109Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: cd194a275bbe6b5d10be955a72cc3eb5ee29c3da54da22e8706d63116b9e86a9
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.12.2-1633cad4d06bdb4f447f1b281d2aafa3e87a714f.tgz
+    version: 0.12.2-1633cad4d06bdb4f447f1b281d2aafa3e87a714f
   auth-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -6943,4 +6965,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1.tgz
     version: 3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1
-generated: "2024-03-15T13:28:52.174853184Z"
+generated: "2024-03-15T13:30:39.816914323Z"
