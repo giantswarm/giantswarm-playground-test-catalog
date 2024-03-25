@@ -4320,6 +4320,21 @@ entries:
     version: 0.0.0-330a4d2607652ffb4ca6135c09a1af5efa8c56aa
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-fa1a9b758d887c0bd4e066b3274bdd7bf094f86a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-fa1a9b758d887c0bd4e066b3274bdd7bf094f86a.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-fa1a9b758d887c0bd4e066b3274bdd7bf094f86a.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-03-25T11:34:02.250641793Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 86cbf3a851b38133e0d0fb366489467c9b41065f5c64fc5af60ed5fc03623e2c
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-fa1a9b758d887c0bd4e066b3274bdd7bf094f86a.tgz
+    version: 0.7.0-fa1a9b758d887c0bd4e066b3274bdd7bf094f86a
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-f33a64e10c36807b65a9187764e65638f1c652b0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-f33a64e10c36807b65a9187764e65638f1c652b0.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-f33a64e10c36807b65a9187764e65638f1c652b0.tgz-meta/values.schema.json
@@ -7963,4 +7978,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1.tgz
     version: 3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1
-generated: "2024-03-25T09:12:46.376726297Z"
+generated: "2024-03-25T11:34:02.250019493Z"
