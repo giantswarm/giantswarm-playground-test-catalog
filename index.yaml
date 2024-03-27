@@ -68,6 +68,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.7-ac85e985a15e56b16d82be12d6666b6d5ecb5954.tgz
     version: 0.3.7-ac85e985a15e56b16d82be12d6666b6d5ecb5954
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.7-1dd3c344303ff1f22bd64097fe329c9994983001.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.7-1dd3c344303ff1f22bd64097fe329c9994983001.tgz-meta/README.md
+      application.giantswarm.io/team: chapter-se
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.7-1dd3c344303ff1f22bd64097fe329c9994983001.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.3.7-1dd3c344303ff1f22bd64097fe329c9994983001
+    created: "2024-03-27T18:21:13.402673135Z"
+    description: A Helm chart for Ailefroide, the Slack support handle manager
+    digest: 7a01a37b25e92067307282d03a27817c49eaf47aaf7ba82b48083251048ad83e
+    home: https://github.com/giantswarm/ailefroide-app
+    icon: https://s.giantswarm.io/app-icons/1/png/ailefroide-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/ailefroide-app
+    name: ailefroide-app
+    sources:
+    - https://github.com/giantswarm/ailefroide-app
+    - https://raw.githubusercontent.com/giantswarm/ailefroide-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.7-1dd3c344303ff1f22bd64097fe329c9994983001.tgz
+    version: 0.3.7-1dd3c344303ff1f22bd64097fe329c9994983001
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.6-d7a667b549331a663c1ee2a89f59f49309cb4663.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.3.6-d7a667b549331a663c1ee2a89f59f49309cb4663.tgz-meta/README.md
       application.giantswarm.io/team: chapter-se
@@ -8281,4 +8303,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1.tgz
     version: 3.0.0-24c89a311fa9547d3c3b663e46b1b1b21b00a8b1
-generated: "2024-03-27T16:25:18.494029593Z"
+generated: "2024-03-27T18:21:13.401915955Z"
