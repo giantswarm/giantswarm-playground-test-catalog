@@ -628,6 +628,25 @@ entries:
     version: 0.1.3-1c64ceef65848cdb7674074879b5097e5414ff9f
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.2-ad514b8e56e49f8346a2d85b5982fae13e7558c5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.2-ad514b8e56e49f8346a2d85b5982fae13e7558c5.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2024-04-01T20:20:54.074554781Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: a22bb31bffe7a7ad9579ca1cdb8929946a0bbacb0e58efade03129f3907e9afb
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.2-ad514b8e56e49f8346a2d85b5982fae13e7558c5.tgz
+    version: 0.15.2-ad514b8e56e49f8346a2d85b5982fae13e7558c5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.2-a0e0d15e69b1a6d7d08cb9fe34602a025f6dc094.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.2-a0e0d15e69b1a6d7d08cb9fe34602a025f6dc094.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -3956,4 +3975,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-2ccd8d9ecc17818d9edafa94a483045c6a35167e.tgz
     version: 3.0.0-2ccd8d9ecc17818d9edafa94a483045c6a35167e
-generated: "2024-04-01T20:05:25.160954172Z"
+generated: "2024-04-01T20:20:54.073036166Z"
