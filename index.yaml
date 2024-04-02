@@ -3963,6 +3963,30 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.3.0-df6c2f29d786b9f4923befdd37ac5ddd544fa7ad.tgz
     version: 0.3.0-df6c2f29d786b9f4923befdd37ac5ddd544fa7ad
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.3.0-3bb31f01a6c59fff830e9b20a8438140959a8a16.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.3.0-3bb31f01a6c59fff830e9b20a8438140959a8a16.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: v0.8.14
+    created: "2024-04-02T14:53:35.26131217Z"
+    dependencies:
+    - name: node-problem-detector
+      repository: https://charts.deliveryhero.io/
+      version: 2.3.11
+    description: A helm chart for running node-problem-detector on a cluster.
+    digest: 3a88cce5da6c6d0d6e46e63690e4f43f0f61e8424c0221bf892e3d473bfd21b7
+    home: https://github.com/giantswarm/node-problem-detector-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: node-problem-detector
+    sources:
+    - https://github.com/giantswarm/node-problem-detector-app
+    - https://github.com/kubernetes/node-problem-detector
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#condition
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.3.0-3bb31f01a6c59fff830e9b20a8438140959a8a16.tgz
+    version: 0.3.0-3bb31f01a6c59fff830e9b20a8438140959a8a16
   opencost:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -4862,4 +4886,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-2ccd8d9ecc17818d9edafa94a483045c6a35167e.tgz
     version: 3.0.0-2ccd8d9ecc17818d9edafa94a483045c6a35167e
-generated: "2024-04-02T14:53:08.459757958Z"
+generated: "2024-04-02T14:53:35.259855843Z"
