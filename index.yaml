@@ -6092,6 +6092,27 @@ entries:
     version: 0.1.0-0805b95e6c863003f339843f0ba32dd550f849d5
   vertical-pod-autoscaler-crd:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-d0ad2d96abbceddf58e9a9d63b9f74dc45e71a09.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-d0ad2d96abbceddf58e9a9d63b9f74dc45e71a09.tgz-meta/README.md
+      application.giantswarm.io/team: turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-d0ad2d96abbceddf58e9a9d63b9f74dc45e71a09.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+      repository: https://github.com/FairwindsOps/charts/tree/master/stable/vpa
+      version: fb2ccec4228c26e366bd1ac96aade056f3db0151
+    apiVersion: v2
+    appVersion: 1.1.0
+    created: "2024-04-11T06:40:15.248092344Z"
+    description: Vertical Pod Autoscaler CustomResourceDefinitions.
+    digest: cf68f39b52f3be8cc09540c6ae846b18b8d181f217ec48f497605a2d0372986e
+    home: https://github.com/giantswarm/vertical-pod-autoscaler-crd
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
+    name: vertical-pod-autoscaler-crd
+    sources:
+    - https://github.com/kubernetes/autoscaler
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-d0ad2d96abbceddf58e9a9d63b9f74dc45e71a09.tgz
+    version: 3.0.0-d0ad2d96abbceddf58e9a9d63b9f74dc45e71a09
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-c4619d2ccc2e26f8fae80c63d33cb363797e3481.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.0.0-c4619d2ccc2e26f8fae80c63d33cb363797e3481.tgz-meta/README.md
       application.giantswarm.io/team: turtles
@@ -6281,4 +6302,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/zot-0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0.tgz
     version: 0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0
-generated: "2024-04-11T06:39:47.840202906Z"
+generated: "2024-04-11T06:40:15.247385179Z"
