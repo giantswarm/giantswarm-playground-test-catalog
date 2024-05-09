@@ -3660,6 +3660,32 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-ec7664247826bfcd8e4e8f84e65699abfcd1eb0d.tgz
     version: 0.1.4-ec7664247826bfcd8e4e8f84e65699abfcd1eb0d
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-bfddbbeab4897387e63e0701f0f36afff5a9c54d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-bfddbbeab4897387e63e0701f0f36afff5a9c54d.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-bfddbbeab4897387e63e0701f0f36afff5a9c54d.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2024-05-09T08:12:02.844257083Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.0.5
+    description: Caching solution
+    digest: c922b3a5d00499316b6b64d1500b083a341394a6ebb30bb6758e794f02974cc7
+    home: https://github.com/giantswarm/memcached
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-bfddbbeab4897387e63e0701f0f36afff5a9c54d.tgz
+    version: 0.1.4-bfddbbeab4897387e63e0701f0f36afff5a9c54d
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-bac13f9acce1ebb0a6d1681e0337536eaf8ba9ed.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-bac13f9acce1ebb0a6d1681e0337536eaf8ba9ed.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -6424,4 +6450,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/zot-0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0.tgz
     version: 0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0
-generated: "2024-05-09T08:07:52.856987633Z"
+generated: "2024-05-09T08:12:02.839456942Z"
