@@ -3470,6 +3470,21 @@ entries:
     version: 0.0.0-1246a6782ef018bd5cc2afb90f32b3bc19633f94
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-e9c26a155cb08474b0edf345c977f22b00ffb3ce.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-e9c26a155cb08474b0edf345c977f22b00ffb3ce.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-e9c26a155cb08474b0edf345c977f22b00ffb3ce.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-05-13T10:16:48.647458625Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: e1cb161cd475cabf5da35686e96ba906a6feb7f4440910a92d3075b8a5586d7f
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-e9c26a155cb08474b0edf345c977f22b00ffb3ce.tgz
+    version: 0.7.0-e9c26a155cb08474b0edf345c977f22b00ffb3ce
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-dc1b9fb1b58ac911044ae13e9b0c067723fe7dfd.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-dc1b9fb1b58ac911044ae13e9b0c067723fe7dfd.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-dc1b9fb1b58ac911044ae13e9b0c067723fe7dfd.tgz-meta/values.schema.json
@@ -6690,4 +6705,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/zot-0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0.tgz
     version: 0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0
-generated: "2024-05-13T04:45:04.211586391Z"
+generated: "2024-05-13T10:16:48.646298862Z"
