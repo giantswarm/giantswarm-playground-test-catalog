@@ -419,6 +419,25 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-a1852e91dc671e7c17d94b96aa87be04cf903cb3.tgz
     version: 0.15.3-a1852e91dc671e7c17d94b96aa87be04cf903cb3
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-5b491c88dc796d60abac90173b676c5c63ba612b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-5b491c88dc796d60abac90173b676c5c63ba612b.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2024-05-15T03:37:49.07436386Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: c95ce29a41fc0eab3b9eacf3934cc4d3a70a060a66d4c9acfed394bdb4ad91e0
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-5b491c88dc796d60abac90173b676c5c63ba612b.tgz
+    version: 0.15.3-5b491c88dc796d60abac90173b676c5c63ba612b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-559424ec02d852d7408aea0499179cd628b62d52.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-559424ec02d852d7408aea0499179cd628b62d52.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -7164,4 +7183,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/zot-0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0.tgz
     version: 0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0
-generated: "2024-05-15T03:20:43.763895407Z"
+generated: "2024-05-15T03:37:49.072837118Z"
