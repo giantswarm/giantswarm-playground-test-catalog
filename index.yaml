@@ -5647,6 +5647,31 @@ entries:
     version: 0.0.1-11741e8384136cf64e4631b957e95c46e468fd4d
   pyroscope:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-e8a99a0bb876339ee4831b74efd326df336d7c99.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-e8a99a0bb876339ee4831b74efd326df336d7c99.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-e8a99a0bb876339ee4831b74efd326df336d7c99.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2024-05-15T02:50:42.932658006Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.5.1
+    description: Helm chart for Pyroscope
+    digest: 1ed2574b8ea021ea46e2ebf84e6d07851c58e93713a192da6869bdb12ef9ef93
+    home: https://github.com/giantswarm/pyroscope
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-e8a99a0bb876339ee4831b74efd326df336d7c99.tgz
+    version: 0.2.0-e8a99a0bb876339ee4831b74efd326df336d7c99
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-b55312e258cc4864f042c87821301ec6aa60b236.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-b55312e258cc4864f042c87821301ec6aa60b236.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -7064,4 +7089,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/zot-0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0.tgz
     version: 0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0
-generated: "2024-05-15T02:06:16.748846941Z"
+generated: "2024-05-15T02:50:42.926656668Z"
