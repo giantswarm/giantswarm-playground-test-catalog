@@ -343,6 +343,25 @@ entries:
     version: 0.1.3-08f5c3700a22213e0276b6e13c6435da20f82726
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-ffc258680a394127159f4b60ee39e0345a433443.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-ffc258680a394127159f4b60ee39e0345a433443.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2024-05-27T17:03:35.924138601Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 12603fe53c33cd9ccd60d613a771fe09fab518f65e904a13d7ac36d3f3b29401
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-ffc258680a394127159f4b60ee39e0345a433443.tgz
+    version: 0.15.3-ffc258680a394127159f4b60ee39e0345a433443
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-dc125f97c39ade0fa6092f33680e68c158fba7a4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-dc125f97c39ade0fa6092f33680e68c158fba7a4.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -9089,4 +9108,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/zot-0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0.tgz
     version: 0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0
-generated: "2024-05-27T13:35:24.737877194Z"
+generated: "2024-05-27T17:03:35.922588773Z"
