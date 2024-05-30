@@ -893,6 +893,43 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10-e1a23200186f8805ae42bb6eaabb5a83fd7ae884.tgz
     version: 1.42.10-e1a23200186f8805ae42bb6eaabb5a83fd7ae884
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10-c9e45c6f31a79ef38353d2892c5ddec62009988c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10-c9e45c6f31a79ef38353d2892c5ddec62009988c.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10-c9e45c6f31a79ef38353d2892c5ddec62009988c.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.42.10-c9e45c6f31a79ef38353d2892c5ddec62009988c
+    created: "2024-05-30T13:45:40.525217473Z"
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    digest: 440af83f1277db2d8e4d14e43e1502d492ac6fdcad37ebbe67dfb4e73cf8b684
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+    keywords:
+    - authentication
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10-c9e45c6f31a79ef38353d2892c5ddec62009988c.tgz
+    version: 1.42.10-c9e45c6f31a79ef38353d2892c5ddec62009988c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10-9ac6f53f350a2aa320cceeb8ec0b5e3f2ecd8eae.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10-9ac6f53f350a2aa320cceeb8ec0b5e3f2ecd8eae.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -9645,4 +9682,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/zot-0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0.tgz
     version: 0.3.1-6e77bfc15727f5f94fa6f28baf31544477150cf0
-generated: "2024-05-30T08:54:44.702028543Z"
+generated: "2024-05-30T13:45:40.522704342Z"
