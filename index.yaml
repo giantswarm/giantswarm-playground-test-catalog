@@ -99,6 +99,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-4abec1afbde4f565132aeaed2fe51eaeb6c9a406.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-4abec1afbde4f565132aeaed2fe51eaeb6c9a406.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-4abec1afbde4f565132aeaed2fe51eaeb6c9a406.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2024-06-12T11:57:49.556960362Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: d0d992ac694cd2a386b10f8dd063da1de3fcca496f39ad66eeebcd865da9a43f
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-4abec1afbde4f565132aeaed2fe51eaeb6c9a406.tgz
+    version: 0.1.4-4abec1afbde4f565132aeaed2fe51eaeb6c9a406
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-30259f8244d35e302dc80825475a022b4c643e89.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-30259f8244d35e302dc80825475a022b4c643e89.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -6149,4 +6168,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-358f30f62c377ffa4f72e9f2b9a952e05cb4465e.tgz
     version: 3.1.0-358f30f62c377ffa4f72e9f2b9a952e05cb4465e
-generated: "2024-06-12T09:47:05.799753169Z"
+generated: "2024-06-12T11:57:49.556209554Z"
