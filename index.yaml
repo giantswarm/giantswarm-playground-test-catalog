@@ -3719,6 +3719,21 @@ entries:
     version: 0.1.0-486d4ab19df3ba8f70b99d2fd7eef440291fd54a
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-f317dd65492f2d1a19299eed4e5e13f62f8c8cf1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-f317dd65492f2d1a19299eed4e5e13f62f8c8cf1.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-f317dd65492f2d1a19299eed4e5e13f62f8c8cf1.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-06-14T10:10:00.650787717Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 3a8cca37de8806d9bd4b7ba47b33108021b55169326db7809ff0c7788dae772e
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-f317dd65492f2d1a19299eed4e5e13f62f8c8cf1.tgz
+    version: 0.7.0-f317dd65492f2d1a19299eed4e5e13f62f8c8cf1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-e9c26a155cb08474b0edf345c977f22b00ffb3ce.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-e9c26a155cb08474b0edf345c977f22b00ffb3ce.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.7.0-e9c26a155cb08474b0edf345c977f22b00ffb3ce.tgz-meta/values.schema.json
@@ -6687,4 +6702,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-358f30f62c377ffa4f72e9f2b9a952e05cb4465e.tgz
     version: 3.1.0-358f30f62c377ffa4f72e9f2b9a952e05cb4465e
-generated: "2024-06-14T09:48:43.488949695Z"
+generated: "2024-06-14T10:10:00.649837007Z"
