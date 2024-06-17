@@ -462,6 +462,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-3446790c206b6df49502e3690d1d248f933eee48.tgz
     version: 0.15.3-3446790c206b6df49502e3690d1d248f933eee48
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-28d14503726ac85b3b0d34b5768a34ca0123f3ca.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-28d14503726ac85b3b0d34b5768a34ca0123f3ca.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2024-06-17T20:10:26.495988388Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: a9da7d0c363f9c84d0c92c3890745e3ace72a1fa15c25be8f5a41a330490628b
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-28d14503726ac85b3b0d34b5768a34ca0123f3ca.tgz
+    version: 0.15.3-28d14503726ac85b3b0d34b5768a34ca0123f3ca
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10.tgz-meta/main.yaml
@@ -7407,4 +7426,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-06-17T20:09:47.400341217Z"
+generated: "2024-06-17T20:10:26.494314425Z"
