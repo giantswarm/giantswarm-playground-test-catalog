@@ -176,6 +176,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-30259f8244d35e302dc80825475a022b4c643e89.tgz
     version: 0.1.4-30259f8244d35e302dc80825475a022b4c643e89
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-009cac21001731b7d16eb343463b60e3a1e490bc.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-009cac21001731b7d16eb343463b60e3a1e490bc.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-009cac21001731b7d16eb343463b60e3a1e490bc.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2024-06-17T10:16:59.4850738Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 35ef9364925b825f7a2b78fd00f665b7fd862f6954718b6ce2ebd5c7ad643413
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-009cac21001731b7d16eb343463b60e3a1e490bc.tgz
+    version: 0.1.4-009cac21001731b7d16eb343463b60e3a1e490bc
   azure-ad-pod-identity-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-ffc258680a394127159f4b60ee39e0345a433443.tgz-meta/main.yaml
@@ -7216,4 +7235,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-06-17T08:42:56.731574713Z"
+generated: "2024-06-17T10:16:59.484353087Z"
