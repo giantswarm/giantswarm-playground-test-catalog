@@ -258,6 +258,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-414231722122aa81616af845857ada13521460e1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-414231722122aa81616af845857ada13521460e1.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-414231722122aa81616af845857ada13521460e1.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2024-07-03T07:24:07.866098123Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: da2fdc5e3725c6c5262f6ff755f87904c0a77dfd8953cf812c9660a150de9a58
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-414231722122aa81616af845857ada13521460e1.tgz
+    version: 0.1.4-414231722122aa81616af845857ada13521460e1
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-3c4e5389da614fe5a3654bec920b650e59048a67.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.1.4-3c4e5389da614fe5a3654bec920b650e59048a67.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -3740,4 +3759,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-07-03T01:21:43.801627124Z"
+generated: "2024-07-03T07:24:07.865283048Z"
