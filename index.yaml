@@ -25,6 +25,32 @@ entries:
     version: 0.13.0-91d56cc44f7f3e470651171fe92ace11cf64dd65
   alloy:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-f22d8b723fce670cf7ace5bff326769912d3ed82.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-f22d8b723fce670cf7ace5bff326769912d3ed82.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-f22d8b723fce670cf7ace5bff326769912d3ed82.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.2.0
+    created: "2024-07-04T18:19:48.031265698Z"
+    dependencies:
+    - condition: alloy.enabled
+      name: alloy
+      repository: https://grafana.github.io/helm-charts
+      version: 0.4.0
+    description: Grafana Alloy OpenTelemetry Collector
+    digest: aa19fdac061e6363ea9ef8f4ff9a4111c311e0d3a00600a67de98087742e340f
+    home: https://github.com/giantswarm/alloy-app
+    icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: alloy
+    sources:
+    - https://github.com/grafana/alloy/tree/main/operations/helm/charts/alloy
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-f22d8b723fce670cf7ace5bff326769912d3ed82.tgz
+    version: 0.0.0-f22d8b723fce670cf7ace5bff326769912d3ed82
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-f03307029fa617b3035da1e4fcac61919b12878f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-f03307029fa617b3035da1e4fcac61919b12878f.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -4204,4 +4230,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-07-04T18:18:53.476850836Z"
+generated: "2024-07-04T18:19:48.028993838Z"
