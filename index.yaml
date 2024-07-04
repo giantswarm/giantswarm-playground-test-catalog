@@ -154,6 +154,32 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-51e4161c30fe4f17a8df22fbdd0a1ce4eb75872d.tgz
     version: 0.0.0-51e4161c30fe4f17a8df22fbdd0a1ce4eb75872d
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-4801b6262b34b556d49d1d801ab8d4c645c04fdd.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-4801b6262b34b556d49d1d801ab8d4c645c04fdd.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-4801b6262b34b556d49d1d801ab8d4c645c04fdd.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.2.0
+    created: "2024-07-04T17:01:52.349016702Z"
+    dependencies:
+    - condition: alloy.enabled
+      name: alloy
+      repository: https://grafana.github.io/helm-charts
+      version: 0.4.0
+    description: Grafana Alloy OpenTelemetry Collector
+    digest: b6d094707fd9a028f6d8399af6d5a3702f3f72637431f65d707f36d5a451c040
+    home: https://github.com/giantswarm/alloy-app
+    icon: https://s.giantswarm.io/app-icons/grafana-alloy/1/light.png
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: alloy
+    sources:
+    - https://github.com/grafana/alloy/tree/main/operations/helm/charts/alloy
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.0.0-4801b6262b34b556d49d1d801ab8d4c645c04fdd.tgz
+    version: 0.0.0-4801b6262b34b556d49d1d801ab8d4c645c04fdd
   auth-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -4104,4 +4130,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-07-04T16:32:15.156320616Z"
+generated: "2024-07-04T17:01:52.347084243Z"
