@@ -1967,6 +1967,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dns-tester-0.2.0-7c0a79202913e1b5f9e9cc27c774f195e74c03bf.tgz
     version: 0.2.0-7c0a79202913e1b5f9e9cc27c774f195e74c03bf
+  envoy-gateway:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-c08ad46b535709351b09b4091a80f4c52129bf6e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-c08ad46b535709351b09b4091a80f4c52129bf6e.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-c08ad46b535709351b09b4091a80f4c52129bf6e.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2024-07-12T07:07:20.480496805Z"
+    description: The Helm chart for Envoy Gateway
+    digest: e9a0e6e2fa1628b8f2a4dafcccb016057b3fd5387f0108a94287bd0297afea65
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-c08ad46b535709351b09b4091a80f4c52129bf6e.tgz
+    version: 0.0.0-c08ad46b535709351b09b4091a80f4c52129bf6e
   esrally-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -5393,4 +5418,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-07-11T10:58:46.235529867Z"
+generated: "2024-07-12T07:07:20.469164466Z"
