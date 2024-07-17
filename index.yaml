@@ -4739,6 +4739,32 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-26ee087031dd22ee426dae0a37245f3e8c3266c4.tgz
     version: 0.1.4-26ee087031dd22ee426dae0a37245f3e8c3266c4
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1df846bd2ecd597537c61bc848295c39444ca286.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1df846bd2ecd597537c61bc848295c39444ca286.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1df846bd2ecd597537c61bc848295c39444ca286.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2024-07-17T10:51:54.97312006Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.4.9
+    description: Caching solution
+    digest: e2e367650a524d220921d272d8462234889b3e8fc84bd5389765736334d5987f
+    home: https://github.com/giantswarm/memcached
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1df846bd2ecd597537c61bc848295c39444ca286.tgz
+    version: 0.1.4-1df846bd2ecd597537c61bc848295c39444ca286
   node-problem-detector:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.3.1-12240b60dee5e86c3d69c299db6528de55bb68d4.tgz-meta/main.yaml
@@ -5797,4 +5823,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-07-16T04:09:32.335473182Z"
+generated: "2024-07-17T10:51:54.96700509Z"
