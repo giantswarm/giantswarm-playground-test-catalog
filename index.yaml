@@ -2225,6 +2225,30 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9ff766a13d2797689e94f154f9d1311cca163f67.tgz
     version: 0.0.0-9ff766a13d2797689e94f154f9d1311cca163f67
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-5fa6aa0414e59fd0ed451cd1fb560bba2f42e3e1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-5fa6aa0414e59fd0ed451cd1fb560bba2f42e3e1.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-5fa6aa0414e59fd0ed451cd1fb560bba2f42e3e1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2024-07-18T09:12:37.874788293Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 732d87795361069535fe951ef8cf1f0e2f7a2e1c7b0fd01cc9af6a8383129a96
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-5fa6aa0414e59fd0ed451cd1fb560bba2f42e3e1.tgz
+    version: 0.0.0-5fa6aa0414e59fd0ed451cd1fb560bba2f42e3e1
   esrally-app:
   - annotations:
       application.giantswarm.io/team: atlas
@@ -5873,4 +5897,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-07-17T22:14:16.934347176Z"
+generated: "2024-07-18T09:12:37.864675608Z"
