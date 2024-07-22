@@ -1434,6 +1434,25 @@ entries:
     version: 0.1.4-009cac21001731b7d16eb343463b60e3a1e490bc
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-f7fc08b3669dedc6be585ff82f79f437d4b6ed5d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-f7fc08b3669dedc6be585ff82f79f437d4b6ed5d.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2024-07-22T09:01:29.066147639Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 634b7be98d3682a5c0002271cb7f5c03beabdfa7eefd5c76f4e18a1a0a471239
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-f7fc08b3669dedc6be585ff82f79f437d4b6ed5d.tgz
+    version: 0.15.3-f7fc08b3669dedc6be585ff82f79f437d4b6ed5d
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-ee270796b604f53e994d4f4c9a1f0f84f19f54c4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.3-ee270796b604f53e994d4f4c9a1f0f84f19f54c4.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -6654,4 +6673,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b.tgz
     version: 3.1.0-14854e7aa4cbb0157c6699d6b5865c59e8825d1b
-generated: "2024-07-22T07:57:12.68234199Z"
+generated: "2024-07-22T09:01:29.064193252Z"
