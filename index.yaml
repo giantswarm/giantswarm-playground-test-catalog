@@ -5977,6 +5977,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-41eecfbc225a781ced07788ea8c9e133d74cd8d8.tgz
     version: 0.2.0-41eecfbc225a781ced07788ea8c9e133d74cd8d8
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-16bb2edae0df855f8e2cb18ad6df5384d8eccd0b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-16bb2edae0df855f8e2cb18ad6df5384d8eccd0b.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-16bb2edae0df855f8e2cb18ad6df5384d8eccd0b.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2024-08-01T16:31:18.682887913Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.6.1
+    description: Helm chart for Pyroscope
+    digest: 728f43aa21989cbd17a68ddea4f30d38c148c3e4752e75f2284c60f2ee507bcb
+    home: https://github.com/giantswarm/pyroscope
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-16bb2edae0df855f8e2cb18ad6df5384d8eccd0b.tgz
+    version: 0.2.0-16bb2edae0df855f8e2cb18ad6df5384d8eccd0b
   slack-replier:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-9b51f502ce0fe44787d54e3b6a1ee17e391ef088.tgz-meta/main.yaml
@@ -6154,4 +6179,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-01T16:31:09.749239528Z"
+generated: "2024-08-01T16:31:18.674743744Z"
