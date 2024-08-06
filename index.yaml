@@ -3452,6 +3452,28 @@ entries:
     version: 0.0.0-082f5ad52f1d91e3ee0f86ef2c8c92ae72984773
   faiq:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-eabf67484c8398c044477e543d726a0b65249a1b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-eabf67484c8398c044477e543d726a0b65249a1b.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-eabf67484c8398c044477e543d726a0b65249a1b.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.0.15-eabf67484c8398c044477e543d726a0b65249a1b
+    created: "2024-08-06T17:50:40.208007145Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: c6d83a09270ec91d440bbfb8d48493dfa7a72f3a384f62b5546e87926998cc8d
+    home: https://github.com/giantswarm/faiq
+    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-eabf67484c8398c044477e543d726a0b65249a1b.tgz
+    version: 0.0.15-eabf67484c8398c044477e543d726a0b65249a1b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-ea38a10a5648c02941521229bb2eb00c3ab1e0c3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-ea38a10a5648c02941521229bb2eb00c3ab1e0c3.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -6449,4 +6471,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-06T08:47:36.855310622Z"
+generated: "2024-08-06T17:50:40.206804099Z"
