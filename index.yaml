@@ -2867,6 +2867,21 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.10-05dee82cad01691e3144b28be430bc0769020105.tgz
     version: 1.42.10-05dee82cad01691e3144b28be430bc0769020105
+  dns-tester:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.2.0-b80dc87a9bc53a903ce8bc93591cc4808943f8e0
+    created: "2024-08-09T11:11:13.635812739Z"
+    description: A Helm chart used to test DNS status
+    digest: 4ed86e25757bb9e0e0a0d8aaf71f9f220b45adcf0e907183eb546af7034f335b
+    home: https://github.com/giantswarm/dns-tester
+    name: dns-tester
+    sources:
+    - https://github.com/giantswarm/dns-tester
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dns-tester-0.2.0-b80dc87a9bc53a903ce8bc93591cc4808943f8e0.tgz
+    version: 0.2.0-b80dc87a9bc53a903ce8bc93591cc4808943f8e0
   envoy-gateway:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-fd8514b197637d0957a343f068d271795862bf3d.tgz-meta/main.yaml
@@ -6810,4 +6825,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-09T11:08:21.328928898Z"
+generated: "2024-08-09T11:11:13.635251529Z"
