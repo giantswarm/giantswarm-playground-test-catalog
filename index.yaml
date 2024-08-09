@@ -1,5 +1,28 @@
 apiVersion: v1
 entries:
+  alfred-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-c4605538c7a8e9566862b877f27d82450c436986.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-c4605538c7a8e9566862b877f27d82450c436986.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-c4605538c7a8e9566862b877f27d82450c436986.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.13.0-c4605538c7a8e9566862b877f27d82450c436986
+    created: "2024-08-09T11:15:22.396270583Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 3ffe24fb82910eff7136e07a36b4ff1e85e687c99c49cb1a46b33c3d643ca2a7
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-c4605538c7a8e9566862b877f27d82450c436986.tgz
+    version: 0.13.0-c4605538c7a8e9566862b877f27d82450c436986
   alloy:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.1.0.tgz-meta/main.yaml
@@ -6869,4 +6892,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-09T11:13:15.841274537Z"
+generated: "2024-08-09T11:15:22.39530478Z"
