@@ -5761,6 +5761,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.9.8-503824737d53c486db816bb65f8391a000ad68aa.tgz
     version: 0.9.8-503824737d53c486db816bb65f8391a000ad68aa
+  - annotations:
+      application.giantswarm.io/team: team-horizon
+    apiVersion: v1
+    appVersion: v0.9.6
+    created: "2024-08-20T11:00:33.324588108Z"
+    description: The k8s initiator runs in a master node and applies some configuration
+      when the master is new.
+    digest: a6fc1f33140158059751b181153130736f5d0429ca2330b7b1c92e8c72be6e12
+    home: https://github.com/giantswarm/k8s-initiator-app
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: k8s-initiator-app
+    sources:
+    - https://github.com/giantswarm/k8s-initiator-app
+    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.9.8-2fb2c1729eef53fe1cf5ea6506b4da180762e1e5/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.9.8-2fb2c1729eef53fe1cf5ea6506b4da180762e1e5.tgz
+    version: 0.9.8-2fb2c1729eef53fe1cf5ea6506b4da180762e1e5
   kube-downscaler:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kube-downscaler-0.2.0-55e94124c54c6d432d727dca5fce36e40d9e20e9.tgz-meta/main.yaml
@@ -7779,4 +7796,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-20T10:57:17.402163468Z"
+generated: "2024-08-20T11:00:33.323509762Z"
