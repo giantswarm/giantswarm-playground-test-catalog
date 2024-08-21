@@ -1050,6 +1050,26 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-0383ee91d7f4ab485b79d449f58b2eca8bcf14ff.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-0383ee91d7f4ab485b79d449f58b2eca8bcf14ff.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-0383ee91d7f4ab485b79d449f58b2eca8bcf14ff.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2024-08-21T09:14:32.198872044Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: ab4da3ac411df1efe5ef44a657bc48a89ad196fd83e522287b7f46dcca076644
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-0383ee91d7f4ab485b79d449f58b2eca8bcf14ff.tgz
+    version: 0.2.2-0383ee91d7f4ab485b79d449f58b2eca8bcf14ff
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.1.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -8231,4 +8251,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-21T09:13:28.488969722Z"
+generated: "2024-08-21T09:14:32.198183146Z"
