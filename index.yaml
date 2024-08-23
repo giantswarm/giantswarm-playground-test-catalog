@@ -23,6 +23,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-c4605538c7a8e9566862b877f27d82450c436986.tgz
     version: 0.13.0-c4605538c7a8e9566862b877f27d82450c436986
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-9a4d116c030d7e39527d297804e8ebdb1b8110be.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-9a4d116c030d7e39527d297804e8ebdb1b8110be.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-9a4d116c030d7e39527d297804e8ebdb1b8110be.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.13.0-9a4d116c030d7e39527d297804e8ebdb1b8110be
+    created: "2024-08-23T11:46:24.557243021Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 73a07c26309510e6bd28d68425f8f4219c1d75f20f8d1c0a5133977d23fbeef6
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.0-9a4d116c030d7e39527d297804e8ebdb1b8110be.tgz
+    version: 0.13.0-9a4d116c030d7e39527d297804e8ebdb1b8110be
   alloy:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alloy-0.1.0.tgz-meta/main.yaml
@@ -8947,4 +8969,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-23T10:03:50.572196324Z"
+generated: "2024-08-23T11:46:24.55592794Z"
