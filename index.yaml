@@ -3817,6 +3817,30 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-c08ad46b535709351b09b4091a80f4c52129bf6e.tgz
     version: 0.0.0-c08ad46b535709351b09b4091a80f4c52129bf6e
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-b50e7105d84e5bbe3ddb265e32a29455fad53e06.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-b50e7105d84e5bbe3ddb265e32a29455fad53e06.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-b50e7105d84e5bbe3ddb265e32a29455fad53e06.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2024-08-26T08:08:48.392857344Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 5e32b2e6a6f1b3ffc2a26a4ba047ecd675dc5f997cbefa5d3fa7c5363bc00b66
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-b50e7105d84e5bbe3ddb265e32a29455fad53e06.tgz
+    version: 0.0.0-b50e7105d84e5bbe3ddb265e32a29455fad53e06
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-a51856127cefdf7a90eb4c6f98d8b4aa2e392c85.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-a51856127cefdf7a90eb4c6f98d8b4aa2e392c85.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -9479,4 +9503,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-26T08:04:58.257781626Z"
+generated: "2024-08-26T08:08:48.383383451Z"
