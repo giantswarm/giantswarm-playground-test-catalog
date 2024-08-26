@@ -1944,6 +1944,25 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.4.tgz
     version: 0.15.4
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.4-fc6a8bff3a671717f4ffb59a17b5af57b6231244.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.4-fc6a8bff3a671717f4ffb59a17b5af57b6231244.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2024-08-26T12:04:21.388509437Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 19ec258aafab7ffea5168516bbe7e70765fadedecdbb0863c8b0c276e85733c8
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.4-fc6a8bff3a671717f4ffb59a17b5af57b6231244.tgz
+    version: 0.15.4-fc6a8bff3a671717f4ffb59a17b5af57b6231244
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.4-ef2750918f85554bfef3135796a63dd3498ac430.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.4-ef2750918f85554bfef3135796a63dd3498ac430.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -9822,4 +9841,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd.tgz
     version: 3.1.0-0cbc7f9ac182f148348b4e575e1835d6623f72bd
-generated: "2024-08-26T11:51:41.455297312Z"
+generated: "2024-08-26T12:04:21.386841284Z"
