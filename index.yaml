@@ -616,6 +616,26 @@ entries:
     version: 0.15.4-10372c52d1602292e76dbe1419db465a57378d47
   debug-toolbox:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/debug-toolbox-0.0.0-cc887b4af9602b2f470e697afaa20a059530ab20.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/debug-toolbox-0.0.0-cc887b4af9602b2f470e697afaa20a059530ab20.tgz-meta/README.md
+      application.giantswarm.io/team: team-horizon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/debug-toolbox-0.0.0-cc887b4af9602b2f470e697afaa20a059530ab20.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: v1.0.0
+    created: "2024-09-02T13:39:14.00941932Z"
+    description: The debug toolbox is a collection of tools that can be used to debug
+      issues in a Kubernetes cluster.
+    digest: 2dec685cffc450ded95ce3c5a24efd886022a5454d085a51793cad1c344c4702
+    home: https://github.com/giantswarm/debug-toolbox
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: debug-toolbox
+    sources:
+    - https://github.com/giantswarm/debug-toolbox
+    - https://raw.githubusercontent.com/giantswarm/debug-toolbox/v1.0.0/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/debug-toolbox-0.0.0-cc887b4af9602b2f470e697afaa20a059530ab20.tgz
+    version: 0.0.0-cc887b4af9602b2f470e697afaa20a059530ab20
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/debug-toolbox-0.0.0-c433aa8187f720cfafc5f9017c3925b772a9d936.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/debug-toolbox-0.0.0-c433aa8187f720cfafc5f9017c3925b772a9d936.tgz-meta/README.md
       application.giantswarm.io/team: team-horizon
@@ -5174,4 +5194,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-4494f8c8a12f08991e898ad634243aad311c1e95.tgz
     version: 3.1.0-4494f8c8a12f08991e898ad634243aad311c1e95
-generated: "2024-09-02T13:35:52.110437422Z"
+generated: "2024-09-02T13:39:14.008604103Z"
