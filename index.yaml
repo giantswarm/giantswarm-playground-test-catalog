@@ -89,6 +89,26 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-8cad1ba5cc31acbf5b7d74bf2ce4735ee41a92a3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-8cad1ba5cc31acbf5b7d74bf2ce4735ee41a92a3.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-8cad1ba5cc31acbf5b7d74bf2ce4735ee41a92a3.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2024-09-03T23:05:41.010498827Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 0327c20e76b1dd73005a7084e17cb131be9c14acfe9b07904345b7309a64d55a
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-8cad1ba5cc31acbf5b7d74bf2ce4735ee41a92a3.tgz
+    version: 0.2.2-8cad1ba5cc31acbf5b7d74bf2ce4735ee41a92a3
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-85f7dbf767c81ba32f88decb6968d4fcf7d17a19.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-85f7dbf767c81ba32f88decb6968d4fcf7d17a19.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -5606,4 +5626,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-09-03T23:03:18.855483266Z"
+generated: "2024-09-03T23:05:41.009723685Z"
