@@ -3372,6 +3372,21 @@ entries:
     version: 0.9.8-0d21835134115d302bf53b7019fc63bfdf7ea61f
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-fbc009f0614e509e29885680d15c4dbd83c7ed4a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-fbc009f0614e509e29885680d15c4dbd83c7ed4a.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-fbc009f0614e509e29885680d15c4dbd83c7ed4a.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-09-04T07:17:41.828200549Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: c01b08f6ce62cb012ef232c188a87cdc351e63faf8040b1de975dd1d755a23d5
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-fbc009f0614e509e29885680d15c4dbd83c7ed4a.tgz
+    version: 0.8.0-fbc009f0614e509e29885680d15c4dbd83c7ed4a
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-f346060488bf10af1c3d93ea15cd48cc8b5b320e.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-f346060488bf10af1c3d93ea15cd48cc8b5b320e.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-f346060488bf10af1c3d93ea15cd48cc8b5b320e.tgz-meta/values.schema.json
@@ -5802,4 +5817,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-09-04T07:16:39.711041614Z"
+generated: "2024-09-04T07:17:41.827465784Z"
