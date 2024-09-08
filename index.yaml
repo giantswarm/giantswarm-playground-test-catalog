@@ -4674,6 +4674,28 @@ entries:
     version: 0.4.0-3af553b820b4624283f0d777468ada57ded2425e
   pr-generator:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f1bad8ca4fdc42cd7cea01fe6b47cd172e0a076c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f1bad8ca4fdc42cd7cea01fe6b47cd172e0a076c.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f1bad8ca4fdc42cd7cea01fe6b47cd172e0a076c.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.0.2-f1bad8ca4fdc42cd7cea01fe6b47cd172e0a076c
+    created: "2024-09-08T16:27:52.107343808Z"
+    description: A Helm chart for pr-generator, the Slack support manager
+    digest: ed27f4b188b035c58de5346c139c5e42cfc6383b7c22cfe34aeb3d4916865257
+    home: https://github.com/giantswarm/pr-generator
+    icon: https://s.giantswarm.io/app-icons/pr-generator/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/pr-generator
+    name: pr-generator
+    sources:
+    - https://github.com/giantswarm/pr-generator
+    - https://raw.githubusercontent.com/giantswarm/pr-generator/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f1bad8ca4fdc42cd7cea01fe6b47cd172e0a076c.tgz
+    version: 0.0.2-f1bad8ca4fdc42cd7cea01fe6b47cd172e0a076c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f074aa14c8071102a1659b25d6bf383eee7cf68d.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f074aa14c8071102a1659b25d6bf383eee7cf68d.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -6403,4 +6425,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-09-08T07:46:19.137961145Z"
+generated: "2024-09-08T16:27:52.106495958Z"
