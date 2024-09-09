@@ -6143,6 +6143,18 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.0-20bebe2fe85a65de17865e801e5f7a075f84c9e8.tgz
     version: 0.6.0-20bebe2fe85a65de17865e801e5f7a075f84c9e8
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 5.2-22.04_beta
+    created: "2024-09-09T04:35:40.858849882Z"
+    description: squid proxy for giantswarm internal use
+    digest: 226da49ca2913e534a7951311508c4cd9e4debbe79208ac71fefc813f415e9ba
+    home: https://github.com/giantswarm/squid-proxy-app
+    name: squid-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.0-111c67384184200783883ef0b5d78e6130fe3540.tgz
+    version: 0.6.0-111c67384184200783883ef0b5d78e6130fe3540
   velero:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-c4eaf6429635568c85540ef4b62de7809c85d7dc.tgz-meta/main.yaml
@@ -6449,4 +6461,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-09-09T04:35:39.957791385Z"
+generated: "2024-09-09T04:35:40.858180406Z"
