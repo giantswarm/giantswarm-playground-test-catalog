@@ -2794,6 +2794,32 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-063fdf64666bba85a62bf1c9198672b29af8ee61.tgz
     version: 0.1.4-063fdf64666bba85a62bf1c9198672b29af8ee61
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-bc25c633712d7f52dcc60f3fc474843a4aadac34.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-bc25c633712d7f52dcc60f3fc474843a4aadac34.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-bc25c633712d7f52dcc60f3fc474843a4aadac34.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2024-10-08T10:20:53.129470823Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.5.0
+    description: Caching solution
+    digest: 7cac1f1870a99d87d69538cf321dde50ec018632e0c5b62e69f3dccb1c5ee5fb
+    home: https://github.com/giantswarm/memcached
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-bc25c633712d7f52dcc60f3fc474843a4aadac34.tgz
+    version: 0.0.0-bc25c633712d7f52dcc60f3fc474843a4aadac34
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-a26a6f7f26d6aca17a0b00e8d731d8f7655fbd39.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.0.0-a26a6f7f26d6aca17a0b00e8d731d8f7655fbd39.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -3842,4 +3868,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-10-08T10:04:27.139668672Z"
+generated: "2024-10-08T10:20:53.125408413Z"
