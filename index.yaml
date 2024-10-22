@@ -425,6 +425,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.15.4-6c0cd1d235325b04e47a70e668ba7a92b74ac2b5.tgz
     version: 0.15.4-6c0cd1d235325b04e47a70e668ba7a92b74ac2b5
+  csi-driver-nfs:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-7f4e89bc18e43ec89647ad7ec221be0e25d8d8dd.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-7f4e89bc18e43ec89647ad7ec221be0e25d8d8dd.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+    apiVersion: v2
+    appVersion: 4.9.0
+    created: "2024-10-22T14:22:47.367798026Z"
+    description: Giant Swarm offered CSI Driver NFS App which can be installed in
+      workload clusters
+    digest: 4b196408bd5fed19802bcb0d6899b9d6639ff257fee47b1431b7330da327da3f
+    home: https://github.com/giantswarm/csi-driver-nfs
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-7f4e89bc18e43ec89647ad7ec221be0e25d8d8dd.tgz
+    version: 0.0.0-7f4e89bc18e43ec89647ad7ec221be0e25d8d8dd
   debug-toolbox:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/debug-toolbox-0.0.0-cc887b4af9602b2f470e697afaa20a059530ab20.tgz-meta/main.yaml
@@ -5377,4 +5395,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-10-22T14:13:58.31097422Z"
+generated: "2024-10-22T14:22:47.36567282Z"
