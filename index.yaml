@@ -427,6 +427,24 @@ entries:
     version: 0.15.4-6c0cd1d235325b04e47a70e668ba7a92b74ac2b5
   csi-driver-nfs:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-c0e2b4bace5f18499bf73c5c5f5dcec982b70d72.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-c0e2b4bace5f18499bf73c5c5f5dcec982b70d72.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-c0e2b4bace5f18499bf73c5c5f5dcec982b70d72.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-10-24T14:18:37.324061277Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 4707eaf3a8d74ec3aaeca9ab02fb682079adbcbc76437c32cb767898820f077e
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-c0e2b4bace5f18499bf73c5c5f5dcec982b70d72.tgz
+    version: 0.0.0-c0e2b4bace5f18499bf73c5c5f5dcec982b70d72
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-b1229ef76d2fbabff0b3301a06a4a22f846c2b6f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-b1229ef76d2fbabff0b3301a06a4a22f846c2b6f.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -5514,4 +5532,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-10-24T14:06:47.221437462Z"
+generated: "2024-10-24T14:18:37.322560185Z"
