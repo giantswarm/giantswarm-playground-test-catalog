@@ -461,6 +461,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-7f4e89bc18e43ec89647ad7ec221be0e25d8d8dd.tgz
     version: 0.0.0-7f4e89bc18e43ec89647ad7ec221be0e25d8d8dd
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-5654084621a25ae3e461c1ae8ef8e4869c633cfe.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-5654084621a25ae3e461c1ae8ef8e4869c633cfe.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-5654084621a25ae3e461c1ae8ef8e4869c633cfe.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-10-24T13:37:58.069207586Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 7b9b757d9278430a11027e26a350543d26655dad35e9ca0f154cfd1fae1081ef
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-5654084621a25ae3e461c1ae8ef8e4869c633cfe.tgz
+    version: 0.0.0-5654084621a25ae3e461c1ae8ef8e4869c633cfe
   debug-toolbox:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/debug-toolbox-0.0.0-cc887b4af9602b2f470e697afaa20a059530ab20.tgz-meta/main.yaml
@@ -5481,4 +5499,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-10-24T13:15:30.943395683Z"
+generated: "2024-10-24T13:37:58.067547711Z"
