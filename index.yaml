@@ -539,6 +539,19 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.0.0-5a73e65b6ac413d73b0a2ee55bf0dd60999f77ca.tgz
     version: 0.0.0-5a73e65b6ac413d73b0a2ee55bf0dd60999f77ca
+  aws-ebs-volume-tagger:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: 0.1.2
+    created: "2024-10-29T17:50:09.485685755Z"
+    description: Tags AWS EBS Volumes
+    digest: dd65f96538bc79e5e6dd1ad7c1973901b03899db4d242c0eedd7e132f49ae835
+    home: https://github.com/giantswarm/aws-ebs-volume-tagger
+    name: aws-ebs-volume-tagger
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/aws-ebs-volume-tagger-0.1.2-26d516e6263e2d3b5cf15eb5e284dccc3403812e.tgz
+    version: 0.1.2-26d516e6263e2d3b5cf15eb5e284dccc3403812e
   aws-nth-crossplane-resources:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/aws-nth-crossplane-resources-0.0.0-df580fe718434e9cad4bdae6f0b183362f275a0d.tgz-meta/main.yaml
@@ -6075,4 +6088,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-10-29T17:48:48.294576704Z"
+generated: "2024-10-29T17:50:09.485251575Z"
