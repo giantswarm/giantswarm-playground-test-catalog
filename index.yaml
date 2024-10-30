@@ -722,6 +722,24 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-b1229ef76d2fbabff0b3301a06a4a22f846c2b6f.tgz
     version: 0.0.0-b1229ef76d2fbabff0b3301a06a4a22f846c2b6f
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-a9b5b2fb285e9bffdfbbd84f4966e595529772a9.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-a9b5b2fb285e9bffdfbbd84f4966e595529772a9.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-a9b5b2fb285e9bffdfbbd84f4966e595529772a9.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-10-30T07:35:10.212126821Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: c7cea3b38aa68e34ac2efb4fe98768c774d787530bcfdc72faada87bd4d7f7a8
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-a9b5b2fb285e9bffdfbbd84f4966e595529772a9.tgz
+    version: 0.0.0-a9b5b2fb285e9bffdfbbd84f4966e595529772a9
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-7f4e89bc18e43ec89647ad7ec221be0e25d8d8dd.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-7f4e89bc18e43ec89647ad7ec221be0e25d8d8dd.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -6454,4 +6472,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-10-30T06:51:28.019472903Z"
+generated: "2024-10-30T07:35:10.209845332Z"
