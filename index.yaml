@@ -2218,6 +2218,30 @@ entries:
     version: 0.2.0-38a71136db9b22b36e585c4ef082fd9a83753555
   envoy-gateway:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-ebea81a93e56d03eea44ad018c446194be575532.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-ebea81a93e56d03eea44ad018c446194be575532.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-ebea81a93e56d03eea44ad018c446194be575532.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2024-10-31T11:22:35.868309289Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 60e91f7e39792c2fa5ead1cb3ddc8613a25809b4fe1c3733789906483d7a728e
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-ebea81a93e56d03eea44ad018c446194be575532.tgz
+    version: 0.0.0-ebea81a93e56d03eea44ad018c446194be575532
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-cdc8c5f56aa4bebf79eb641f3fa742fc8efe8f94.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-cdc8c5f56aa4bebf79eb641f3fa742fc8efe8f94.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -6800,4 +6824,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vertical-pod-autoscaler-crd-3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563.tgz
     version: 3.1.0-1dd8e32a92d1918c58a86265a368324d3fe22563
-generated: "2024-10-31T11:10:04.695554383Z"
+generated: "2024-10-31T11:22:35.860717374Z"
