@@ -821,6 +821,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-127ca0e7dd6beacb347a16f32a686569e683c30d.tgz
     version: 0.0.0-127ca0e7dd6beacb347a16f32a686569e683c30d
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-0c528fe156c38a41a8b20bc838214674cd6e2cd1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-0c528fe156c38a41a8b20bc838214674cd6e2cd1.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-0c528fe156c38a41a8b20bc838214674cd6e2cd1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-11-04T12:21:06.707855694Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: f5dc6d2cd926c655ea1692a3df05c9012985090d460c4a032d8a87aff8aafe65
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-0c528fe156c38a41a8b20bc838214674cd6e2cd1.tgz
+    version: 0.0.0-0c528fe156c38a41a8b20bc838214674cd6e2cd1
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.12-f270cef3bb8cfcd56949111c96da03e936cddac6.tgz-meta/main.yaml
@@ -3872,4 +3890,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956.tgz
     version: 0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956
-generated: "2024-11-04T12:01:54.217159326Z"
+generated: "2024-11-04T12:21:06.705454054Z"
