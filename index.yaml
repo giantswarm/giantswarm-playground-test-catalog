@@ -589,6 +589,24 @@ entries:
     version: 0.15.4-cd6c64339f52f63516c31eb5a6468b02847e2eac
   csi-driver-nfs:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-11-05T11:57:23.811942641Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: edc8b48cb4fe533f3792595a262fbd2b7e1b0eb0419ed0df704ff2d547341f4e
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0.tgz
+    version: 0.1.0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0-73bc91fcb4f4c5d7559c75bc1798e5723910b073.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0-73bc91fcb4f4c5d7559c75bc1798e5723910b073.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -4336,4 +4354,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956.tgz
     version: 0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956
-generated: "2024-11-05T11:57:12.967687302Z"
+generated: "2024-11-05T11:57:23.810305138Z"
