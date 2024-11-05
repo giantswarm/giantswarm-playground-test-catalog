@@ -607,6 +607,24 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0.tgz
     version: 0.1.0
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0-fee6e32734cfa8964980a6dd92f6790ca4c00ab7.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0-fee6e32734cfa8964980a6dd92f6790ca4c00ab7.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0-fee6e32734cfa8964980a6dd92f6790ca4c00ab7.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-11-05T12:02:14.463506811Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 259c2c91e6d9c86a69d43a26306124dee5c809b27eccd86bf7e9925c76e33236
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0-fee6e32734cfa8964980a6dd92f6790ca4c00ab7.tgz
+    version: 0.1.0-fee6e32734cfa8964980a6dd92f6790ca4c00ab7
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0-82523a8166f774ec546278b263ba5d8474228006.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0-82523a8166f774ec546278b263ba5d8474228006.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -4372,4 +4390,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956.tgz
     version: 0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956
-generated: "2024-11-05T12:01:29.00111992Z"
+generated: "2024-11-05T12:02:14.460963389Z"
