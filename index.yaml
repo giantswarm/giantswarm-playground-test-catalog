@@ -786,6 +786,24 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-5654084621a25ae3e461c1ae8ef8e4869c633cfe.tgz
     version: 0.0.0-5654084621a25ae3e461c1ae8ef8e4869c633cfe
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-3647c71e5d0c538d8471198412d0b9d58be34f67.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-3647c71e5d0c538d8471198412d0b9d58be34f67.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-3647c71e5d0c538d8471198412d0b9d58be34f67.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-11-05T08:47:51.25488827Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: a062e4760e299947c282b9be7bb4ac3f677af1b11ef3fa94db12ba93a31907d8
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-3647c71e5d0c538d8471198412d0b9d58be34f67.tgz
+    version: 0.0.0-3647c71e5d0c538d8471198412d0b9d58be34f67
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-35664bb4f4b0ab46cdf378f5cb61fc6bdf8c2b29.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.0.0-35664bb4f4b0ab46cdf378f5cb61fc6bdf8c2b29.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -4026,4 +4044,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956.tgz
     version: 0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956
-generated: "2024-11-04T22:56:11.822627541Z"
+generated: "2024-11-05T08:47:51.253305938Z"
