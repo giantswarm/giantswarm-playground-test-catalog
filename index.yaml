@@ -589,6 +589,24 @@ entries:
     version: 0.15.4-cd6c64339f52f63516c31eb5a6468b02847e2eac
   csi-driver-nfs:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-a6afa74a3db8f3ec943cf2c1fe2ae5c7729fb1ab.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-a6afa74a3db8f3ec943cf2c1fe2ae5c7729fb1ab.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-a6afa74a3db8f3ec943cf2c1fe2ae5c7729fb1ab.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2024-11-05T12:02:33.787841802Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 4867bf098c0ace36e92e622b9256b69a71ec9f4eb7f6b61d93df4a1be17c1eb9
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-a6afa74a3db8f3ec943cf2c1fe2ae5c7729fb1ab.tgz
+    version: 1.0.0-a6afa74a3db8f3ec943cf2c1fe2ae5c7729fb1ab
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-0.1.0.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -4390,4 +4408,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956.tgz
     version: 0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956
-generated: "2024-11-05T12:02:14.460963389Z"
+generated: "2024-11-05T12:02:33.785314498Z"
