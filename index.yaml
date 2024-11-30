@@ -3753,6 +3753,32 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-cda01fa444b2a9b74a78f5db957b4d9495566e03.tgz
     version: 0.1.4-cda01fa444b2a9b74a78f5db957b4d9495566e03
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-c8a0aa324b218a3e4641fbc4b953be35c405d4fa.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-c8a0aa324b218a3e4641fbc4b953be35c405d4fa.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-c8a0aa324b218a3e4641fbc4b953be35c405d4fa.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2024-11-30T06:49:28.175327807Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.5.3
+    description: Caching solution
+    digest: d38c765975d7b9ec950c8c17cc518e0193737f2d6b3dbbdf9039dd53d12d014b
+    home: https://github.com/giantswarm/memcached
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-c8a0aa324b218a3e4641fbc4b953be35c405d4fa.tgz
+    version: 0.1.4-c8a0aa324b218a3e4641fbc4b953be35c405d4fa
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-a665f721ba592197ffbc5584a459e7d8fedbb5dd.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-a665f721ba592197ffbc5584a459e7d8fedbb5dd.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -5111,4 +5137,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956.tgz
     version: 0.6.0-c2d15c12dd18739ba7f8f0f32c7df3b6d75af956
-generated: "2024-11-28T17:33:17.037763418Z"
+generated: "2024-11-30T06:49:28.169386869Z"
