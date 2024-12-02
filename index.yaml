@@ -1059,6 +1059,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-179af28d661416d07fa7264d7a5c50e61f04b3d7.tgz
     version: 0.0.15-179af28d661416d07fa7264d7a5c50e61f04b3d7
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b
+    created: "2024-12-02T21:57:40.190274248Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: 3961e5e6a34cd250987d31b7af64ce9073ed623b7af1232497df568a6dc5bb85
+    home: https://github.com/giantswarm/faiq
+    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b.tgz
+    version: 0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b
   k8s-audit-metrics:
   - annotations:
       application.giantswarm.io/team: turtles
@@ -1416,4 +1438,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-05b676e7d917fad9559c99864875c8c0bcede70b.tgz
     version: 0.0.2-05b676e7d917fad9559c99864875c8c0bcede70b
-generated: "2024-12-01T00:32:49.532324456Z"
+generated: "2024-12-02T21:57:40.189054532Z"
