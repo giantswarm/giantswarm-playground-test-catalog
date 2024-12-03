@@ -774,6 +774,28 @@ entries:
     version: 1.42.12-0ea96a13d36ce0d9f774cd85cd14a4fa68969dc8
   faiq:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f
+    created: "2024-12-03T16:58:26.875600424Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: 79c2b35d092ca0157ea57d2270744655804c8981c2683531c19cdb7169d7cf67
+    home: https://github.com/giantswarm/faiq
+    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f.tgz
+    version: 0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-e6a78964dc0b0e73dda4ec9b6b31b751f9445ba4.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-e6a78964dc0b0e73dda4ec9b6b31b751f9445ba4.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -1438,4 +1460,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-05b676e7d917fad9559c99864875c8c0bcede70b.tgz
     version: 0.0.2-05b676e7d917fad9559c99864875c8c0bcede70b
-generated: "2024-12-02T21:57:40.189054532Z"
+generated: "2024-12-03T16:58:26.874074056Z"
