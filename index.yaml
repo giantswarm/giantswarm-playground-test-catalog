@@ -792,6 +792,21 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.12-0ea96a13d36ce0d9f774cd85cd14a4fa68969dc8.tgz
     version: 1.42.12-0ea96a13d36ce0d9f774cd85cd14a4fa68969dc8
+  dns-tester:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+    apiVersion: v1
+    appVersion: 0.2.0-1e525d42dc72db3f30a89f42c516f9828ea21cf2
+    created: "2024-12-04T17:51:29.88280831Z"
+    description: A Helm chart used to test DNS status
+    digest: 6cc261293c10fc0ebe7d65d6a8167076d988125ca25f0890d5a3a4b863da9bbf
+    home: https://github.com/giantswarm/dns-tester
+    name: dns-tester
+    sources:
+    - https://github.com/giantswarm/dns-tester
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dns-tester-0.2.0-1e525d42dc72db3f30a89f42c516f9828ea21cf2.tgz
+    version: 0.2.0-1e525d42dc72db3f30a89f42c516f9828ea21cf2
   envoy-gateway:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-93901efdb224b950ce5abf0903940e9523e70f58.tgz-meta/main.yaml
@@ -1625,4 +1640,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2.tgz
     version: 0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2
-generated: "2024-12-04T16:45:01.009812284Z"
+generated: "2024-12-04T17:51:29.881972531Z"
