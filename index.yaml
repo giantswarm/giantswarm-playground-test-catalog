@@ -1203,6 +1203,21 @@ entries:
     version: 0.10.0-800d76f697efc031c2e73a9192c03f5bd68403e1
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2024-12-04T14:40:42.51186464Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 75595fceff0374f9a611600cda7a5aeb7a670e551494df2f92c9276745070b7a
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz
+    version: 0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-43f46d1eb5e4cbd7975eb31dde65e162470b9890.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-43f46d1eb5e4cbd7975eb31dde65e162470b9890.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-43f46d1eb5e4cbd7975eb31dde65e162470b9890.tgz-meta/values.schema.json
@@ -1535,4 +1550,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-05b676e7d917fad9559c99864875c8c0bcede70b.tgz
     version: 0.0.2-05b676e7d917fad9559c99864875c8c0bcede70b
-generated: "2024-12-04T14:07:07.087026876Z"
+generated: "2024-12-04T14:40:42.511245216Z"
