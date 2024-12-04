@@ -1244,6 +1244,32 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-c8a0aa324b218a3e4641fbc4b953be35c405d4fa.tgz
     version: 0.1.4-c8a0aa324b218a3e4641fbc4b953be35c405d4fa
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1b4815bd85551ff04f00830e110d01c21988d273.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1b4815bd85551ff04f00830e110d01c21988d273.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1b4815bd85551ff04f00830e110d01c21988d273.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.6.21
+    created: "2024-12-04T14:07:07.090463796Z"
+    dependencies:
+    - name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 7.5.3
+    description: Caching solution
+    digest: 48a78f19dfc06d654c34c6d441a45687da86b082b0e276272dffd107d5c0a756
+    home: https://github.com/giantswarm/memcached
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: memcached
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1b4815bd85551ff04f00830e110d01c21988d273.tgz
+    version: 0.1.4-1b4815bd85551ff04f00830e110d01c21988d273
   pr-generator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-ccd4d53ebcc259956ba61922acd742909922430c.tgz-meta/main.yaml
@@ -1509,4 +1535,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-05b676e7d917fad9559c99864875c8c0bcede70b.tgz
     version: 0.0.2-05b676e7d917fad9559c99864875c8c0bcede70b
-generated: "2024-12-04T13:46:01.667547325Z"
+generated: "2024-12-04T14:07:07.087026876Z"
