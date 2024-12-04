@@ -1233,6 +1233,18 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-22b0e20878a7b31f479422652cf7a5ea757a45e8.tgz
     version: 0.10.0-22b0e20878a7b31f479422652cf7a5ea757a45e8
+  - annotations:
+      application.giantswarm.io/team: turtles
+    apiVersion: v1
+    appVersion: 0.10.0-0e3592adab42c5dd47eff8003ab78b6119059e3b
+    created: "2024-12-04T16:45:01.010413456Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: 14d7b35eca27fa91b3f8522188e4d7f91f66024d2f1c758b6e074235f44a1f98
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-0e3592adab42c5dd47eff8003ab78b6119059e3b.tgz
+    version: 0.10.0-0e3592adab42c5dd47eff8003ab78b6119059e3b
   k8s-initiator-app:
   - annotations:
       application.giantswarm.io/team: team-horizon
@@ -1613,4 +1625,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2.tgz
     version: 0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2
-generated: "2024-12-04T16:40:48.478146588Z"
+generated: "2024-12-04T16:45:01.009812284Z"
