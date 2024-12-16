@@ -906,6 +906,30 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-93901efdb224b950ce5abf0903940e9523e70f58.tgz
     version: 0.0.0-93901efdb224b950ce5abf0903940e9523e70f58
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-0000e8477cf5023436938e6e2d17f2db53932965.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-0000e8477cf5023436938e6e2d17f2db53932965.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-0000e8477cf5023436938e6e2d17f2db53932965.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2024-12-16T10:07:34.592367605Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 36793b31817bfc01d2e7e2612084ae70d7e7263837d8c022a3ac48b25077621c
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-0000e8477cf5023436938e6e2d17f2db53932965.tgz
+    version: 0.0.0-0000e8477cf5023436938e6e2d17f2db53932965
   faiq:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-fcdba492d50674742a97d7aed50bb68efbe7327c.tgz-meta/main.yaml
@@ -2136,4 +2160,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2.tgz
     version: 0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2
-generated: "2024-12-16T04:48:40.73424273Z"
+generated: "2024-12-16T10:07:34.583578596Z"
