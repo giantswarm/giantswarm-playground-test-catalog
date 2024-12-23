@@ -423,6 +423,43 @@ entries:
     version: 0.0.0-0c528fe156c38a41a8b20bc838214674cd6e2cd1
   dex-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5
+    created: "2024-12-23T04:35:58.890907957Z"
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    digest: 8a5612e18038e0445291a5f03e28e0e532253ad6d1edaa7f6896ad38f8ff6406
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+    keywords:
+    - authentication
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz
+    version: 1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-d011c705217240fd1e86c97915f57a20885f4cc3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-d011c705217240fd1e86c97915f57a20885f4cc3.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -2962,4 +2999,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2.tgz
     version: 0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2
-generated: "2024-12-22T10:46:03.041836759Z"
+generated: "2024-12-23T04:35:58.889736129Z"
