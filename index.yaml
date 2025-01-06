@@ -224,6 +224,30 @@ entries:
     version: 0.2.0-1e525d42dc72db3f30a89f42c516f9828ea21cf2
   envoy-gateway:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-f4afafa2b0f539ece52cee5ac056bb9334a5e2c2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-f4afafa2b0f539ece52cee5ac056bb9334a5e2c2.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-f4afafa2b0f539ece52cee5ac056bb9334a5e2c2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2025-01-06T07:52:32.355208754Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 2a62fa10e3b8d91de0bdc28de28146a71d7c6888dfd571eaa1ed11fed7f8017e
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-f4afafa2b0f539ece52cee5ac056bb9334a5e2c2.tgz
+    version: 0.1.0-f4afafa2b0f539ece52cee5ac056bb9334a5e2c2
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-e6d9b062f74133dd6a8eb0c430e900d0f86e1241.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-e6d9b062f74133dd6a8eb0c430e900d0f86e1241.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -1720,4 +1744,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2.tgz
     version: 0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2
-generated: "2025-01-05T17:06:48.5245003Z"
+generated: "2025-01-06T07:52:32.337784996Z"
