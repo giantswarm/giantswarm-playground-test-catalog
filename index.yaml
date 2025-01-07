@@ -41,6 +41,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-215c6797ff0d6727364259d0e057452eb2f500ff.tgz
     version: 0.2.2-215c6797ff0d6727364259d0e057452eb2f500ff
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-10a3873033c9ce792242d04b7f3b4aa45a38dea5.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-10a3873033c9ce792242d04b7f3b4aa45a38dea5.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-10a3873033c9ce792242d04b7f3b4aa45a38dea5.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2025-01-07T13:45:14.116650274Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 057018e048ffe2b8dacc9bd8733ad0245b71ae0b83249fc1b98bebae12b66b2c
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-10a3873033c9ce792242d04b7f3b4aa45a38dea5.tgz
+    version: 0.2.2-10a3873033c9ce792242d04b7f3b4aa45a38dea5
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz-meta/main.yaml
@@ -2036,4 +2056,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-6c8a91ee8c2bfae05564293af2abd824a0a8cc4e.tgz
     version: 0.6.1-6c8a91ee8c2bfae05564293af2abd824a0a8cc4e
-generated: "2025-01-07T13:37:48.682938694Z"
+generated: "2025-01-07T13:45:14.115559586Z"
