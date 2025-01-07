@@ -1455,6 +1455,21 @@ entries:
     version: 0.11.0-0bef0c85ef51bec6dcdf7e04abfbc90389cef90e
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-e1752c9b4979d2c900aa0fbe4df5fbd7d7bc6673.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-e1752c9b4979d2c900aa0fbe4df5fbd7d7bc6673.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-e1752c9b4979d2c900aa0fbe4df5fbd7d7bc6673.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-01-07T13:21:39.023663523Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: c658c98f821b5db6585aa036e8bedb742e42fc557d0a918ad692d4e6e486d416
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-e1752c9b4979d2c900aa0fbe4df5fbd7d7bc6673.tgz
+    version: 0.8.0-e1752c9b4979d2c900aa0fbe4df5fbd7d7bc6673
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/values.schema.json
@@ -1949,4 +1964,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2.tgz
     version: 0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2
-generated: "2025-01-07T10:34:00.010207081Z"
+generated: "2025-01-07T13:21:39.022658381Z"
