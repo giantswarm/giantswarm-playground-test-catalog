@@ -785,6 +785,30 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-168398d896a4421e4f8af94a1bfe7a54e1d6b023.tgz
     version: 0.1.0-168398d896a4421e4f8af94a1bfe7a54e1d6b023
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-0cd484b5314d35465abaaae9fc912dc758101fb6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-0cd484b5314d35465abaaae9fc912dc758101fb6.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-0cd484b5314d35465abaaae9fc912dc758101fb6.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2025-01-14T06:03:00.949847064Z"
+    description: The Helm chart for Envoy Gateway
+    digest: 32a47354adcc9b8cc538361e7a3275b0c0f21a7958051e4858ed482128c6d23d
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-0cd484b5314d35465abaaae9fc912dc758101fb6.tgz
+    version: 0.1.0-0cd484b5314d35465abaaae9fc912dc758101fb6
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f6116d3a1134a3e43c455537137e7441df2fe66b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f6116d3a1134a3e43c455537137e7441df2fe66b.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -3212,4 +3236,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-3557bba8d82a0ea7b9f6ecbee1f700b12361b13a.tgz
     version: 0.6.1-3557bba8d82a0ea7b9f6ecbee1f700b12361b13a
-generated: "2025-01-13T18:42:28.844803633Z"
+generated: "2025-01-14T06:03:00.935539033Z"
