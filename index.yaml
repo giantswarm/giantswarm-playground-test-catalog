@@ -326,6 +326,24 @@ entries:
     version: 0.15.4-75d64f33e7ba03bc60c60c16a067840b6c713814
   coredns-extensions:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/coredns-extensions-0.0.0-c8f03908b172f9daacad4ea57505fb29969b4bf4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/coredns-extensions-0.0.0-c8f03908b172f9daacad4ea57505fb29969b4bf4.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/coredns-extensions-0.0.0-c8f03908b172f9daacad4ea57505fb29969b4bf4.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-01-15T09:57:42.653186626Z"
+    description: Extra resources for CoreDNS
+    digest: 77bfde447f8d476e7eae235e7117619dfa151324fd9383ad1c21726b0535aa57
+    home: https://github.com/giantswarm/coredns-extensions-app
+    icon: https://s.giantswarm.io/app-icons/coredns/1/dark.svg
+    name: coredns-extensions
+    sources:
+    - https://github.com/giantswarm/coredns-extensions-app
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/coredns-extensions-0.0.0-c8f03908b172f9daacad4ea57505fb29969b4bf4.tgz
+    version: 0.0.0-c8f03908b172f9daacad4ea57505fb29969b4bf4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/coredns-extensions-0.0.0-b7393752a02cce39ec56cd8d14dd1b8c425def0c.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/coredns-extensions-0.0.0-b7393752a02cce39ec56cd8d14dd1b8c425def0c.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -3309,4 +3327,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-3557bba8d82a0ea7b9f6ecbee1f700b12361b13a.tgz
     version: 0.6.1-3557bba8d82a0ea7b9f6ecbee1f700b12361b13a
-generated: "2025-01-15T09:57:06.075335727Z"
+generated: "2025-01-15T09:57:42.652686851Z"
