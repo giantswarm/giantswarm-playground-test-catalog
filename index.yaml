@@ -2801,6 +2801,23 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-cb270cecc3c693ff2ab261b8e5f9c2f1075a0346.tgz
     version: 0.11.0-cb270cecc3c693ff2ab261b8e5f9c2f1075a0346
   - annotations:
+      application.giantswarm.io/team: team-planeteers
+    apiVersion: v1
+    appVersion: v0.10.0
+    created: "2025-01-17T13:49:20.621893441Z"
+    description: The k8s initiator runs in a master node and applies some configuration
+      when the master is new.
+    digest: 1e7fddace72d72625c0af36e1f599b88a943af5ea591dba09643f60e47500d4a
+    home: https://github.com/giantswarm/k8s-initiator-app
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: k8s-initiator-app
+    sources:
+    - https://github.com/giantswarm/k8s-initiator-app
+    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.11.0-668f63d8cb29d1b6c653fbe8c01c1f45762f0daa/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-668f63d8cb29d1b6c653fbe8c01c1f45762f0daa.tgz
+    version: 0.11.0-668f63d8cb29d1b6c653fbe8c01c1f45762f0daa
+  - annotations:
       application.giantswarm.io/team: team-horizon
     apiVersion: v1
     appVersion: v0.10.0
@@ -4157,4 +4174,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-01-17T13:48:24.894372284Z"
+generated: "2025-01-17T13:49:20.621140493Z"
