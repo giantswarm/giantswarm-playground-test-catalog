@@ -45,6 +45,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.1-88c5e6e6ca8511b8aad73211e0a694d1bcdf4649.tgz
     version: 0.13.1-88c5e6e6ca8511b8aad73211e0a694d1bcdf4649
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.1-3006e3bd11cf235e8986f12725fdfddc227c76a6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.1-3006e3bd11cf235e8986f12725fdfddc227c76a6.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.1-3006e3bd11cf235e8986f12725fdfddc227c76a6.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.13.1-3006e3bd11cf235e8986f12725fdfddc227c76a6
+    created: "2025-01-20T10:30:49.707693586Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 3e7b792abfc8844d858f82766b58ff542ff92f3df11de80be67270643d760622
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.13.1-3006e3bd11cf235e8986f12725fdfddc227c76a6.tgz
+    version: 0.13.1-3006e3bd11cf235e8986f12725fdfddc227c76a6
   auth-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -4328,4 +4350,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-01-20T08:53:03.343232511Z"
+generated: "2025-01-20T10:30:49.706718036Z"
