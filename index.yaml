@@ -4042,6 +4042,33 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-05e6bcb7bbe3e8f75c91e21e52c9c7ec6ae6d219.tgz
     version: 0.0.2-05e6bcb7bbe3e8f75c91e21e52c9c7ec6ae6d219
+  proxmox-cloud-controller-manager:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-f3e17d451c87056795b5455ca489ca4a42c7627f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-f3e17d451c87056795b5455ca489ca4a42c7627f.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-f3e17d451c87056795b5455ca489ca4a42c7627f.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.7.0
+    created: "2025-01-21T12:10:51.026365651Z"
+    description: Cloud Controller Manager plugin for Proxmox
+    digest: e30d44e810eca5cc448ccbc65dc4c8e9247fbd5b3328164956fea17b07d7b4ff
+    home: https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    icon: https://raw.githubusercontent.com/sergelogvinov/proxmox-cloud-controller-manager/main/charts/proxmox-cloud-controller-manager/icon.png
+    keywords:
+    - ccm
+    - proxmox
+    - kubernetes
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: proxmox-cloud-controller-manager
+    sources:
+    - https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-f3e17d451c87056795b5455ca489ca4a42c7627f.tgz
+    version: 0.0.0-f3e17d451c87056795b5455ca489ca4a42c7627f
   pyroscope:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-db450492f2c9c3a241868e551f94973370a52792.tgz-meta/main.yaml
@@ -4416,4 +4443,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-01-20T15:44:51.884364311Z"
+generated: "2025-01-21T12:10:51.024868352Z"
