@@ -1042,6 +1042,30 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-2c8611fafa37c7ad1f53de674a7ea2589312ffc6.tgz
     version: 0.1.0-2c8611fafa37c7ad1f53de674a7ea2589312ffc6
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-294f9d7aa69db737aa7a5370862b49659c5ea609.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-294f9d7aa69db737aa7a5370862b49659c5ea609.tgz-meta/README.md
+      application.giantswarm.io/team: cabbage
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-294f9d7aa69db737aa7a5370862b49659c5ea609.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.0.2
+    created: "2025-01-23T07:05:44.343843112Z"
+    description: The Helm chart for Envoy Gateway
+    digest: eaa1f5ceba772f1a4cffbfb698b4842228e110e22d5b9d53701a3f4779e68959
+    home: https://github.com/giantswarm/envoy-gateway-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - gateway-api
+    - envoyproxy
+    - envoy-gateway
+    - eg
+    name: envoy-gateway
+    sources:
+    - https://github.com/envoyproxy/gateway
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-294f9d7aa69db737aa7a5370862b49659c5ea609.tgz
+    version: 0.1.0-294f9d7aa69db737aa7a5370862b49659c5ea609
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-168398d896a4421e4f8af94a1bfe7a54e1d6b023.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-168398d896a4421e4f8af94a1bfe7a54e1d6b023.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -4557,4 +4581,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-01-22T16:15:11.398317668Z"
+generated: "2025-01-23T07:05:44.325515793Z"
