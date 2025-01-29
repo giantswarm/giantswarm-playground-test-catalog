@@ -3468,6 +3468,33 @@ entries:
     version: 0.1.4-1b4815bd85551ff04f00830e110d01c21988d273
   n8n:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.2-4e0beec70e89cd11dab67b4f271c189472fb237a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.2-4e0beec70e89cd11dab67b4f271c189472fb237a.tgz-meta/README.md
+      application.giantswarm.io/team: team-planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.2-4e0beec70e89cd11dab67b4f271c189472fb237a.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.75.2
+    created: "2025-01-29T15:54:42.763194582Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.6.3
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.4.5
+    description: A Helm chart for n8n official chart
+    digest: e4c325758d3fa253f5cb9071cd74ed1cbaf8d5d82222278746da1ff53ce03ddd
+    home: https://github.com/giantswarm/n8n
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/light.svg
+    name: n8n
+    sources:
+    - https://github.com/community-charts/helm-charts
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.2-4e0beec70e89cd11dab67b4f271c189472fb237a.tgz
+    version: 0.1.2-4e0beec70e89cd11dab67b4f271c189472fb237a
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.2-10cabf1f03ddf912d6fc6afcdaa1ed673aa82a24.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.2-10cabf1f03ddf912d6fc6afcdaa1ed673aa82a24.tgz-meta/README.md
       application.giantswarm.io/team: team-planeteers
@@ -5097,4 +5124,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-01-29T15:46:39.225756458Z"
+generated: "2025-01-29T15:54:42.744770651Z"
