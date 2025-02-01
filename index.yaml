@@ -355,26 +355,6 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-215c6797ff0d6727364259d0e057452eb2f500ff.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-215c6797ff0d6727364259d0e057452eb2f500ff.tgz-meta/README.md
-      application.giantswarm.io/team: bigmac
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-215c6797ff0d6727364259d0e057452eb2f500ff.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    created: "2024-12-04T15:30:22.72086477Z"
-    description: A Helm chart for Giant Swarm's collection of auth tools.
-    digest: ec2adcb626ba4977adc9c42b0cf1b24d2b6a3ce4325ecfa21005057979425d2a
-    home: https://github.com/giantswarm/auth-bundle
-    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
-    name: auth-bundle
-    sources:
-    - https://github.com/giantswarm/auth-bundle
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-215c6797ff0d6727364259d0e057452eb2f500ff.tgz
-    version: 0.2.2-215c6797ff0d6727364259d0e057452eb2f500ff
-  - annotations:
-      application.giantswarm.io/app-type: bundle
-      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-1ec906e37caa6c853f3adec62d968a8f3f47bdae.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-1ec906e37caa6c853f3adec62d968a8f3f47bdae.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -579,117 +559,6 @@ entries:
     version: 0.0.0-2c0102af0ed9c34d1f33bed40d8030ee75e9db7d
   dex-app:
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz-meta/README.md
-      application.giantswarm.io/team: shield
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5
-    created: "2024-12-23T04:35:58.890907957Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
-    digest: 8a5612e18038e0445291a5f03e28e0e532253ad6d1edaa7f6896ad38f8ff6406
-    home: https://github.com/giantswarm/dex-app
-    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
-    keywords:
-    - authentication
-    - oidc
-    maintainers:
-    - email: Kevin.Fox@pnnl.gov
-      name: kfox1111
-    - email: shane.starcher@gmail.com
-      name: sstarcher
-    - email: pete.brown@powerhrg.com
-      name: rendhalver
-    - email: vi7alya@gmail.com
-      name: vi7
-    - email: aaron@roydhouse.com
-      name: Aaron Roydhouse
-    - email: nbadger@mintel.com
-      name: Nick Badger
-    name: dex-app
-    sources:
-    - https://github.com/dexidp/dex/
-    - https://github.com/mintel/dex-k8s-authenticator
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5.tgz
-    version: 1.42.13-f70f3b200494bcc4819a439ec4055e93949326d5
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-cea8ea85a6c5870f8a6183c454408669b98df30d.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-cea8ea85a6c5870f8a6183c454408669b98df30d.tgz-meta/README.md
-      application.giantswarm.io/team: shield
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-cea8ea85a6c5870f8a6183c454408669b98df30d.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 1.42.13-cea8ea85a6c5870f8a6183c454408669b98df30d
-    created: "2024-12-17T11:58:03.030253686Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
-    digest: 01d258707554af6026c161431266d0fb994fb554a44e65ace2c15b86952014b5
-    home: https://github.com/giantswarm/dex-app
-    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
-    keywords:
-    - authentication
-    - oidc
-    maintainers:
-    - email: Kevin.Fox@pnnl.gov
-      name: kfox1111
-    - email: shane.starcher@gmail.com
-      name: sstarcher
-    - email: pete.brown@powerhrg.com
-      name: rendhalver
-    - email: vi7alya@gmail.com
-      name: vi7
-    - email: aaron@roydhouse.com
-      name: Aaron Roydhouse
-    - email: nbadger@mintel.com
-      name: Nick Badger
-    name: dex-app
-    sources:
-    - https://github.com/dexidp/dex/
-    - https://github.com/mintel/dex-k8s-authenticator
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-cea8ea85a6c5870f8a6183c454408669b98df30d.tgz
-    version: 1.42.13-cea8ea85a6c5870f8a6183c454408669b98df30d
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-ba844806077ad1982bd1473aee5846c95be684cb.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-ba844806077ad1982bd1473aee5846c95be684cb.tgz-meta/README.md
-      application.giantswarm.io/team: shield
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-ba844806077ad1982bd1473aee5846c95be684cb.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 1.42.13-ba844806077ad1982bd1473aee5846c95be684cb
-    created: "2024-12-23T04:36:05.728820779Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
-    digest: 88efebff8a56f397831c85143d28724cef272fa0723275563f0c7fcbe90b39b5
-    home: https://github.com/giantswarm/dex-app
-    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
-    keywords:
-    - authentication
-    - oidc
-    maintainers:
-    - email: Kevin.Fox@pnnl.gov
-      name: kfox1111
-    - email: shane.starcher@gmail.com
-      name: sstarcher
-    - email: pete.brown@powerhrg.com
-      name: rendhalver
-    - email: vi7alya@gmail.com
-      name: vi7
-    - email: aaron@roydhouse.com
-      name: Aaron Roydhouse
-    - email: nbadger@mintel.com
-      name: Nick Badger
-    name: dex-app
-    sources:
-    - https://github.com/dexidp/dex/
-    - https://github.com/mintel/dex-k8s-authenticator
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-ba844806077ad1982bd1473aee5846c95be684cb.tgz
-    version: 1.42.13-ba844806077ad1982bd1473aee5846c95be684cb
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-a426529a023ce51a296d6c45526a5acdf240377b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-a426529a023ce51a296d6c45526a5acdf240377b.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -763,80 +632,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-8556ac3952ac29dc5cdd0b5abcb40e10700f133a.tgz
     version: 1.42.13-8556ac3952ac29dc5cdd0b5abcb40e10700f133a
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-5bd893e022c21385595119cc98029869b624ca72.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-5bd893e022c21385595119cc98029869b624ca72.tgz-meta/README.md
-      application.giantswarm.io/team: shield
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-5bd893e022c21385595119cc98029869b624ca72.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 1.42.13-5bd893e022c21385595119cc98029869b624ca72
-    created: "2024-12-16T04:48:40.736138372Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
-    digest: 02a81e0030d6b6d10f85d027550b64230803223915abe2b846ded18da3c5dbb6
-    home: https://github.com/giantswarm/dex-app
-    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
-    keywords:
-    - authentication
-    - oidc
-    maintainers:
-    - email: Kevin.Fox@pnnl.gov
-      name: kfox1111
-    - email: shane.starcher@gmail.com
-      name: sstarcher
-    - email: pete.brown@powerhrg.com
-      name: rendhalver
-    - email: vi7alya@gmail.com
-      name: vi7
-    - email: aaron@roydhouse.com
-      name: Aaron Roydhouse
-    - email: nbadger@mintel.com
-      name: Nick Badger
-    name: dex-app
-    sources:
-    - https://github.com/dexidp/dex/
-    - https://github.com/mintel/dex-k8s-authenticator
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-5bd893e022c21385595119cc98029869b624ca72.tgz
-    version: 1.42.13-5bd893e022c21385595119cc98029869b624ca72
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-465b979d76b5d8fa73a5b20a3225240a12535975.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-465b979d76b5d8fa73a5b20a3225240a12535975.tgz-meta/README.md
-      application.giantswarm.io/team: shield
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-465b979d76b5d8fa73a5b20a3225240a12535975.tgz-meta/values.schema.json
-      config.giantswarm.io/version: 1.x.x
-    apiVersion: v2
-    appVersion: 1.42.13-465b979d76b5d8fa73a5b20a3225240a12535975
-    created: "2024-12-09T04:34:52.791511618Z"
-    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
-      connectors
-    digest: ff57075f6d18ff44396f54e9ee0add9701a7c29b87b4893a39b8001349f06a12
-    home: https://github.com/giantswarm/dex-app
-    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
-    keywords:
-    - authentication
-    - oidc
-    maintainers:
-    - email: Kevin.Fox@pnnl.gov
-      name: kfox1111
-    - email: shane.starcher@gmail.com
-      name: sstarcher
-    - email: pete.brown@powerhrg.com
-      name: rendhalver
-    - email: vi7alya@gmail.com
-      name: vi7
-    - email: aaron@roydhouse.com
-      name: Aaron Roydhouse
-    - email: nbadger@mintel.com
-      name: Nick Badger
-    name: dex-app
-    sources:
-    - https://github.com/dexidp/dex/
-    - https://github.com/mintel/dex-k8s-authenticator
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-1.42.13-465b979d76b5d8fa73a5b20a3225240a12535975.tgz
-    version: 1.42.13-465b979d76b5d8fa73a5b20a3225240a12535975
   dns-tester:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -908,20 +703,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/dns-tester-0.2.0-6b9a42d0d01d3f27be55d6ce87ae563f71754173.tgz
     version: 0.2.0-6b9a42d0d01d3f27be55d6ce87ae563f71754173
-  - annotations:
-      application.giantswarm.io/team: phoenix
-    apiVersion: v1
-    appVersion: 0.2.0-1e525d42dc72db3f30a89f42c516f9828ea21cf2
-    created: "2024-12-04T17:51:29.88280831Z"
-    description: A Helm chart used to test DNS status
-    digest: 6cc261293c10fc0ebe7d65d6a8167076d988125ca25f0890d5a3a4b863da9bbf
-    home: https://github.com/giantswarm/dns-tester
-    name: dns-tester
-    sources:
-    - https://github.com/giantswarm/dns-tester
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dns-tester-0.2.0-1e525d42dc72db3f30a89f42c516f9828ea21cf2.tgz
-    version: 0.2.0-1e525d42dc72db3f30a89f42c516f9828ea21cf2
   envoy-gateway:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-f4afafa2b0f539ece52cee5ac056bb9334a5e2c2.tgz-meta/main.yaml
@@ -948,30 +729,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-f4afafa2b0f539ece52cee5ac056bb9334a5e2c2.tgz
     version: 0.1.0-f4afafa2b0f539ece52cee5ac056bb9334a5e2c2
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-e6d9b062f74133dd6a8eb0c430e900d0f86e1241.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-e6d9b062f74133dd6a8eb0c430e900d0f86e1241.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-e6d9b062f74133dd6a8eb0c430e900d0f86e1241.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-20T09:25:25.409173711Z"
-    description: The Helm chart for Envoy Gateway
-    digest: c95713151d392b204f39680b91b3fa56663d944976e82e0b5b50b5724ec46d68
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-e6d9b062f74133dd6a8eb0c430e900d0f86e1241.tgz
-    version: 0.1.0-e6d9b062f74133dd6a8eb0c430e900d0f86e1241
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-df5395f6b63f2e786c7445309ed613f69c3372e1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-df5395f6b63f2e786c7445309ed613f69c3372e1.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -995,54 +752,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-df5395f6b63f2e786c7445309ed613f69c3372e1.tgz
     version: 0.1.0-df5395f6b63f2e786c7445309ed613f69c3372e1
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-ceb4803b52a02144f9381ab677ca4a13e19a0147.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-ceb4803b52a02144f9381ab677ca4a13e19a0147.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-ceb4803b52a02144f9381ab677ca4a13e19a0147.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-19T21:48:52.788308857Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 111c6e0c9dd0ef043f29644f919f686777128607febcff6fffb5c026d027710c
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-ceb4803b52a02144f9381ab677ca4a13e19a0147.tgz
-    version: 0.1.0-ceb4803b52a02144f9381ab677ca4a13e19a0147
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-aa64cb6aee02ef451a58ecb78d0902baa97d75f5.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-aa64cb6aee02ef451a58ecb78d0902baa97d75f5.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-aa64cb6aee02ef451a58ecb78d0902baa97d75f5.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-23T10:43:45.96218535Z"
-    description: The Helm chart for Envoy Gateway
-    digest: e407806528276407fc9904f31a2530ab5f43838602327593ae753e2774822ecd
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-aa64cb6aee02ef451a58ecb78d0902baa97d75f5.tgz
-    version: 0.1.0-aa64cb6aee02ef451a58ecb78d0902baa97d75f5
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-96f518042b61733438537dce666b4b508847dde5.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-96f518042b61733438537dce666b4b508847dde5.tgz-meta/README.md
@@ -1116,30 +825,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-390195357ae4195d2bfe12f2f558c33f58a93b08.tgz
     version: 0.1.0-390195357ae4195d2bfe12f2f558c33f58a93b08
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-2c8611fafa37c7ad1f53de674a7ea2589312ffc6.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-2c8611fafa37c7ad1f53de674a7ea2589312ffc6.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-2c8611fafa37c7ad1f53de674a7ea2589312ffc6.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-20T09:04:15.55524965Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 36d82d9082c8f4e5e6b98ad2dd8f5de7e743a4670f1cce0c62ee2c0683d7b361
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-2c8611fafa37c7ad1f53de674a7ea2589312ffc6.tgz
-    version: 0.1.0-2c8611fafa37c7ad1f53de674a7ea2589312ffc6
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-294f9d7aa69db737aa7a5370862b49659c5ea609.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-294f9d7aa69db737aa7a5370862b49659c5ea609.tgz-meta/README.md
       application.giantswarm.io/team: cabbage
@@ -1211,507 +896,7 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.1.0-0cd484b5314d35465abaaae9fc912dc758101fb6.tgz
     version: 0.1.0-0cd484b5314d35465abaaae9fc912dc758101fb6
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f6116d3a1134a3e43c455537137e7441df2fe66b.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f6116d3a1134a3e43c455537137e7441df2fe66b.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f6116d3a1134a3e43c455537137e7441df2fe66b.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T22:29:23.210310213Z"
-    description: The Helm chart for Envoy Gateway
-    digest: a23e08c0e7b71378568ebaf10450cbd1d348fb5f6785507bc4844521f97f6e26
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f6116d3a1134a3e43c455537137e7441df2fe66b.tgz
-    version: 0.0.0-f6116d3a1134a3e43c455537137e7441df2fe66b
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f2889631f90db4530f7945070cebede0f419fb19.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f2889631f90db4530f7945070cebede0f419fb19.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f2889631f90db4530f7945070cebede0f419fb19.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T08:44:42.116604945Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 49c8b95af6ee384179f26d76b3c8b2fb94323b2e5aff2d963d6f288a0066a3eb
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-f2889631f90db4530f7945070cebede0f419fb19.tgz
-    version: 0.0.0-f2889631f90db4530f7945070cebede0f419fb19
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-eed105f5c66e461662ec2a61e36258b342e9841f.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-eed105f5c66e461662ec2a61e36258b342e9841f.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-eed105f5c66e461662ec2a61e36258b342e9841f.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T08:46:19.361862916Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 2cde57e97b4a89c205ee411b90adbf9b43d6eeefe4dfefc2dab3530f6549b034
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-eed105f5c66e461662ec2a61e36258b342e9841f.tgz
-    version: 0.0.0-eed105f5c66e461662ec2a61e36258b342e9841f
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-cc458bb46c54d97bf3eca86731578b5a13c98e53.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-cc458bb46c54d97bf3eca86731578b5a13c98e53.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-cc458bb46c54d97bf3eca86731578b5a13c98e53.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T14:46:20.749763936Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 80779749e9af917ef1eb15a55dd320357f3ad794c77238827b6ccb600da124ba
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-cc458bb46c54d97bf3eca86731578b5a13c98e53.tgz
-    version: 0.0.0-cc458bb46c54d97bf3eca86731578b5a13c98e53
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-bf9494abfb1d10e583db642fc26cfcb8593945fe.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-bf9494abfb1d10e583db642fc26cfcb8593945fe.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-bf9494abfb1d10e583db642fc26cfcb8593945fe.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-19T21:34:32.176060367Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 228d8b20818a1a1d3d3ac1207266d06558c1be72421c941df5ae25d9a9345d26
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-bf9494abfb1d10e583db642fc26cfcb8593945fe.tgz
-    version: 0.0.0-bf9494abfb1d10e583db642fc26cfcb8593945fe
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-b25843a04aa8eb4fb6190e1f5fea597422db5ff2.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-b25843a04aa8eb4fb6190e1f5fea597422db5ff2.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-b25843a04aa8eb4fb6190e1f5fea597422db5ff2.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T22:52:49.983746494Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 3c1ff72aa96b58b39bd292ecdab92f9df4d55aabcfeccdca314860905c526923
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-b25843a04aa8eb4fb6190e1f5fea597422db5ff2.tgz
-    version: 0.0.0-b25843a04aa8eb4fb6190e1f5fea597422db5ff2
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-af27ef05eb9599823876965ce5793ffe75010a05.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-af27ef05eb9599823876965ce5793ffe75010a05.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-af27ef05eb9599823876965ce5793ffe75010a05.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T11:20:31.554556438Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 6dbfea356b6a5ef16f4c1e4447819fc88dd1d6665d671274487740ff675c58ec
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-af27ef05eb9599823876965ce5793ffe75010a05.tgz
-    version: 0.0.0-af27ef05eb9599823876965ce5793ffe75010a05
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-ae1a5de068331439030f14fe739d23dd1f608347.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-ae1a5de068331439030f14fe739d23dd1f608347.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-ae1a5de068331439030f14fe739d23dd1f608347.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T22:42:32.293930072Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 6ef08e5caee69def9661d83f9258f9b4353cefef81cf06cd02395b200d35159d
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-ae1a5de068331439030f14fe739d23dd1f608347.tgz
-    version: 0.0.0-ae1a5de068331439030f14fe739d23dd1f608347
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9ff0848905d9accf7c6027fa328beb87cb13c2dc.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9ff0848905d9accf7c6027fa328beb87cb13c2dc.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9ff0848905d9accf7c6027fa328beb87cb13c2dc.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-19T21:36:21.247902318Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 4c2be60945525aef990d5025661d8f92f73d5847831e68eb18c53439e6bae52c
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9ff0848905d9accf7c6027fa328beb87cb13c2dc.tgz
-    version: 0.0.0-9ff0848905d9accf7c6027fa328beb87cb13c2dc
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9fa6ae22fd63a9936b45054bf952dc945d606873.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9fa6ae22fd63a9936b45054bf952dc945d606873.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9fa6ae22fd63a9936b45054bf952dc945d606873.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T10:40:33.910295324Z"
-    description: The Helm chart for Envoy Gateway
-    digest: d4e28afd420ffb225d86be493b34ef3678843675d95a4bddd5de0d8f9f7ddec6
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-9fa6ae22fd63a9936b45054bf952dc945d606873.tgz
-    version: 0.0.0-9fa6ae22fd63a9936b45054bf952dc945d606873
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-977bd1b98243cbe965d61793e47617a5b0542bcf.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-977bd1b98243cbe965d61793e47617a5b0542bcf.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-977bd1b98243cbe965d61793e47617a5b0542bcf.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-19T21:34:17.18842577Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 92e53cef1f570414ee9923bc0127cbd74e5dd7dbf9abc0721ec4bb2557a0400f
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-977bd1b98243cbe965d61793e47617a5b0542bcf.tgz
-    version: 0.0.0-977bd1b98243cbe965d61793e47617a5b0542bcf
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-93901efdb224b950ce5abf0903940e9523e70f58.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-93901efdb224b950ce5abf0903940e9523e70f58.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-93901efdb224b950ce5abf0903940e9523e70f58.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-04T13:46:01.677532501Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 60eca31c5a34ee2c5297ca96bc862e0000c59d8bcddf416837fac04776d97102
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-93901efdb224b950ce5abf0903940e9523e70f58.tgz
-    version: 0.0.0-93901efdb224b950ce5abf0903940e9523e70f58
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-6a4ccd323a2ce27a3016110af6737dddd06c5286.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-6a4ccd323a2ce27a3016110af6737dddd06c5286.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-6a4ccd323a2ce27a3016110af6737dddd06c5286.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T20:57:48.640614644Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 4e29fd98273d4ce7e692c702f72eb6ca1c002429a2c6eb068ab04086aa617b13
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-6a4ccd323a2ce27a3016110af6737dddd06c5286.tgz
-    version: 0.0.0-6a4ccd323a2ce27a3016110af6737dddd06c5286
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-64f4764315c16adae80e017d1f598b7faa1bc647.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-64f4764315c16adae80e017d1f598b7faa1bc647.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-64f4764315c16adae80e017d1f598b7faa1bc647.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-19T11:37:21.919762923Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 49adab40d7c03367844759f4f377742e0fae30d2a6e4fabc66b397561208e232
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-64f4764315c16adae80e017d1f598b7faa1bc647.tgz
-    version: 0.0.0-64f4764315c16adae80e017d1f598b7faa1bc647
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-5b80367823b43d2fdc829e83f4f02790b12149f8.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-5b80367823b43d2fdc829e83f4f02790b12149f8.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-5b80367823b43d2fdc829e83f4f02790b12149f8.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-18T11:20:37.767789775Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 95469b4dffb58161da5cd00a9703d14ab5bfc8badd596e5bbd72d8d1f08229d3
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-5b80367823b43d2fdc829e83f4f02790b12149f8.tgz
-    version: 0.0.0-5b80367823b43d2fdc829e83f4f02790b12149f8
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-56c01a3a52f52345e1d9dc841ce0dbf97f855227.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-56c01a3a52f52345e1d9dc841ce0dbf97f855227.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-56c01a3a52f52345e1d9dc841ce0dbf97f855227.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-19T12:29:11.67064514Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 4276c123f8ac3d6526309cebc04d99c6d7ce5325e482b81e8f4c59a09dbf0a07
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-56c01a3a52f52345e1d9dc841ce0dbf97f855227.tgz
-    version: 0.0.0-56c01a3a52f52345e1d9dc841ce0dbf97f855227
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-55b1d76518f837f7bf6ab01dfb7eaf15f8626461.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-55b1d76518f837f7bf6ab01dfb7eaf15f8626461.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-55b1d76518f837f7bf6ab01dfb7eaf15f8626461.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-19T16:14:55.56920214Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 8251b797b6871f547a3bb1749ad8440b9c3a483ad974b482ae3bdfcb57328dab
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-55b1d76518f837f7bf6ab01dfb7eaf15f8626461.tgz
-    version: 0.0.0-55b1d76518f837f7bf6ab01dfb7eaf15f8626461
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-4eaab1290d08d8abee730dd5e5bd7e797e889d94.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-4eaab1290d08d8abee730dd5e5bd7e797e889d94.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-4eaab1290d08d8abee730dd5e5bd7e797e889d94.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-19T12:31:48.43834578Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 7211df619568cb05220a51f1513e26dc7cf0e8e053d09991fc0d0f2cc181a150
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-4eaab1290d08d8abee730dd5e5bd7e797e889d94.tgz
-    version: 0.0.0-4eaab1290d08d8abee730dd5e5bd7e797e889d94
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-0000e8477cf5023436938e6e2d17f2db53932965.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-0000e8477cf5023436938e6e2d17f2db53932965.tgz-meta/README.md
-      application.giantswarm.io/team: cabbage
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-0000e8477cf5023436938e6e2d17f2db53932965.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: v1.0.2
-    created: "2024-12-16T10:09:04.499917985Z"
-    description: The Helm chart for Envoy Gateway
-    digest: 1d78169c1fae33086056e7c3393c30754c43bdf243af1339bb250212b8df3ef3
-    home: https://github.com/giantswarm/envoy-gateway-app
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    keywords:
-    - gateway-api
-    - envoyproxy
-    - envoy-gateway
-    - eg
-    name: envoy-gateway
-    sources:
-    - https://github.com/envoyproxy/gateway
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/envoy-gateway-0.0.0-0000e8477cf5023436938e6e2d17f2db53932965.tgz
-    version: 0.0.0-0000e8477cf5023436938e6e2d17f2db53932965
   faiq:
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-fcdba492d50674742a97d7aed50bb68efbe7327c.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-fcdba492d50674742a97d7aed50bb68efbe7327c.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-fcdba492d50674742a97d7aed50bb68efbe7327c.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-fcdba492d50674742a97d7aed50bb68efbe7327c
-    created: "2024-12-05T17:52:53.156244727Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 983bc93cc2f4bf73a2495d270059885e2084317f50d5efded4a8970e10e9a044
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-fcdba492d50674742a97d7aed50bb68efbe7327c.tgz
-    version: 0.0.15-fcdba492d50674742a97d7aed50bb68efbe7327c
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f
-    created: "2024-12-03T16:58:26.875600424Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 79c2b35d092ca0157ea57d2270744655804c8981c2683531c19cdb7169d7cf67
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f.tgz
-    version: 0.0.15-f115a3f28f516d8b4137c25c7aeb777733b8f83f
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-e8f5e03a3f04466c71e80df9e502ced744291ca5.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-e8f5e03a3f04466c71e80df9e502ced744291ca5.tgz-meta/README.md
@@ -1823,28 +1008,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-cc073010eba057def1674a0bc097ff12273f5bb6.tgz
     version: 0.0.15-cc073010eba057def1674a0bc097ff12273f5bb6
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-c7eb94bf9c8960fe509fbcdee2b7fd57abfe2140.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-c7eb94bf9c8960fe509fbcdee2b7fd57abfe2140.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-c7eb94bf9c8960fe509fbcdee2b7fd57abfe2140.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-c7eb94bf9c8960fe509fbcdee2b7fd57abfe2140
-    created: "2024-12-17T21:59:52.810963288Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 6d925e281bc89b78d636a58e9c2fe80ef3df91954959a1ff1619a64c787e7556
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-c7eb94bf9c8960fe509fbcdee2b7fd57abfe2140.tgz
-    version: 0.0.15-c7eb94bf9c8960fe509fbcdee2b7fd57abfe2140
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-bfe45b730dc948e56e468d99120a331817626110.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-bfe45b730dc948e56e468d99120a331817626110.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -1888,28 +1051,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-bd182aece8f525b50047c9d45368b77f30927359.tgz
     version: 0.0.15-bd182aece8f525b50047c9d45368b77f30927359
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-b9571130f5dfc0c62a325e219744e0638cd7f12f.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-b9571130f5dfc0c62a325e219744e0638cd7f12f.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-b9571130f5dfc0c62a325e219744e0638cd7f12f.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-b9571130f5dfc0c62a325e219744e0638cd7f12f
-    created: "2024-12-05T04:56:35.143327304Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 89bce229607e4150f96f9ee39d4b1d9b72c79a2d08bc6716e32d8b8fb987d538
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-b9571130f5dfc0c62a325e219744e0638cd7f12f.tgz
-    version: 0.0.15-b9571130f5dfc0c62a325e219744e0638cd7f12f
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-b80df82d0d5481335800bd3a0983b67988642520.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-b80df82d0d5481335800bd3a0983b67988642520.tgz-meta/README.md
@@ -2153,28 +1294,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-7878518789dd79d365fafab0b6d90fd3ae30e535.tgz
     version: 0.0.15-7878518789dd79d365fafab0b6d90fd3ae30e535
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-6dc32cf2ab955b45dce75493d3def7ed5012d50d.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-6dc32cf2ab955b45dce75493d3def7ed5012d50d.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-6dc32cf2ab955b45dce75493d3def7ed5012d50d.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-6dc32cf2ab955b45dce75493d3def7ed5012d50d
-    created: "2024-12-04T17:57:23.015175644Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: d8b21b3212140f1d5379d36d8a4356c698ccb99ddaadd326985ee81819360c07
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-6dc32cf2ab955b45dce75493d3def7ed5012d50d.tgz
-    version: 0.0.15-6dc32cf2ab955b45dce75493d3def7ed5012d50d
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-687263bcce37784fbc4b73eb03657e2a5e10c27b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-687263bcce37784fbc4b73eb03657e2a5e10c27b.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -2307,28 +1426,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-521c0f1acd89df23162a60d2c706db5da475636b.tgz
     version: 0.0.15-521c0f1acd89df23162a60d2c706db5da475636b
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-521aeda80294408a95aad165e397c2c3172ab372.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-521aeda80294408a95aad165e397c2c3172ab372.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-521aeda80294408a95aad165e397c2c3172ab372.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-521aeda80294408a95aad165e397c2c3172ab372
-    created: "2024-12-17T19:47:23.178178453Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 81eb086436866d36a5a6460f434213ba3236c72bc2a92ab70366d8206a52e952
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-521aeda80294408a95aad165e397c2c3172ab372.tgz
-    version: 0.0.15-521aeda80294408a95aad165e397c2c3172ab372
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-4ae7d1ca1141ef24c134a58748d2ffa48331de34.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-4ae7d1ca1141ef24c134a58748d2ffa48331de34.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -2350,28 +1447,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-4ae7d1ca1141ef24c134a58748d2ffa48331de34.tgz
     version: 0.0.15-4ae7d1ca1141ef24c134a58748d2ffa48331de34
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-44b9014314619e80a92c923747eee20f6d18f501.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-44b9014314619e80a92c923747eee20f6d18f501.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-44b9014314619e80a92c923747eee20f6d18f501.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-44b9014314619e80a92c923747eee20f6d18f501
-    created: "2024-12-10T20:25:04.199167469Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 4a88f54213ee8c39319ca195c9427ce04049e629a8ee6145073553269a5abac9
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-44b9014314619e80a92c923747eee20f6d18f501.tgz
-    version: 0.0.15-44b9014314619e80a92c923747eee20f6d18f501
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-3fbab83af9d0a8f7429d07aa320ecc4f1d16f6ec.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-3fbab83af9d0a8f7429d07aa320ecc4f1d16f6ec.tgz-meta/README.md
@@ -2527,50 +1602,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-25c33c182ba9995a93127dede4edc679e7c0b85e.tgz
     version: 0.0.15-25c33c182ba9995a93127dede4edc679e7c0b85e
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1ec67ae3d95b37714af50a257c735cea0e4329cb.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1ec67ae3d95b37714af50a257c735cea0e4329cb.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1ec67ae3d95b37714af50a257c735cea0e4329cb.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-1ec67ae3d95b37714af50a257c735cea0e4329cb
-    created: "2024-12-04T17:56:54.353855411Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 9c3a49e6293290832f4d1ca640d81f4dcf337268a1fa5fd3d0dff0414e141005
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1ec67ae3d95b37714af50a257c735cea0e4329cb.tgz
-    version: 0.0.15-1ec67ae3d95b37714af50a257c735cea0e4329cb
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1dfad0d51c982e1801188e4865cd6d550fd5f98d.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1dfad0d51c982e1801188e4865cd6d550fd5f98d.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1dfad0d51c982e1801188e4865cd6d550fd5f98d.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-1dfad0d51c982e1801188e4865cd6d550fd5f98d
-    created: "2024-12-09T17:45:23.024134929Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 41030d33d8793dd46ef24c44ae2ca7141e30c02a3abc7d9fabf59b5937237cfa
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1dfad0d51c982e1801188e4865cd6d550fd5f98d.tgz
-    version: 0.0.15-1dfad0d51c982e1801188e4865cd6d550fd5f98d
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1a4afc78ca7017b701f37551901fd5be023b6882.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1a4afc78ca7017b701f37551901fd5be023b6882.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -2614,94 +1645,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-12d73ae80ded63692b4b1d062a26873a6dc9fe74.tgz
     version: 0.0.15-12d73ae80ded63692b4b1d062a26873a6dc9fe74
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b
-    created: "2024-12-02T21:57:40.190274248Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 3961e5e6a34cd250987d31b7af64ce9073ed623b7af1232497df568a6dc5bb85
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b.tgz
-    version: 0.0.15-0d9d33e45a537b5b69d3ab614b139cc05eb2e15b
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-08960c1dc6acb657065c68ea51cecc7ca75619c0.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-08960c1dc6acb657065c68ea51cecc7ca75619c0.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-08960c1dc6acb657065c68ea51cecc7ca75619c0.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-08960c1dc6acb657065c68ea51cecc7ca75619c0
-    created: "2024-12-18T00:56:03.367423223Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 93de80712084422a1dc45c355a21f7ff6bad55ccd50bb3542e25508d4c52905a
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-08960c1dc6acb657065c68ea51cecc7ca75619c0.tgz
-    version: 0.0.15-08960c1dc6acb657065c68ea51cecc7ca75619c0
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-06c88ab9315abd5b36e1278633d11ca7923acc6d.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-06c88ab9315abd5b36e1278633d11ca7923acc6d.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-06c88ab9315abd5b36e1278633d11ca7923acc6d.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-06c88ab9315abd5b36e1278633d11ca7923acc6d
-    created: "2024-12-12T19:04:22.868666105Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: 48917c5c1f8517e2f74e640adfdc05406c4a8485c60b35357c965588a8218fb2
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-06c88ab9315abd5b36e1278633d11ca7923acc6d.tgz
-    version: 0.0.15-06c88ab9315abd5b36e1278633d11ca7923acc6d
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0653b9edc11d73b0a42e10224777d842636ac675.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0653b9edc11d73b0a42e10224777d842636ac675.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0653b9edc11d73b0a42e10224777d842636ac675.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.15-0653b9edc11d73b0a42e10224777d842636ac675
-    created: "2024-12-13T16:35:57.863738061Z"
-    description: A Helm chart for FAIQ, the Slack support manager
-    digest: bf1cde09cf90fb3298bfcc6d3af0d7975f2c3bdc2a4a88b98f6941dcbfea8a28
-    home: https://github.com/giantswarm/faiq
-    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/faiq
-    name: faiq
-    sources:
-    - https://github.com/giantswarm/faiq
-    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-0653b9edc11d73b0a42e10224777d842636ac675.tgz
-    version: 0.0.15-0653b9edc11d73b0a42e10224777d842636ac675
   k8s-audit-metrics:
   - annotations:
       application.giantswarm.io/team: turtles
@@ -2742,18 +1685,6 @@ entries:
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
-    appVersion: 0.10.0-ce39927df83ccbc289086ac0980d21fcc1a145e5
-    created: "2024-12-04T13:13:36.121764162Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: 5af1ea8cc8c40cf5691bd6a0c0f8778c907847b75d9da2b9017b1b9994ed0ce6
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-ce39927df83ccbc289086ac0980d21fcc1a145e5.tgz
-    version: 0.10.0-ce39927df83ccbc289086ac0980d21fcc1a145e5
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
     appVersion: 0.10.0-c34958e7c4b8ea057aa72bfc0dab8d3e78b71ece
     created: "2025-01-08T10:32:57.704489025Z"
     description: Collector that exposes metrics from k8s apiserver audit log.
@@ -2766,30 +1697,6 @@ entries:
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
-    appVersion: 0.10.0-aa1d91eeb076d0c8de20cab8a88ccbf78f891c0d
-    created: "2024-12-06T05:05:04.993217598Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: 20112844844e8365d37663b8e8b0cff3e65af47924f693d263d25e5f2861411a
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-aa1d91eeb076d0c8de20cab8a88ccbf78f891c0d.tgz
-    version: 0.10.0-aa1d91eeb076d0c8de20cab8a88ccbf78f891c0d
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
-    appVersion: 0.10.0-a9e7cd0adb1742b80e8661b74d9e3af2267ffa99
-    created: "2024-12-06T00:20:27.484881112Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: 214a1ce54a1ac15bdfadfa96bc3871bd2851d844ee693835d2fc4040cb10bf39
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-a9e7cd0adb1742b80e8661b74d9e3af2267ffa99.tgz
-    version: 0.10.0-a9e7cd0adb1742b80e8661b74d9e3af2267ffa99
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
     appVersion: 0.10.0-a387f4af7cef4b9a6ba49e1aec09838f073b7002
     created: "2025-01-07T21:49:13.40580158Z"
     description: Collector that exposes metrics from k8s apiserver audit log.
@@ -2799,18 +1706,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-a387f4af7cef4b9a6ba49e1aec09838f073b7002.tgz
     version: 0.10.0-a387f4af7cef4b9a6ba49e1aec09838f073b7002
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
-    appVersion: 0.10.0-9175d552eb7d0219903cc0dbd6f3e22f5edb5dca
-    created: "2024-12-03T23:43:53.976075388Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: 7e951c623a6d1086e30f1bdd9c3949ce57ba2d0ab2c355edc59e27ad3b4ec9f4
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-9175d552eb7d0219903cc0dbd6f3e22f5edb5dca.tgz
-    version: 0.10.0-9175d552eb7d0219903cc0dbd6f3e22f5edb5dca
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
@@ -2838,30 +1733,6 @@ entries:
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
-    appVersion: 0.10.0-88fcbd417386c65e54db896b97042e146d5fe4dd
-    created: "2024-12-11T08:05:45.218644679Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: b583b44022d51b66856b2eddb35854aa12aec65960dc55df934d65b22b812188
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-88fcbd417386c65e54db896b97042e146d5fe4dd.tgz
-    version: 0.10.0-88fcbd417386c65e54db896b97042e146d5fe4dd
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
-    appVersion: 0.10.0-65fbe363f01d29e1db2750fa3c68e2852687c410
-    created: "2024-12-12T09:09:25.162978138Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: 4e21c98aca15abc1bddbcb336dc5bfe89f84d1aca8e8ec7f17ffbf21a5436b66
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-65fbe363f01d29e1db2750fa3c68e2852687c410.tgz
-    version: 0.10.0-65fbe363f01d29e1db2750fa3c68e2852687c410
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
     appVersion: 0.10.0-627b2e471ea6ce55f9e9cf295057e56c953d4934
     created: "2025-01-07T21:49:07.367095985Z"
     description: Collector that exposes metrics from k8s apiserver audit log.
@@ -2886,18 +1757,6 @@ entries:
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
-    appVersion: 0.10.0-5d8cb1d3701f79ac0e2bec215d309fe49df24b35
-    created: "2024-12-12T01:22:23.385080025Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: bb95473495cc57594f457d34c06bd0c3f9f902330a9cbae30695bef0162dbae4
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-5d8cb1d3701f79ac0e2bec215d309fe49df24b35.tgz
-    version: 0.10.0-5d8cb1d3701f79ac0e2bec215d309fe49df24b35
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
     appVersion: 0.10.0-4f3b8b700b73c24a1c81cc6e536f6b24341e674b
     created: "2025-01-08T20:48:36.020362532Z"
     description: Collector that exposes metrics from k8s apiserver audit log.
@@ -2919,18 +1778,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-49010d72f24fcf0bcd14665d475f823030710c97.tgz
     version: 0.10.0-49010d72f24fcf0bcd14665d475f823030710c97
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
-    appVersion: 0.10.0-44dc86ebbe0ee6040a4bb16d8476a4918c2f6723
-    created: "2024-12-11T01:39:22.349344335Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: dbc04ef2e1f6d036614ae5b96ae6a197def2946a617a761102f6e99c4124daf6
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-44dc86ebbe0ee6040a4bb16d8476a4918c2f6723.tgz
-    version: 0.10.0-44dc86ebbe0ee6040a4bb16d8476a4918c2f6723
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
@@ -2970,18 +1817,6 @@ entries:
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
-    appVersion: 0.10.0-22b0e20878a7b31f479422652cf7a5ea757a45e8
-    created: "2024-12-04T16:19:57.885482167Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: e5280fdc9f65b40aba012ac777c6c94bd13f517cc9d87c87b1d876e16a11b019
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-22b0e20878a7b31f479422652cf7a5ea757a45e8.tgz
-    version: 0.10.0-22b0e20878a7b31f479422652cf7a5ea757a45e8
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
     appVersion: 0.10.0-22ab51e025014a90833f293d21a5828461c23328
     created: "2025-01-16T22:32:24.209207691Z"
     description: Collector that exposes metrics from k8s apiserver audit log.
@@ -3015,18 +1850,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-1453c4d3e835ca7cf9b01907b516d739b646baa3.tgz
     version: 0.10.0-1453c4d3e835ca7cf9b01907b516d739b646baa3
-  - annotations:
-      application.giantswarm.io/team: turtles
-    apiVersion: v1
-    appVersion: 0.10.0-0e3592adab42c5dd47eff8003ab78b6119059e3b
-    created: "2024-12-04T16:45:01.010413456Z"
-    description: Collector that exposes metrics from k8s apiserver audit log.
-    digest: 14d7b35eca27fa91b3f8522188e4d7f91f66024d2f1c758b6e074235f44a1f98
-    home: https://github.com/giantswarm/k8s-audit-metrics
-    name: k8s-audit-metrics
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.0-0e3592adab42c5dd47eff8003ab78b6119059e3b.tgz
-    version: 0.10.0-0e3592adab42c5dd47eff8003ab78b6119059e3b
   - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
@@ -3078,23 +1901,6 @@ entries:
       application.giantswarm.io/team: team-horizon
     apiVersion: v1
     appVersion: v0.10.0
-    created: "2024-12-06T00:31:36.295064142Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
-    digest: 456070236368daba8b29df226bec92f41cabd2f218de39d6b4602e9626a9c0a0
-    home: https://github.com/giantswarm/k8s-initiator-app
-    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
-    name: k8s-initiator-app
-    sources:
-    - https://github.com/giantswarm/k8s-initiator-app
-    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.11.0-d72fb3d72046ea0b215551de04ad7eda3120a47d/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-d72fb3d72046ea0b215551de04ad7eda3120a47d.tgz
-    version: 0.11.0-d72fb3d72046ea0b215551de04ad7eda3120a47d
-  - annotations:
-      application.giantswarm.io/team: team-horizon
-    apiVersion: v1
-    appVersion: v0.10.0
     created: "2025-01-08T20:43:17.04042004Z"
     description: The k8s initiator runs in a master node and applies some configuration
       when the master is new.
@@ -3108,23 +1914,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-d0345e6bdc2f5a5a3184756533acdde701fc2a14.tgz
     version: 0.11.0-d0345e6bdc2f5a5a3184756533acdde701fc2a14
-  - annotations:
-      application.giantswarm.io/team: team-horizon
-    apiVersion: v1
-    appVersion: v0.10.0
-    created: "2024-12-18T15:35:11.965589001Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
-    digest: 58847bb1532b3da83022593d55c301daf7c3808872f5e048ab3cfcae99b66498
-    home: https://github.com/giantswarm/k8s-initiator-app
-    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
-    name: k8s-initiator-app
-    sources:
-    - https://github.com/giantswarm/k8s-initiator-app
-    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.11.0-cf4f11b426f1324ef903f21c872e5b313f77d11e/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-cf4f11b426f1324ef903f21c872e5b313f77d11e.tgz
-    version: 0.11.0-cf4f11b426f1324ef903f21c872e5b313f77d11e
   - annotations:
       application.giantswarm.io/team: team-horizon
     apiVersion: v1
@@ -3197,23 +1986,6 @@ entries:
       application.giantswarm.io/team: team-horizon
     apiVersion: v1
     appVersion: v0.10.0
-    created: "2024-12-13T16:10:58.27686243Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
-    digest: e20b71b4cdf2e07eabd964cca129a1f5a2f319a4498e2f64bd8eef195f9c86a8
-    home: https://github.com/giantswarm/k8s-initiator-app
-    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
-    name: k8s-initiator-app
-    sources:
-    - https://github.com/giantswarm/k8s-initiator-app
-    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.11.0-339a2523f43319cb4b5695f83720343ba4a8097e/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-339a2523f43319cb4b5695f83720343ba4a8097e.tgz
-    version: 0.11.0-339a2523f43319cb4b5695f83720343ba4a8097e
-  - annotations:
-      application.giantswarm.io/team: team-horizon
-    apiVersion: v1
-    appVersion: v0.10.0
     created: "2025-01-10T15:36:09.825069537Z"
     description: The k8s initiator runs in a master node and applies some configuration
       when the master is new.
@@ -3244,40 +2016,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-122c786f126cf366a98e477e9352f61f13c3cd06.tgz
     version: 0.11.0-122c786f126cf366a98e477e9352f61f13c3cd06
-  - annotations:
-      application.giantswarm.io/team: team-horizon
-    apiVersion: v1
-    appVersion: v0.10.0
-    created: "2024-12-04T15:18:18.263365882Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
-    digest: 3b3ce98547a1277254a5224ec64e41d9c795534a9fd614e2fa5f29aa182c7264
-    home: https://github.com/giantswarm/k8s-initiator-app
-    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
-    name: k8s-initiator-app
-    sources:
-    - https://github.com/giantswarm/k8s-initiator-app
-    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.11.0-114b712bcd1b2b05c32749ccd8e9f54451e2a20e/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-114b712bcd1b2b05c32749ccd8e9f54451e2a20e.tgz
-    version: 0.11.0-114b712bcd1b2b05c32749ccd8e9f54451e2a20e
-  - annotations:
-      application.giantswarm.io/team: team-horizon
-    apiVersion: v1
-    appVersion: v0.10.0
-    created: "2024-12-17T08:55:18.175734369Z"
-    description: The k8s initiator runs in a master node and applies some configuration
-      when the master is new.
-    digest: a5f2927bf5d81a3e3a7b32ed54a69289790c7d0b67c156dd9c96725d37972487
-    home: https://github.com/giantswarm/k8s-initiator-app
-    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
-    name: k8s-initiator-app
-    sources:
-    - https://github.com/giantswarm/k8s-initiator-app
-    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.11.0-0bef0c85ef51bec6dcdf7e04abfbc90389cef90e/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.0-0bef0c85ef51bec6dcdf7e04abfbc90389cef90e.tgz
-    version: 0.11.0-0bef0c85ef51bec6dcdf7e04abfbc90389cef90e
   kubectl-apply-job:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-e1752c9b4979d2c900aa0fbe4df5fbd7d7bc6673.tgz-meta/main.yaml
@@ -3294,21 +2032,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-e1752c9b4979d2c900aa0fbe4df5fbd7d7bc6673.tgz
     version: 0.8.0-e1752c9b4979d2c900aa0fbe4df5fbd7d7bc6673
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/README.md
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz-meta/values.schema.json
-    apiVersion: v2
-    created: "2024-12-04T14:40:42.51186464Z"
-    description: 'A Helm chart containing a Job to apply kubernetes manifests using
-      kubectl apply. '
-    digest: 75595fceff0374f9a611600cda7a5aeb7a670e551494df2f92c9276745070b7a
-    home: https://github.com/giantswarm/kubectl-apply-job
-    name: kubectl-apply-job
-    type: library
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7.tgz
-    version: 0.8.0-b3e179a2571244fae663ba5846bc82d7990d79d7
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-7ed4e4ff2d9a0bdce46f4b4609926081b0f44e68.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-7ed4e4ff2d9a0bdce46f4b4609926081b0f44e68.tgz-meta/README.md
@@ -3415,21 +2138,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-2aed4913f5531f80a92ed9a3272aec5feb942ddd.tgz
     version: 0.8.0-2aed4913f5531f80a92ed9a3272aec5feb942ddd
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-296ffa8d2c8b76f503b23a8b6fb146ae9ce9ae60.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-296ffa8d2c8b76f503b23a8b6fb146ae9ce9ae60.tgz-meta/README.md
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-296ffa8d2c8b76f503b23a8b6fb146ae9ce9ae60.tgz-meta/values.schema.json
-    apiVersion: v2
-    created: "2024-12-17T14:40:13.328073045Z"
-    description: 'A Helm chart containing a Job to apply kubernetes manifests using
-      kubectl apply. '
-    digest: cea7afd1c1384de070ef80488338a615609d8e52756ebc889640cdf6cd80d0cd
-    home: https://github.com/giantswarm/kubectl-apply-job
-    name: kubectl-apply-job
-    type: library
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-296ffa8d2c8b76f503b23a8b6fb146ae9ce9ae60.tgz
-    version: 0.8.0-296ffa8d2c8b76f503b23a8b6fb146ae9ce9ae60
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-13df15f19a8a6c42795d774a1b415a4b1201a01f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-13df15f19a8a6c42795d774a1b415a4b1201a01f.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-13df15f19a8a6c42795d774a1b415a4b1201a01f.tgz-meta/values.schema.json
@@ -3459,59 +2167,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.8.0-0e59e3577d69f665f5e86302ba3e6d2ae497b5b1.tgz
     version: 0.8.0-0e59e3577d69f665f5e86302ba3e6d2ae497b5b1
-  memcached:
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-afad584a716b2c78b0e745e2ee3c0035258d75da.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-afad584a716b2c78b0e745e2ee3c0035258d75da.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-afad584a716b2c78b0e745e2ee3c0035258d75da.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 1.6.21
-    created: "2024-12-05T16:07:05.248033193Z"
-    dependencies:
-    - name: memcached
-      repository: oci://registry-1.docker.io/bitnamicharts
-      version: 7.5.4
-    description: Caching solution
-    digest: 473d494e3793fd11ae304640b56800fdea805a91859713b12431b2a3da1cffd0
-    home: https://github.com/giantswarm/memcached
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    maintainers:
-    - email: team-atlas@giantswarm.io
-      name: giantswarm/team-atlas
-    name: memcached
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-afad584a716b2c78b0e745e2ee3c0035258d75da.tgz
-    version: 0.1.4-afad584a716b2c78b0e745e2ee3c0035258d75da
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1b4815bd85551ff04f00830e110d01c21988d273.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1b4815bd85551ff04f00830e110d01c21988d273.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1b4815bd85551ff04f00830e110d01c21988d273.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 1.6.21
-    created: "2024-12-04T14:07:07.090463796Z"
-    dependencies:
-    - name: memcached
-      repository: oci://registry-1.docker.io/bitnamicharts
-      version: 7.5.3
-    description: Caching solution
-    digest: 48a78f19dfc06d654c34c6d441a45687da86b082b0e276272dffd107d5c0a756
-    home: https://github.com/giantswarm/memcached
-    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
-    maintainers:
-    - email: team-atlas@giantswarm.io
-      name: giantswarm/team-atlas
-    name: memcached
-    sources:
-    - https://github.com/bitnami/charts/tree/main/bitnami/memcached
-    type: application
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/memcached-0.1.4-1b4815bd85551ff04f00830e110d01c21988d273.tgz
-    version: 0.1.4-1b4815bd85551ff04f00830e110d01c21988d273
   n8n:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.5-6ac3e2e63ac31617b2fd3d95351f0e540cd2ef90.tgz-meta/main.yaml
@@ -4071,28 +2726,6 @@ entries:
     version: 0.4.0-0b9dd2d1cabe20f8b9f008845aaeb90bf98793c4
   pr-generator:
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f9cea462aa1ce80c8e2a672612e960158195a293.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f9cea462aa1ce80c8e2a672612e960158195a293.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f9cea462aa1ce80c8e2a672612e960158195a293.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.2-f9cea462aa1ce80c8e2a672612e960158195a293
-    created: "2024-12-17T23:35:40.307211511Z"
-    description: A Helm chart for pr-generator, the Slack support manager
-    digest: 1974d645f58745b8ac56dd3f59a7182a771cf23c80845875d92b30f4f97c8200
-    home: https://github.com/giantswarm/pr-generator
-    icon: https://s.giantswarm.io/app-icons/pr-generator/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/pr-generator
-    name: pr-generator
-    sources:
-    - https://github.com/giantswarm/pr-generator
-    - https://raw.githubusercontent.com/giantswarm/pr-generator/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-f9cea462aa1ce80c8e2a672612e960158195a293.tgz
-    version: 0.0.2-f9cea462aa1ce80c8e2a672612e960158195a293
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-edfbf65fd53900fb1984e8ce7c16b49fb9f67395.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-edfbf65fd53900fb1984e8ce7c16b49fb9f67395.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -4268,28 +2901,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-d38ebb3ffeffd54deeabcf6383accf01fcbf8035.tgz
     version: 0.0.2-d38ebb3ffeffd54deeabcf6383accf01fcbf8035
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-cc03ed56b0dc733344275d75e036439661bf6ea3.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-cc03ed56b0dc733344275d75e036439661bf6ea3.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-cc03ed56b0dc733344275d75e036439661bf6ea3.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.2-cc03ed56b0dc733344275d75e036439661bf6ea3
-    created: "2024-12-05T05:15:59.158497094Z"
-    description: A Helm chart for pr-generator, the Slack support manager
-    digest: f77c02b74ee084f54769421a54817a20169fa0bb51fe5d17608c704ecb530b93
-    home: https://github.com/giantswarm/pr-generator
-    icon: https://s.giantswarm.io/app-icons/pr-generator/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/pr-generator
-    name: pr-generator
-    sources:
-    - https://github.com/giantswarm/pr-generator
-    - https://raw.githubusercontent.com/giantswarm/pr-generator/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-cc03ed56b0dc733344275d75e036439661bf6ea3.tgz
-    version: 0.0.2-cc03ed56b0dc733344275d75e036439661bf6ea3
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-c7206bb52fa2f74962fde2218c5ca10f2f07e82b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-c7206bb52fa2f74962fde2218c5ca10f2f07e82b.tgz-meta/README.md
@@ -4753,28 +3364,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-4aa1767efd348336f7a6a7b9966a6edcc998a737.tgz
     version: 0.0.2-4aa1767efd348336f7a6a7b9966a6edcc998a737
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-48e69304e4b078b11d6c23c120701d7e6dcca237.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-48e69304e4b078b11d6c23c120701d7e6dcca237.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-48e69304e4b078b11d6c23c120701d7e6dcca237.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.2-48e69304e4b078b11d6c23c120701d7e6dcca237
-    created: "2024-12-22T10:46:03.04263251Z"
-    description: A Helm chart for pr-generator, the Slack support manager
-    digest: fa1c393bf5a19d6cfa86d81ed5b9d21b91643c09fa6fe8368ecc06594752d8bb
-    home: https://github.com/giantswarm/pr-generator
-    icon: https://s.giantswarm.io/app-icons/pr-generator/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/pr-generator
-    name: pr-generator
-    sources:
-    - https://github.com/giantswarm/pr-generator
-    - https://raw.githubusercontent.com/giantswarm/pr-generator/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-48e69304e4b078b11d6c23c120701d7e6dcca237.tgz
-    version: 0.0.2-48e69304e4b078b11d6c23c120701d7e6dcca237
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-449fd19878390e62e5d98fe7fa24711771b4bd5c.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-449fd19878390e62e5d98fe7fa24711771b4bd5c.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -5017,28 +3606,6 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-0af2272a4c935f5df34b12724504cdb7fd51945b.tgz
     version: 0.0.2-0af2272a4c935f5df34b12724504cdb7fd51945b
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-09b7ed49ce68acf2e21fe45e925ea8c2249845f8.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-09b7ed49ce68acf2e21fe45e925ea8c2249845f8.tgz-meta/README.md
-      application.giantswarm.io/team: teddyfriends
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-09b7ed49ce68acf2e21fe45e925ea8c2249845f8.tgz-meta/values.schema.json
-    apiVersion: v1
-    appVersion: 0.0.2-09b7ed49ce68acf2e21fe45e925ea8c2249845f8
-    created: "2024-12-05T20:27:26.338879366Z"
-    description: A Helm chart for pr-generator, the Slack support manager
-    digest: 8f8b1dcc2a59f8217dbcaddfa99ca01e58cc1803beef17f685a86a7d58085ff9
-    home: https://github.com/giantswarm/pr-generator
-    icon: https://s.giantswarm.io/app-icons/pr-generator/1/light.svg
-    maintainers:
-    - name: Giant Swarm teddyfriends
-      url: https://github.com/giantswarm/pr-generator
-    name: pr-generator
-    sources:
-    - https://github.com/giantswarm/pr-generator
-    - https://raw.githubusercontent.com/giantswarm/pr-generator/v[[ .Version ]]/README.md
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-09b7ed49ce68acf2e21fe45e925ea8c2249845f8.tgz
-    version: 0.0.2-09b7ed49ce68acf2e21fe45e925ea8c2249845f8
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-05e6bcb7bbe3e8f75c91e21e52c9c7ec6ae6d219.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.0.2-05e6bcb7bbe3e8f75c91e21e52c9c7ec6ae6d219.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -5144,56 +3711,6 @@ entries:
     version: 0.0.0-7e3261cc6431bd035e5aacdf371cf3f90f2588d5
   pyroscope:
   - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-db450492f2c9c3a241868e551f94973370a52792.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-db450492f2c9c3a241868e551f94973370a52792.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-db450492f2c9c3a241868e551f94973370a52792.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 1.2.1
-    created: "2024-12-30T14:21:16.520132572Z"
-    dependencies:
-    - name: pyroscope
-      repository: https://grafana.github.io/helm-charts
-      version: 1.11.0
-    description: Helm chart for Pyroscope
-    digest: feea94bcbfea89cea974f8077e0c70aaf679bb04313e04e876d6999a2ccd89f5
-    home: https://github.com/giantswarm/pyroscope
-    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
-    maintainers:
-    - email: team-atlas@giantswarm.io
-      name: giantswarm/team-atlas
-    name: pyroscope
-    sources:
-    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-db450492f2c9c3a241868e551f94973370a52792.tgz
-    version: 0.2.0-db450492f2c9c3a241868e551f94973370a52792
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-7a1cd2a52a70553952135817c9070a6ba95a3c6d.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-7a1cd2a52a70553952135817c9070a6ba95a3c6d.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-7a1cd2a52a70553952135817c9070a6ba95a3c6d.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 1.2.1
-    created: "2024-12-12T14:57:55.30949302Z"
-    dependencies:
-    - name: pyroscope
-      repository: https://grafana.github.io/helm-charts
-      version: 1.10.0
-    description: Helm chart for Pyroscope
-    digest: c6e85e74b4f8052ad0b1dca2d1a46ff4c5683e70566fa8af69f96e117e17317c
-    home: https://github.com/giantswarm/pyroscope
-    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
-    maintainers:
-    - email: team-atlas@giantswarm.io
-      name: giantswarm/team-atlas
-    name: pyroscope
-    sources:
-    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-7a1cd2a52a70553952135817c9070a6ba95a3c6d.tgz
-    version: 0.2.0-7a1cd2a52a70553952135817c9070a6ba95a3c6d
-  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-3edeaf6775cd1394a95895ad9d39ad73e6ca2242.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-3edeaf6775cd1394a95895ad9d39ad73e6ca2242.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -5218,31 +3735,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-3edeaf6775cd1394a95895ad9d39ad73e6ca2242.tgz
     version: 0.2.0-3edeaf6775cd1394a95895ad9d39ad73e6ca2242
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-1677ae52105aaa9a8882bbb0dee490534b517689.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-1677ae52105aaa9a8882bbb0dee490534b517689.tgz-meta/README.md
-      application.giantswarm.io/team: atlas
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-1677ae52105aaa9a8882bbb0dee490534b517689.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 1.2.1
-    created: "2024-12-05T13:19:07.32169376Z"
-    dependencies:
-    - name: pyroscope
-      repository: https://grafana.github.io/helm-charts
-      version: 1.10.0
-    description: Helm chart for Pyroscope
-    digest: e6d33d81040c4cced022ecfe01d92f8cc73c3637d8d0c3c367c04621cd63771a
-    home: https://github.com/giantswarm/pyroscope
-    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
-    maintainers:
-    - email: team-atlas@giantswarm.io
-      name: giantswarm/team-atlas
-    name: pyroscope
-    sources:
-    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-1677ae52105aaa9a8882bbb0dee490534b517689.tgz
-    version: 0.2.0-1677ae52105aaa9a8882bbb0dee490534b517689
   slack-replier:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.1.0-98c7965c97133bcfe68d6cdde18da13ad80971cb.tgz-meta/main.yaml
@@ -5262,150 +3754,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.1.0-98c7965c97133bcfe68d6cdde18da13ad80971cb.tgz
     version: 0.1.0-98c7965c97133bcfe68d6cdde18da13ad80971cb
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-fd64486e266559acf969f1f9a095fad1f2c63ef1.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-fd64486e266559acf969f1f9a095fad1f2c63ef1.tgz-meta/README.md
-      application.giantswarm.io/team: team-planeteers
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-fd64486e266559acf969f1f9a095fad1f2c63ef1.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2024-12-20T09:46:06.977086864Z"
-    description: Please add description
-    digest: 2bf6c45ab4edf2ed8f9da56ad6ea7f4c2bb45d66f02b3568712b3ed0a48cea51
-    home: https://github.com/giantswarm/slack-replier
-    icon: https://s.giantswarm.io/app-icons/slack-replier/1/light.svg
-    name: slack-replier
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-fd64486e266559acf969f1f9a095fad1f2c63ef1.tgz
-    version: 0.0.10-fd64486e266559acf969f1f9a095fad1f2c63ef1
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-e483e2c30c9cb164dbfe76842a2a4c925bc9e411.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-e483e2c30c9cb164dbfe76842a2a4c925bc9e411.tgz-meta/README.md
-      application.giantswarm.io/team: horizon
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-e483e2c30c9cb164dbfe76842a2a4c925bc9e411.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2024-12-16T22:49:33.359921742Z"
-    description: Please add description
-    digest: f668abc1ef076c1a40b1988fb787cf4fcb139bccea286b7cbe5c49b961cdef5f
-    home: https://github.com/giantswarm/slack-replier
-    icon: https://s.giantswarm.io/app-icons/slack-replier/1/light.svg
-    name: slack-replier
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-e483e2c30c9cb164dbfe76842a2a4c925bc9e411.tgz
-    version: 0.0.10-e483e2c30c9cb164dbfe76842a2a4c925bc9e411
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-e3f37278db922953b1fa9f2575e9cddc7fca63fb.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-e3f37278db922953b1fa9f2575e9cddc7fca63fb.tgz-meta/README.md
-      application.giantswarm.io/team: team-planeteers
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-e3f37278db922953b1fa9f2575e9cddc7fca63fb.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2024-12-20T09:57:08.050928101Z"
-    description: Please add description
-    digest: ac7f04e105953f964dbb5388f5302dbea57c595368d09752f2d49d7af1c722fe
-    home: https://github.com/giantswarm/slack-replier
-    icon: https://s.giantswarm.io/app-icons/slack-replier/1/light.svg
-    name: slack-replier
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-e3f37278db922953b1fa9f2575e9cddc7fca63fb.tgz
-    version: 0.0.10-e3f37278db922953b1fa9f2575e9cddc7fca63fb
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-d0e6dca3095adace0ddd7add6ca9c8d7db86d5fe.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-d0e6dca3095adace0ddd7add6ca9c8d7db86d5fe.tgz-meta/README.md
-      application.giantswarm.io/team: horizon
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-d0e6dca3095adace0ddd7add6ca9c8d7db86d5fe.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2024-12-04T18:10:49.59693922Z"
-    description: Please add description
-    digest: 707a0dc93e8867f9614d632c2a6944ef782b433c20b89f6180296b5ea72f5f6c
-    home: https://github.com/giantswarm/slack-replier
-    icon: https://s.giantswarm.io/app-icons/slack-replier/1/light.svg
-    name: slack-replier
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-d0e6dca3095adace0ddd7add6ca9c8d7db86d5fe.tgz
-    version: 0.0.10-d0e6dca3095adace0ddd7add6ca9c8d7db86d5fe
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-bf2cf7d474960a449dc3ad65c2af92bd887afa76.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-bf2cf7d474960a449dc3ad65c2af92bd887afa76.tgz-meta/README.md
-      application.giantswarm.io/team: horizon
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-bf2cf7d474960a449dc3ad65c2af92bd887afa76.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2024-12-17T09:01:51.987673316Z"
-    description: Please add description
-    digest: 5d1c2fb3efe2165bfbb065667a7d81406516419d8e2bff228917ce518f9d4142
-    home: https://github.com/giantswarm/slack-replier
-    icon: https://s.giantswarm.io/app-icons/slack-replier/1/light.svg
-    name: slack-replier
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-bf2cf7d474960a449dc3ad65c2af92bd887afa76.tgz
-    version: 0.0.10-bf2cf7d474960a449dc3ad65c2af92bd887afa76
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-7e55a73f1f8fa07f3abcc68dcd95752c4310c004.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-7e55a73f1f8fa07f3abcc68dcd95752c4310c004.tgz-meta/README.md
-      application.giantswarm.io/team: horizon
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-7e55a73f1f8fa07f3abcc68dcd95752c4310c004.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2024-12-17T08:47:16.187552899Z"
-    description: Please add description
-    digest: 75cbdf246519b7c7517bae12a961d72e99997838fb627618214047eaccb2cbea
-    home: https://github.com/giantswarm/slack-replier
-    icon: https://s.giantswarm.io/app-icons/slack-replier/1/light.svg
-    name: slack-replier
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-7e55a73f1f8fa07f3abcc68dcd95752c4310c004.tgz
-    version: 0.0.10-7e55a73f1f8fa07f3abcc68dcd95752c4310c004
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-5893365ae023f27b66f7629f6cd30f1060c2b6b4.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-5893365ae023f27b66f7629f6cd30f1060c2b6b4.tgz-meta/README.md
-      application.giantswarm.io/team: team-planeteers
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-5893365ae023f27b66f7629f6cd30f1060c2b6b4.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2024-12-20T09:37:45.843809321Z"
-    description: Please add description
-    digest: ec0707fdc00c5b4895e88e6eb1f98ab9ec7b617c623d8e7c83d512ffe56de8f5
-    home: https://github.com/giantswarm/slack-replier
-    icon: https://s.giantswarm.io/app-icons/slack-replier/1/light.svg
-    name: slack-replier
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-5893365ae023f27b66f7629f6cd30f1060c2b6b4.tgz
-    version: 0.0.10-5893365ae023f27b66f7629f6cd30f1060c2b6b4
-  - annotations:
-      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-23cefe4c8e7390549e0fc90fdd826898e3f1355c.tgz-meta/main.yaml
-      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-23cefe4c8e7390549e0fc90fdd826898e3f1355c.tgz-meta/README.md
-      application.giantswarm.io/team: team-planeteers
-      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-23cefe4c8e7390549e0fc90fdd826898e3f1355c.tgz-meta/values.schema.json
-    apiVersion: v2
-    appVersion: 0.0.1
-    created: "2024-12-20T09:47:22.399415138Z"
-    description: Please add description
-    digest: 854cc29f6d0a3833f1f32f56cae3a9faf4c063cf7910f39709dd0cb698260ee1
-    home: https://github.com/giantswarm/slack-replier
-    icon: https://s.giantswarm.io/app-icons/slack-replier/1/light.svg
-    name: slack-replier
-    sources:
-    - https://github.com/some-org/some-repo
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/slack-replier-0.0.10-23cefe4c8e7390549e0fc90fdd826898e3f1355c.tgz
-    version: 0.0.10-23cefe4c8e7390549e0fc90fdd826898e3f1355c
   squid-proxy:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -5419,18 +3767,6 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-e66b2914a806491f3f519b93da75215b5ea42a10.tgz
     version: 0.6.1-e66b2914a806491f3f519b93da75215b5ea42a10
-  - annotations:
-      application.giantswarm.io/team: phoenix
-    apiVersion: v2
-    appVersion: 5.2-22.04_beta
-    created: "2024-12-04T16:40:48.479240276Z"
-    description: squid proxy for giantswarm internal use
-    digest: b8ea18a25917f3867cd7444ff7cc37113fb6e8537c51db5a04e9fd47ce914fa4
-    home: https://github.com/giantswarm/squid-proxy-app
-    name: squid-proxy
-    urls:
-    - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2.tgz
-    version: 0.6.1-d37fb3b62979656bdc77cbda5f77aa8b8e2a46f2
   - annotations:
       application.giantswarm.io/team: phoenix
     apiVersion: v2
@@ -5516,4 +3852,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-01-31T22:07:18.790572028Z"
+generated: "2025-02-01T00:27:09.543961908Z"
