@@ -3114,6 +3114,21 @@ entries:
     version: 0.0.0-43b6d9374a7204a5f97a50995101764f6c9fded0
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-bb32a0baa4f42f68435a74ace1b2fa88c4e72d78.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-bb32a0baa4f42f68435a74ace1b2fa88c4e72d78.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-bb32a0baa4f42f68435a74ace1b2fa88c4e72d78.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-02-18T09:24:00.818465335Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 4f90adfb15914463a6b2796ecf93cb476e53f8885990d9c16de45d6255dae067
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-bb32a0baa4f42f68435a74ace1b2fa88c4e72d78.tgz
+    version: 0.9.0-bb32a0baa4f42f68435a74ace1b2fa88c4e72d78
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-b1b83a3552a95c2c6cf49b3953e33583a9836721.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-b1b83a3552a95c2c6cf49b3953e33583a9836721.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-b1b83a3552a95c2c6cf49b3953e33583a9836721.tgz-meta/values.schema.json
@@ -5612,4 +5627,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-02-17T17:27:19.47097202Z"
+generated: "2025-02-18T09:24:00.817869308Z"
