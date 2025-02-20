@@ -2454,6 +2454,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-12d73ae80ded63692b4b1d062a26873a6dc9fe74.tgz
     version: 0.0.15-12d73ae80ded63692b4b1d062a26873a6dc9fe74
+  image-distribution-operator:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/image-distribution-operator-0.0.0-53eff0871bd41b4d194b7222ce6df93f256e09c9.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/image-distribution-operator-0.0.0-53eff0871bd41b4d194b7222ce6df93f256e09c9.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/image-distribution-operator-0.0.0-53eff0871bd41b4d194b7222ce6df93f256e09c9.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-02-20T12:20:04.660309465Z"
+    description: A Helm chart to distribute the project image-distribution-operator
+    digest: a6c6bc7d6b7f5174fbae6a46637635a3e3b94bd25c14f495d4f3c176c48d414c
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: image-distribution-operator
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/image-distribution-operator-0.0.0-53eff0871bd41b4d194b7222ce6df93f256e09c9.tgz
+    version: 0.0.0-53eff0871bd41b4d194b7222ce6df93f256e09c9
   k8s-audit-metrics:
   - annotations:
       application.giantswarm.io/team: turtles
@@ -5726,4 +5743,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-02-19T10:03:24.299027727Z"
+generated: "2025-02-20T12:20:04.659518548Z"
