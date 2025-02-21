@@ -5841,6 +5841,32 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-f3e17d451c87056795b5455ca489ca4a42c7627f.tgz
     version: 0.0.0-f3e17d451c87056795b5455ca489ca4a42c7627f
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-6080d87069cbee06c82afe6ec4860707b4ec42b1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-6080d87069cbee06c82afe6ec4860707b4ec42b1.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-6080d87069cbee06c82afe6ec4860707b4ec42b1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.7.0
+    created: "2025-02-21T13:08:58.266776621Z"
+    description: Cloud Controller Manager plugin for Proxmox
+    digest: 65757d0f995758a244aad7a0aa38a099654647fa9444b0afb8bc3a237f65b0d1
+    home: https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    icon: https://raw.githubusercontent.com/sergelogvinov/proxmox-cloud-controller-manager/main/charts/proxmox-cloud-controller-manager/icon.png
+    keywords:
+    - ccm
+    - proxmox
+    - kubernetes
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: proxmox-cloud-controller-manager
+    sources:
+    - https://github.com/sergelogvinov/proxmox-cloud-controller-manager
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-6080d87069cbee06c82afe6ec4860707b4ec42b1.tgz
+    version: 0.0.0-6080d87069cbee06c82afe6ec4860707b4ec42b1
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-3b346fc2b019e120b9dbd0c0ac42f1ed17bdd154.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-cloud-controller-manager-0.0.0-3b346fc2b019e120b9dbd0c0ac42f1ed17bdd154.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -6050,4 +6076,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064.tgz
     version: 0.1.0-069a50271a65e793a2ca3bb3df13f6dfafe53064
-generated: "2025-02-21T08:27:23.125452599Z"
+generated: "2025-02-21T13:08:58.265427735Z"
