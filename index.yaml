@@ -2492,6 +2492,33 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.6-99b8cfa5033d1d34f997eb988376003a8b6ce3f8.tgz
     version: 0.1.6-99b8cfa5033d1d34f997eb988376003a8b6ce3f8
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.6-82d345cefa3529ee4583adfc0abf944e0af3b8f4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.6-82d345cefa3529ee4583adfc0abf944e0af3b8f4.tgz-meta/README.md
+      application.giantswarm.io/team: team-planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.6-82d345cefa3529ee4583adfc0abf944e0af3b8f4.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.75.2
+    created: "2025-03-03T18:52:32.863599498Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.11.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.4.14
+    description: A Helm chart for n8n official chart
+    digest: 4815cd4c319f3a814581d59ee27b08a11b222dd75b51c7a85b81ca91057a0e2a
+    home: https://github.com/giantswarm/n8n
+    icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/light.svg
+    name: n8n
+    sources:
+    - https://github.com/community-charts/helm-charts
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.6-82d345cefa3529ee4583adfc0abf944e0af3b8f4.tgz
+    version: 0.1.6-82d345cefa3529ee4583adfc0abf944e0af3b8f4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.6-779d471fa81098126cd7c861b22c0c509a169482.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.6-779d471fa81098126cd7c861b22c0c509a169482.tgz-meta/README.md
       application.giantswarm.io/team: team-planeteers
@@ -4180,4 +4207,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-c53bf416acd88d2f854cfa88391da2bece413b4a.tgz
     version: 0.6.1-c53bf416acd88d2f854cfa88391da2bece413b4a
-generated: "2025-03-03T18:52:11.188489119Z"
+generated: "2025-03-03T18:52:32.846004197Z"
