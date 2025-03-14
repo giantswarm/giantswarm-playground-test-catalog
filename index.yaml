@@ -2881,6 +2881,21 @@ entries:
     version: 0.0.0-01f15cf20cabd8f0e4fe9568b9151e655a04f860
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.1-f121385ea1c79e4078a1ad83b3cabb1b69f4b3f4.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.1-f121385ea1c79e4078a1ad83b3cabb1b69f4b3f4.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.1-f121385ea1c79e4078a1ad83b3cabb1b69f4b3f4.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-03-14T16:32:50.352718447Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 09108ecbd51812be13232e0078e392ec5d9bc30ac12a5b76b0a21c06242200a2
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.1-f121385ea1c79e4078a1ad83b3cabb1b69f4b3f4.tgz
+    version: 0.9.1-f121385ea1c79e4078a1ad83b3cabb1b69f4b3f4
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-f0b800686913cd4a31f6a7beb766758d242e1161.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-f0b800686913cd4a31f6a7beb766758d242e1161.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.0-f0b800686913cd4a31f6a7beb766758d242e1161.tgz-meta/values.schema.json
@@ -5893,4 +5908,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-9d39b0da6f8999bd20f6a59c8a019cf79fef2d3a.tgz
     version: 0.6.1-9d39b0da6f8999bd20f6a59c8a019cf79fef2d3a
-generated: "2025-03-14T16:23:34.044478766Z"
+generated: "2025-03-14T16:32:50.352129008Z"
