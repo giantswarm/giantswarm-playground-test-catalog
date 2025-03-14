@@ -5946,6 +5946,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-3bdca1cb661cbafdf20c95c9f888c2be0d5c9cf8.tgz
     version: 0.2.0-3bdca1cb661cbafdf20c95c9f888c2be0d5c9cf8
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-0288ec0a8f489c12de2a7774c800313915ae7a0f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-0288ec0a8f489c12de2a7774c800313915ae7a0f.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-0288ec0a8f489c12de2a7774c800313915ae7a0f.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2025-03-14T17:04:37.23037256Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.11.0
+    description: Helm chart for Pyroscope
+    digest: 60d9517c0ebc698c31635650ecc70afcfb5d637e09f7aae9fc38189221f239d0
+    home: https://github.com/giantswarm/pyroscope
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-0288ec0a8f489c12de2a7774c800313915ae7a0f.tgz
+    version: 0.2.0-0288ec0a8f489c12de2a7774c800313915ae7a0f
   squid-proxy:
   - annotations:
       application.giantswarm.io/team: phoenix
@@ -5971,4 +5996,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-9d39b0da6f8999bd20f6a59c8a019cf79fef2d3a.tgz
     version: 0.6.1-9d39b0da6f8999bd20f6a59c8a019cf79fef2d3a
-generated: "2025-03-14T17:01:37.012699781Z"
+generated: "2025-03-14T17:04:37.223331901Z"
