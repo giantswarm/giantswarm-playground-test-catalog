@@ -84,6 +84,26 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-5b4f87754516aebc51b57a467702be77ec7f2bd7.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-5b4f87754516aebc51b57a467702be77ec7f2bd7.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-5b4f87754516aebc51b57a467702be77ec7f2bd7.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2025-03-26T13:43:30.665698661Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 5881f6ab8ad9669d1d95bf35c0c4215954ae192bd743b31709e6341bbdf3b244
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-5b4f87754516aebc51b57a467702be77ec7f2bd7.tgz
+    version: 0.2.2-5b4f87754516aebc51b57a467702be77ec7f2bd7
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-4c1d4e44aa2f4d483593fe2cdac0a05a65917053.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-4c1d4e44aa2f4d483593fe2cdac0a05a65917053.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -8685,4 +8705,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-9d39b0da6f8999bd20f6a59c8a019cf79fef2d3a.tgz
     version: 0.6.1-9d39b0da6f8999bd20f6a59c8a019cf79fef2d3a
-generated: "2025-03-26T13:43:28.444957896Z"
+generated: "2025-03-26T13:43:30.664448749Z"
