@@ -1940,6 +1940,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.0.15-1ae5f5ca5fe29eb61c2f7ab1d7e6ca1a036c63af.tgz
     version: 0.0.15-1ae5f5ca5fe29eb61c2f7ab1d7e6ca1a036c63af
+  gs-proxy:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/gs-proxy-0.0.0-159fbf5346e43838134906e7fec8be2846259020.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/gs-proxy-0.0.0-159fbf5346e43838134906e7fec8be2846259020.tgz-meta/README.md
+      application.giantswarm.io/team: hackathon
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/gs-proxy-0.0.0-159fbf5346e43838134906e7fec8be2846259020.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.0-159fbf5346e43838134906e7fec8be2846259020
+    created: "2025-03-27T09:07:12.930429187Z"
+    description: A Helm chart for the Giant Swarm Proxy
+    digest: 2da8da1b70b977ef84384d8e84b3b1ffd315cac680772a0059be2b913d20ca85
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: gs-proxy
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/gs-proxy-0.0.0-159fbf5346e43838134906e7fec8be2846259020.tgz
+    version: 0.0.0-159fbf5346e43838134906e7fec8be2846259020
   image-distribution-operator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/image-distribution-operator-0.0.0-fc44169cd4bcafacf0b229b2df58189bfe7f4436.tgz-meta/main.yaml
@@ -8757,4 +8774,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-9d39b0da6f8999bd20f6a59c8a019cf79fef2d3a.tgz
     version: 0.6.1-9d39b0da6f8999bd20f6a59c8a019cf79fef2d3a
-generated: "2025-03-27T07:18:22.687944013Z"
+generated: "2025-03-27T09:07:12.929814879Z"
