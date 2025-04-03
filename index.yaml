@@ -2073,6 +2073,23 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.1-deb849c09d5d6723931513b9a6a776e52bbaea7e.tgz
     version: 0.11.1-deb849c09d5d6723931513b9a6a776e52bbaea7e
+  - annotations:
+      application.giantswarm.io/team: team-planeteers
+    apiVersion: v1
+    appVersion: v0.10.0
+    created: "2025-04-03T12:55:32.152237275Z"
+    description: The k8s initiator runs in a master node and applies some configuration
+      when the master is new.
+    digest: 6ce65db35e50db1f46116d8725042be9bd2ca03b7f15422f18de2746f0fa2073
+    home: https://github.com/giantswarm/k8s-initiator-app
+    icon: https://s.giantswarm.io/app-icons/1/png/k8s-initiator-app-light.png
+    name: k8s-initiator-app
+    sources:
+    - https://github.com/giantswarm/k8s-initiator-app
+    - https://raw.githubusercontent.com/giantswarm/k8s-initiator-app/v0.11.1-807f130784e5dc640cefab828c3a39da9841af96/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-initiator-app-0.11.1-807f130784e5dc640cefab828c3a39da9841af96.tgz
+    version: 0.11.1-807f130784e5dc640cefab828c3a39da9841af96
   kubectl-apply-job:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-7cff0e3d3ecb4bb80ae185cf99d8104f747ce4a7.tgz-meta/main.yaml
@@ -5639,4 +5656,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-126230b1a92f56cb95218b08b14174003037f178.tgz
     version: 0.6.1-126230b1a92f56cb95218b08b14174003037f178
-generated: "2025-04-03T12:48:14.999912402Z"
+generated: "2025-04-03T12:55:32.15108833Z"
