@@ -2851,6 +2851,21 @@ entries:
     version: 0.11.1-0a78e1badcff940fa70cce6a2521eed31afce93c
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-ff1a28e662c50781ba1a0f779b3ff17f20005949.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-ff1a28e662c50781ba1a0f779b3ff17f20005949.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-ff1a28e662c50781ba1a0f779b3ff17f20005949.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-04-28T18:26:57.969083724Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 4a27c3618d8039353406f178bcaf3a0bc6e745ff69f743e424911c71195bcb4b
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-ff1a28e662c50781ba1a0f779b3ff17f20005949.tgz
+    version: 0.9.2-ff1a28e662c50781ba1a0f779b3ff17f20005949
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-b75573841dd893e007c4a6c34ec0807e0f254e90.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-b75573841dd893e007c4a6c34ec0807e0f254e90.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-b75573841dd893e007c4a6c34ec0807e0f254e90.tgz-meta/values.schema.json
@@ -9066,4 +9081,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-b4e0881adf67da57d9ff1b12dbeefd28b5b44bc8.tgz
     version: 0.1.0-b4e0881adf67da57d9ff1b12dbeefd28b5b44bc8
-generated: "2025-04-28T18:17:02.861631776Z"
+generated: "2025-04-28T18:26:57.968202384Z"
