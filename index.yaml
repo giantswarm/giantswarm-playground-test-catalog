@@ -121,6 +121,25 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-b926a1c9b7f570c87a74949586b3f4ebd6b4eeed.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-b926a1c9b7f570c87a74949586b3f4ebd6b4eeed.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-b926a1c9b7f570c87a74949586b3f4ebd6b4eeed.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2025-04-30T12:14:22.515132613Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 1601c89f53075a4f2e26439ca656835046bd6905a558b15bbbce42e498b97da9
+    home: https://github.com/giantswarm/auth-bundle
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-b926a1c9b7f570c87a74949586b3f4ebd6b4eeed.tgz
+    version: 0.2.2-b926a1c9b7f570c87a74949586b3f4ebd6b4eeed
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-8c5b541fd59aaf71b36085a4bc8c0694eedf08c2.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.2-8c5b541fd59aaf71b36085a4bc8c0694eedf08c2.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -9701,4 +9720,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-8698a9cc6f3d747dbb9b5dd3b6f6dac7736a24fa.tgz
     version: 0.1.0-8698a9cc6f3d747dbb9b5dd3b6f6dac7736a24fa
-generated: "2025-04-30T12:13:23.150562654Z"
+generated: "2025-04-30T12:14:22.514415643Z"
