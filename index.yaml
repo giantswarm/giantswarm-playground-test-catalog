@@ -1309,6 +1309,28 @@ entries:
     version: 0.2.0-11364e51028955dfb1e59da58ebb9556b8335901
   faiq:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-f957effd029b2930d4eea8137dc33a91c17815a0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-f957effd029b2930d4eea8137dc33a91c17815a0.tgz-meta/README.md
+      application.giantswarm.io/team: teddyfriends
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-f957effd029b2930d4eea8137dc33a91c17815a0.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.7-f957effd029b2930d4eea8137dc33a91c17815a0
+    created: "2025-05-12T14:44:04.410164641Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: bd4ed12ed99e7462c912be19887f8a48c17f18d643edf1ef7fd26fb02506e617
+    home: https://github.com/giantswarm/faiq
+    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-f957effd029b2930d4eea8137dc33a91c17815a0.tgz
+    version: 0.1.7-f957effd029b2930d4eea8137dc33a91c17815a0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-f07571e36509a991cc3f61dbf3233d3fc89258ed.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-f07571e36509a991cc3f61dbf3233d3fc89258ed.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -11836,4 +11858,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-8698a9cc6f3d747dbb9b5dd3b6f6dac7736a24fa.tgz
     version: 0.1.0-8698a9cc6f3d747dbb9b5dd3b6f6dac7736a24fa
-generated: "2025-05-12T14:40:25.19799424Z"
+generated: "2025-05-12T14:44:04.409332952Z"
