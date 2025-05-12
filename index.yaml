@@ -9075,6 +9075,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-0.1.6-019f052ffea370a23b79578f198d078331832ec8.tgz
     version: 0.1.6-019f052ffea370a23b79578f198d078331832ec8
+  node-problem-detector:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-fd12f4d2472a0df43325beb1ced216dacaead07a.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-fd12f4d2472a0df43325beb1ced216dacaead07a.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: v0.8.14
+    created: "2025-05-12T09:55:16.921309515Z"
+    dependencies:
+    - name: node-problem-detector
+      repository: https://charts.deliveryhero.io/
+      version: 2.3.11
+    description: A helm chart for running node-problem-detector on a cluster.
+    digest: 90329c30ad47df4880cff00427ebd65b7ecbe997b1e7e1db7eb3dc0442dea049
+    home: https://github.com/giantswarm/node-problem-detector-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: node-problem-detector
+    sources:
+    - https://github.com/giantswarm/node-problem-detector-app
+    - https://github.com/kubernetes/node-problem-detector
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#condition
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-fd12f4d2472a0df43325beb1ced216dacaead07a.tgz
+    version: 0.4.0-fd12f4d2472a0df43325beb1ced216dacaead07a
   pr-generator:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-f3b6a8d451ba277b598fc6a93575f65d03fd6075.tgz-meta/main.yaml
@@ -11753,4 +11778,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-8698a9cc6f3d747dbb9b5dd3b6f6dac7736a24fa.tgz
     version: 0.1.0-8698a9cc6f3d747dbb9b5dd3b6f6dac7736a24fa
-generated: "2025-05-12T09:54:43.772526841Z"
+generated: "2025-05-12T09:55:16.919758115Z"
