@@ -10685,6 +10685,30 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-fd12f4d2472a0df43325beb1ced216dacaead07a.tgz
     version: 0.4.0-fd12f4d2472a0df43325beb1ced216dacaead07a
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-b7fc79348dafece80617ace1cfc0fda7ec8aefbe.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-b7fc79348dafece80617ace1cfc0fda7ec8aefbe.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: v0.8.14
+    created: "2025-05-22T14:22:04.026515624Z"
+    dependencies:
+    - name: node-problem-detector
+      repository: https://charts.deliveryhero.io/
+      version: 2.3.11
+    description: A helm chart for running node-problem-detector on a cluster.
+    digest: 8bd150c5d37c4f5eecc2b96a6e6177bfae94f538474309bbb14ba065d83c88a3
+    home: https://github.com/giantswarm/node-problem-detector-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: node-problem-detector
+    sources:
+    - https://github.com/giantswarm/node-problem-detector-app
+    - https://github.com/kubernetes/node-problem-detector
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#condition
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-b7fc79348dafece80617ace1cfc0fda7ec8aefbe.tgz
+    version: 0.4.0-b7fc79348dafece80617ace1cfc0fda7ec8aefbe
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-2307fae6445d7d0146e1956ff639bd5116f3685b.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.4.0-2307fae6445d7d0146e1956ff639bd5116f3685b.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -13750,4 +13774,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-8698a9cc6f3d747dbb9b5dd3b6f6dac7736a24fa.tgz
     version: 0.1.0-8698a9cc6f3d747dbb9b5dd3b6f6dac7736a24fa
-generated: "2025-05-22T14:20:57.189622341Z"
+generated: "2025-05-22T14:22:04.024232969Z"
