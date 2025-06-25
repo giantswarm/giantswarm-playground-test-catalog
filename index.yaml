@@ -3880,6 +3880,21 @@ entries:
     version: 0.11.1-cc2e36148f4970167f4ec52606d966cac0302135
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-ed34bf59485869815ca5e9182613988f6a81c490.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-ed34bf59485869815ca5e9182613988f6a81c490.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-ed34bf59485869815ca5e9182613988f6a81c490.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-06-25T09:40:52.275771152Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: d6c5c9ab1251f15c6655d2e5798bed9a67889a9d867fe2559c080c452902968d
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-ed34bf59485869815ca5e9182613988f6a81c490.tgz
+    version: 0.9.2-ed34bf59485869815ca5e9182613988f6a81c490
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-eb1f836fc9d1ee70c0708efbdf8b03734b86db8f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-eb1f836fc9d1ee70c0708efbdf8b03734b86db8f.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.9.2-eb1f836fc9d1ee70c0708efbdf8b03734b86db8f.tgz-meta/values.schema.json
@@ -6367,4 +6382,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-367ca5003eb5e7a330551f6b2828399caf025359.tgz
     version: 0.1.0-367ca5003eb5e7a330551f6b2828399caf025359
-generated: "2025-06-25T09:39:33.526057094Z"
+generated: "2025-06-25T09:40:52.274434508Z"
