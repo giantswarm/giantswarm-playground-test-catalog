@@ -81,6 +81,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-5fa76e2d282541e14ae171db4c39de4103d6a01d.tgz
     version: 0.2.3-5fa76e2d282541e14ae171db4c39de4103d6a01d
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-04ec0944bbb98c8ca93e831d1c37283ee6c300c6.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-04ec0944bbb98c8ca93e831d1c37283ee6c300c6.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-04ec0944bbb98c8ca93e831d1c37283ee6c300c6.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2025-06-26T12:24:02.128633917Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: de33ab289214b495921daf16153767077730f2270a1b8fabfbe5aca7dd34dca8
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-04ec0944bbb98c8ca93e831d1c37283ee6c300c6.tgz
+    version: 0.2.3-04ec0944bbb98c8ca93e831d1c37283ee6c300c6
   azure-ad-pod-identity-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-543b62d71ca8c6443a033775f950b47b577effc5.tgz-meta/main.yaml
@@ -6728,4 +6748,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-367ca5003eb5e7a330551f6b2828399caf025359.tgz
     version: 0.1.0-367ca5003eb5e7a330551f6b2828399caf025359
-generated: "2025-06-26T12:23:43.072685723Z"
+generated: "2025-06-26T12:24:02.127704732Z"
