@@ -140,6 +140,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-5437720a2278a3e5e4fee7966f68f3239995b3fd.tgz
     version: 0.16.0-5437720a2278a3e5e4fee7966f68f3239995b3fd
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-1cb5d37e1f0f4f71f7f59d08896dd02e9f055073.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-1cb5d37e1f0f4f71f7f59d08896dd02e9f055073.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2025-06-26T12:27:09.387739088Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 46bf95c72db0e12934498b65769ff5d77f10ed57a53c18737b64f97054507729
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-1cb5d37e1f0f4f71f7f59d08896dd02e9f055073.tgz
+    version: 0.16.0-1cb5d37e1f0f4f71f7f59d08896dd02e9f055073
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.0.1-bb4db4417b83f5a9c7791b52b9ba4e89b03a9787.tgz-meta/main.yaml
@@ -6855,4 +6874,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-367ca5003eb5e7a330551f6b2828399caf025359.tgz
     version: 0.1.0-367ca5003eb5e7a330551f6b2828399caf025359
-generated: "2025-06-26T12:25:34.355039799Z"
+generated: "2025-06-26T12:27:09.384818601Z"
