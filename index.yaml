@@ -197,6 +197,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-1cb5d37e1f0f4f71f7f59d08896dd02e9f055073.tgz
     version: 0.16.0-1cb5d37e1f0f4f71f7f59d08896dd02e9f055073
+  csi-driver-nfs:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-6a126e1501be8dfad95dbaaaa0d3ec4b0f5912a2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-6a126e1501be8dfad95dbaaaa0d3ec4b0f5912a2.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-6a126e1501be8dfad95dbaaaa0d3ec4b0f5912a2.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2025-06-27T08:55:13.219611696Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 27037b38bff9a434218f9932c90e03db8a7bb31141b401641bfb118c57f38466
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-6a126e1501be8dfad95dbaaaa0d3ec4b0f5912a2.tgz
+    version: 1.0.0-6a126e1501be8dfad95dbaaaa0d3ec4b0f5912a2
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.0.1-bb4db4417b83f5a9c7791b52b9ba4e89b03a9787.tgz-meta/main.yaml
@@ -7181,4 +7200,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-367ca5003eb5e7a330551f6b2828399caf025359.tgz
     version: 0.1.0-367ca5003eb5e7a330551f6b2828399caf025359
-generated: "2025-06-27T08:54:42.083841615Z"
+generated: "2025-06-27T08:55:13.218039878Z"
