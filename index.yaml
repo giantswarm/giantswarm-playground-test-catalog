@@ -64,6 +64,26 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-7bed1e3da1b3b4d3ab0fd2996a0103e4f97687d2.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-7bed1e3da1b3b4d3ab0fd2996a0103e4f97687d2.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-7bed1e3da1b3b4d3ab0fd2996a0103e4f97687d2.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2025-07-02T16:35:23.122211834Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: f351541cfe309503367a08cd2c65d764d90c9b034e853ab41d2429f40cf46a6f
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-7bed1e3da1b3b4d3ab0fd2996a0103e4f97687d2.tgz
+    version: 0.2.3-7bed1e3da1b3b4d3ab0fd2996a0103e4f97687d2
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-5fa76e2d282541e14ae171db4c39de4103d6a01d.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-5fa76e2d282541e14ae171db4c39de4103d6a01d.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -6052,4 +6072,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-2c94cd5291d924d508fca2a77d9101f84932a30d.tgz
     version: 0.1.0-2c94cd5291d924d508fca2a77d9101f84932a30d
-generated: "2025-07-02T16:35:10.242524682Z"
+generated: "2025-07-02T16:35:23.12138639Z"
