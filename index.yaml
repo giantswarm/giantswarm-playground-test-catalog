@@ -461,6 +461,25 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-dab079b71ca440f68b917dcc661412ca76027171.tgz
     version: 0.16.0-dab079b71ca440f68b917dcc661412ca76027171
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-84689e6c027b13fad2d428977c26b766697635e3.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-84689e6c027b13fad2d428977c26b766697635e3.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2025-08-06T10:03:04.314836368Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 2d99fb941225dda9f939ad9f70b158e83fc9daa39fecf4e46de94183c694a7be
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-84689e6c027b13fad2d428977c26b766697635e3.tgz
+    version: 0.16.0-84689e6c027b13fad2d428977c26b766697635e3
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-60f25a48a92687ef82e68d8007cc6d32cee9627d.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-60f25a48a92687ef82e68d8007cc6d32cee9627d.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -4931,4 +4950,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d.tgz
     version: 0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d
-generated: "2025-08-06T10:01:18.865633797Z"
+generated: "2025-08-06T10:03:04.31338677Z"
