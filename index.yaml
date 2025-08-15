@@ -599,6 +599,25 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-15c39abfd7dc0da8f4d846c860325140ea62d076.tgz
     version: 0.16.0-15c39abfd7dc0da8f4d846c860325140ea62d076
+  csi-driver-nfs:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-d1b86e6a652be7c16b9043d87291cacf0a23d9f1.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-d1b86e6a652be7c16b9043d87291cacf0a23d9f1.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-d1b86e6a652be7c16b9043d87291cacf0a23d9f1.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2025-08-15T07:31:45.234370488Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 175b41418f05bb690043efe97213a1d336fb9b25d2ddcd658e04dc05596c5c22
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-d1b86e6a652be7c16b9043d87291cacf0a23d9f1.tgz
+    version: 1.0.0-d1b86e6a652be7c16b9043d87291cacf0a23d9f1
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.1.1-cf360b4cfe5623e2e4adeb7a15bdd5f726bae597.tgz-meta/main.yaml
@@ -6785,4 +6804,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d.tgz
     version: 0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d
-generated: "2025-08-15T07:29:55.379848114Z"
+generated: "2025-08-15T07:31:45.232639636Z"
