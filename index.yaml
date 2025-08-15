@@ -4680,6 +4680,30 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.5.0.tgz
     version: 0.5.0
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.5.0-9fdb601872f294527c14d9b7ab02eaf40270c37c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.5.0-9fdb601872f294527c14d9b7ab02eaf40270c37c.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+    apiVersion: v2
+    appVersion: v0.8.20
+    created: "2025-08-15T07:07:56.671088063Z"
+    dependencies:
+    - name: node-problem-detector
+      repository: oci://ghcr.io/deliveryhero/helm-charts
+      version: 2.3.21
+    description: A helm chart for running node-problem-detector on a cluster.
+    digest: ec851cb89786ca86c4bda010385cc1f08b6abc873af0a91b6a222e623175fddc
+    home: https://github.com/giantswarm/node-problem-detector-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: node-problem-detector
+    sources:
+    - https://github.com/giantswarm/node-problem-detector-app
+    - https://github.com/kubernetes/node-problem-detector
+    - https://kubernetes.io/docs/concepts/architecture/nodes/#condition
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.5.0-9fdb601872f294527c14d9b7ab02eaf40270c37c.tgz
+    version: 0.5.0-9fdb601872f294527c14d9b7ab02eaf40270c37c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.5.0-5cd031b40931e25d2cb9ad2fd8592bdfb008be2e.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/node-problem-detector-0.5.0-5cd031b40931e25d2cb9ad2fd8592bdfb008be2e.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -6471,4 +6495,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d.tgz
     version: 0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d
-generated: "2025-08-15T07:05:43.230090938Z"
+generated: "2025-08-15T07:07:56.669437118Z"
