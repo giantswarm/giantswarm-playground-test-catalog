@@ -1,5 +1,28 @@
 apiVersion: v1
 entries:
+  alfred-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.0-b0970f59767e7444a1e89f39e8552edc19ff8834.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.0-b0970f59767e7444a1e89f39e8552edc19ff8834.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.0-b0970f59767e7444a1e89f39e8552edc19ff8834.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.14.0-b0970f59767e7444a1e89f39e8552edc19ff8834
+    created: "2025-08-15T07:26:01.15660655Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 55cd6ff845e5b5f40f05968109cac410299fed437a9eba562d54bac7e9f4a013
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.0-b0970f59767e7444a1e89f39e8552edc19ff8834.tgz
+    version: 0.14.0-b0970f59767e7444a1e89f39e8552edc19ff8834
   auth-bundle:
   - annotations:
       application.giantswarm.io/app-type: bundle
@@ -6565,4 +6588,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d.tgz
     version: 0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d
-generated: "2025-08-15T07:17:09.875639254Z"
+generated: "2025-08-15T07:26:01.154968252Z"
