@@ -6031,6 +6031,35 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-00fc30325ce628f0126497f0ce9ec814ab3a8cd4.tgz
     version: 0.1.7-00fc30325ce628f0126497f0ce9ec814ab3a8cd4
+  proxmox-csi-plugin:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-a754fc70fe4ef5f4a0ca935cd0f746d4b9604f56.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-a754fc70fe4ef5f4a0ca935cd0f746d4b9604f56.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-a754fc70fe4ef5f4a0ca935cd0f746d4b9604f56.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.10.0
+    created: "2025-08-15T07:29:55.381935901Z"
+    description: Container Storage Interface plugin for Proxmox
+    digest: 579b2081f6d8fb7e81f8da4ca76e5bb1cc2e3f4c67222d032ac4547aaac281c7
+    home: https://github.com/sergelogvinov/proxmox-csi-plugin
+    icon: https://raw.githubusercontent.com/sergelogvinov/proxmox-csi-plugin/main/charts/proxmox-csi-plugin/icon.png
+    keywords:
+    - csi
+    - storage
+    - block-storage
+    - volume
+    - proxmox
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: proxmox-csi-plugin
+    sources:
+    - https://github.com/sergelogvinov/proxmox-csi-plugin
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-a754fc70fe4ef5f4a0ca935cd0f746d4b9604f56.tgz
+    version: 0.0.0-a754fc70fe4ef5f4a0ca935cd0f746d4b9604f56
   proxysocks:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxysocks-0.2.0-f2976a764141864a0501ced4c04cfecb16b7d66c.tgz-meta/main.yaml
@@ -6756,4 +6785,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d.tgz
     version: 0.6.1-02cec0659929a719bdc697aaf30943a2336fc00d
-generated: "2025-08-15T07:27:49.410686786Z"
+generated: "2025-08-15T07:29:55.379848114Z"
