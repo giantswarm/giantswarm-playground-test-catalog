@@ -948,6 +948,24 @@ entries:
     version: 0.16.0-15c39abfd7dc0da8f4d846c860325140ea62d076
   csi-driver-nfs:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-e43e0f5600d23d629a81de3a7e7029da9d35ffca.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-e43e0f5600d23d629a81de3a7e7029da9d35ffca.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-e43e0f5600d23d629a81de3a7e7029da9d35ffca.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.9.0
+    created: "2025-08-26T12:48:55.411984914Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 85d64838e03d24ba0b5e061466d42582ec4267b338418f0595c2509275cb0ba7
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-e43e0f5600d23d629a81de3a7e7029da9d35ffca.tgz
+    version: 1.0.0-e43e0f5600d23d629a81de3a7e7029da9d35ffca
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-d1b86e6a652be7c16b9043d87291cacf0a23d9f1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-d1b86e6a652be7c16b9043d87291cacf0a23d9f1.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -8694,4 +8712,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3.tgz
     version: 0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3
-generated: "2025-08-26T12:48:53.151632814Z"
+generated: "2025-08-26T12:48:55.409485302Z"
