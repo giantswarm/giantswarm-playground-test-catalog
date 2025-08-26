@@ -875,6 +875,25 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-dab079b71ca440f68b917dcc661412ca76027171.tgz
     version: 0.16.0-dab079b71ca440f68b917dcc661412ca76027171
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-babac422060b4ae8fd23eb15156301110b43d574.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-babac422060b4ae8fd23eb15156301110b43d574.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2025-08-26T17:10:56.963004572Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: 2e3c2baab6681133ddf94529ce28eeec328dcc1b383a0c2c4e34e1070f581bac
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-babac422060b4ae8fd23eb15156301110b43d574.tgz
+    version: 0.16.0-babac422060b4ae8fd23eb15156301110b43d574
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-84689e6c027b13fad2d428977c26b766697635e3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-84689e6c027b13fad2d428977c26b766697635e3.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -9102,4 +9121,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3.tgz
     version: 0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3
-generated: "2025-08-26T17:10:02.146999632Z"
+generated: "2025-08-26T17:10:56.960958771Z"
