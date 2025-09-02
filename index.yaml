@@ -5449,6 +5449,21 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.1-33fe0691caa9650e6546978a25e057ace321eba6.tgz
     version: 0.6.1-33fe0691caa9650e6546978a25e057ace321eba6
+  vault-exporter:
+  - annotations:
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 2.5.0-ac236de991b02b9b8d2b3a30e139d7ef8e333dce
+    created: "2025-09-02T11:00:11.204449585Z"
+    description: Chart holding vault-exporter.
+    digest: 312d42a1097cda5c96305c47fe9cfa619e8a41cd8389c3a193c958a31e3d6bba
+    home: https://github.com/giantswarm/vault-exporter
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: vault-exporter
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/vault-exporter-2.5.0-ac236de991b02b9b8d2b3a30e139d7ef8e333dce.tgz
+    version: 2.5.0-ac236de991b02b9b8d2b3a30e139d7ef8e333dce
   velero:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-e7ed3acbb291fb10bb7f102fa5caeb83785caea3.tgz-meta/main.yaml
@@ -5570,4 +5585,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3.tgz
     version: 0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3
-generated: "2025-09-02T10:05:37.264129708Z"
+generated: "2025-09-02T11:00:11.203756235Z"
