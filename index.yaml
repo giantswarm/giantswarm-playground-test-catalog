@@ -485,6 +485,25 @@ entries:
     version: 0.2.3-0d9109907b6ce2ea2bf7eaac0930dd99a23f151f
   azure-ad-pod-identity-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.1-d268a9483421da553abc002c8defc264d86d4d20.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.1-d268a9483421da553abc002c8defc264d86d4d20.tgz-meta/README.md
+      application.giantswarm.io/team: phoenix
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v1
+    appVersion: 1.7.4
+    created: "2025-09-03T10:59:54.327936551Z"
+    description: Deploy components for the azure-ad-pod-identity-app
+    digest: a79af7677f03e4615c65abe71f9b1c30d2190b4e1c00d75decdebfb44229e64f
+    home: https://github.com/giantswarm/azure-ad-pod-identity-app
+    icon: https://s.giantswarm.io/app-icons/1/png/azure-ad-pod-identity-app-light.png
+    name: azure-ad-pod-identity-app
+    sources:
+    - https://raw.githubusercontent.com/giantswarm/azure-ad-pod-identity-app/v[[ .Version
+      ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.1-d268a9483421da553abc002c8defc264d86d4d20.tgz
+    version: 0.16.1-d268a9483421da553abc002c8defc264d86d4d20
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-ee072bc2dc9b59fa3aaa447d0535bf20f08bc137.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.0-ee072bc2dc9b59fa3aaa447d0535bf20f08bc137.tgz-meta/README.md
       application.giantswarm.io/team: phoenix
@@ -5977,4 +5996,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3.tgz
     version: 0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3
-generated: "2025-09-03T10:55:30.409679321Z"
+generated: "2025-09-03T10:59:54.326093164Z"
