@@ -5232,6 +5232,31 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-6ca9b31ca45cbf8ceda31b363fdbb0c5b0ba98fd.tgz
     version: 0.2.0-6ca9b31ca45cbf8ceda31b363fdbb0c5b0ba98fd
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-5470e2e9e6a840296492ea71dded778dd95f3a4f.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-5470e2e9e6a840296492ea71dded778dd95f3a4f.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-5470e2e9e6a840296492ea71dded778dd95f3a4f.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2025-09-03T10:52:28.949763007Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.15.0
+    description: Helm chart for Pyroscope
+    digest: d1981f93691149d88aabb4031d23fc1753c406829964e35abbca8bd767c9f8aa
+    home: https://github.com/giantswarm/pyroscope
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-5470e2e9e6a840296492ea71dded778dd95f3a4f.tgz
+    version: 0.2.0-5470e2e9e6a840296492ea71dded778dd95f3a4f
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-5266d7ebccc72b8e71e16e171e75bf712d9b7768.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-5266d7ebccc72b8e71e16e171e75bf712d9b7768.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -5805,4 +5830,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3.tgz
     version: 0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3
-generated: "2025-09-03T10:44:38.613385606Z"
+generated: "2025-09-03T10:52:28.942422279Z"
