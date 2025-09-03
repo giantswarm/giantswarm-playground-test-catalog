@@ -2106,6 +2106,21 @@ entries:
     version: 0.11.1-0cc4f6584a8fe0eae485960dfe9957922fad490b
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-85a8d0a31a035ad8db1d329f9875c0957cdacc14.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-85a8d0a31a035ad8db1d329f9875c0957cdacc14.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-85a8d0a31a035ad8db1d329f9875c0957cdacc14.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-09-03T14:33:43.424044236Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 577c1b1f89f3c5b2580838bfbe21ef811051ef388ec73553f743174ad96f1030
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-85a8d0a31a035ad8db1d329f9875c0957cdacc14.tgz
+    version: 0.10.0-85a8d0a31a035ad8db1d329f9875c0957cdacc14
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-73003b8eb29bc6a531ad96b7bbd27134fe33b0a3.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-73003b8eb29bc6a531ad96b7bbd27134fe33b0a3.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-73003b8eb29bc6a531ad96b7bbd27134fe33b0a3.tgz-meta/values.schema.json
@@ -6148,4 +6163,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3.tgz
     version: 0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3
-generated: "2025-09-03T14:32:10.074068269Z"
+generated: "2025-09-03T14:33:43.422763716Z"
