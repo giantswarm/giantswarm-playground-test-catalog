@@ -955,6 +955,24 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-68a326185c7e3feffcf7c2cc4a5c94a298831a6b.tgz
     version: 1.0.0-68a326185c7e3feffcf7c2cc4a5c94a298831a6b
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-31843a4a1d4ba54c3526f0d9883070d3697816cc.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-31843a4a1d4ba54c3526f0d9883070d3697816cc.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-31843a4a1d4ba54c3526f0d9883070d3697816cc.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v4.11.0
+    created: "2025-09-29T15:13:36.396114731Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: 45252a9652eb7e7cde292fdd54261d97f508ae23c1365bd66ff28d44af97e2ca
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-31843a4a1d4ba54c3526f0d9883070d3697816cc.tgz
+    version: 1.0.0-31843a4a1d4ba54c3526f0d9883070d3697816cc
   dex-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.1.1-e68d994f954d2e02f51ac86aa6930ba8c01b2d84.tgz-meta/main.yaml
@@ -7909,4 +7927,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3.tgz
     version: 0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3
-generated: "2025-09-29T15:03:51.370560477Z"
+generated: "2025-09-29T15:13:36.394305611Z"
