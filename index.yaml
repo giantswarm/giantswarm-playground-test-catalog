@@ -866,6 +866,24 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-c5f91d9f13802a21cbda8fa03812f478a1082e16.tgz
     version: 1.0.0-c5f91d9f13802a21cbda8fa03812f478a1082e16
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-aedd94df519ac344035c6ade1077bcb10679813d.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-aedd94df519ac344035c6ade1077bcb10679813d.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-aedd94df519ac344035c6ade1077bcb10679813d.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 4.11.0
+    created: "2025-09-29T13:34:02.879709426Z"
+    description: CSI NFS Driver for Kubernetes
+    digest: d591ed6a9432be5b003fd26ccebad56c56d81d2cffb5fa9eabb7e667143a3640
+    home: https://github.com/giantswarm/csi-driver-nfs-app
+    icon: https://s.giantswarm.io/app-icons/csi/1/light.svg
+    name: csi-driver-nfs
+    sources:
+    - https://github.com/kubernetes-csi/csi-driver-nfs
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-aedd94df519ac344035c6ade1077bcb10679813d.tgz
+    version: 1.0.0-aedd94df519ac344035c6ade1077bcb10679813d
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-93a41d35e6280a4938539e1c963ba2335926d4bc.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/csi-driver-nfs-1.0.0-93a41d35e6280a4938539e1c963ba2335926d4bc.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -7837,4 +7855,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3.tgz
     version: 0.1.0-3cb8ab886441fbe9f7509e46462fe2aefe3150a3
-generated: "2025-09-29T12:16:40.146670358Z"
+generated: "2025-09-29T13:34:02.877434997Z"
