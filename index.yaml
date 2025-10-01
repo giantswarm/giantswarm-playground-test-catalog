@@ -1218,6 +1218,21 @@ entries:
     version: 0.11.2-3699eab1522d64cafcd38898547a117f73407512
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-d6716c1214d294a544ae93d86285945446b24fbf.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-d6716c1214d294a544ae93d86285945446b24fbf.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-d6716c1214d294a544ae93d86285945446b24fbf.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-10-01T22:47:50.69023076Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: aea6fdd576383bc6e319566f2fc98814ef0004b0685ca25bbe321615e0efc69e
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-d6716c1214d294a544ae93d86285945446b24fbf.tgz
+    version: 0.10.0-d6716c1214d294a544ae93d86285945446b24fbf
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-bdccf479ebda1148d176589c57631be3725b5fb1.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-bdccf479ebda1148d176589c57631be3725b5fb1.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.0-bdccf479ebda1148d176589c57631be3725b5fb1.tgz-meta/values.schema.json
@@ -2798,4 +2813,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vault-exporter-2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7.tgz
     version: 2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7
-generated: "2025-10-01T22:45:05.312654747Z"
+generated: "2025-10-01T22:47:50.68944416Z"
