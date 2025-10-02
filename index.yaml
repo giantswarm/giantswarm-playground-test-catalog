@@ -91,6 +91,26 @@ entries:
   - annotations:
       application.giantswarm.io/app-type: bundle
       application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-b277609d8c8dc687eb099a665cfa4342e5dea601.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-b277609d8c8dc687eb099a665cfa4342e5dea601.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-b277609d8c8dc687eb099a665cfa4342e5dea601.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2025-10-02T11:43:23.519403864Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: a6a1534f76c71a933d3273343b79687d8e39d8f2d9b5176499af8b7389d4eeb0
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-b277609d8c8dc687eb099a665cfa4342e5dea601.tgz
+    version: 0.2.3-b277609d8c8dc687eb099a665cfa4342e5dea601
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-a21d499321caf480763f36a59659fe0cad833127.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-a21d499321caf480763f36a59659fe0cad833127.tgz-meta/README.md
       application.giantswarm.io/team: bigmac
@@ -2988,4 +3008,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vault-exporter-2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7.tgz
     version: 2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7
-generated: "2025-10-02T10:36:56.045237945Z"
+generated: "2025-10-02T11:43:23.51841735Z"
