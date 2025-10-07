@@ -188,6 +188,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-493138e64feefc3d7c1b077f9ca06e6c39ebfb20.tgz
     version: 0.2.3-493138e64feefc3d7c1b077f9ca06e6c39ebfb20
+  - annotations:
+      application.giantswarm.io/app-type: bundle
+      application.giantswarm.io/in-cluster-app: "true"
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-47a2b549b9317975f5db54e62c28d49322652610.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-47a2b549b9317975f5db54e62c28d49322652610.tgz-meta/README.md
+      application.giantswarm.io/team: bigmac
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-47a2b549b9317975f5db54e62c28d49322652610.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    created: "2025-10-07T18:34:23.916694228Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: f406fe853ca1f454929c3a617adef475b5d5003f5a514d7c3474e25074c6ea96
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.2.3-47a2b549b9317975f5db54e62c28d49322652610.tgz
+    version: 0.2.3-47a2b549b9317975f5db54e62c28d49322652610
   azure-ad-pod-identity-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/azure-ad-pod-identity-app-0.16.1-d268a9483421da553abc002c8defc264d86d4d20.tgz-meta/main.yaml
@@ -3215,4 +3235,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vault-exporter-2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7.tgz
     version: 2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7
-generated: "2025-10-07T16:58:23.527343746Z"
+generated: "2025-10-07T18:34:23.912628068Z"
