@@ -2,6 +2,28 @@ apiVersion: v1
 entries:
   alfred-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.1-54c6142c0119eb9dfb467cc6453e7e0c4a81e44c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.1-54c6142c0119eb9dfb467cc6453e7e0c4a81e44c.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.1-54c6142c0119eb9dfb467cc6453e7e0c4a81e44c.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.14.1-54c6142c0119eb9dfb467cc6453e7e0c4a81e44c
+    created: "2025-10-24T08:00:04.675447141Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 6c985c0c9f91cd35d1630f61c237ecfe24849674a327507396f5dd10a6eca4a4
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.1-54c6142c0119eb9dfb467cc6453e7e0c4a81e44c.tgz
+    version: 0.14.1-54c6142c0119eb9dfb467cc6453e7e0c4a81e44c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.0-88147782c8bd755c58e5b5cd0e8b224f76439c1a.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.14.0-88147782c8bd755c58e5b5cd0e8b224f76439c1a.tgz-meta/README.md
       application.giantswarm.io/team: planeteers
@@ -4450,4 +4472,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vault-exporter-2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7.tgz
     version: 2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7
-generated: "2025-10-24T08:00:00.303518785Z"
+generated: "2025-10-24T08:00:04.674468168Z"
