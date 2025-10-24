@@ -3805,6 +3805,35 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-06536171640eb2d4660276cc5b2fbc977c7f9663.tgz
     version: 0.1.7-06536171640eb2d4660276cc5b2fbc977c7f9663
+  proxmox-csi-plugin:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-339bbe1fd187ed95fe648988420d7ff1ad5ef0de.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-339bbe1fd187ed95fe648988420d7ff1ad5ef0de.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-339bbe1fd187ed95fe648988420d7ff1ad5ef0de.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.10.0
+    created: "2025-10-24T08:05:48.415586008Z"
+    description: Container Storage Interface plugin for Proxmox
+    digest: 4ead11ac8184fb352b4f1ab7a01731ec86c70e10a886529b84bef803262c96de
+    home: https://github.com/sergelogvinov/proxmox-csi-plugin
+    icon: https://raw.githubusercontent.com/sergelogvinov/proxmox-csi-plugin/main/charts/proxmox-csi-plugin/icon.png
+    keywords:
+    - csi
+    - storage
+    - block-storage
+    - volume
+    - proxmox
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: proxmox-csi-plugin
+    sources:
+    - https://github.com/sergelogvinov/proxmox-csi-plugin
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-339bbe1fd187ed95fe648988420d7ff1ad5ef0de.tgz
+    version: 0.0.0-339bbe1fd187ed95fe648988420d7ff1ad5ef0de
   proxysocks:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxysocks-0.2.1-db40b45cd289e1cfc1024681e739ecee0bb2ad80.tgz-meta/main.yaml
@@ -4528,4 +4557,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vault-exporter-2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7.tgz
     version: 2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7
-generated: "2025-10-24T08:04:19.729301375Z"
+generated: "2025-10-24T08:05:48.413109529Z"
