@@ -3985,6 +3985,31 @@ entries:
     version: 0.2.1-22015c08057f23ea1ebcccb2475ecfd369949057
   pyroscope:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-f942466fb2cf88af6c037e1d3ff92787c95ee559.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-f942466fb2cf88af6c037e1d3ff92787c95ee559.tgz-meta/README.md
+      application.giantswarm.io/team: atlas
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-f942466fb2cf88af6c037e1d3ff92787c95ee559.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2025-10-24T08:02:55.140514225Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.15.1
+    description: Helm chart for Pyroscope
+    digest: eb77d7779ca21eca0e14ddb9600e80adffd7be4aef5c3794298fb113d1a46753
+    home: https://github.com/giantswarm/pyroscope
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-f942466fb2cf88af6c037e1d3ff92787c95ee559.tgz
+    version: 0.2.0-f942466fb2cf88af6c037e1d3ff92787c95ee559
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-f1dd42cbf41354cc3ab2aa9f3b579bc5b616ab0d.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-f1dd42cbf41354cc3ab2aa9f3b579bc5b616ab0d.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -4472,4 +4497,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/vault-exporter-2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7.tgz
     version: 2.5.0-1184b40c1835dc8a69bad8eb2ef83777f257fbe7
-generated: "2025-10-24T08:00:04.674468168Z"
+generated: "2025-10-24T08:02:55.12943358Z"
