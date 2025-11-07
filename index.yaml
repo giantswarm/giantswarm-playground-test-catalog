@@ -1755,6 +1755,21 @@ entries:
     version: 0.10.6-0e22d8c97e16102e33bf2dbeca14ffc005a9eb64
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-27709f40c9f30209b7b88b650ec2df151e6f8a05.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-27709f40c9f30209b7b88b650ec2df151e6f8a05.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-27709f40c9f30209b7b88b650ec2df151e6f8a05.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-11-07T16:33:20.911433196Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 6ba267bbb97745aacf072d7e4020964cd541a90d5bee1170e35ddc7e05216f58
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-27709f40c9f30209b7b88b650ec2df151e6f8a05.tgz
+    version: 0.11.0-27709f40c9f30209b7b88b650ec2df151e6f8a05
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.3-b60d80f6a827f4317ca48efc91be550864abc464.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.3-b60d80f6a827f4317ca48efc91be550864abc464.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.10.3-b60d80f6a827f4317ca48efc91be550864abc464.tgz-meta/values.schema.json
@@ -3947,4 +3962,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-01ff08f203cca55154ad838b419dc2e31d48d1ac.tgz
     version: 0.1.0-01ff08f203cca55154ad838b419dc2e31d48d1ac
-generated: "2025-11-07T13:02:04.385954765Z"
+generated: "2025-11-07T16:33:20.910527345Z"
