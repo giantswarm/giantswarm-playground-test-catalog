@@ -1,5 +1,28 @@
 apiVersion: v1
 entries:
+  ailefroide-app:
+  - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.4.0-b62ec3f29b038152675266d7e331d54c3a77b61b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.4.0-b62ec3f29b038152675266d7e331d54c3a77b61b.tgz-meta/README.md
+      application.giantswarm.io/team: chapter-se
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.4.0-b62ec3f29b038152675266d7e331d54c3a77b61b.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.4.0-b62ec3f29b038152675266d7e331d54c3a77b61b
+    created: "2025-11-26T10:45:42.297163274Z"
+    description: A Helm chart for Ailefroide, the Slack support handle manager
+    digest: 80913dcb0a9bb904b4eff2ad1d6589a1a2736996058f19f71d04695d2829134c
+    home: https://github.com/giantswarm/ailefroide-app
+    icon: https://s.giantswarm.io/app-icons/1/png/ailefroide-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/ailefroide-app
+    name: ailefroide-app
+    sources:
+    - https://github.com/giantswarm/ailefroide-app
+    - https://raw.githubusercontent.com/giantswarm/ailefroide-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.4.0-b62ec3f29b038152675266d7e331d54c3a77b61b.tgz
+    version: 0.4.0-b62ec3f29b038152675266d7e331d54c3a77b61b
   alfred-app:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.15.0-70203f027ac8a395e1c56817554d16a83173aa8c.tgz-meta/main.yaml
@@ -4512,4 +4535,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-01ff08f203cca55154ad838b419dc2e31d48d1ac.tgz
     version: 0.1.0-01ff08f203cca55154ad838b419dc2e31d48d1ac
-generated: "2025-11-25T10:43:55.26929948Z"
+generated: "2025-11-26T10:45:42.296321701Z"
