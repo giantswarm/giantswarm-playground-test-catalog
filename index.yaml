@@ -984,6 +984,21 @@ entries:
     version: 0.10.8-1042128e9bbe721f1995bc0757d009a1344e8736
   kubectl-apply-job:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-9ad933ec6300414cfeac8f6807dfad8dab9cd5d0.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-9ad933ec6300414cfeac8f6807dfad8dab9cd5d0.tgz-meta/README.md
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-9ad933ec6300414cfeac8f6807dfad8dab9cd5d0.tgz-meta/values.schema.json
+    apiVersion: v2
+    created: "2025-12-04T13:03:23.11372446Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 159ca4d5b050609688683c96e3162d41c7c87041873b137966e529670031606f
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-9ad933ec6300414cfeac8f6807dfad8dab9cd5d0.tgz
+    version: 0.11.0-9ad933ec6300414cfeac8f6807dfad8dab9cd5d0
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-27709f40c9f30209b7b88b650ec2df151e6f8a05.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-27709f40c9f30209b7b88b650ec2df151e6f8a05.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-27709f40c9f30209b7b88b650ec2df151e6f8a05.tgz-meta/values.schema.json
@@ -1780,4 +1795,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172.tgz
     version: 0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172
-generated: "2025-12-04T12:46:01.232163053Z"
+generated: "2025-12-04T13:03:23.112800787Z"
