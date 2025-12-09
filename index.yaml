@@ -1878,6 +1878,28 @@ entries:
     version: 1.5.2-4c3f27f8e4d3f58527b4971b84f83b0acb0f2496
   pr-generator:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-e27ac97e342693a39dfcf87a422d6a01e70222e9.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pr-generator/refs/tags/v0.1.7-e27ac97e342693a39dfcf87a422d6a01e70222e9/README.md
+      io.giantswarm.application.team: teddyfriends
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pr-generator/refs/tags/v0.1.7-e27ac97e342693a39dfcf87a422d6a01e70222e9/helm/pr-generator/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.7-e27ac97e342693a39dfcf87a422d6a01e70222e9
+    created: "2025-12-09T13:07:23.136727854Z"
+    description: A Helm chart for pr-generator, the Slack support manager
+    digest: 4ca37147fb29065fa4e3cbb18170c2423a039c55589036f7bcefbf36fee6110e
+    home: https://github.com/giantswarm/pr-generator
+    icon: https://s.giantswarm.io/app-icons/pr-generator/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/pr-generator
+    name: pr-generator
+    sources:
+    - https://github.com/giantswarm/pr-generator
+    - https://raw.githubusercontent.com/giantswarm/pr-generator/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-e27ac97e342693a39dfcf87a422d6a01e70222e9.tgz
+    version: 0.1.7-e27ac97e342693a39dfcf87a422d6a01e70222e9
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-dd66d977cc8d05f7913091b5bc63b41b2d2ada39.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pr-generator/refs/tags/v0.1.7-dd66d977cc8d05f7913091b5bc63b41b2d2ada39/README.md
       io.giantswarm.application.team: teddyfriends
@@ -2755,4 +2777,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172.tgz
     version: 0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172
-generated: "2025-12-09T13:07:02.046981429Z"
+generated: "2025-12-09T13:07:23.135630724Z"
