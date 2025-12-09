@@ -1944,6 +1944,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-9ff97041bc7a5788e7b3fc5d1aabc66f382bc879.tgz
     version: 0.1.7-9ff97041bc7a5788e7b3fc5d1aabc66f382bc879
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-62d2cedc1e3b144a87e237f2304c8865a1f44ef5.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pr-generator/refs/tags/v0.1.7-62d2cedc1e3b144a87e237f2304c8865a1f44ef5/README.md
+      io.giantswarm.application.team: teddyfriends
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pr-generator/refs/tags/v0.1.7-62d2cedc1e3b144a87e237f2304c8865a1f44ef5/helm/pr-generator/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.7-62d2cedc1e3b144a87e237f2304c8865a1f44ef5
+    created: "2025-12-09T13:06:05.066184228Z"
+    description: A Helm chart for pr-generator, the Slack support manager
+    digest: ce01ac15eb696076a04e064abbdd098d71a4a971f1d6386735c96f6ab251fe45
+    home: https://github.com/giantswarm/pr-generator
+    icon: https://s.giantswarm.io/app-icons/pr-generator/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/pr-generator
+    name: pr-generator
+    sources:
+    - https://github.com/giantswarm/pr-generator
+    - https://raw.githubusercontent.com/giantswarm/pr-generator/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-62d2cedc1e3b144a87e237f2304c8865a1f44ef5.tgz
+    version: 0.1.7-62d2cedc1e3b144a87e237f2304c8865a1f44ef5
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-57d6b64a96471e3c1884ff7f0b2f8ef3acb8ea8f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-57d6b64a96471e3c1884ff7f0b2f8ef3acb8ea8f.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -2535,4 +2557,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172.tgz
     version: 0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172
-generated: "2025-12-09T13:05:54.544109371Z"
+generated: "2025-12-09T13:06:05.065440176Z"
