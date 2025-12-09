@@ -1963,6 +1963,31 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-9bd3d40b2e3aa293d0c0c7e0aa8b6eb1e34fdf49.tgz
     version: 0.2.0-9bd3d40b2e3aa293d0c0c7e0aa8b6eb1e34fdf49
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-9ae5fa0fc9a16ded86b0b15a40b56e17bcd3d0aa.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pyroscope/refs/tags/v0.2.0-9ae5fa0fc9a16ded86b0b15a40b56e17bcd3d0aa/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pyroscope/refs/tags/v0.2.0-9ae5fa0fc9a16ded86b0b15a40b56e17bcd3d0aa/helm/pyroscope/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2025-12-09T10:49:29.850620536Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.16.0
+    description: Helm chart for Pyroscope
+    digest: b8eb1852074b3aaa2d366a60322d667868e0f72630a986934ce0386afff81d20
+    home: https://github.com/giantswarm/pyroscope
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-9ae5fa0fc9a16ded86b0b15a40b56e17bcd3d0aa.tgz
+    version: 0.2.0-9ae5fa0fc9a16ded86b0b15a40b56e17bcd3d0aa
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-3a43ef2dc41d582de115e7e57f55de679ceb13f8.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-3a43ef2dc41d582de115e7e57f55de679ceb13f8.tgz-meta/README.md
       application.giantswarm.io/team: atlas
@@ -2347,4 +2372,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172.tgz
     version: 0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172
-generated: "2025-12-09T10:38:19.012883831Z"
+generated: "2025-12-09T10:49:29.839224995Z"
