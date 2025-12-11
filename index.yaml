@@ -113,6 +113,28 @@ entries:
     version: 0.4.0-b62ec3f29b038152675266d7e331d54c3a77b61b
   alfred-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.15.0-fa848da6700954cb070f73426a5aa7555ed3e080.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.15.0-fa848da6700954cb070f73426a5aa7555ed3e080.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.15.0-fa848da6700954cb070f73426a5aa7555ed3e080.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.15.0-fa848da6700954cb070f73426a5aa7555ed3e080
+    created: "2025-12-11T12:05:09.958060208Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 75b98f6bab830425a320ddd34c6a2ada29dbe8572e993468a454de23bcf94519
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.15.0-fa848da6700954cb070f73426a5aa7555ed3e080.tgz
+    version: 0.15.0-fa848da6700954cb070f73426a5aa7555ed3e080
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.15.0-70203f027ac8a395e1c56817554d16a83173aa8c.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.15.0-70203f027ac8a395e1c56817554d16a83173aa8c.tgz-meta/README.md
       application.giantswarm.io/team: planeteers
@@ -4233,4 +4255,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172.tgz
     version: 0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172
-generated: "2025-12-11T12:04:56.162846271Z"
+generated: "2025-12-11T12:05:09.957029253Z"
