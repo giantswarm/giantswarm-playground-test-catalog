@@ -2,6 +2,28 @@ apiVersion: v1
 entries:
   ailefroide-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.5.0-0a9d83a687c62e424f6c5dd1fe7fe4de8fe6f52e.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.5.0-0a9d83a687c62e424f6c5dd1fe7fe4de8fe6f52e.tgz-meta/README.md
+      application.giantswarm.io/team: chapter-se
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.5.0-0a9d83a687c62e424f6c5dd1fe7fe4de8fe6f52e.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.5.0-0a9d83a687c62e424f6c5dd1fe7fe4de8fe6f52e
+    created: "2025-12-17T10:18:20.534010109Z"
+    description: A Helm chart for Ailefroide, the Slack support handle manager
+    digest: 3c5950a86902286eb32fc9f029fe123bd2ad2fe349522dcd1dd701b7086c7b4c
+    home: https://github.com/giantswarm/ailefroide-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/ailefroide-app
+    name: ailefroide-app
+    sources:
+    - https://github.com/giantswarm/ailefroide-app
+    - https://raw.githubusercontent.com/giantswarm/ailefroide-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.5.0-0a9d83a687c62e424f6c5dd1fe7fe4de8fe6f52e.tgz
+    version: 0.5.0-0a9d83a687c62e424f6c5dd1fe7fe4de8fe6f52e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.4.0-fc9bef05a8703d7e1af17ffcfb7e1f1c9621d92f.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/ailefroide-app-0.4.0-fc9bef05a8703d7e1af17ffcfb7e1f1c9621d92f.tgz-meta/README.md
       application.giantswarm.io/team: chapter-se
@@ -5071,4 +5093,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172.tgz
     version: 0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172
-generated: "2025-12-17T09:13:56.262221432Z"
+generated: "2025-12-17T10:18:20.532505587Z"
