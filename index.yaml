@@ -2132,6 +2132,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-9a027ca343cd3e3522bf3b0cdd56d92375fc1246.tgz
     version: 0.1.7-9a027ca343cd3e3522bf3b0cdd56d92375fc1246
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-8cf0154632105795d4100539fcafd6839a2f0f90.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/faiq/refs/tags/v0.1.7-8cf0154632105795d4100539fcafd6839a2f0f90/README.md
+      io.giantswarm.application.team: teddyfriends
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/faiq/refs/tags/v0.1.7-8cf0154632105795d4100539fcafd6839a2f0f90/helm/faiq/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.7-8cf0154632105795d4100539fcafd6839a2f0f90
+    created: "2025-12-18T10:21:55.556361751Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: 7d62f9768a8f9d80589c627a01c6502530d5101e2a7772cfd3db8fbfcd16b0db
+    home: https://github.com/giantswarm/faiq
+    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-8cf0154632105795d4100539fcafd6839a2f0f90.tgz
+    version: 0.1.7-8cf0154632105795d4100539fcafd6839a2f0f90
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-7607193a9d670669349d962ed54a65e735bf5a14.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-7607193a9d670669349d962ed54a65e735bf5a14.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -5363,4 +5385,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172.tgz
     version: 0.6.2-0e01551734b205f476f25acc88bc1748bd9bb172
-generated: "2025-12-18T10:21:48.016804713Z"
+generated: "2025-12-18T10:21:55.555452874Z"
