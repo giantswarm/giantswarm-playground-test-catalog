@@ -427,6 +427,47 @@ entries:
     version: 0.2.5-152f9fbaab5f8b11d99d5970aa4423c094d126fc
   dex-app:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.1.5-8eaddb644bac48dc0b217eb1d0035f7b18b92dfa.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.1.5-8eaddb644bac48dc0b217eb1d0035f7b18b92dfa.tgz-meta/README.md
+      application.giantswarm.io/team: shield
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.1.5-8eaddb644bac48dc0b217eb1d0035f7b18b92dfa.tgz-meta/values.schema.json
+      config.giantswarm.io/version: 1.x.x
+    apiVersion: v2
+    appVersion: 2.1.5-8eaddb644bac48dc0b217eb1d0035f7b18b92dfa
+    created: "2026-01-05T15:51:39.281205632Z"
+    dependencies:
+    - name: dex
+      repository: ""
+      version: 0.23.0
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    digest: c314d370749f98357733ff80e44a9655f2f7e049af9c65e66b1bd42d43e1279c
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+    keywords:
+    - authentication
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.1.5-8eaddb644bac48dc0b217eb1d0035f7b18b92dfa.tgz
+    version: 2.1.5-8eaddb644bac48dc0b217eb1d0035f7b18b92dfa
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.1.4-cdd4abe938a341536517ba8a4d0c2a26de28e752.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.1.4-cdd4abe938a341536517ba8a4d0c2a26de28e752.tgz-meta/README.md
       application.giantswarm.io/team: shield
@@ -4512,4 +4553,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-d67f8287c1374653b50b564d5e40e76fd8ff1f26.tgz
     version: 0.1.0-d67f8287c1374653b50b564d5e40e76fd8ff1f26
-generated: "2026-01-05T15:49:56.745728227Z"
+generated: "2026-01-05T15:51:39.276045953Z"
