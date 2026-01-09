@@ -1862,6 +1862,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-da8063ca1bc5ef7423bd039932b0f98137d53db4.tgz
     version: 0.1.7-da8063ca1bc5ef7423bd039932b0f98137d53db4
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-d9a8e878f806a7b59cc14b2383f137cd13c347d8.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/faiq/refs/tags/v0.1.7-d9a8e878f806a7b59cc14b2383f137cd13c347d8/README.md
+      io.giantswarm.application.team: teddyfriends
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/faiq/refs/tags/v0.1.7-d9a8e878f806a7b59cc14b2383f137cd13c347d8/helm/faiq/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.7-d9a8e878f806a7b59cc14b2383f137cd13c347d8
+    created: "2026-01-09T07:42:25.555228889Z"
+    description: A Helm chart for FAIQ, the Slack support manager
+    digest: 81ca02a03199a270fd76c36b6acd60d0cc8babbd8c3f63d25dc8e45b7cb9d67c
+    home: https://github.com/giantswarm/faiq
+    icon: https://s.giantswarm.io/app-icons/faiq/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/faiq
+    name: faiq
+    sources:
+    - https://github.com/giantswarm/faiq
+    - https://raw.githubusercontent.com/giantswarm/faiq/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-d9a8e878f806a7b59cc14b2383f137cd13c347d8.tgz
+    version: 0.1.7-d9a8e878f806a7b59cc14b2383f137cd13c347d8
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-d419121d49eaa4040f39ffffcd4065bbf73bb4bd.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/faiq-0.1.7-d419121d49eaa4040f39ffffcd4065bbf73bb4bd.tgz-meta/README.md
       application.giantswarm.io/team: teddyfriends
@@ -5023,4 +5045,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-01-09T07:42:21.710120102Z"
+generated: "2026-01-09T07:42:25.554320314Z"
