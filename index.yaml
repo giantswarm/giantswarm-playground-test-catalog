@@ -3086,6 +3086,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-e27ac97e342693a39dfcf87a422d6a01e70222e9.tgz
     version: 0.1.7-e27ac97e342693a39dfcf87a422d6a01e70222e9
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-e0f45984c4c684dba6f6c53434768a2f819e6d0c.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pr-generator/refs/tags/v0.1.7-e0f45984c4c684dba6f6c53434768a2f819e6d0c/README.md
+      io.giantswarm.application.team: teddyfriends
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pr-generator/refs/tags/v0.1.7-e0f45984c4c684dba6f6c53434768a2f819e6d0c/helm/pr-generator/values.schema.json
+    apiVersion: v1
+    appVersion: 0.1.7-e0f45984c4c684dba6f6c53434768a2f819e6d0c
+    created: "2026-01-09T13:41:41.793294556Z"
+    description: A Helm chart for pr-generator, the Slack support manager
+    digest: 2516a1ffce0cf97102b02bbe896652f34c9e5ba027b1cd611cdc90701e3dd58a
+    home: https://github.com/giantswarm/pr-generator
+    icon: https://s.giantswarm.io/app-icons/pr-generator/1/light.svg
+    maintainers:
+    - name: Giant Swarm teddyfriends
+      url: https://github.com/giantswarm/pr-generator
+    name: pr-generator
+    sources:
+    - https://github.com/giantswarm/pr-generator
+    - https://raw.githubusercontent.com/giantswarm/pr-generator/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-e0f45984c4c684dba6f6c53434768a2f819e6d0c.tgz
+    version: 0.1.7-e0f45984c4c684dba6f6c53434768a2f819e6d0c
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pr-generator-0.1.7-debd274d4337d43e2be280f482530b85c1a26d12.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pr-generator/refs/tags/v0.1.7-debd274d4337d43e2be280f482530b85c1a26d12/README.md
       io.giantswarm.application.team: teddyfriends
@@ -5199,4 +5221,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-01-09T13:41:34.780846013Z"
+generated: "2026-01-09T13:41:41.791805596Z"
