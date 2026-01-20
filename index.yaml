@@ -2721,6 +2721,21 @@ entries:
     version: 0.10.10-08b1c3b66b897eb2f7206d6933ce324b0fc0ddc0
   kubectl-apply-job:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-c6bae4e3ee7489d81a1e05c3030cf1eadcf66afc.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/c6bae4e3ee7489d81a1e05c3030cf1eadcf66afc/README.md
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/c6bae4e3ee7489d81a1e05c3030cf1eadcf66afc/helm/kubectl-apply-job/values.schema.json
+    apiVersion: v2
+    created: "2026-01-20T12:32:33.137495337Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 7809333de3b0584197032c4ead242ead33e6089b8a1a27f99ea93b4c9587a50d
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-c6bae4e3ee7489d81a1e05c3030cf1eadcf66afc.tgz
+    version: 0.11.0-c6bae4e3ee7489d81a1e05c3030cf1eadcf66afc
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-9ad933ec6300414cfeac8f6807dfad8dab9cd5d0.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-9ad933ec6300414cfeac8f6807dfad8dab9cd5d0.tgz-meta/README.md
       application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-9ad933ec6300414cfeac8f6807dfad8dab9cd5d0.tgz-meta/values.schema.json
@@ -6035,4 +6050,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-01-19T16:28:05.845294144Z"
+generated: "2026-01-20T12:32:33.136810792Z"
