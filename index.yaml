@@ -269,6 +269,26 @@ entries:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.in-cluster-app: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.3.0-5105d66a38233863ff0bce820c8a35e9f19c7d7f.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/5105d66a38233863ff0bce820c8a35e9f19c7d7f/README.md
+      io.giantswarm.application.team: bigmac
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/auth-bundle/5105d66a38233863ff0bce820c8a35e9f19c7d7f/helm/auth-bundle/values.schema.json
+    apiVersion: v2
+    created: "2026-01-21T01:52:39.59221373Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 9fb74a23c73fdca34a81ac671ae16e32dd90552062f22fe8d2639735d7c17252
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.3.0-5105d66a38233863ff0bce820c8a35e9f19c7d7f.tgz
+    version: 0.3.0-5105d66a38233863ff0bce820c8a35e9f19c7d7f
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.in-cluster-app: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.3.0-37fdfd208eb81fbd3c4d7e002ef94ee1499faaf9.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/refs/tags/v0.3.0-37fdfd208eb81fbd3c4d7e002ef94ee1499faaf9/README.md
       io.giantswarm.application.team: bigmac
@@ -6753,4 +6773,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-01-20T17:59:27.525491636Z"
+generated: "2026-01-21T01:52:39.591038181Z"
