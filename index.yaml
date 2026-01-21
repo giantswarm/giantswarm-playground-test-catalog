@@ -269,6 +269,26 @@ entries:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.in-cluster-app: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.3.0-609b2ca212ea3d670d10161ab2589981696149ff.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/609b2ca212ea3d670d10161ab2589981696149ff/README.md
+      io.giantswarm.application.team: bigmac
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/auth-bundle/609b2ca212ea3d670d10161ab2589981696149ff/helm/auth-bundle/values.schema.json
+    apiVersion: v2
+    created: "2026-01-21T10:25:36.752862612Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 104e3a978b1c4f6f5d9585febe7cacee2d6c100b86088a9dc2efe63942c4a1e3
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.3.0-609b2ca212ea3d670d10161ab2589981696149ff.tgz
+    version: 0.3.0-609b2ca212ea3d670d10161ab2589981696149ff
+  - annotations:
+      config.giantswarm.io/version: 1.x.x
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.in-cluster-app: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.3.0-5105d66a38233863ff0bce820c8a35e9f19c7d7f.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/5105d66a38233863ff0bce820c8a35e9f19c7d7f/README.md
       io.giantswarm.application.team: bigmac
@@ -6793,4 +6813,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-01-21T10:24:55.061632888Z"
+generated: "2026-01-21T10:25:36.7521228Z"
