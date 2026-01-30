@@ -246,6 +246,26 @@ entries:
     version: 0.15.0-2448dd607e16596b05dd07d6eb6ee93bc2785241
   auth-bundle:
   - annotations:
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.in-cluster-app: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.0-aec842592a0ff960aed35d43d17fcde74eff086c.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/aec842592a0ff960aed35d43d17fcde74eff086c/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/auth-bundle/aec842592a0ff960aed35d43d17fcde74eff086c/helm/auth-bundle/values.schema.json
+    apiVersion: v2
+    created: "2026-01-30T14:45:49.867994851Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 51d89be05ce9929fbabbea45f77f7db909c618c509baf86bb5b2daf8dc638969
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.0-aec842592a0ff960aed35d43d17fcde74eff086c.tgz
+    version: 0.5.0-aec842592a0ff960aed35d43d17fcde74eff086c
+  - annotations:
       config.giantswarm.io/version: 1.x.x
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.in-cluster-app: "true"
@@ -7113,4 +7133,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-01-28T12:32:24.655668351Z"
+generated: "2026-01-30T14:45:49.867179415Z"
