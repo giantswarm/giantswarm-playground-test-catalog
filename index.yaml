@@ -49,6 +49,25 @@ entries:
   - annotations:
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.audience: all
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.0-b7c18a8b97bddaccedcf8acdb2d259556b072c65.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/b7c18a8b97bddaccedcf8acdb2d259556b072c65/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/auth-bundle/b7c18a8b97bddaccedcf8acdb2d259556b072c65/helm/auth-bundle/values.schema.json
+    apiVersion: v2
+    created: "2026-02-03T11:48:05.151833736Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 7196689bd5bfdda4b59716fc645bee04e111cd5293bad193c9262d4a121f1012
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.0-b7c18a8b97bddaccedcf8acdb2d259556b072c65.tgz
+    version: 0.5.0-b7c18a8b97bddaccedcf8acdb2d259556b072c65
+  - annotations:
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.audience: all
       io.giantswarm.application.in-cluster-app: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.0-aec842592a0ff960aed35d43d17fcde74eff086c.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/aec842592a0ff960aed35d43d17fcde74eff086c/README.md
@@ -3125,4 +3144,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-02-03T11:46:42.851294713Z"
+generated: "2026-02-03T11:48:05.150738865Z"
