@@ -3116,6 +3116,36 @@ entries:
     version: 0.6.5-4adb295a7e814459b1c6b6c505663272cdd3f049
   velero:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-e66d7aaacbf3f5d4735e9828267ae317f3fa338c.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-e66d7aaacbf3f5d4735e9828267ae317f3fa338c.tgz-meta/README.md
+      application.giantswarm.io/team: team-turtles
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-e66d7aaacbf3f5d4735e9828267ae317f3fa338c.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2026-02-03T11:57:17.391651918Z"
+    description: A Helm chart for Kubernetes
+    digest: b1fad65f0accfd638adbcd673316e6b22bb277d1eeedc70d51605ecc03f0b564
+    home: https://github.com/giantswarm/velero-app
+    icon: https://s.giantswarm.io/app-icons/velero/1/light.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-e66d7aaacbf3f5d4735e9828267ae317f3fa338c.tgz
+    version: 0.1.0-e66d7aaacbf3f5d4735e9828267ae317f3fa338c
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-d67f8287c1374653b50b564d5e40e76fd8ff1f26.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-d67f8287c1374653b50b564d5e40e76fd8ff1f26.tgz-meta/README.md
       application.giantswarm.io/team: team-turtles
@@ -3175,4 +3205,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-02-03T11:51:48.148366394Z"
+generated: "2026-02-03T11:57:17.389169676Z"
