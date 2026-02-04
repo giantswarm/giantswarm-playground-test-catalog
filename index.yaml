@@ -1363,6 +1363,22 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.11-e6122dc66c48bed40778aab669fce8834b6b730d.tgz
     version: 0.10.11-e6122dc66c48bed40778aab669fce8834b6b730d
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.11-d7074ac550aba33d5f8afdb4af66f7cd4861d594.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/d7074ac550aba33d5f8afdb4af66f7cd4861d594/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/d7074ac550aba33d5f8afdb4af66f7cd4861d594/helm/k8s-audit-metrics-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.11-d7074ac550aba33d5f8afdb4af66f7cd4861d594
+    created: "2026-02-04T12:46:29.322682872Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: ed7c9e692e131ec3f1740e50bbf3f74865223a96bb6833321ea4a7d51568d43c
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.11-d7074ac550aba33d5f8afdb4af66f7cd4861d594.tgz
+    version: 0.10.11-d7074ac550aba33d5f8afdb4af66f7cd4861d594
+  - annotations:
       application.giantswarm.io/team: turtles
     apiVersion: v1
     appVersion: 0.10.11-d146ab84651290e705d121cb778db11dd6f0f2f3
@@ -3481,4 +3497,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-02-04T12:45:21.938540845Z"
+generated: "2026-02-04T12:46:29.321826006Z"
