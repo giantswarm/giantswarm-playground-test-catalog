@@ -49,6 +49,26 @@ entries:
   - annotations:
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.1-b324c95e21fd483abe16743b06f9886d3144ec53.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/b324c95e21fd483abe16743b06f9886d3144ec53/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/auth-bundle/b324c95e21fd483abe16743b06f9886d3144ec53/helm/auth-bundle/values.schema.json
+    apiVersion: v2
+    created: "2026-02-05T12:39:20.550424781Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: 5fad78cd5a7ef1575b5214530ec5efb746038faf5b2211cacb9447a93cb74e8c
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.1-b324c95e21fd483abe16743b06f9886d3144ec53.tgz
+    version: 0.5.1-b324c95e21fd483abe16743b06f9886d3144ec53
+  - annotations:
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.1-b2bb25d215f238dc5dd276ef0f06a8fb8770aadc.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/b2bb25d215f238dc5dd276ef0f06a8fb8770aadc/README.md
       io.giantswarm.application.team: shield
@@ -3556,4 +3576,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-02-05T12:38:26.242696505Z"
+generated: "2026-02-05T12:39:20.549322341Z"
