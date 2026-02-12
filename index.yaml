@@ -3794,6 +3794,31 @@ entries:
     version: 0.2.1-05639ef4a8cdbcc792a9235109bce0118d2d58b6
   pyroscope:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-fe01919a855f713fcad88434334957a3968d9d12.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pyroscope/fe01919a855f713fcad88434334957a3968d9d12/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pyroscope/fe01919a855f713fcad88434334957a3968d9d12/helm/pyroscope/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2026-02-12T10:12:07.3506426Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.18.1
+    description: Helm chart for Pyroscope
+    digest: ec1efad611451a5c690b8cd243329a2ed179d1daaf6c666709c7a2cd6ec944ab
+    home: https://github.com/giantswarm/pyroscope
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-fe01919a855f713fcad88434334957a3968d9d12.tgz
+    version: 0.2.0-fe01919a855f713fcad88434334957a3968d9d12
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-d47a3c8b24f17f3b0b76e4e397b932103972d062.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pyroscope/d47a3c8b24f17f3b0b76e4e397b932103972d062/README.md
       io.giantswarm.application.team: atlas
@@ -4137,4 +4162,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-02-12T10:09:13.904597393Z"
+generated: "2026-02-12T10:12:07.339510738Z"
