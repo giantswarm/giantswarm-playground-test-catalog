@@ -2200,6 +2200,22 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.12-a706cc97bb84f746940fac0ea1166cbfc6a27231.tgz
     version: 0.10.12-a706cc97bb84f746940fac0ea1166cbfc6a27231
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.12-a6dc82bb02e3269afc29a38e6b1b015e934ab17c.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/a6dc82bb02e3269afc29a38e6b1b015e934ab17c/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/a6dc82bb02e3269afc29a38e6b1b015e934ab17c/helm/k8s-audit-metrics-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.12-a6dc82bb02e3269afc29a38e6b1b015e934ab17c
+    created: "2026-02-16T10:53:32.702542788Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: 6ac0d7347f5d237245a8456c017f64151a7125eba5ee4508ca1177a5a8c9b3c9
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.12-a6dc82bb02e3269afc29a38e6b1b015e934ab17c.tgz
+    version: 0.10.12-a6dc82bb02e3269afc29a38e6b1b015e934ab17c
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.12-5f81710bac1f27b7f96ac13a67df77c336f3b9e4.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/5f81710bac1f27b7f96ac13a67df77c336f3b9e4/README.md
       io.giantswarm.application.team: tenet
@@ -4643,4 +4659,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298.tgz
     version: 0.1.0-32201f8400c8ec35e78ff3cf5f8f93d58af47298
-generated: "2026-02-16T10:53:18.043482362Z"
+generated: "2026-02-16T10:53:32.701798506Z"
