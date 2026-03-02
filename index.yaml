@@ -2779,6 +2779,21 @@ entries:
     version: 0.10.11-59a156f81eaf0799f9dff409eaef624b2dba9a24
   kubectl-apply-job:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-ec7a8a371ec4431014af45bf2276b83941a9e0ac.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/ec7a8a371ec4431014af45bf2276b83941a9e0ac/README.md
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/ec7a8a371ec4431014af45bf2276b83941a9e0ac/helm/kubectl-apply-job/values.schema.json
+    apiVersion: v2
+    created: "2026-03-02T07:40:12.047600296Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: 8d0caef0fc995abf28c879f7b82ab717452fa8473c0fb1d3937cb315b3862069
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-ec7a8a371ec4431014af45bf2276b83941a9e0ac.tgz
+    version: 0.11.0-ec7a8a371ec4431014af45bf2276b83941a9e0ac
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-b18d243c1b8a7c40d53cd85777e594965041bd22.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/b18d243c1b8a7c40d53cd85777e594965041bd22/README.md
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/b18d243c1b8a7c40d53cd85777e594965041bd22/helm/kubectl-apply-job/values.schema.json
@@ -3684,4 +3699,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-e66d7aaacbf3f5d4735e9828267ae317f3fa338c.tgz
     version: 0.1.0-e66d7aaacbf3f5d4735e9828267ae317f3fa338c
-generated: "2026-03-01T00:44:43.589344992Z"
+generated: "2026-03-02T07:40:12.046734122Z"
