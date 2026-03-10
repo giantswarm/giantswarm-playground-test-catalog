@@ -243,6 +243,26 @@ entries:
   - annotations:
       io.giantswarm.application.app-type: bundle
       io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.1-73d51692eeadd2730f6fe32dcc92e4e06471e5ac.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/73d51692eeadd2730f6fe32dcc92e4e06471e5ac/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/auth-bundle/73d51692eeadd2730f6fe32dcc92e4e06471e5ac/helm/auth-bundle/values.schema.json
+    apiVersion: v2
+    created: "2026-03-10T18:00:40.529498207Z"
+    description: A Helm chart for Giant Swarm's collection of auth tools.
+    digest: cbc8e7ad2e3b5e94e0bda161b6779f8cfa469fa420d7db8ad8db9717445bb844
+    home: https://github.com/giantswarm/auth-bundle
+    icon: https://s.giantswarm.io/app-icons/athena/1/light.svg
+    name: auth-bundle
+    sources:
+    - https://github.com/giantswarm/auth-bundle
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.1-73d51692eeadd2730f6fe32dcc92e4e06471e5ac.tgz
+    version: 0.5.1-73d51692eeadd2730f6fe32dcc92e4e06471e5ac
+  - annotations:
+      io.giantswarm.application.app-type: bundle
+      io.giantswarm.application.audience: all
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.1-50f90d926339544eac0b7c6da3b80eaab560fb87.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/auth-bundle/50f90d926339544eac0b7c6da3b80eaab560fb87/README.md
       io.giantswarm.application.team: shield
@@ -4916,4 +4936,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-10T17:59:23.608908782Z"
+generated: "2026-03-10T18:00:40.528721047Z"
