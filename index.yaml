@@ -3242,6 +3242,31 @@ entries:
   - annotations:
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/important-service-0.1.0-ea6d688244affc1ed37e083af3b9249d3fa16655.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/important-service/ea6d688244affc1ed37e083af3b9249d3fa16655/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/important-service/ea6d688244affc1ed37e083af3b9249d3fa16655/helm/important-service/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2026-03-13T14:26:46.243732649Z"
+    description: An application to demonstrate workload deployment at Giant Swarm
+    digest: bf73d13b738844539b6df643bdfa9359155acfb72da98819374b476f19d8a306
+    home: https://github.com/giantswarm/important-service
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - demo
+    - webapp
+    - testing
+    name: important-service
+    sources:
+    - https://github.com/giantswarm/helloworld
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/important-service-0.1.0-ea6d688244affc1ed37e083af3b9249d3fa16655.tgz
+    version: 0.1.0-ea6d688244affc1ed37e083af3b9249d3fa16655
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/important-service-0.0.0-de9c35fe03cb4cdd502f16ac633753a9bfd3d9a0.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/important-service/de9c35fe03cb4cdd502f16ac633753a9bfd3d9a0/README.md
       io.giantswarm.application.team: honeybadger
@@ -5605,4 +5630,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-12T19:13:48.132337296Z"
+generated: "2026-03-13T14:26:46.241572654Z"
