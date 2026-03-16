@@ -630,6 +630,27 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/auth-bundle-0.5.0-1bd58919c2a995b898ae6041613e07f8963a760f.tgz
     version: 0.5.0-1bd58919c2a995b898ae6041613e07f8963a760f
+  bootstrap-cluster:
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.1-f3955998227712690244da7b43bf40a5943f0c67.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/f3955998227712690244da7b43bf40a5943f0c67/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/f3955998227712690244da7b43bf40a5943f0c67/helm/bootstrap-cluster/values.schema.json
+    apiVersion: v2
+    created: "2026-03-16T08:59:18.182039904Z"
+    description: Bootstrap chart that installs all required controllers via Flux HelmReleases
+    digest: 04fc6a26b01aa8c3e46eaeb23833aa0aaeb121b0be92f8b478cd2540fd4cb3c6
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.1-f3955998227712690244da7b43bf40a5943f0c67.tgz
+    version: 0.0.1-f3955998227712690244da7b43bf40a5943f0c67
   bootstrap-cluster-crossplane-providers:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -6424,4 +6445,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-16T08:58:46.22098527Z"
+generated: "2026-03-16T08:59:18.181491224Z"
