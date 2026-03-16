@@ -1215,6 +1215,26 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-providers-0.0.5-273285b0f067b5eb3668692e590e137b4077a180.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/273285b0f067b5eb3668692e590e137b4077a180/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/273285b0f067b5eb3668692e590e137b4077a180/helm/bootstrap-cluster-crossplane-providers/values.schema.json
+    apiVersion: v2
+    created: "2026-03-16T16:52:45.851134096Z"
+    description: Installs Crossplane providers needed by the cluster chart
+    digest: 65b36046642a1cd72c3c5e8ea4f9b287eeb4b7747a22ea22b4e43511b07138b2
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-crossplane-providers
+    sources:
+    - https://github.com/some-org/some-repo
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-providers-0.0.5-273285b0f067b5eb3668692e590e137b4077a180.tgz
+    version: 0.0.5-273285b0f067b5eb3668692e590e137b4077a180
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-providers-0.0.5-1534ed9549c3794a453de47e5156eb74a930a1bf.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/1534ed9549c3794a453de47e5156eb74a930a1bf/README.md
       io.giantswarm.application.team: phoenix
@@ -7588,4 +7608,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-16T16:52:06.940485521Z"
+generated: "2026-03-16T16:52:45.850389167Z"
