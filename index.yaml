@@ -711,6 +711,26 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.1-a1cbecee1b573481f9deb180a025ae99f040bca3.tgz
     version: 0.0.1-a1cbecee1b573481f9deb180a025ae99f040bca3
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.1-45b3be28327ee15a84368bc0910e8ad37a06b27e.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/45b3be28327ee15a84368bc0910e8ad37a06b27e/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/45b3be28327ee15a84368bc0910e8ad37a06b27e/helm/bootstrap-cluster/values.schema.json
+    apiVersion: v2
+    created: "2026-03-16T09:01:31.692143092Z"
+    description: Bootstrap chart that installs all required controllers via Flux HelmReleases
+    digest: a0c43f35bc9f8dd5333b700c26c2235f26ce33ec6cb0430865e88b96af0ca55d
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.1-45b3be28327ee15a84368bc0910e8ad37a06b27e.tgz
+    version: 0.0.1-45b3be28327ee15a84368bc0910e8ad37a06b27e
   bootstrap-cluster-crossplane-providers:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -6585,4 +6605,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-16T09:01:05.966286539Z"
+generated: "2026-03-16T09:01:31.691200004Z"
