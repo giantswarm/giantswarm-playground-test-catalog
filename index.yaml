@@ -7045,6 +7045,22 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-1e05457a8da170fce6fe1e4d68043e9b44cb9136.tgz
     version: 0.10.13-1e05457a8da170fce6fe1e4d68043e9b44cb9136
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-191dac62a283421029dc6dec4ee6c3eec8debc63.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/191dac62a283421029dc6dec4ee6c3eec8debc63/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/191dac62a283421029dc6dec4ee6c3eec8debc63/helm/k8s-audit-metrics-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.13-191dac62a283421029dc6dec4ee6c3eec8debc63
+    created: "2026-03-19T09:52:05.909642857Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: f8fa1558c62a65c41e21fde9c4d76a2dfeecf3459e07863400fba4cb8b1b18f8
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-191dac62a283421029dc6dec4ee6c3eec8debc63.tgz
+    version: 0.10.13-191dac62a283421029dc6dec4ee6c3eec8debc63
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.12-bc37abf4f5e2e4ee5db3868f9759c70e6dd9d7cd.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/bc37abf4f5e2e4ee5db3868f9759c70e6dd9d7cd/README.md
       io.giantswarm.application.team: tenet
@@ -9583,4 +9599,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-19T09:02:38.640257855Z"
+generated: "2026-03-19T09:52:05.908547113Z"
