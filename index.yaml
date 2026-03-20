@@ -714,6 +714,26 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.10-78202c68a60710ca40403ba6325ce4f1b6e17aa8.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/78202c68a60710ca40403ba6325ce4f1b6e17aa8/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/78202c68a60710ca40403ba6325ce4f1b6e17aa8/helm/bootstrap-cluster/values.schema.json
+    apiVersion: v2
+    created: "2026-03-20T10:39:31.203543163Z"
+    description: Bootstrap chart that installs all required controllers via Flux HelmReleases
+    digest: a095105e6c605b6d5a5d32717d462c7d78bd762e84a136fad4a5c5bce08912d6
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.10-78202c68a60710ca40403ba6325ce4f1b6e17aa8.tgz
+    version: 0.0.10-78202c68a60710ca40403ba6325ce4f1b6e17aa8
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.10-7100c4ced7865b6147315345c097fa734077fa1a.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/7100c4ced7865b6147315345c097fa734077fa1a/README.md
       io.giantswarm.application.team: phoenix
@@ -10665,4 +10685,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-20T10:39:14.609855878Z"
+generated: "2026-03-20T10:39:31.20259484Z"
