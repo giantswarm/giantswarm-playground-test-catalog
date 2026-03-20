@@ -8940,6 +8940,113 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-1.5.2-16ef3294467c4fefe7a077193210c900678caa03.tgz
     version: 1.5.2-16ef3294467c4fefe7a077193210c900678caa03
+  - annotations:
+      artifacthub.io/changes: |
+        - Update n8nio/n8n image version to 1.84.1
+      artifacthub.io/containsSecurityUpdates: "false"
+      artifacthub.io/images: |
+        - name: n8n
+          image: n8nio/n8n:1.84.1
+          platforms:
+            - linux/amd64
+            - linux/arm64
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/community-charts/helm-charts
+        - name: Upstream Project
+          url: https://github.com/n8n-io/n8n
+        - name: Official Documentation
+          url: https://docs.n8n.io/
+      artifacthub.io/maintainers: |
+        - name: burakince
+          email: burak.ince@linux.org.tr
+      artifacthub.io/operator: "false"
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/screenshots: |
+        - title: Editor UI Walkthrough
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-one/editor-ui-walkthrough.gif
+        - title: Node Menu Drilldown
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-one/l1-c1-node-menu-drilldown.gif
+        - title: Adding a Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-one/l1-c1-add-node-click.gif
+        - title: Node Buttons
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-one/node-buttons.gif
+        - title: Nathans Workflow
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-four/l1-c4-nathans-workflow.png
+        - title: Set Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-five/l1-c5-4-set-node.png
+        - title: Workflow with Set Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-five/l1-c5-4-workflow-with-set-node.png
+        - title: Code Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-five/l1-c5-5-5-code-node.png
+        - title: Discord Output
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-one/chapter-five/l1-c5-5-6-discord-output.png
+        - title: Exercise Function
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-one/exercise_function.png
+        - title: Exercise Function Not Nested
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-one/exercise_function_notnested.png
+        - title: Exercise Function Reference
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-one/exercise_function_reference.png
+        - title: HTTP Request Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-two/exercise_html_httprequestnode.png
+        - title: HTTP Extraction Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-two/exercise_html_htmlextractnode.png
+        - title: Binary Data HTTP Request Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-two/exercise_binarydata_httprequest_file.png
+        - title: Binary to JSON Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-two/exercise_binarydata_movedata_btoj.png
+        - title: JSON to XML Node
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-two/exercise_html_xmlnode_table.png
+        - title: Workflow
+          url: https://raw.githubusercontent.com/n8n-io/n8n-docs/refs/heads/main/docs/_images/courses/level-two/chapter-five/workflow2.png
+      artifacthub.io/signKey: |
+        fingerprint: 939B1A0ED8AAA8E722ACCDB3B6A012EE8A76426A
+        url: https://keybase.io/communitycharts/pgp_keys.asc
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-1.5.2-0d6c4c2024e019c5407d18c0879ddbfcc31fd9e2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/n8n-app/0d6c4c2024e019c5407d18c0879ddbfcc31fd9e2/README.md
+      io.giantswarm.application.team: team-planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/n8n-app/0d6c4c2024e019c5407d18c0879ddbfcc31fd9e2/helm/n8n/values.schema.json
+    apiVersion: v2
+    appVersion: 1.84.1
+    created: "2026-03-20T08:37:59.483183691Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 25.3.6
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.5.1
+    description: A Helm chart for fair-code workflow automation platform with native
+      AI capabilities. Combine visual building with custom code, self-host or cloud,
+      400+ integrations.
+    digest: b12d43695241fc6583b58655abd9207f472f0bcbb77bd526652a175d0e5389be
+    home: https://github.com/giantswarm/n8n-app
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - n8n
+    - Workflow Automation
+    - Workflow
+    - Automation
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: burak.ince@linux.org.tr
+      name: burakince
+      url: https://www.burakince.com
+    name: n8n
+    sources:
+    - https://github.com/community-charts/helm-charts
+    - https://github.com/n8n-io/n8n
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/n8n-1.5.2-0d6c4c2024e019c5407d18c0879ddbfcc31fd9e2.tgz
+    version: 1.5.2-0d6c4c2024e019c5407d18c0879ddbfcc31fd9e2
   proxmox-csi-plugin:
   - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-715209c3d7da050dab5475cf1dd1d3dd57dab7b2.tgz-meta/main.yaml
@@ -9890,4 +9997,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-20T08:37:07.676078208Z"
+generated: "2026-03-20T08:37:59.46263644Z"
