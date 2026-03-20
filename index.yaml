@@ -3088,6 +3088,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-providers-0.0.1-072e4d0034fe6328cabdd6c1c70f02b39d16cffb.tgz
     version: 0.0.1-072e4d0034fe6328cabdd6c1c70f02b39d16cffb
+  bootstrap-cluster-crossplane-resources:
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.0.9-054426676c670430de7960f9e2f7ff8405b68d30.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/054426676c670430de7960f9e2f7ff8405b68d30/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/054426676c670430de7960f9e2f7ff8405b68d30/helm/bootstrap-cluster-crossplane-resources/values.schema.json
+    apiVersion: v2
+    created: "2026-03-20T10:19:07.90723701Z"
+    description: Installs Crossplane providers, functions, and compositions needed
+      by the cluster chart
+    digest: faaf784ab9d4c4fa540b083557e969ff148b9a1e43e1c3e21646cd7884abcd12
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-crossplane-resources
+    sources:
+    - https://github.com/some-org/some-repo
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.0.9-054426676c670430de7960f9e2f7ff8405b68d30.tgz
+    version: 0.0.9-054426676c670430de7960f9e2f7ff8405b68d30
   dex-app:
   - annotations:
       io.giantswarm.application.audience: all
@@ -9997,4 +10019,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-20T08:37:59.46263644Z"
+generated: "2026-03-20T10:19:07.906291025Z"
