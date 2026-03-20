@@ -1731,6 +1731,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.1-45b3be28327ee15a84368bc0910e8ad37a06b27e.tgz
     version: 0.0.1-45b3be28327ee15a84368bc0910e8ad37a06b27e
+  bootstrap-cluster-capa-identities:
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.9-6ec17ad2503a8a6342eaeab900f726b18b40ec00.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/6ec17ad2503a8a6342eaeab900f726b18b40ec00/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/6ec17ad2503a8a6342eaeab900f726b18b40ec00/helm/bootstrap-cluster-capa-identities/values.schema.json
+    apiVersion: v2
+    created: "2026-03-20T10:32:01.641360651Z"
+    description: Creates CAPA identity resources (AWSClusterControllerIdentity + AWSClusterRoleIdentity)
+      needed before installing cluster-aws
+    digest: f12a5629f9b5f97094e79503f81d771da873688797bcf3ba4007a5afb02c575c
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-capa-identities
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.9-6ec17ad2503a8a6342eaeab900f726b18b40ec00.tgz
+    version: 0.0.9-6ec17ad2503a8a6342eaeab900f726b18b40ec00
   bootstrap-cluster-crossplane-providers:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -10229,4 +10251,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-20T10:31:59.50190963Z"
+generated: "2026-03-20T10:32:01.640902927Z"
