@@ -11060,6 +11060,24 @@ entries:
     version: 0.0.0-3e0f31a411bce37a324190b70adcd0408b594786
   proxysocks:
   - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxysocks-0.2.1-db10e120cba9248f5bc9b6b070278c709b4ad103.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/proxysocks/db10e120cba9248f5bc9b6b070278c709b4ad103/README.md
+      io.giantswarm.application.team: cabbage
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/proxysocks/db10e120cba9248f5bc9b6b070278c709b4ad103/helm/proxysocks/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.1-db10e120cba9248f5bc9b6b070278c709b4ad103
+    created: "2026-03-25T04:56:47.546581648Z"
+    description: A Helm chart for the Giant Swarm Proxy
+    digest: c0926e5b1be4e45ec43f85ea2fde28b10bdde7e62bb740bfd20a73dc468d8bbb
+    home: https://github.com/giantswarm/proxysocks
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: proxysocks
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxysocks-0.2.1-db10e120cba9248f5bc9b6b070278c709b4ad103.tgz
+    version: 0.2.1-db10e120cba9248f5bc9b6b070278c709b4ad103
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxysocks-0.2.1-a4a52c47f70411ebdd1022d140aca913486fbe6d.tgz-meta/main.yaml
       io.giantswarm.application.readme: unknown
       io.giantswarm.application.team: cabbage
@@ -11923,4 +11941,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-03-24T21:08:20.162433053Z"
+generated: "2026-03-25T04:56:47.545979196Z"
