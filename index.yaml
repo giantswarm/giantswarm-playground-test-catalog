@@ -16916,6 +16916,22 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-191dac62a283421029dc6dec4ee6c3eec8debc63.tgz
     version: 0.10.13-191dac62a283421029dc6dec4ee6c3eec8debc63
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-1174325e36006844429a1ec294a528f68703bedb.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/1174325e36006844429a1ec294a528f68703bedb/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/1174325e36006844429a1ec294a528f68703bedb/helm/k8s-audit-metrics-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.13-1174325e36006844429a1ec294a528f68703bedb
+    created: "2026-04-15T11:47:32.681374051Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: 2b0b8df6f7bddf30ad9fb026036e28a68e336ee0e026a86b03495e38a75b1df0
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-1174325e36006844429a1ec294a528f68703bedb.tgz
+    version: 0.10.13-1174325e36006844429a1ec294a528f68703bedb
   kubectl-apply-job:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-ec7a8a371ec4431014af45bf2276b83941a9e0ac.tgz-meta/main.yaml
@@ -20783,4 +20799,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-04-15T11:45:50.904560052Z"
+generated: "2026-04-15T11:47:32.680803324Z"
