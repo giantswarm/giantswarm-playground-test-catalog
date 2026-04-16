@@ -18497,6 +18497,22 @@ entries:
     version: 0.0.0-142a49d426d58c44443187d9dc76d3f3d16f31db
   k8s-audit-metrics:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-f3bcec88f647ac7a114db6696c03db9e13613f7f.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/f3bcec88f647ac7a114db6696c03db9e13613f7f/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/f3bcec88f647ac7a114db6696c03db9e13613f7f/helm/k8s-audit-metrics-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.13-f3bcec88f647ac7a114db6696c03db9e13613f7f
+    created: "2026-04-16T12:15:31.377139223Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: 34994e2082179968371ab6ad601540424d8e6cd1954551b0a5834fa1b21bd348
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-f3bcec88f647ac7a114db6696c03db9e13613f7f.tgz
+    version: 0.10.13-f3bcec88f647ac7a114db6696c03db9e13613f7f
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-dd02b762f50a2f8baa05aa3c31f41a7effcd048f.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/dd02b762f50a2f8baa05aa3c31f41a7effcd048f/README.md
       io.giantswarm.application.team: tenet
@@ -22654,4 +22670,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-04-16T11:49:34.098476435Z"
+generated: "2026-04-16T12:15:31.376516722Z"
