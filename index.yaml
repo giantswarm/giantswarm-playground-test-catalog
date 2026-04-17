@@ -24788,6 +24788,37 @@ entries:
   velero:
   - annotations:
       io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-a760b0b4b45d265ac909424bec9ee88b91efe3de.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/velero-app/a760b0b4b45d265ac909424bec9ee88b91efe3de/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/velero-app/a760b0b4b45d265ac909424bec9ee88b91efe3de/helm/velero/values.schema.json
+    apiVersion: v2
+    appVersion: v1.4.3
+    created: "2026-04-17T15:22:03.500410104Z"
+    description: A Helm chart for Kubernetes
+    digest: 25884465f74b5f3f054811aabaf0f2863814ebe231dd7a89195a4d1dc664ddfa
+    home: https://github.com/giantswarm/velero-app
+    icon: https://s.giantswarm.io/app-icons/velero/1/light.svg
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: carlisiac@vmware.com
+      name: carlisia
+    - email: ashisham@vmware.com
+      name: ashish-amarnath
+    name: velero
+    sources:
+    - https://github.com/vmware-tanzu/velero
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-a760b0b4b45d265ac909424bec9ee88b91efe3de.tgz
+    version: 0.2.0-a760b0b4b45d265ac909424bec9ee88b91efe3de
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-9bffef675289acbc9e2197194b8c0bff920beeeb.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/velero-app/9bffef675289acbc9e2197194b8c0bff920beeeb/README.md
       io.giantswarm.application.team: tenet
@@ -25034,4 +25065,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-04-17T15:21:55.989856107Z"
+generated: "2026-04-17T15:22:03.497911734Z"
