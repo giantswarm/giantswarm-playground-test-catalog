@@ -24440,6 +24440,22 @@ entries:
     version: 0.2.0-134ab0c8c70a6d1f6ed9d94c7c20fd9a4f146aef
   squid-proxy:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.5-937b615e3cc3bdc235132766389133feb1966a0e.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/squid-proxy-app/937b615e3cc3bdc235132766389133feb1966a0e/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/squid-proxy-app/937b615e3cc3bdc235132766389133feb1966a0e/helm/squid-proxy/values.schema.json
+    apiVersion: v2
+    appVersion: 5.2-22.04_beta
+    created: "2026-04-17T15:08:12.631976311Z"
+    description: squid proxy for giantswarm internal use
+    digest: e432533e7891f772c187ede5812d6721dbccf80c80dd56c09d00c92f7790dfc7
+    home: https://github.com/giantswarm/squid-proxy-app
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
+    name: squid-proxy
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.5-937b615e3cc3bdc235132766389133feb1966a0e.tgz
+    version: 0.6.5-937b615e3cc3bdc235132766389133feb1966a0e
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.5-9039f05453d5dc2fed9962b2f60aea4dcc4e3607.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/squid-proxy-app/9039f05453d5dc2fed9962b2f60aea4dcc4e3607/README.md
       io.giantswarm.application.team: phoenix
@@ -24720,4 +24736,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-04-17T15:04:33.230091296Z"
+generated: "2026-04-17T15:08:12.631313434Z"
