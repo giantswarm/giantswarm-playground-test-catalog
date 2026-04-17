@@ -23921,6 +23921,34 @@ entries:
     version: 1.5.2-0d6c4c2024e019c5407d18c0879ddbfcc31fd9e2
   proxmox-csi-plugin:
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-d3c471c7e9c03191bc26cb699f6b123e662c496b.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-d3c471c7e9c03191bc26cb699f6b123e662c496b.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-d3c471c7e9c03191bc26cb699f6b123e662c496b.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.18.0
+    created: "2026-04-17T15:04:33.232509114Z"
+    description: Container Storage Interface plugin for Proxmox
+    digest: 83d4c7b3d00fb8830034c3f122224e8084b7aa1005d29510b4c32657cda66752
+    home: https://github.com/sergelogvinov/proxmox-csi-plugin
+    icon: https://raw.githubusercontent.com/sergelogvinov/proxmox-csi-plugin/main/charts/proxmox-csi-plugin/icon.png
+    keywords:
+    - csi
+    - storage
+    - block-storage
+    - volume
+    - proxmox
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: proxmox-csi-plugin
+    sources:
+    - https://github.com/sergelogvinov/proxmox-csi-plugin
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-d3c471c7e9c03191bc26cb699f6b123e662c496b.tgz
+    version: 0.0.0-d3c471c7e9c03191bc26cb699f6b123e662c496b
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-8916034f971f26a41fd3d026b1723c0cd1faa2cd.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-8916034f971f26a41fd3d026b1723c0cd1faa2cd.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -24692,4 +24720,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-04-17T15:03:51.374644475Z"
+generated: "2026-04-17T15:04:33.230091296Z"
