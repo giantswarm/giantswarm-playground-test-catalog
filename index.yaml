@@ -34187,6 +34187,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-134ab0c8c70a6d1f6ed9d94c7c20fd9a4f146aef.tgz
     version: 0.2.0-134ab0c8c70a6d1f6ed9d94c7c20fd9a4f146aef
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-0d96cd5c259f29d4aabff588855c948c55a523f4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pyroscope-app/0d96cd5c259f29d4aabff588855c948c55a523f4/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pyroscope-app/0d96cd5c259f29d4aabff588855c948c55a523f4/helm/pyroscope/values.schema.json
+    apiVersion: v2
+    appVersion: 1.2.1
+    created: "2026-04-23T06:40:01.664044979Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 1.21.0
+    description: Helm chart for Pyroscope
+    digest: 085a49c12f05397c8b4eeae4f88bcb40beb16888b0da157e69f8e5c764d967c9
+    home: https://github.com/giantswarm/pyroscope-app
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.0-0d96cd5c259f29d4aabff588855c948c55a523f4.tgz
+    version: 0.2.0-0d96cd5c259f29d4aabff588855c948c55a523f4
   squid-proxy:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/squid-proxy-0.6.5-f39d593c59ac1d9fdd0dc27fcbb62f00305076ed.tgz-meta/main.yaml
@@ -34579,4 +34604,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-04-23T06:39:18.114886933Z"
+generated: "2026-04-23T06:40:01.653493416Z"
