@@ -68,6 +68,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-53ffd0e8ea62a69d05b908b873feb888efa10f3c.tgz
     version: 0.16.0-53ffd0e8ea62a69d05b908b873feb888efa10f3c
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-46a7a0a4f5526ef3998bb13d7bec2ae4e8e4c702.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-46a7a0a4f5526ef3998bb13d7bec2ae4e8e4c702.tgz-meta/README.md
+      application.giantswarm.io/team: planeteers
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-46a7a0a4f5526ef3998bb13d7bec2ae4e8e4c702.tgz-meta/values.schema.json
+    apiVersion: v1
+    appVersion: 0.16.0-46a7a0a4f5526ef3998bb13d7bec2ae4e8e4c702
+    created: "2026-04-25T08:17:42.06661108Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 0c510e23848bccdc1d62b3e8956995aa0059a842cf6b665baf3000c520d6478a
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-46a7a0a4f5526ef3998bb13d7bec2ae4e8e4c702.tgz
+    version: 0.16.0-46a7a0a4f5526ef3998bb13d7bec2ae4e8e4c702
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-3db4969c2ed0a659066f71d62d1ab4b60a74b237.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-3db4969c2ed0a659066f71d62d1ab4b60a74b237.tgz-meta/README.md
       application.giantswarm.io/team: planeteers
@@ -37313,4 +37335,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-04-25T08:12:47.43845691Z"
+generated: "2026-04-25T08:17:42.06558302Z"
