@@ -12262,6 +12262,28 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.15-d300891b1f1e2b9c777653c93291b6a4ddab7e79.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/d300891b1f1e2b9c777653c93291b6a4ddab7e79/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/d300891b1f1e2b9c777653c93291b6a4ddab7e79/helm/bootstrap-cluster-capa-identities/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.15-d300891b1f1e2b9c777653c93291b6a4ddab7e79
+    created: "2026-04-29T15:45:54.686689175Z"
+    description: Creates CAPA identity resources (AWSClusterControllerIdentity + AWSClusterRoleIdentity)
+      needed before installing cluster-aws
+    digest: 1d8d6eafab52562a9ecee803923f0323ed8566881c3ee2a07dcd76eae252c248
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-capa-identities
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.15-d300891b1f1e2b9c777653c93291b6a4ddab7e79.tgz
+    version: 0.0.15-d300891b1f1e2b9c777653c93291b6a4ddab7e79
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.15-ce73cfa8e011a0ce3cac0969ac149356dee282d8.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/ce73cfa8e011a0ce3cac0969ac149356dee282d8/README.md
       io.giantswarm.application.team: phoenix
@@ -43235,4 +43257,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d.tgz
     version: 0.1.0-1c62d9669df7c57ae248bab65924febc833b6b2d
-generated: "2026-04-29T15:45:43.926933209Z"
+generated: "2026-04-29T15:45:54.686246305Z"
