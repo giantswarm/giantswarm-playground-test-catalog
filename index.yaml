@@ -35311,6 +35311,22 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-dd02b762f50a2f8baa05aa3c31f41a7effcd048f.tgz
     version: 0.10.13-dd02b762f50a2f8baa05aa3c31f41a7effcd048f
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-c412dc7d780ff099efc294f42c0581ad0bd2cd89.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/c412dc7d780ff099efc294f42c0581ad0bd2cd89/README.md
+      io.giantswarm.application.team: tenet
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/c412dc7d780ff099efc294f42c0581ad0bd2cd89/helm/k8s-audit-metrics-app/values.schema.json
+    apiVersion: v2
+    appVersion: 0.10.13-c412dc7d780ff099efc294f42c0581ad0bd2cd89
+    created: "2026-05-07T13:28:11.402250202Z"
+    description: Collector that exposes metrics from k8s apiserver audit log.
+    digest: 3529740eb2923a2e69df6531197ff0b5bb7e9f60fe6db9c4162e47f015e4f857
+    home: https://github.com/giantswarm/k8s-audit-metrics
+    icon: https://s.giantswarm.io/app-icons/prometheus/1/light.svg
+    name: k8s-audit-metrics
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-c412dc7d780ff099efc294f42c0581ad0bd2cd89.tgz
+    version: 0.10.13-c412dc7d780ff099efc294f42c0581ad0bd2cd89
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-badc26099430a48c7fac4a736484176a02f64d7c.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/k8s-audit-metrics/badc26099430a48c7fac4a736484176a02f64d7c/README.md
       io.giantswarm.application.team: tenet
@@ -39272,4 +39288,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3.tgz
     version: 0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3
-generated: "2026-05-07T13:13:06.171411459Z"
+generated: "2026-05-07T13:28:11.401674451Z"
