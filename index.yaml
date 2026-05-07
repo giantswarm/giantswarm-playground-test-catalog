@@ -617,6 +617,28 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-04469b3b6c46341332bfafd75ce2de33d011026f.tgz
     version: 0.16.0-04469b3b6c46341332bfafd75ce2de33d011026f
+  - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-02f1ca39023ce2f3c9fe6ed93942633d828a8b04.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alfred-app/02f1ca39023ce2f3c9fe6ed93942633d828a8b04/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/alfred-app/02f1ca39023ce2f3c9fe6ed93942633d828a8b04/helm/alfred-app/values.schema.json
+    apiVersion: v1
+    appVersion: 0.16.0-02f1ca39023ce2f3c9fe6ed93942633d828a8b04
+    created: "2026-05-07T13:33:45.315437934Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 7db89ae8184feebb73020ebb71d61a219abe76e5956ca2e30cebfaaed819e1b4
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-02f1ca39023ce2f3c9fe6ed93942633d828a8b04.tgz
+    version: 0.16.0-02f1ca39023ce2f3c9fe6ed93942633d828a8b04
   auth-bundle:
   - annotations:
       io.giantswarm.application.app-type: bundle
@@ -39288,4 +39310,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3.tgz
     version: 0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3
-generated: "2026-05-07T13:28:11.401674451Z"
+generated: "2026-05-07T13:33:45.31462907Z"
