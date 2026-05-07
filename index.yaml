@@ -34764,6 +34764,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/important-service-0.2.4-e473cf1d18c5ec7ffb12999c3ba5a633b32e7963.tgz
     version: 0.2.4-e473cf1d18c5ec7ffb12999c3ba5a633b32e7963
+  - annotations:
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/important-service-0.2.4-59757c26c3f0bc91db74c483387395ef29273767.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/important-service/59757c26c3f0bc91db74c483387395ef29273767/README.md
+      io.giantswarm.application.team: honeybadger
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/important-service/59757c26c3f0bc91db74c483387395ef29273767/helm/important-service/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.0
+    created: "2026-05-07T06:56:58.692715697Z"
+    description: An application to demonstrate workload deployment at Giant Swarm
+    digest: ac9fde20a6a8bb1d118b108a8970016f92aac9bd52c583093be9a55c35779dae
+    home: https://github.com/giantswarm/important-service
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    keywords:
+    - demo
+    - webapp
+    - testing
+    name: important-service
+    sources:
+    - https://github.com/giantswarm/helloworld
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/important-service-0.2.4-59757c26c3f0bc91db74c483387395ef29273767.tgz
+    version: 0.2.4-59757c26c3f0bc91db74c483387395ef29273767
   k8s-audit-metrics:
   - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/k8s-audit-metrics-0.10.13-f3bcec88f647ac7a114db6696c03db9e13613f7f.tgz-meta/main.yaml
@@ -38593,4 +38618,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3.tgz
     version: 0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3
-generated: "2026-05-07T06:52:45.008676329Z"
+generated: "2026-05-07T06:56:58.690710965Z"
