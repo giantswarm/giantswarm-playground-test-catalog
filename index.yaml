@@ -36744,6 +36744,21 @@ entries:
     version: 0.10.13-073630925477d0b8e545877c76faffdb3a395e30
   kubectl-apply-job:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-f3b2023e1086ea85097c7d5f63685f62521133b2.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/f3b2023e1086ea85097c7d5f63685f62521133b2/README.md
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/f3b2023e1086ea85097c7d5f63685f62521133b2/helm/kubectl-apply-job/values.schema.json
+    apiVersion: v2
+    created: "2026-05-11T06:25:06.817963093Z"
+    description: 'A Helm chart containing a Job to apply kubernetes manifests using
+      kubectl apply. '
+    digest: b0ffc7aab928a1e7fcf120300bfe77476aa78ed4adae553d021cae1b37f9b472
+    home: https://github.com/giantswarm/kubectl-apply-job
+    name: kubectl-apply-job
+    type: library
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-f3b2023e1086ea85097c7d5f63685f62521133b2.tgz
+    version: 0.11.0-f3b2023e1086ea85097c7d5f63685f62521133b2
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/kubectl-apply-job-0.11.0-bb88f7490f528656a34edc2b918ea11aee72b3ab.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/bb88f7490f528656a34edc2b918ea11aee72b3ab/README.md
       io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/kubectl-apply-job/bb88f7490f528656a34edc2b918ea11aee72b3ab/helm/kubectl-apply-job/values.schema.json
@@ -41037,4 +41052,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3.tgz
     version: 0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3
-generated: "2026-05-10T17:46:41.523583173Z"
+generated: "2026-05-11T06:25:06.81741183Z"
