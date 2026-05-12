@@ -2927,6 +2927,27 @@ entries:
   - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.17-0590ee5f0d1899e313fe9eed968315bcfa154447.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/0590ee5f0d1899e313fe9eed968315bcfa154447/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/0590ee5f0d1899e313fe9eed968315bcfa154447/helm/bootstrap-cluster/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.17-0590ee5f0d1899e313fe9eed968315bcfa154447
+    created: "2026-05-12T14:06:09.000556947Z"
+    description: Bootstrap chart that installs all required controllers via Flux HelmReleases
+    digest: 8ffde3764c2237aff7725b8ac6ffa441d4331030e8d114d58d3c00efd2e76293
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.17-0590ee5f0d1899e313fe9eed968315bcfa154447.tgz
+    version: 0.0.17-0590ee5f0d1899e313fe9eed968315bcfa154447
+  - annotations:
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.17-046275af5a0bfb12cdbf6aa0c6439e220fee9d43.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/046275af5a0bfb12cdbf6aa0c6439e220fee9d43/README.md
       io.giantswarm.application.team: phoenix
@@ -44605,4 +44626,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3.tgz
     version: 0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3
-generated: "2026-05-12T14:06:00.919408339Z"
+generated: "2026-05-12T14:06:08.999696514Z"
