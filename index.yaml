@@ -376,6 +376,28 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-52c44babc4f36a28a740ee86c9845bcbc7dfb655.tgz
     version: 0.16.0-52c44babc4f36a28a740ee86c9845bcbc7dfb655
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-4816104019cbd824f45c0d4678465e79d470dc7e.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alfred-app/4816104019cbd824f45c0d4678465e79d470dc7e/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/alfred-app/4816104019cbd824f45c0d4678465e79d470dc7e/helm/alfred-app/values.schema.json
+    apiVersion: v1
+    appVersion: 0.16.0-4816104019cbd824f45c0d4678465e79d470dc7e
+    created: "2026-05-18T20:46:11.582107002Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: a0e9e6e178b31dc43a197faac35789e728e601a3febcf48de89d15d124f43c34
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-4816104019cbd824f45c0d4678465e79d470dc7e.tgz
+    version: 0.16.0-4816104019cbd824f45c0d4678465e79d470dc7e
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-47751c868d22e63604747eef5b9e1ad5e2bb2f75.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.0-47751c868d22e63604747eef5b9e1ad5e2bb2f75.tgz-meta/README.md
       application.giantswarm.io/team: planeteers
@@ -60774,4 +60796,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3.tgz
     version: 0.2.0-0e654251fe661ca5d9d50d41132909748fa91ca3
-generated: "2026-05-18T19:53:07.659660826Z"
+generated: "2026-05-18T20:46:11.580661267Z"
