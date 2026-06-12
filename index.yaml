@@ -38434,6 +38434,31 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.1-dev.teams-alignment-branch.2026-06-10.08-43-27.h6df0558.tgz
     version: 0.2.1-dev.teams-alignment-branch.2026-06-10.08-43-27.h6df0558
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.1-dev.renovate-pyroscope-2-x.2026-06-12.07-05-45.h09977e1.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pyroscope-app/refs/tags/v0.2.1-dev.renovate-pyroscope-2-x.2026-06-12.07-05-45.h09977e1/README.md
+      io.giantswarm.application.team: atlas
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/pyroscope-app/refs/tags/v0.2.1-dev.renovate-pyroscope-2-x.2026-06-12.07-05-45.h09977e1/helm/pyroscope/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.1-dev.renovate-pyroscope-2-x.2026-06-12.07-05-45.h09977e1
+    created: "2026-06-12T07:06:17.548186749Z"
+    dependencies:
+    - name: pyroscope
+      repository: https://grafana.github.io/helm-charts
+      version: 2.0.3
+    description: Helm chart for Pyroscope
+    digest: e37de6bbe5855ea8a2ba0c97392f5e64738bef767471e570e339459bed751e82
+    home: https://github.com/giantswarm/pyroscope-app
+    icon: https://s.giantswarm.io/app-icons/grafana-pyroscope/1/light.svg
+    maintainers:
+    - email: team-atlas@giantswarm.io
+      name: giantswarm/team-atlas
+    name: pyroscope
+    sources:
+    - https://github.com/grafana/pyroscope/tree/main/operations/pyroscope/helm/pyroscope
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.1-dev.renovate-pyroscope-2-x.2026-06-12.07-05-45.h09977e1.tgz
+    version: 0.2.1-dev.renovate-pyroscope-2-x.2026-06-12.07-05-45.h09977e1
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/pyroscope-0.2.1-dev.renovate-pyroscope-2-x.2026-06-11.06-56-30.h8bb7976.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/pyroscope-app/refs/tags/v0.2.1-dev.renovate-pyroscope-2-x.2026-06-11.06-56-30.h8bb7976/README.md
       io.giantswarm.application.team: atlas
@@ -39758,4 +39783,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-5bfc3869fef72d39e2aea2b2118f5de4172f4966.tgz
     version: 0.2.0-5bfc3869fef72d39e2aea2b2118f5de4172f4966
-generated: "2026-06-12T06:59:25.648608306Z"
+generated: "2026-06-12T07:06:17.538002642Z"
