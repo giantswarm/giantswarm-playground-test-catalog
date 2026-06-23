@@ -47,6 +47,28 @@ entries:
     version: 0.6.0-46ceedeadea635cd09c6bb258d80a44d95563ad4
   alfred-app:
   - annotations:
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.1-dev.teams-alignment-branch.2026-06-23.08-43-10.hbf70d18.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alfred-app/refs/tags/v0.16.1-dev.teams-alignment-branch.2026-06-23.08-43-10.hbf70d18/README.md
+      io.giantswarm.application.team: planeteers
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/alfred-app/refs/tags/v0.16.1-dev.teams-alignment-branch.2026-06-23.08-43-10.hbf70d18/helm/alfred-app/values.schema.json
+    apiVersion: v1
+    appVersion: 0.16.1-dev.teams-alignment-branch.2026-06-23.08-43-10.hbf70d18
+    created: "2026-06-23T08:43:57.946236223Z"
+    description: A Helm chart for Alfred, the Slack support manager
+    digest: 8a31a9c1ba9b466c0e1faebcae71ebe79d70d334f775daa0201bc68109412166
+    home: https://github.com/giantswarm/alfred-app
+    icon: https://s.giantswarm.io/app-icons/1/png/alfred-app-light.png
+    maintainers:
+    - name: Giant Swarm applications team
+      url: https://github.com/giantswarm/alfred-app
+    name: alfred-app
+    sources:
+    - https://github.com/giantswarm/alfred-app-app
+    - https://raw.githubusercontent.com/giantswarm/alfred-app/v[[ .Version ]]/README.md
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.1-dev.teams-alignment-branch.2026-06-23.08-43-10.hbf70d18.tgz
+    version: 0.16.1-dev.teams-alignment-branch.2026-06-23.08-43-10.hbf70d18
+  - annotations:
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/alfred-app-0.16.1-dev.teams-alignment-branch.2026-06-23.08-30-50.h22048f2.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/alfred-app/refs/tags/v0.16.1-dev.teams-alignment-branch.2026-06-23.08-30-50.h22048f2/README.md
       io.giantswarm.application.team: planeteers
@@ -45871,4 +45893,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-5bfc3869fef72d39e2aea2b2118f5de4172f4966.tgz
     version: 0.2.0-5bfc3869fef72d39e2aea2b2118f5de4172f4966
-generated: "2026-06-23T08:42:14.74716929Z"
+generated: "2026-06-23T08:43:57.945382784Z"
