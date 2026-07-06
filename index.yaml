@@ -12817,6 +12817,34 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-db77d6d8c683aa2e3b6a22c78359a97f81000b0e.tgz
     version: 0.0.0-db77d6d8c683aa2e3b6a22c78359a97f81000b0e
   - annotations:
+      application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-ca1b012f204cafc4c6061bf91278a73279539c67.tgz-meta/main.yaml
+      application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-ca1b012f204cafc4c6061bf91278a73279539c67.tgz-meta/README.md
+      application.giantswarm.io/team: rocket
+      application.giantswarm.io/values-schema: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-ca1b012f204cafc4c6061bf91278a73279539c67.tgz-meta/values.schema.json
+    apiVersion: v2
+    appVersion: v0.18.0
+    created: "2026-07-06T14:11:04.637669039Z"
+    description: Container Storage Interface plugin for Proxmox
+    digest: 94dfbe5480bafe3cf92df534e58d0d095f9c68402e5b3c0baf08d3c30f627ed7
+    home: https://github.com/sergelogvinov/proxmox-csi-plugin
+    icon: https://s.giantswarm.io/app-icons/proxmox/2/light.svg
+    keywords:
+    - csi
+    - storage
+    - block-storage
+    - volume
+    - proxmox
+    maintainers:
+    - name: sergelogvinov
+      url: https://github.com/sergelogvinov
+    name: proxmox-csi-plugin
+    sources:
+    - https://github.com/sergelogvinov/proxmox-csi-plugin
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-ca1b012f204cafc4c6061bf91278a73279539c67.tgz
+    version: 0.0.0-ca1b012f204cafc4c6061bf91278a73279539c67
+  - annotations:
       application.giantswarm.io/metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-4a9e975fc99b0d2134d137a432ce92c9f73f3a49.tgz-meta/main.yaml
       application.giantswarm.io/readme: https://giantswarm.github.io/giantswarm-playground-test-catalog/proxmox-csi-plugin-0.0.0-4a9e975fc99b0d2134d137a432ce92c9f73f3a49.tgz-meta/README.md
       application.giantswarm.io/team: rocket
@@ -14904,4 +14932,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-101b3ba736c1705f2ff2c422157c5f9c6a372427.tgz
     version: 0.2.0-101b3ba736c1705f2ff2c422157c5f9c6a372427
-generated: "2026-07-06T14:10:57.109831457Z"
+generated: "2026-07-06T14:11:04.634688281Z"
