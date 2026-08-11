@@ -3104,6 +3104,32 @@ entries:
           url: https://github.com/giantswarm/mctl/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.teleport-fleet-pr-in-ci.2026-08-11.07-44-43.hc65fc2f.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.teleport-fleet-pr-in-ci.2026-08-11.07-44-43.hc65fc2f/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.teleport-fleet-pr-in-ci.2026-08-11.07-44-43.hc65fc2f/helm/bootstrap-cluster-capa-identities/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.18-dev.teleport-fleet-pr-in-ci.2026-08-11.07-44-43.hc65fc2f
+    created: "2026-08-11T07:45:15.637914764Z"
+    description: Creates CAPA identity resources (AWSClusterControllerIdentity + AWSClusterRoleIdentity)
+      needed before installing cluster-aws
+    digest: f1e55c010fed3944577f3e6cc44b2c18836d715466ea2b97d443f105cb7537ad
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-capa-identities
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.teleport-fleet-pr-in-ci.2026-08-11.07-44-43.hc65fc2f.tgz
+    version: 0.0.18-dev.teleport-fleet-pr-in-ci.2026-08-11.07-44-43.hc65fc2f
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.teleport-fleet-pr-in-ci.2026-07-29.09-46-35.hb204ffe.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.teleport-fleet-pr-in-ci.2026-07-29.09-46-35.hb204ffe/README.md
       io.giantswarm.application.team: phoenix
@@ -19983,4 +20009,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-101b3ba736c1705f2ff2c422157c5f9c6a372427.tgz
     version: 0.2.0-101b3ba736c1705f2ff2c422157c5f9c6a372427
-generated: "2026-08-11T07:45:12.614361334Z"
+generated: "2026-08-11T07:45:15.637389235Z"
