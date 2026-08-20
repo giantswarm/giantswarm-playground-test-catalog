@@ -4452,6 +4452,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.18-dev.clean-azure-automation.2026-08-19.07-51-48.h2e06edd.tgz
     version: 0.0.18-dev.clean-azure-automation.2026-08-19.07-51-48.h2e06edd
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4/helm/bootstrap-cluster/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4
+    created: "2026-08-20T07:16:30.704366307Z"
+    description: Bootstrap chart that installs all required controllers via Flux HelmReleases
+    digest: 86f27bfb1881de09e4c1b60508c133af1dc113e54af0452805990993c522857d
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4.tgz
+    version: 0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4
   bootstrap-cluster-capa-identities:
   - annotations:
       io.giantswarm.application.audience: giantswarm
@@ -29530,4 +29555,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-101b3ba736c1705f2ff2c422157c5f9c6a372427.tgz
     version: 0.2.0-101b3ba736c1705f2ff2c422157c5f9c6a372427
-generated: "2026-08-20T07:15:55.704887478Z"
+generated: "2026-08-20T07:16:30.703618476Z"
