@@ -9474,6 +9474,32 @@ entries:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.clean-azure-automation.2026-08-19.07-51-48.h2e06edd.tgz
     version: 0.0.18-dev.clean-azure-automation.2026-08-19.07-51-48.h2e06edd
   - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4/helm/bootstrap-cluster-capa-identities/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4
+    created: "2026-08-20T07:15:55.705508867Z"
+    description: Creates CAPA identity resources (AWSClusterControllerIdentity + AWSClusterRoleIdentity)
+      needed before installing cluster-aws
+    digest: 2d2eabe0088e46bf73b8ab14f7aa9d2d5b6d4f99821192c2dd2df4c4a6537efe
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-capa-identities
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4.tgz
+    version: 0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4
+  - annotations:
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.17-fe702529426eba0e2a065ded218e1f0df44b7b62.tgz-meta/main.yaml
@@ -29504,4 +29530,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.0-101b3ba736c1705f2ff2c422157c5f9c6a372427.tgz
     version: 0.2.0-101b3ba736c1705f2ff2c422157c5f9c6a372427
-generated: "2026-08-20T07:15:51.566515501Z"
+generated: "2026-08-20T07:15:55.704887478Z"
