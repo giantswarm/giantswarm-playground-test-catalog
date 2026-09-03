@@ -19761,6 +19761,54 @@ entries:
           url: https://github.com/dexidp/dex/
       io.giantswarm.application.audience: all
       io.giantswarm.application.managed: "true"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.3.1-dev.fix-changel--ing-heading.2026-09-03.11-50-30.hd57c35f.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dex-app/refs/tags/v2.3.1-dev.fix-changel--ing-heading.2026-09-03.11-50-30.hd57c35f/README.md
+      io.giantswarm.application.team: shield
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/dex-app/refs/tags/v2.3.1-dev.fix-changel--ing-heading.2026-09-03.11-50-30.hd57c35f/helm/dex-app/values.schema.json
+    apiVersion: v2
+    appVersion: 2.3.1-dev.fix-changel--ing-heading.2026-09-03.11-50-30.hd57c35f
+    created: "2026-09-03T11:52:06.618271723Z"
+    dependencies:
+    - name: dex
+      repository: ""
+      version: 0.23.0
+    description: OpenID Connect (OIDC) identity and OAuth 2.0 provider with pluggable
+      connectors
+    digest: 2ce29223c6b5678ea18a7461ca6ca06668ad912c33217047904ad46bfb45a4a7
+    home: https://github.com/giantswarm/dex-app
+    icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
+    keywords:
+    - authentication
+    - oidc
+    maintainers:
+    - email: Kevin.Fox@pnnl.gov
+      name: kfox1111
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: vi7alya@gmail.com
+      name: vi7
+    - email: aaron@roydhouse.com
+      name: Aaron Roydhouse
+    - email: nbadger@mintel.com
+      name: Nick Badger
+    name: dex-app
+    sources:
+    - https://github.com/dexidp/dex/
+    - https://github.com/mintel/dex-k8s-authenticator
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.3.1-dev.fix-changel--ing-heading.2026-09-03.11-50-30.hd57c35f.tgz
+    version: 2.3.1-dev.fix-changel--ing-heading.2026-09-03.11-50-30.hd57c35f
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/dex-app/issues
+        - name: Upstream project
+          url: https://github.com/dexidp/dex/
+      io.giantswarm.application.audience: all
+      io.giantswarm.application.managed: "true"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/dex-app-2.3.1-dev.chore-bump--orb-v10-1-2.2026-09-03.09-30-16.ha9d037a.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/dex-app/refs/tags/v2.3.1-dev.chore-bump--orb-v10-1-2.2026-09-03.09-30-16.ha9d037a/README.md
       io.giantswarm.application.team: shield
@@ -26816,4 +26864,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-dev.renovate-architect-10-x.2026-08-18.17-47-27.h42f2635.tgz
     version: 0.2.1-dev.renovate-architect-10-x.2026-08-18.17-47-27.h42f2635
-generated: "2026-09-03T11:43:54.699881229Z"
+generated: "2026-09-03T11:52:06.615361669Z"
