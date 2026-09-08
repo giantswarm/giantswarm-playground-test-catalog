@@ -6855,6 +6855,31 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4.tgz
     version: 0.0.18-dev.automate-a--nt-setup-pr.2026-08-20.07-15-15.haa98cd4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54/helm/bootstrap-cluster/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54
+    created: "2026-09-08T12:44:39.756877671Z"
+    description: Bootstrap chart that installs all required controllers via Flux HelmReleases
+    digest: 1b98cbfc707c0c7ff06127c82b82bc20ac6a0bfd06f365efa644c9a236fa88d0
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54.tgz
+    version: 0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54
   bootstrap-cluster-capa-identities:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -30173,4 +30198,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-dev.renovate-architect-10-x.2026-08-18.17-47-27.h42f2635.tgz
     version: 0.2.1-dev.renovate-architect-10-x.2026-08-18.17-47-27.h42f2635
-generated: "2026-09-08T12:44:30.942503436Z"
+generated: "2026-09-08T12:44:39.756131276Z"
