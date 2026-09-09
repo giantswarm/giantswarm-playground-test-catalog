@@ -15628,6 +15628,32 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54.tgz
     version: 0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151/helm/bootstrap-cluster-capa-identities/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151
+    created: "2026-09-09T09:50:44.614236698Z"
+    description: Creates CAPA identity resources (AWSClusterControllerIdentity + AWSClusterRoleIdentity)
+      needed before installing cluster-aws
+    digest: 46584b11284d85c4eebc667bb11bfaf6b594cdda2ead0749822b9ddfe30e75bb
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-capa-identities
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151.tgz
+    version: 0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151
   bootstrap-cluster-crossplane-resources:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -34143,4 +34169,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-dev.renovate-architect-10-x.2026-08-18.17-47-27.h42f2635.tgz
     version: 0.2.1-dev.renovate-architect-10-x.2026-08-18.17-47-27.h42f2635
-generated: "2026-09-09T08:57:04.720042214Z"
+generated: "2026-09-09T09:50:44.613623246Z"
