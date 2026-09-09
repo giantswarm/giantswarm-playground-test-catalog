@@ -23859,6 +23859,34 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54.tgz
     version: 0.0.18-dev.add-mctlbo--p-ci-wiring.2026-09-08.12-43-28.hf032b54
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+        - name: Upstream project
+          url: https://github.com/some-org/some-repo
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151/helm/bootstrap-cluster-crossplane-resources/values.schema.json
+    apiVersion: v2
+    appVersion: 0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151
+    created: "2026-09-09T09:50:51.702165237Z"
+    description: Installs Crossplane providers, functions, and compositions needed
+      by the cluster chart
+    digest: 2672e1d2b67918dc15e36c98e7b89a59e8431e1126b671e046e15f9cdf6b9cbd
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-crossplane-resources
+    sources:
+    - https://github.com/some-org/some-repo
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151.tgz
+    version: 0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151
   dex-app:
   - annotations:
       io.giantswarm.application.audience: all
@@ -34169,4 +34197,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-dev.renovate-architect-10-x.2026-08-18.17-47-27.h42f2635.tgz
     version: 0.2.1-dev.renovate-architect-10-x.2026-08-18.17-47-27.h42f2635
-generated: "2026-09-09T09:50:44.613623246Z"
+generated: "2026-09-09T09:50:51.701253397Z"
