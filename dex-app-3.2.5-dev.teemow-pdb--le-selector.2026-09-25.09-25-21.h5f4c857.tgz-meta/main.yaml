@@ -1,0 +1,18 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/dex-app/v[[
+    .Version ]]/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/dex-app/v[[
+    .Version ]]/helm/dex-app/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/dex-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/dexidp/dex/\n"
+chartApiVersion: v2
+chartFile: dex-app-3.2.5-dev.teemow-pdb--le-selector.2026-09-25.09-25-21.h5f4c857.tgz
+dateCreated: '2026-09-25T09:26:20.609897Z'
+digest: cad084f68b8204689ef1f7f2b36ce0cc6a7e2b5d92894e07d0b4215f515806c6
+home: https://github.com/giantswarm/dex-app
+icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
