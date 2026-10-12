@@ -18100,6 +18100,32 @@ entries:
           url: https://github.com/giantswarm/mctl/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.1.11-dev.nancy-x-net-mongo.2026-10-12.05-59-13.had6a661.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.1.11-dev.nancy-x-net-mongo.2026-10-12.05-59-13.had6a661/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.1.11-dev.nancy-x-net-mongo.2026-10-12.05-59-13.had6a661/helm/bootstrap-cluster-capa-identities/values.schema.json
+    apiVersion: v2
+    appVersion: 0.1.11-dev.nancy-x-net-mongo.2026-10-12.05-59-13.had6a661
+    created: "2026-10-12T05:59:51.822843293Z"
+    description: Creates CAPA identity resources (AWSClusterControllerIdentity + AWSClusterRoleIdentity)
+      needed before installing cluster-aws
+    digest: 03e285fc093a3c5ff8ccb687f674556e8b3ba74730e07d23441a8cc60f51d353
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-capa-identities
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.1.11-dev.nancy-x-net-mongo.2026-10-12.05-59-13.had6a661.tgz
+    version: 0.1.11-dev.nancy-x-net-mongo.2026-10-12.05-59-13.had6a661
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.1.11-dev.fix-nancy-ignore-expiry.2026-10-08.12-53-30.h6016744.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.1.11-dev.fix-nancy-ignore-expiry.2026-10-08.12-53-30.h6016744/README.md
       io.giantswarm.application.team: phoenix
@@ -70999,4 +71025,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-dev.renovate-architect-10-x.2026-08-31.15-45-26.h9df5a03.tgz
     version: 0.2.1-dev.renovate-architect-10-x.2026-08-31.15-45-26.h9df5a03
-generated: "2026-10-12T05:59:39.370029034Z"
+generated: "2026-10-12T05:59:51.821683109Z"
