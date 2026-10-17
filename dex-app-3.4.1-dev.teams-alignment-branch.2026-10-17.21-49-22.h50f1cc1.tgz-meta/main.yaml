@@ -1,0 +1,18 @@
+annotations:
+  application.giantswarm.io/audience: all
+  application.giantswarm.io/managed: 'true'
+  application.giantswarm.io/readme: https://raw.githubusercontent.com/giantswarm/dex-app/v[[
+    .Version ]]/README.md
+  application.giantswarm.io/team: shield
+  application.giantswarm.io/values-schema: https://raw.githubusercontent.com/giantswarm/dex-app/v[[
+    .Version ]]/helm/dex-app/values.schema.json
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: !!python/object/new:app_build_suite.build_steps.helm_consts.BlockLiteralStr
+  - "- name: Support\n  url: https://github.com/giantswarm/dex-app/issues\n- name:\
+    \ Upstream project\n  url: https://github.com/dexidp/dex/\n"
+chartApiVersion: v2
+chartFile: dex-app-3.4.1-dev.teams-alignment-branch.2026-10-17.21-49-22.h50f1cc1.tgz
+dateCreated: '2026-10-17T21:53:57.377981Z'
+digest: 3a598b3ce0e3d915181d949207d418b7a0cf34f355325f46723a9ac4b08be8b9
+home: https://github.com/giantswarm/dex-app
+icon: https://s.giantswarm.io/app-icons/dex/2/icon_light.svg
