@@ -3559,6 +3559,31 @@ entries:
           url: https://github.com/giantswarm/mctl/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.2.2-r3d0208dbt20261021122134hee2537a.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.2.2-r3d0208dbt20261021122134hee2537a/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.2.2-r3d0208dbt20261021122134hee2537a/helm/bootstrap-cluster/values.schema.json
+    apiVersion: v2
+    appVersion: 0.2.2-r3d0208dbt20261021122134hee2537a
+    created: "2026-10-21T12:22:56.536380222Z"
+    description: Bootstrap chart that installs all required controllers via Flux HelmReleases
+    digest: 6f1184b1d752f3444b8eee61ca007fef2626d1bd9ec6b38d7266762d479daea1
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.2.2-r3d0208dbt20261021122134hee2537a.tgz
+    version: 0.2.2-r3d0208dbt20261021122134hee2537a
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-0.2.2-r3d0208dbt20261021120513hdf444e7.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.2.2-r3d0208dbt20261021120513hdf444e7/README.md
       io.giantswarm.application.team: phoenix
@@ -107336,4 +107361,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-dev.renovate-architect-10-x.2026-08-31.15-45-26.h9df5a03.tgz
     version: 0.2.1-dev.renovate-architect-10-x.2026-08-31.15-45-26.h9df5a03
-generated: "2026-10-21T12:22:42.592547109Z"
+generated: "2026-10-21T12:22:56.535584683Z"
