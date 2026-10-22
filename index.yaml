@@ -27479,6 +27479,32 @@ entries:
           url: https://github.com/giantswarm/mctl/issues
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.3.1-r5f1ecfdbt20261022075355hcd52434.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.3.1-r5f1ecfdbt20261022075355hcd52434/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.3.1-r5f1ecfdbt20261022075355hcd52434/helm/bootstrap-cluster-capa-identities/values.schema.json
+    apiVersion: v2
+    appVersion: 0.3.1-r5f1ecfdbt20261022075355hcd52434
+    created: "2026-10-22T07:54:11.781806647Z"
+    description: Creates CAPA identity resources (AWSClusterControllerIdentity + AWSClusterRoleIdentity)
+      needed before installing cluster-aws
+    digest: 1617e4b8bb980f4519cf2557be1778f7a2c19cfa2ac13b078963f28d6f83c029
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-capa-identities
+    sources:
+    - https://github.com/giantswarm/mctl
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.3.1-r5f1ecfdbt20261022075355hcd52434.tgz
+    version: 0.3.1-r5f1ecfdbt20261022075355hcd52434
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-capa-identities-0.3.1-r5f1ecfdbt20261022073945h7500d03.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.3.1-r5f1ecfdbt20261022073945h7500d03/README.md
       io.giantswarm.application.team: phoenix
@@ -115601,4 +115627,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-dev.renovate-architect-10-x.2026-08-31.15-45-26.h9df5a03.tgz
     version: 0.2.1-dev.renovate-architect-10-x.2026-08-31.15-45-26.h9df5a03
-generated: "2026-10-22T07:54:00.969240527Z"
+generated: "2026-10-22T07:54:11.781173965Z"
