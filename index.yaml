@@ -88600,6 +88600,44 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151.tgz
     version: 0.0.18-dev.add-cmc-repo-bootstrap.2026-09-09.09-50-15.h7076151
+  cluster-proxmox:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-proxmox/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/cluster-proxmox-1.1.1-r1c6930eet20261022103853h44dab8c.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-proxmox/refs/tags/v1.1.1-r1c6930eet20261022103853h44dab8c/README.md
+      io.giantswarm.application.restrictions.compatible-providers: proxmox
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-proxmox/refs/tags/v1.1.1-r1c6930eet20261022103853h44dab8c/helm/cluster-proxmox/values.schema.json
+    apiVersion: v2
+    appVersion: 1.1.1-r1c6930eet20261022103853h44dab8c
+    created: "2026-10-22T10:39:35.946950928Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 9.0.2
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the Proxmox VE
+      provider (CAPMOX).
+    digest: f884f5527aad3188904660d36caa329fdc3b47563c84b6fd8f123c7f264ed647
+    home: https://github.com/giantswarm/cluster-proxmox
+    icon: https://s.giantswarm.io/app-icons/proxmox/2/light.svg
+    keywords:
+    - capmox
+    - proxmox
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-proxmox
+    sources:
+    - https://github.com/giantswarm/cluster-proxmox
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/cluster-proxmox-1.1.1-r1c6930eet20261022103853h44dab8c.tgz
+    version: 1.1.1-r1c6930eet20261022103853h44dab8c
   dex-app:
   - annotations:
       artifacthub.io/license: Apache-2.0
@@ -117977,4 +118015,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-dev.renovate-architect-10-x.2026-08-31.15-45-26.h9df5a03.tgz
     version: 0.2.1-dev.renovate-architect-10-x.2026-08-31.15-45-26.h9df5a03
-generated: "2026-10-22T10:24:15.933765877Z"
+generated: "2026-10-22T10:39:35.934005899Z"
