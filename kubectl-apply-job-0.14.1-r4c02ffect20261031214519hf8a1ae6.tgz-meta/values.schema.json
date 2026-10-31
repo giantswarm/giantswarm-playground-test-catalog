@@ -1,0 +1,94 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "ciliumNetworkPolicy": {
+            "type": "object",
+            "properties": {
+                "enabled": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "kubectlApplyJob": {
+            "type": "object",
+            "properties": {
+                "backoffLimit": {
+                    "type": "integer"
+                },
+                "enabled": {
+                    "type": "boolean"
+                },
+                "files": {
+                    "type": "array"
+                },
+                "jobNameSuffix": {
+                    "type": "string",
+                    "description": "Suffix appended to the consuming chart's name to build the name of the Job and its ServiceAccount, ClusterRole and ClusterRoleBinding. Defaults to \"kubectl-apply-job\"."
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Value of the app.kubernetes.io/component label on every rendered resource. Defaults to \"kubectl-apply-job\"."
+                },
+                "image": {
+                    "type": "object",
+                    "properties": {
+                        "pullPolicy": {
+                            "type": "string"
+                        },
+                        "registry": {
+                            "type": "string"
+                        },
+                        "repository": {
+                            "type": "string"
+                        },
+                        "tag": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "resources": {
+                    "type": "object",
+                    "properties": {
+                        "limits": {
+                            "type": "object",
+                            "properties": {
+                                "cpu": {
+                                    "type": ["string", "integer"]
+                                },
+                                "memory": {
+                                    "type": ["string", "integer"]
+                                }
+                            }
+                        },
+                        "requests": {
+                            "type": "object",
+                            "properties": {
+                                "cpu": {
+                                    "type": ["string", "integer"]
+                                },
+                                "memory": {
+                                    "type": ["string", "integer"]
+                                }
+                            }
+                        }
+                    }
+                },
+                "securityContext": {
+                    "type": "object",
+                    "properties": {
+                        "runAsGroup": {
+                            "type": "integer"
+                        },
+                        "runAsUser": {
+                            "type": "integer"
+                        },
+                        "seccompProfileType": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
