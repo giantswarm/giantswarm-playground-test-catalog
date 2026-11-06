@@ -66517,6 +66517,43 @@ entries:
       artifacthub.io/links: |
         - name: Support
           url: https://github.com/giantswarm/cluster-proxmox/issues
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/cluster-proxmox-1.1.1-r4c02ffect20261106221403ha0e94cd.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-proxmox/refs/tags/v1.1.1-r4c02ffect20261106221403ha0e94cd/README.md
+      io.giantswarm.application.restrictions.compatible-providers: proxmox
+      io.giantswarm.application.team: rocket
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/cluster-proxmox/refs/tags/v1.1.1-r4c02ffect20261106221403ha0e94cd/helm/cluster-proxmox/values.schema.json
+    apiVersion: v2
+    appVersion: 1.1.1-r4c02ffect20261106221403ha0e94cd
+    created: "2026-11-06T22:16:24.981184499Z"
+    dependencies:
+    - name: cluster
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 9.5.0
+    - name: cluster-shared
+      repository: https://giantswarm.github.io/cluster-catalog
+      version: 0.7.1
+    description: A helm chart for creating Cluster API clusters with the Proxmox VE
+      provider (CAPMOX).
+    digest: cffeb7b48e6d2b01da3a9294bebb45a678b1f936f5c9f655f9853bd27fc42574
+    home: https://github.com/giantswarm/cluster-proxmox
+    icon: https://s.giantswarm.io/app-icons/proxmox/2/light.svg
+    keywords:
+    - capmox
+    - proxmox
+    maintainers:
+    - email: team-rocket@giantswarm.io
+      name: Team Rocket
+    name: cluster-proxmox
+    sources:
+    - https://github.com/giantswarm/cluster-proxmox
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/cluster-proxmox-1.1.1-r4c02ffect20261106221403ha0e94cd.tgz
+    version: 1.1.1-r4c02ffect20261106221403ha0e94cd
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/cluster-proxmox/issues
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/cluster-proxmox-1.1.1-r4c02ffect20261102221357h41c210a.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/cluster-proxmox/refs/tags/v1.1.1-r4c02ffect20261102221357h41c210a/README.md
       io.giantswarm.application.restrictions.compatible-providers: proxmox
@@ -92749,4 +92786,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-r1d69e578t20261022075417h73226ea.tgz
     version: 0.2.1-r1d69e578t20261022075417h73226ea
-generated: "2026-11-06T22:16:08.246376028Z"
+generated: "2026-11-06T22:16:24.972044361Z"
