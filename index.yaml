@@ -45383,6 +45383,34 @@ entries:
           url: https://github.com/some-org/some-repo
       io.giantswarm.application.audience: giantswarm
       io.giantswarm.application.managed: "false"
+      io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.7.1-r3d0208dbt20261110173949hc96e4ae.tgz-meta/main.yaml
+      io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.7.1-r3d0208dbt20261110173949hc96e4ae/README.md
+      io.giantswarm.application.team: phoenix
+      io.giantswarm.application.values-schema: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.7.1-r3d0208dbt20261110173949hc96e4ae/helm/bootstrap-cluster-crossplane-resources/values.schema.json
+    apiVersion: v2
+    appVersion: 0.7.1-r3d0208dbt20261110173949hc96e4ae
+    created: "2026-11-10T17:40:25.424434402Z"
+    description: Installs Crossplane providers, functions, and compositions needed
+      by the cluster chart
+    digest: e738068fb86087fab02f5e9c5ae0d1c74e3e75767e8dcc9c5eb35e6104e1a1e6
+    home: https://github.com/giantswarm/mctl
+    icon: https://s.giantswarm.io/app-icons/giantswarm/1/light.svg
+    name: bootstrap-cluster-crossplane-resources
+    sources:
+    - https://github.com/some-org/some-repo
+    type: application
+    urls:
+    - https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.7.1-r3d0208dbt20261110173949hc96e4ae.tgz
+    version: 0.7.1-r3d0208dbt20261110173949hc96e4ae
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Support
+          url: https://github.com/giantswarm/mctl/issues
+        - name: Upstream project
+          url: https://github.com/some-org/some-repo
+      io.giantswarm.application.audience: giantswarm
+      io.giantswarm.application.managed: "false"
       io.giantswarm.application.metadata: https://giantswarm.github.io/giantswarm-playground-test-catalog/bootstrap-cluster-crossplane-resources-0.7.1-r3d0208dbt20261110100644he64e9f9.tgz-meta/main.yaml
       io.giantswarm.application.readme: https://raw.githubusercontent.com/giantswarm/mctl/refs/tags/v0.7.1-r3d0208dbt20261110100644he64e9f9/README.md
       io.giantswarm.application.team: phoenix
@@ -98199,4 +98227,4 @@ entries:
     urls:
     - https://giantswarm.github.io/giantswarm-playground-test-catalog/velero-0.2.1-r1d69e578t20261022075417h73226ea.tgz
     version: 0.2.1-r1d69e578t20261022075417h73226ea
-generated: "2026-11-10T17:39:14.1049604Z"
+generated: "2026-11-10T17:40:25.423769792Z"
