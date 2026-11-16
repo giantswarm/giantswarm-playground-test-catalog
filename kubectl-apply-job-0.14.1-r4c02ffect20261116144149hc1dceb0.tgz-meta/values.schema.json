@@ -1,0 +1,194 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "baseDomain": {
+            "type": "string"
+        },
+        "bootstrapMode": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "chartOperator": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "ciliumNetworkPolicy": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+                "enabled": {
+                    "type": "boolean",
+                    "description": "Render a CiliumNetworkPolicy for the Job."
+                }
+            }
+        },
+        "cluster": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "clusterCA": {
+            "type": "string"
+        },
+        "clusterCIDR": {
+            "type": "string"
+        },
+        "clusterDNSIP": {
+            "type": "string"
+        },
+        "clusterID": {
+            "type": "string"
+        },
+        "externalDNSIP": {
+            "type": "string"
+        },
+        "gcpProject": {
+            "type": "string"
+        },
+        "global": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "description": "Global values shared between all subcharts and the platform.",
+            "additionalProperties": true,
+            "properties": {
+                "podSecurityStandards": {
+                    "type": "object",
+                    "additionalProperties": true
+                }
+            }
+        },
+        "helm": {
+            "type": "object",
+            "additionalProperties": true
+        },
+        "image": {
+            "type": "object",
+            "description": "Image registry override. The library reads `image.registry` from the consuming chart's values.",
+            "additionalProperties": true
+        },
+        "kubectlApplyJob": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "backoffLimit": {
+                    "type": "integer",
+                    "description": "Number of retries before the Job is marked as failed. Setting this higher means the creation Job is less likely to be marked as failed."
+                },
+                "enabled": {
+                    "type": "boolean",
+                    "description": "Render the Job."
+                },
+                "files": {
+                    "type": "array",
+                    "description": "A list of paths to apply through the Job.",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "image": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "pullPolicy": {
+                            "type": "string",
+                            "description": "Container image pull policy."
+                        },
+                        "registry": {
+                            "type": "string",
+                            "description": "Container image registry."
+                        },
+                        "repository": {
+                            "type": "string",
+                            "description": "Container image repository."
+                        },
+                        "tag": {
+                            "type": "string",
+                            "description": "Container image tag."
+                        }
+                    }
+                },
+                "jobNameSuffix": {
+                    "type": "string",
+                    "description": "Suffix appended to the consuming chart's name to build the name of the Job and its ServiceAccount, ClusterRole and ClusterRoleBinding. Defaults to \"kubectl-apply-job\"."
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Value of the app.kubernetes.io/component label on every rendered resource. Defaults to \"kubectl-apply-job\"."
+                },
+                "resources": {
+                    "type": "object",
+                    "description": "Resources of the Job container.",
+                    "additionalProperties": true,
+                    "properties": {
+                        "limits": {
+                            "type": "object",
+                            "additionalProperties": true,
+                            "properties": {
+                                "cpu": {
+                                    "type": [
+                                        "string",
+                                        "integer"
+                                    ]
+                                },
+                                "memory": {
+                                    "type": [
+                                        "string",
+                                        "integer"
+                                    ]
+                                }
+                            }
+                        },
+                        "requests": {
+                            "type": "object",
+                            "additionalProperties": true,
+                            "properties": {
+                                "cpu": {
+                                    "type": [
+                                        "string",
+                                        "integer"
+                                    ]
+                                },
+                                "memory": {
+                                    "type": [
+                                        "string",
+                                        "integer"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "securityContext": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                        "runAsGroup": {
+                            "type": "integer",
+                            "description": "Group ID the Job container runs as."
+                        },
+                        "runAsUser": {
+                            "type": "integer",
+                            "description": "User ID the Job container runs as."
+                        },
+                        "seccompProfileType": {
+                            "type": "string",
+                            "description": "Seccomp profile type of the Job container."
+                        }
+                    }
+                }
+            }
+        },
+        "managementCluster": {
+            "type": "string"
+        },
+        "provider": {
+            "type": "string"
+        },
+        "subscriptionID": {
+            "type": "string"
+        }
+    }
+}
